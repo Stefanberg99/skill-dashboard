@@ -1,5 +1,856 @@
 {
-  "synced_at": null,
-  "hash": "",
-  "skills": []
+  "synced_at": "2026-06-03T09:26:15.498849Z",
+  "hash": "9c54d8fac6ca38138f3a05806127a10b",
+  "skills": [
+    {
+      "name": "algorithmic-art",
+      "what": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration",
+      "when": "users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "raw_desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "folder": "algorithmic-art",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "artifact",
+      "what": "Transform a source (transcript, PDF, URL, notes, video) into a polished, self-contained artifact Stefan can use or share",
+      "when": "Stefan shares a source and wants to turn it into a reference site, step-by-step guide, quiz, infographic, contemplative essay, or similar usable output. Also triggers on phrases like \"turn this into\u2026\", \"make me a [guide/quiz/visual]\", \"build an artifact from this\", or when Stefan pastes a transcript without a specific framing.",
+      "raw_desc": "Transform a source (transcript, PDF, URL, notes, video) into a polished, self-contained artifact Stefan can use or share. Use when Stefan shares a source and wants to turn it into a reference site, step-by-step guide, quiz, infographic, contemplative essay, or similar usable output. Also triggers on phrases like \"turn this into\u2026\", \"make me a [guide/quiz/visual]\", \"build an artifact from this\", or when Stefan pastes a transcript without a specific framing.",
+      "folder": "artifact",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "brainstorming",
+      "what": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "when": "",
+      "raw_desc": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "folder": "brainstorming",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "changelog-generator",
+      "what": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+      "when": "",
+      "raw_desc": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
+      "folder": "changelog-generator",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "claude-os",
+      "what": "Claude OS is Stefan's local AI operator dashboard, usually served at http://localhost:8081. It visualises Claude Code and Hermes activity, skills, memory, Dream prescriptions, Hermes status, and Mission Control cards.",
+      "when": "Stefan asks about Claude OS, the local operator dashboard, Mission Control, Dream reports, Hermes dashboard data, or localhost:8081 dashboard state.",
+      "raw_desc": "Use when Stefan asks about Claude OS, the local operator dashboard, Mission Control, Dream reports, Hermes dashboard data, or localhost:8081 dashboard state.",
+      "folder": "claude-os",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "code-import",
+      "what": "Read an existing repository's structure into the project cwd as a normalised snapshot the agent can analyse without re-walking the tree on every turn.",
+      "when": "",
+      "raw_desc": "Read an existing repository's structure into the project cwd as a normalised snapshot the agent can analyse without re-walking the tree on every turn.",
+      "folder": "code-import",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "competitive-ads-extractor",
+      "what": "Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns.",
+      "when": "",
+      "raw_desc": "Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns.",
+      "folder": "competitive-ads-extractor",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "content-research-writer",
+      "what": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+      "when": "",
+      "raw_desc": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
+      "folder": "content-research-writer",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "deploy-to-vercel",
+      "what": "Deploy applications and websites to Vercel",
+      "when": "the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "raw_desc": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "folder": "deploy-to-vercel",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "design-extract",
+      "what": "Extract design tokens (color / typography / spacing) from imported source code, screenshots, or Figma exports into the canonical token bag token-map consumes.",
+      "when": "",
+      "raw_desc": "Extract design tokens (color / typography / spacing) from imported source code, screenshots, or Figma exports into the canonical token bag token-map consumes.",
+      "folder": "design-extract",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "what": "You delegate tasks to specialized agents with isolated context. By precisely crafting their instructions and context, you ensure they stay focused and succeed at their task. They should never inherit your session's context or history \u2014 you construct exactly what they need. This also preserves your own context for\u2026",
+      "when": "facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "raw_desc": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "folder": "dispatching-parallel-agents",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "what": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
+      "when": "",
+      "raw_desc": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
+      "folder": "domain-name-brainstormer",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "dream",
+      "what": "The daily Dream review \u2014 read the last 24h of activity across the user's AI tool stack, identify the four highest-impact prescriptions, and write them to ~/.claude-os/dreams/dream-{date}.json.",
+      "when": "",
+      "raw_desc": "The daily Dream review \u2014 read the last 24h of activity across the user's AI tool stack, identify the four highest-impact prescriptions, and write them to ~/.claude-os/dreams/dream-{date}.json.",
+      "folder": "dream",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "executing-plans",
+      "what": "Load plan, review critically, execute all tasks, report when complete.",
+      "when": "you have a written implementation plan to execute in a separate session with review checkpoints",
+      "raw_desc": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "folder": "executing-plans",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "figma-extract",
+      "what": "Pull a Figma file's node tree, design tokens, and embedded assets into the project cwd as a structured snapshot.",
+      "when": "",
+      "raw_desc": "Pull a Figma file's node tree, design tokens, and embedded assets into the project cwd as a structured snapshot.",
+      "folder": "figma-extract",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "what": "Guide completion of development work by presenting clear options and handling chosen workflow.",
+      "when": "implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "raw_desc": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "folder": "finishing-a-development-branch",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "frontend-design",
+      "what": "Create distinctive, production-grade frontend interfaces with high design quality",
+      "when": "the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "raw_desc": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "folder": "frontend-design",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "goal-best-practices",
+      "what": "Use this skill to author a clean /goal prompt for a single-session autonomous agent run. A short-term goal is one binary outcome the user wants shipped in one sitting, roughly 20 agent turns, with Stefan present in the chat the whole time.",
+      "when": "Stefan wants to author a short-term /goal prompt: one binary outcome shipped by an autonomous agent in one ~20-turn chat session.",
+      "raw_desc": "Use when Stefan wants to author a short-term /goal prompt: one binary outcome shipped by an autonomous agent in one ~20-turn chat session.",
+      "folder": "goal-best-practices",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "lead-research-assistant",
+      "what": "Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.",
+      "when": "",
+      "raw_desc": "Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.",
+      "folder": "lead-research-assistant",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "mcp-builder",
+      "what": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools",
+      "when": "building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "raw_desc": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "folder": "mcp-builder",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "meeting-insights-analyzer",
+      "what": "Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for professionals seeking to improve their communication and leadership skills.",
+      "when": "",
+      "raw_desc": "Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for professionals seeking to improve their communication and leadership skills.",
+      "folder": "meeting-insights-analyzer",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "mission-control-long-term-goal",
+      "what": "Use this skill for Long-Term Goals: 4-week binary outcomes that are too large for one /goal session but concrete enough to decompose into 4\u201310 mini-goals. Some mini-goals are agent-runnable, some require Stefan to physically leave the chat or wait on real-world actors.",
+      "when": "Stefan wants to decompose a 4-week binary outcome into Mission Control mini-goals and POST it to the local Mission Control dashboard.",
+      "raw_desc": "Use when Stefan wants to decompose a 4-week binary outcome into Mission Control mini-goals and POST it to the local Mission Control dashboard.",
+      "folder": "mission-control-long-term-goal",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "notebooklm",
+      "what": "Complete API for Google NotebookLM - full programmatic access including features not in the web UI. Create notebooks, add sources, generate all artifact types, download in multiple formats. Activates on explicit /notebooklm or intent like \"create a podcast about X\", \"install notebooklm\", \"add notebooklm to cowork\"",
+      "when": "",
+      "raw_desc": "Complete API for Google NotebookLM - full programmatic access including features not in the web UI. Create notebooks, add sources, generate all artifact types, download in multiple formats. Activates on explicit /notebooklm or intent like \"create a podcast about X\", \"install notebooklm\", \"add notebooklm to cowork\"",
+      "folder": "notebooklm",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "obsidian-ask",
+      "what": "Query Stefan's Obsidian wiki to answer questions about anything he's working on",
+      "when": "Stefan asks questions about his projects (Meesterwerk, KubeCraft, Tribe, Character OS, NextLVL, Day One), his frameworks (Chase Hughes, Greene, Hormozi), his strategy, his decisions, or anything that might be documented in his knowledge base. Also triggers on: 'check my wiki', 'what does my Obsidian say about...', 'look this up in my notes', 'what did we decide about...', 'obsidian-ask'.",
+      "raw_desc": "Query Stefan's Obsidian wiki to answer questions about anything he's working on. Triggers automatically when Stefan asks questions about his projects (Meesterwerk, KubeCraft, Tribe, Character OS, NextLVL, Day One), his frameworks (Chase Hughes, Greene, Hormozi), his strategy, his decisions, or anything that might be documented in his knowledge base. Also triggers on: 'check my wiki', 'what does my Obsidian say about...', 'look this up in my notes', 'what did we decide about...', 'obsidian-ask'.",
+      "folder": "obsidian-ask",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "obsidian-wrap-up",
+      "what": "Extract the essence of any AI conversation and store it as wiki pages in Stefan's LLM-Wiki Obsidian vault",
+      "when": "Stefan says '/obsidian-wrap-up', 'wrap this up', 'Obsidian wrap-up', 'save this to the wiki', 'file this conversation', 'store the insights from this chat', or pastes a conversation from ChatGPT / Claude.ai / Gemini / any AI tool and wants it saved.",
+      "raw_desc": "Extract the essence of any AI conversation and store it as wiki pages in Stefan's LLM-Wiki Obsidian vault. Use when Stefan says '/obsidian-wrap-up', 'wrap this up', 'Obsidian wrap-up', 'save this to the wiki', 'file this conversation', 'store the insights from this chat', or pastes a conversation from ChatGPT / Claude.ai / Gemini / any AI tool and wants it saved.",
+      "folder": "obsidian-wrap-up",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "pinecone-ask",
+      "what": "Query the Pinecone vector database to find semantically relevant content from Stefan's Obsidian vault and conversation history",
+      "when": "Stefan says 'pinecone-ask', 'ask Pinecone', 'search my vector database', 'what does Pinecone know about...', 'find related notes on...', or when a question would benefit from semantic search across all stored knowledge.",
+      "raw_desc": "Query the Pinecone vector database to find semantically relevant content from Stefan's Obsidian vault and conversation history. Use when Stefan says 'pinecone-ask', 'ask Pinecone', 'search my vector database', 'what does Pinecone know about...', 'find related notes on...', or when a question would benefit from semantic search across all stored knowledge.",
+      "folder": "pinecone-ask",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "pinecone-ingest",
+      "what": "Vectorise an Obsidian vault and upsert all pages into Pinecone for semantic search",
+      "when": "Stefan says 'ingest my vault', 'sync Obsidian to Pinecone', 'update the vector database', 'reindex my wiki', or 'add [folder/file] to Pinecone'.",
+      "raw_desc": "Vectorise an Obsidian vault and upsert all pages into Pinecone for semantic search. Use when Stefan says 'ingest my vault', 'sync Obsidian to Pinecone', 'update the vector database', 'reindex my wiki', or 'add [folder/file] to Pinecone'.",
+      "folder": "pinecone-ingest",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "pinecone-wrap-up",
+      "what": "Distil the essence of the current conversation and store it as a vector in Pinecone's 'conversations' namespace",
+      "when": "Stefan says 'pinecone wrap-up', 'save this conversation to Pinecone', 'file this to the vector database', 'store what we discussed', or at the end of any substantive session.",
+      "raw_desc": "Distil the essence of the current conversation and store it as a vector in Pinecone's 'conversations' namespace. Use when Stefan says 'pinecone wrap-up', 'save this conversation to Pinecone', 'file this to the vector database', 'store what we discussed', or at the end of any substantive session.",
+      "folder": "pinecone-wrap-up",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "power-design",
+      "what": "Generate beautiful HTML presentation slides in any brand's design language \u2014 combining brand DNA extracted via Firecrawl with 20 codified design principles.",
+      "when": "",
+      "raw_desc": "Generate beautiful HTML presentation slides in any brand's design language \u2014 combining brand DNA extracted via Firecrawl with 20 codified design principles.",
+      "folder": "power-design",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "ruflo",
+      "what": "Decides when and how to use Ruflo \u2014 the multi-agent orchestration layer for Claude Code. Trigger this skill proactively whenever Stefan is about to tackle a large, complex, or multi-component development task, especially for Tribe, KubeCraft, or Meesterwerk. Use it when a task feels too big for a single linear conversation, involves parallel workstreams, touches 3+ files or domains, or spans code + docs + testing simultaneously. Don't wait for Stefan to explicitly ask for Ruflo \u2014 suggest it when the task qualifies",
+      "when": "Stefan asks \"should I use Ruflo?\", \"is this a Ruflo task?\", or \"how do I start this in ruflo-workspace?\".",
+      "raw_desc": "Decides when and how to use Ruflo \u2014 the multi-agent orchestration layer for Claude Code. Trigger this skill proactively whenever Stefan is about to tackle a large, complex, or multi-component development task, especially for Tribe, KubeCraft, or Meesterwerk. Use it when a task feels too big for a single linear conversation, involves parallel workstreams, touches 3+ files or domains, or spans code + docs + testing simultaneously. Don't wait for Stefan to explicitly ask for Ruflo \u2014 suggest it when the task qualifies. Also trigger when Stefan asks \"should I use Ruflo?\", \"is this a Ruflo task?\", or \"how do I start this in ruflo-workspace?\".",
+      "folder": "ruflo",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "site-blueprint",
+      "what": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by actually scraping the top performers in that niche with Firecrawl. The output is data-driven and niche-specific \u2014 never a generic template",
+      "when": "the user says \"site blueprint for [specific niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\") where geography is half the answer. Pulls 10\u201315 actual contenders for THAT exact niche via Firecrawl + Google Maps + Yelp + BBB where appropriate, scrapes the winners, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
+      "raw_desc": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by actually scraping the top performers in that niche with Firecrawl. The output is data-driven and niche-specific \u2014 never a generic template. Trigger when the user says \"site blueprint for [specific niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\") where geography is half the answer. Pulls 10\u201315 actual contenders for THAT exact niche via Firecrawl + Google Maps + Yelp + BBB where appropriate, scrapes the winners, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
+      "folder": "site-blueprint",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "subagent-driven-development",
+      "what": "Execute plan by dispatching fresh subagent per task, with two-stage review after each: spec compliance review first, then code quality review.",
+      "when": "executing implementation plans with independent tasks in the current session",
+      "raw_desc": "Use when executing implementation plans with independent tasks in the current session",
+      "folder": "subagent-driven-development",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "systematic-debugging",
+      "what": "Random fixes waste time and create new bugs. Quick patches mask underlying issues.",
+      "when": "encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "raw_desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "folder": "systematic-debugging",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "test-driven-development",
+      "what": "Write the test first. Watch it fail. Write minimal code to pass.",
+      "when": "implementing any feature or bugfix, before writing implementation code",
+      "raw_desc": "Use when implementing any feature or bugfix, before writing implementation code",
+      "folder": "test-driven-development",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "theme-factory",
+      "what": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "when": "",
+      "raw_desc": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "folder": "theme-factory",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "token-map",
+      "what": "Map an extracted Figma / source-code token bag onto the active OD design system, producing a deterministic mapping the generate stage can consume.",
+      "when": "",
+      "raw_desc": "Map an extracted Figma / source-code token bag onto the active OD design system, producing a deterministic mapping the generate stage can consume.",
+      "folder": "token-map",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "twitter-algorithm-optimizer",
+      "what": "Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrite and edit user tweets to improve engagement and visibility based on how the recommendation system ranks content.",
+      "when": "",
+      "raw_desc": "Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrite and edit user tweets to improve engagement and visibility based on how the recommendation system ranks content.",
+      "folder": "twitter-algorithm-optimizer",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "using-superpowers",
+      "what": "<SUBAGENT-STOP> If you were dispatched as a subagent to execute a specific task, skip this skill. </SUBAGENT-STOP>",
+      "when": "starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "raw_desc": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "folder": "using-superpowers",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "vercel-cli-with-tokens",
+      "what": "Deploy and manage projects on Vercel using token-based authentication",
+      "when": "working with Vercel CLI using access tokens rather than interactive login \u2014 e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+      "raw_desc": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login \u2014 e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+      "folder": "vercel-cli-with-tokens",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "what": "React composition patterns that scale",
+      "when": "refactoring components with",
+      "raw_desc": "React composition patterns that scale. Use when refactoring components with",
+      "folder": "vercel-composition-patterns",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "what": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "when": "",
+      "raw_desc": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "folder": "vercel-react-best-practices",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "what": "React Native and Expo best practices for building performant mobile apps. Use",
+      "when": "",
+      "raw_desc": "React Native and Expo best practices for building performant mobile apps. Use",
+      "folder": "vercel-react-native-skills",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "vercel-react-view-transitions",
+      "what": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements)",
+      "when": "the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+      "raw_desc": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+      "folder": "vercel-react-view-transitions",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "what": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "when": "",
+      "raw_desc": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "folder": "web-artifacts-builder",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "web-design-guidelines",
+      "what": "Review UI code for Web Interface Guidelines compliance",
+      "when": "asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "raw_desc": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "folder": "web-design-guidelines",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "webapp-testing",
+      "what": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "when": "",
+      "raw_desc": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "folder": "webapp-testing",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "writing-plans",
+      "what": "Write comprehensive implementation plans assuming the engineer has zero context for our codebase and questionable taste. Document everything they need to know: which files to touch for each task, code, testing, docs they might need to check, how to test it. Give them the whole plan as bite-sized tasks. DRY. YAGNI.\u2026",
+      "when": "you have a spec or requirements for a multi-step task, before touching code",
+      "raw_desc": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "folder": "writing-plans",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8"
+    },
+    {
+      "name": "canvas-design",
+      "what": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should",
+      "when": "the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "raw_desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "folder": "canvas-design",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "Claude Help",
+      "what": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community",
+      "when": "the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
+      "raw_desc": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community. Activate this skill whenever the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
+      "folder": "meesterwerk-ai",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "consolidate-memory",
+      "what": "Reflective pass over your memory files \u2014 merge duplicates, fix stale facts, prune the index.",
+      "when": "",
+      "raw_desc": "Reflective pass over your memory files \u2014 merge duplicates, fix stale facts, prune the index.",
+      "folder": "consolidate-memory",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "docx",
+      "what": "A .docx file is a ZIP archive containing XML files.",
+      "when": "extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "raw_desc": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "folder": "docx",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "pdf",
+      "what": "This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see REFERENCE.md. If you need to fill out a PDF form, read FORMS.md and follow its instructions.",
+      "when": "the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "raw_desc": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "folder": "pdf",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "pptx",
+      "what": "| Task | Guide | |------|-------| | Read/analyze content | python -m markitdown presentation.pptx | | Edit or create from template | Read editing.md | | Create from scratch | Read pptxgenjs.md |",
+      "when": "a .pptx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
+      "raw_desc": "Use this skill any time a .pptx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
+      "folder": "pptx",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "schedule",
+      "what": "Create or update a scheduled task that runs automatically",
+      "when": "the user says things like \"every day\", \"each morning\", \"remind me in an hour\", \"run this at noon\", or wants to reschedule an existing task.",
+      "raw_desc": "Create or update a scheduled task that runs automatically. Use when the user says things like \"every day\", \"each morning\", \"remind me in an hour\", \"run this at noon\", or wants to reschedule an existing task.",
+      "folder": "schedule",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "setup-cowork",
+      "what": "Guided Cowork setup \u2014 install role-matched plugins, connect your tools, try a skill.",
+      "when": "",
+      "raw_desc": "Guided Cowork setup \u2014 install role-matched plugins, connect your tools, try a skill.",
+      "folder": "setup-cowork",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "skill-creator",
+      "what": "Create new skills, modify and improve existing skills, and measure skill performance",
+      "when": "users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "raw_desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "folder": "skill-creator",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "video-prompt-builder",
+      "what": "Generate detailed, shot-by-shot AI video prompts for Seedance 2.0 from a creative brief",
+      "when": "the user wants to create a video prompt, write a shot list, plan a video sequence, describe a video concept for AI generation, or mentions Seedance. Also trigger when the user describes a scene, ad concept, brand film, product video, or any visual sequence they want turned into structured prompts \u2014 even if they don't explicitly say \"video prompt.\" Trigger on phrases like \"write me a video prompt\", \"Seedance prompt\", \"shot list\", \"plan a video\", \"video concept\", \"create a sequence\", \"brand film prompt\", \"ad prompt\", or any time the user describes what they want to happen in a video and needs it translated into generation-ready prompts.",
+      "raw_desc": "Generate detailed, shot-by-shot AI video prompts for Seedance 2.0 from a creative brief. Use this skill whenever the user wants to create a video prompt, write a shot list, plan a video sequence, describe a video concept for AI generation, or mentions Seedance. Also trigger when the user describes a scene, ad concept, brand film, product video, or any visual sequence they want turned into structured prompts \u2014 even if they don't explicitly say \"video prompt.\" Trigger on phrases like \"write me a video prompt\", \"Seedance prompt\", \"shot list\", \"plan a video\", \"video concept\", \"create a sequence\", \"brand film prompt\", \"ad prompt\", or any time the user describes what they want to happen in a video and needs it translated into generation-ready prompts.",
+      "folder": "video-prompt-builder",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "xlsx",
+      "what": "- Use a consistent, professional font (e.g., Arial, Times New Roman) for all deliverables unless otherwise instructed by the user",
+      "when": "the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "raw_desc": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path \u2014 even casually (like \\\"the xlsx in my downloads\\\") \u2014 and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "folder": "xlsx",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6"
+    },
+    {
+      "name": "ai-gateway",
+      "what": "Vercel AI Gateway expert guidance",
+      "when": "configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API.",
+      "raw_desc": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API.",
+      "folder": "ai-gateway",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "ai-sdk",
+      "what": "Vercel AI SDK expert guidance",
+      "when": "building AI-powered features \u2014 chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider.",
+      "raw_desc": "Vercel AI SDK expert guidance. Use when building AI-powered features \u2014 chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider.",
+      "folder": "ai-sdk",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "chat-sdk",
+      "what": "Vercel Chat SDK expert guidance",
+      "when": "building multi-platform chat bots \u2014 Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear \u2014 with a single codebase. Covers the Chat class, adapters, threads, messages, cards, modals, streaming, state management, and webhook setup.",
+      "raw_desc": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots \u2014 Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear \u2014 with a single codebase. Covers the Chat class, adapters, threads, messages, cards, modals, streaming, state management, and webhook setup.",
+      "folder": "chat-sdk",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "deployments-cicd",
+      "what": "Vercel deployment and CI/CD expert guidance",
+      "when": "deploying, promoting, rolling back, inspecting deployments, building with --prebuilt, or configuring CI workflow files for Vercel.",
+      "raw_desc": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, building with --prebuilt, or configuring CI workflow files for Vercel.",
+      "folder": "deployments-cicd",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "next-cache-components",
+      "what": "Next.js 16 Cache Components guidance \u2014 PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from unstable_cache",
+      "when": "implementing partial prerendering, caching strategies, or migrating from older Next.js cache patterns.",
+      "raw_desc": "Next.js 16 Cache Components guidance \u2014 PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from unstable_cache. Use when implementing partial prerendering, caching strategies, or migrating from older Next.js cache patterns.",
+      "folder": "next-cache-components",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "next-forge",
+      "what": "next-forge expert guidance \u2014 production-grade Turborepo monorepo SaaS starter by Vercel",
+      "when": "working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages.",
+      "raw_desc": "next-forge expert guidance \u2014 production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages.",
+      "folder": "next-forge",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "next-upgrade",
+      "what": "Upgrade Next.js to the latest version following official migration guides and codemods",
+      "when": "upgrading Next.js versions, running codemods, or migrating between major releases.",
+      "raw_desc": "Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js versions, running codemods, or migrating between major releases.",
+      "folder": "next-upgrade",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "nextjs",
+      "what": "Next.js App Router expert guidance",
+      "when": "building, debugging, or architecting Next.js applications \u2014 routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel.",
+      "raw_desc": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications \u2014 routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel.",
+      "folder": "nextjs",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "react-best-practices",
+      "what": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality checklist covering component structure, hooks usage, accessibility, performance, and TypeScript patterns.",
+      "when": "",
+      "raw_desc": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality checklist covering component structure, hooks usage, accessibility, performance, and TypeScript patterns.",
+      "folder": "react-best-practices",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "routing-middleware",
+      "what": "Vercel Routing Middleware guidance \u2014 request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes",
+      "when": "intercepting requests at the platform level.",
+      "raw_desc": "Vercel Routing Middleware guidance \u2014 request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when intercepting requests at the platform level.",
+      "folder": "routing-middleware",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "runtime-cache",
+      "what": "Vercel Runtime Cache API guidance \u2014 ephemeral per-region key-value cache with tag-based invalidation. Shared across Functions, Routing Middleware, and Builds",
+      "when": "implementing caching strategies beyond framework-level caching.",
+      "raw_desc": "Vercel Runtime Cache API guidance \u2014 ephemeral per-region key-value cache with tag-based invalidation. Shared across Functions, Routing Middleware, and Builds. Use when implementing caching strategies beyond framework-level caching.",
+      "folder": "runtime-cache",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "shadcn",
+      "what": "shadcn/ui expert guidance \u2014 CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design",
+      "when": "initializing shadcn, adding components, composing product UI, building custom registries, configuring themes, or troubleshooting component issues.",
+      "raw_desc": "shadcn/ui expert guidance \u2014 CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design. Use when initializing shadcn, adding components, composing product UI, building custom registries, configuring themes, or troubleshooting component issues.",
+      "folder": "shadcn",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "turbopack",
+      "what": "Turbopack expert guidance",
+      "when": "configuring the Next.js bundler, optimizing HMR, debugging build issues, or understanding the Turbopack vs Webpack differences.",
+      "raw_desc": "Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or understanding the Turbopack vs Webpack differences.",
+      "folder": "turbopack",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "vercel-agent",
+      "what": "Vercel Agent guidance \u2014 AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and anomaly debugging",
+      "when": "configuring or understanding Vercel's AI development tools.",
+      "raw_desc": "Vercel Agent guidance \u2014 AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and anomaly debugging. Use when configuring or understanding Vercel's AI development tools.",
+      "folder": "vercel-agent",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "vercel-cli",
+      "what": "Vercel CLI expert guidance",
+      "when": "deploying, managing environment variables, linking projects, viewing logs, querying metrics, managing domains, or interacting with the Vercel platform from the command line.",
+      "raw_desc": "Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, querying metrics, managing domains, or interacting with the Vercel platform from the command line.",
+      "folder": "vercel-cli",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "vercel-firewall",
+      "what": "Vercel Firewall expert guidance \u2014 automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the `vercel firewall` CLI",
+      "when": "configuring platform-level security, responding to attacks, or staging firewall rules.",
+      "raw_desc": "Vercel Firewall expert guidance \u2014 automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the `vercel firewall` CLI. Use when configuring platform-level security, responding to attacks, or staging firewall rules.",
+      "folder": "vercel-firewall",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "vercel-functions",
+      "what": "Vercel Functions expert guidance \u2014 Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration",
+      "when": "configuring, debugging, or optimizing server-side code running on Vercel.",
+      "raw_desc": "Vercel Functions expert guidance \u2014 Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration. Use when configuring, debugging, or optimizing server-side code running on Vercel.",
+      "folder": "vercel-functions",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "vercel-sandbox",
+      "what": "Vercel Sandbox guidance \u2014 ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation",
+      "when": "executing user-generated or AI-generated code in isolation.",
+      "raw_desc": "Vercel Sandbox guidance \u2014 ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI-generated code in isolation.",
+      "folder": "vercel-sandbox",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "vercel-storage",
+      "what": "Vercel storage expert guidance \u2014 Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis)",
+      "when": "choosing, configuring, or using data storage with Vercel applications.",
+      "raw_desc": "Vercel storage expert guidance \u2014 Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when choosing, configuring, or using data storage with Vercel applications.",
+      "folder": "vercel-storage",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1"
+    },
+    {
+      "name": "auth",
+      "what": "Authentication integration guidance \u2014 Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications. Covers middleware auth patterns, sign-in/sign-up flows, and Marketplace provisioning",
+      "when": "implementing user authentication.",
+      "raw_desc": "Authentication integration guidance \u2014 Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications. Covers middleware auth patterns, sign-in/sign-up flows, and Marketplace provisioning. Use when implementing user authentication.",
+      "folder": "auth",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b"
+    },
+    {
+      "name": "bootstrap",
+      "what": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations)",
+      "when": "setting up or repairing a repository so linking, environment provisioning, env pulls, and first-run db/dev commands happen in the correct safe order.",
+      "raw_desc": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, environment provisioning, env pulls, and first-run db/dev commands happen in the correct safe order.",
+      "folder": "bootstrap",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b"
+    },
+    {
+      "name": "env-vars",
+      "what": "Vercel environment variable expert guidance",
+      "when": "working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.",
+      "raw_desc": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.",
+      "folder": "env-vars",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b"
+    },
+    {
+      "name": "knowledge-update",
+      "what": "Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start.",
+      "when": "",
+      "raw_desc": "Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start.",
+      "folder": "knowledge-update",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b"
+    },
+    {
+      "name": "marketplace",
+      "what": "Vercel Marketplace expert guidance \u2014 discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI",
+      "when": "consuming third-party services, building custom integrations, or managing marketplace resources on Vercel.",
+      "raw_desc": "Vercel Marketplace expert guidance \u2014 discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI. Use when consuming third-party services, building custom integrations, or managing marketplace resources on Vercel.",
+      "folder": "marketplace",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b"
+    },
+    {
+      "name": "verification",
+      "what": "Full-story verification \u2014 infers what the user is building, then verifies the complete flow end-to-end: browser \u2192 API \u2192 data \u2192 response. Triggers on dev server start and 'why isn't this working' signals.",
+      "when": "",
+      "raw_desc": "Full-story verification \u2014 infers what the user is building, then verifies the complete flow end-to-end: browser \u2192 API \u2192 data \u2192 response. Triggers on dev server start and 'why isn't this working' signals.",
+      "folder": "verification",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b"
+    },
+    {
+      "name": "workflow",
+      "what": "Vercel Workflow DevKit (WDK) expert guidance",
+      "when": "building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow.",
+      "raw_desc": "Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow.",
+      "folder": "workflow",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b"
+    },
+    {
+      "name": "skool-review",
+      "what": "Analysis",
+      "when": "",
+      "raw_desc": "Analysis",
+      "folder": "skool-review",
+      "source": "scheduled",
+      "source_label": "Scheduled",
+      "source_color": "#fb923c"
+    }
+  ]
 }
