@@ -77,6 +77,15 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none}
 .no-data-icon{font-size:48px;opacity:.15}
 .no-data h2{font-size:18px;font-weight:600;color:#2a2a2a}
 .no-data p{font-size:13px;line-height:1.6;max-width:380px}
+
+.ctrl-cats{width:100%;display:flex;align-items:center;gap:8px;padding-top:10px;border-top:1px solid #0e0e0e;flex-wrap:wrap}
+.cfb{display:flex;align-items:center;gap:5px;background:transparent;border:1px solid #181818;border-radius:6px;color:#303030;cursor:pointer;font-size:11px;font-weight:500;padding:5px 10px;transition:all .15s;white-space:nowrap}
+.cfb:hover{border-color:#282828;color:#777}
+.cfb.on{background:#1a1a1a;color:#aaa;border-color:#282828}
+.cfb .n{font-size:9.5px;font-weight:700;color:#282828}
+.cfb.on .n{color:#555}
+
+.cnew{font-size:8.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#22c55e;background:#22c55e10;border:1px solid #22c55e30;border-radius:4px;padding:2px 6px;margin-left:6px;flex-shrink:0}
 </style>
 </head>
 <body>
@@ -109,6 +118,9 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none}
       <span>All</span><span class="n" id="all-n">0</span>
     </button>
   </div>
+  <div class="ctrl-cats" id="cat-flt">
+    <button class="cfb on" data-cat="all"><span>All categories</span></button>
+  </div>
 </div>
 
 <div class="body" id="body">
@@ -121,7 +133,9 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none}
 <div class="toast" id="toast"></div>
 
 <script>
-let skills=[], activeSrc='all', searchQ='', hash='', syncedAt=null;
+let skills=[], activeSrc='all', activeCat='all', searchQ='', hash='', syncedAt=null;
+const NEW_THRESHOLD = 7 * 24 * 3600 * 1000; // 7 days
+function isNew(s){ return s.first_seen && (Date.now() - new Date(s.first_seen)) < NEW_THRESHOLD; }
 
 const SRC_IC={anthropic:'✦',vercel:'▲',supabase:'⚡',scheduled:'⏱',personal:'⚙',plugin:'◈'};
 function ic(name,src){
@@ -188,6 +202,28 @@ function buildFilters(){
   }));
 }
 
+function buildCatFilters(){
+  const CAT_ORDER=['AI & Agents','Coding','Writing','Design','Research','Video','Documents','Memory','Deploy','Productivity','Other'];
+  const counts={};
+  skills.forEach(s=>{const c=s.category||'Other';if(!counts[c])counts[c]=0;counts[c]++;});
+  const flt=document.getElementById('cat-flt');
+  if(!flt) return;
+  flt.innerHTML='';
+  const allBtn=document.createElement('button');
+  allBtn.className='cfb'+(activeCat==='all'?' on':'');allBtn.dataset.cat='all';
+  allBtn.innerHTML='<span>All categories</span>';
+  flt.appendChild(allBtn);
+  CAT_ORDER.filter(c=>counts[c]).forEach(c=>{
+    const b=document.createElement('button');
+    b.className='cfb'+(c===activeCat?' on':'');b.dataset.cat=c;
+    b.innerHTML=`<span>${esc(c)}</span><span class="n">${counts[c]}</span>`;
+    flt.appendChild(b);
+  });
+  flt.querySelectorAll('.cfb').forEach(b=>b.addEventListener('click',()=>{
+    activeCat=b.dataset.cat;flt.querySelectorAll('.cfb').forEach(x=>x.classList.remove('on'));b.classList.add('on');render();
+  }));
+}
+
 function render(){
   const body=document.getElementById('body');
   if(!skills.length){
@@ -199,8 +235,9 @@ function render(){
   const groups={};let vis=0;
   skills.forEach(s=>{
     const ms=activeSrc==='all'||s.source===activeSrc;
-    const mq=!q||(s.name+' '+s.what+' '+s.when+' '+s.raw_desc).toLowerCase().includes(q);
-    if(!ms||!mq)return;
+    const mc=activeCat==='all'||(s.category||'Other')===activeCat;
+    const mq=!q||(s.name+' '+s.what+' '+s.when+' '+s.raw_desc+' '+(s.category||'')).toLowerCase().includes(q);
+    if(!ms||!mc||!mq)return;
     if(!groups[s.source])groups[s.source]={label:s.source_label,color:s.source_color,items:[]};
     groups[s.source].items.push(s);vis++;
   });
@@ -233,7 +270,7 @@ function card(s){
         <div class="cicon">${i}</div>
         <div class="cbadge" style="${bs}">${esc(s.source_label)}</div>
       </div>
-      <div class="cname">${esc(s.name)}</div>
+      <div class="cname">${esc(s.name)}${isNew(s)?'<span class="cnew">New</span>':''}</div>
       ${what?`<div class="cwhat">${esc(what)}</div>`:''}
       ${when?`<div class="cwhen-w"><div class="cwhen-l">Use for</div><div class="cwhen">${esc(when)}</div></div>`:''}
     </div>
@@ -274,6 +311,7 @@ async function load(isUpdate){
       skills=data.skills||[];
       syncedAt=data.synced_at||null;
       buildFilters();
+      buildCatFilters();
       render();
       updateSyncTime();
       if(isUpdate&&!wasEmpty){flashHdr();toast('Skills updated — '+skills.length+' total');}

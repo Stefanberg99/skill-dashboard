@@ -13,8 +13,10 @@ import base64, glob, hashlib, json, os, re, time, urllib.request, urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
-HOME = Path.home()
-CONFIG_PATH = HOME / '.config' / 'claude' / 'skill-sync.json'
+HOME          = Path.home()
+CONFIG_PATH   = HOME / '.config' / 'claude' / 'skill-sync.json'
+HISTORY_FILE  = Path(__file__).parent / 'skill-history.json'
+REC_FILE      = Path(__file__).parent / 'recommendations.json'
 POLL_INTERVAL = 60  # seconds
 
 SCAN_PATTERNS = [
@@ -37,11 +39,50 @@ VERCEL_KW = {"vercel","nextjs","next-","turbopack","shadcn","routing","deploymen
              "next-upgrade","next-cache","react-best","vercel-agent","vercel-cli",
              "vercel-firewall","vercel-functions","vercel-sandbox","vercel-storage"}
 
+# Category detection — order matters, first match wins
+CATEGORIES = [
+    ("Video",        r'video|youtube|record|reel|\bclip\b|transcript'),
+    ("Documents",    r'\bpdf\b|docx|pptx|xlsx|\bword\b|excel|spreadsheet'),
+    ("Memory",       r'memory|obsidian|knowledge|vault|notebook|commonplace|journal'),
+    ("Deploy",       r'\bdeploy\b|launch|hosting|publish|production'),
+    ("AI & Agents",  r'\bagent\b|\bmcp\b|parallel|swarm|dispatch|ruflo|\bllm\b|brainstorm'),
+    ("Research",     r'research|scrape|extract|crawl|competi|analys'),
+    ("Design",       r'design|figma|brand|visual|style|token|art\b|image'),
+    ("Writing",      r'writ|content|blog|copy|newsletter|essay'),
+    ("Coding",       r'code|build|\bdev\b|debug|review|test|security|audit|refactor|import'),
+    ("Productivity", r'schedule|cron|remind|loop|repeat|changelog|workflow|automat|task\b|insight'),
+]
+_CAT_RE = [(label, re.compile(pattern, re.I)) for label, pattern in CATEGORIES]
+
 _TRIG  = re.compile(r'\.?\s+(?:Use (?:this (?:skill )?)?when(?:ever)?\s+|Trigger(?:s(?: automatically)?)? when\s+|Activate (?:this (?:skill )?)?when(?:ever)?\s+|Only use when\s+|Use only when\s+|Also trigger(?:s)? when\s+)', re.I)
 _STRIG = re.compile(r'^(?:Use (?:this (?:skill )?)?(?:when(?:ever)?|any\s*time)\s+|Trigger(?:s)? when\s+|Activate when(?:ever)?\s+|Only use when\s+)', re.I)
 
 
-# ── Skill scanning (same logic as server.py) ─────────────────────────────────
+# ── Category detection ────────────────────────────────────────────────────────
+
+def detect_category(name, folder, what, raw_desc):
+    text = f"{name} {folder} {what} {raw_desc}"
+    for label, rx in _CAT_RE:
+        if rx.search(text):
+            return label
+    return "Other"
+
+
+# ── Skill history (first-seen timestamps) ────────────────────────────────────
+
+def load_history():
+    if HISTORY_FILE.exists():
+        try:
+            return json.loads(HISTORY_FILE.read_text(encoding='utf-8'))
+        except Exception:
+            pass
+    return {}
+
+def save_history(history):
+    HISTORY_FILE.write_text(json.dumps(history, indent=2), encoding='utf-8')
+
+
+# ── Skill scanning ────────────────────────────────────────────────────────────
 
 def fm_field(fm, field):
     m = re.search(rf'^{re.escape(field)}:\s*(.*)$', fm, re.M)
@@ -127,6 +168,16 @@ def scan():
         del s['_path']; del s['mtime']
     return result
 
+def enrich(skills, history, now_iso):
+    """Add category + first_seen to each skill. Mutates history in place."""
+    for s in skills:
+        k = s['folder']
+        if k not in history:
+            history[k] = now_iso
+        s['first_seen'] = history[k]
+        s['category']   = detect_category(s['name'], s['folder'], s.get('what', ''), s.get('raw_desc', ''))
+    return skills
+
 def shash(skills):
     return hashlib.md5(json.dumps([(s['folder'], s['name']) for s in skills], sort_keys=True).encode()).hexdigest()
 
@@ -168,12 +219,6 @@ def push_file_to_github(config, filename, content_str, commit_msg):
     gh_request('PUT', url, token, json.dumps(body).encode())
 
 
-def push_to_github(config, payload_json):
-    push_file_to_github(config, 'skills.json', payload_json, 'chore: sync skills')
-
-
-REC_FILE = Path(__file__).parent / 'recommendations.json'
-
 # ── Main loop ─────────────────────────────────────────────────────────────────
 
 def log(msg):
@@ -186,27 +231,31 @@ def main():
         print('Run:  bash ~/Claude/skill-dashboard/setup.sh')
         raise SystemExit(1)
 
-    config    = json.loads(CONFIG_PATH.read_text())
-    last_hash = ''
+    config        = json.loads(CONFIG_PATH.read_text())
+    last_hash     = ''
     last_rec_hash = ''
+    history       = load_history()
 
     log(f'Skill Sync Daemon started — polling every {POLL_INTERVAL}s')
     log(f'Target: github.com/{config["github_owner"]}/{config["github_repo"]}')
 
     while True:
         try:
-            skills = scan()
-            h      = shash(skills)
+            now_iso = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
+            skills  = scan()
+            enrich(skills, history, now_iso)
+            save_history(history)
+
+            h = shash(skills)
             if h != last_hash:
-                now     = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
-                payload = json.dumps({'synced_at': now, 'hash': h, 'skills': skills}, indent=2)
-                push_to_github(config, payload)
+                payload = json.dumps({'synced_at': now_iso, 'hash': h, 'skills': skills}, indent=2)
+                push_file_to_github(config, 'skills.json', payload, 'chore: sync skills')
                 last_hash = h
                 log(f'Pushed {len(skills)} skills (hash: {h[:8]}…)')
             else:
                 log(f'No change ({len(skills)} skills)')
 
-            # Always sync recommendations.json if it exists
+            # Sync recommendations.json if it exists and changed
             if REC_FILE.exists():
                 rec_content = REC_FILE.read_text(encoding='utf-8')
                 rec_h = hashlib.md5(rec_content.encode()).hexdigest()
