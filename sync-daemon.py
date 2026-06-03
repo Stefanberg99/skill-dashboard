@@ -143,11 +143,11 @@ def gh_request(method, url, token, data=None):
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.loads(r.read())
 
-def push_to_github(config, payload_json):
+def push_file_to_github(config, filename, content_str, commit_msg):
     token = config['github_token']
     owner = config['github_owner']
     repo  = config['github_repo']
-    url   = f'https://api.github.com/repos/{owner}/{repo}/contents/skills.json'
+    url   = f'https://api.github.com/repos/{owner}/{repo}/contents/{filename}'
 
     sha = None
     try:
@@ -158,8 +158,8 @@ def push_to_github(config, payload_json):
             raise
 
     body = {
-        'message': 'chore: sync skills',
-        'content': base64.b64encode(payload_json.encode()).decode(),
+        'message': commit_msg,
+        'content': base64.b64encode(content_str.encode()).decode(),
         'committer': {'name': 'Skill Sync', 'email': 'skill-sync@local'},
     }
     if sha:
@@ -167,6 +167,12 @@ def push_to_github(config, payload_json):
 
     gh_request('PUT', url, token, json.dumps(body).encode())
 
+
+def push_to_github(config, payload_json):
+    push_file_to_github(config, 'skills.json', payload_json, 'chore: sync skills')
+
+
+REC_FILE = Path(__file__).parent / 'recommendations.json'
 
 # ── Main loop ─────────────────────────────────────────────────────────────────
 
@@ -182,6 +188,7 @@ def main():
 
     config    = json.loads(CONFIG_PATH.read_text())
     last_hash = ''
+    last_rec_hash = ''
 
     log(f'Skill Sync Daemon started — polling every {POLL_INTERVAL}s')
     log(f'Target: github.com/{config["github_owner"]}/{config["github_repo"]}')
@@ -198,6 +205,16 @@ def main():
                 log(f'Pushed {len(skills)} skills (hash: {h[:8]}…)')
             else:
                 log(f'No change ({len(skills)} skills)')
+
+            # Always sync recommendations.json if it exists
+            if REC_FILE.exists():
+                rec_content = REC_FILE.read_text(encoding='utf-8')
+                rec_h = hashlib.md5(rec_content.encode()).hexdigest()
+                if rec_h != last_rec_hash:
+                    push_file_to_github(config, 'recommendations.json', rec_content, 'chore: sync recommendations')
+                    last_rec_hash = rec_h
+                    log(f'Pushed recommendations.json (hash: {rec_h[:8]}…)')
+
         except Exception as e:
             log(f'Error: {e}')
 
