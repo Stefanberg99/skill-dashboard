@@ -5,25 +5,61 @@
   "timezone": "Europe/Amsterdam",
   "projects": [
     {"name": "Meesterwerk", "type": "Education / Founder", "status": "active"},
-    {"name": "KubeCraft", "type": "YouTube / Social", "status": "active"}
+    {"name": "KubeCraft", "type": "YouTube / Social", "status": "active"},
+    {"name": "Recall Studio", "type": "SaaS product (transcript → resource)", "status": "in-progress"},
+    {"name": "Community Dashboard", "type": "Client build (Skool CRM + sales pipeline)", "status": "in-progress"}
   ],
-  "tools": ["Obsidian", "Airtable", "Metricool", "Hermes", "Telegram", "Make.com", "Vercel"],
+  "tools": [
+    "Obsidian (~/Documents/Commonplacebook/)",
+    "Craft (Soul layer: vision, journaling, contemplation)",
+    "Airtable",
+    "Metricool",
+    "Hermes",
+    "Telegram",
+    "Make.com",
+    "Vercel",
+    "Netlify",
+    "Supabase",
+    "NextLVL",
+    "Readwise",
+    "Skool",
+    "HubSpot"
+  ],
   "current_focus": [
-    "Self-improving AI systems",
-    "Knowledge processing pipeline",
-    "Content creation automation",
-    "Superhuman productivity stack"
+    "Processing Studio V1 — turning consumed content into Stefan-voice notecards (core bottleneck)",
+    "Community Member Tracking Dashboard — client project (Skool CRM, pipeline, payments)",
+    "Recall Studio — transcript-to-resource SaaS (local prototype → Next.js + Supabase)",
+    "Soul–Brain bridge — Craft (Soul) and Obsidian (Brain) integration rituals",
+    "Storyworthy Moments — daily one-line memory capture habit"
   ],
+  "system_architecture": {
+    "soul": "Craft — vision, domains, character, journaling, contemplation, personal reflection",
+    "brain": "Obsidian — sources, notecards, wiki, MOCs, output library, toolbox",
+    "knowledge_vault": "~/Documents/Commonplacebook/",
+    "loop": "Vision → Capture → Process → Output → Reflect → Vision",
+    "bottleneck": "Processing (raw input → own words → connected ideas → action)"
+  },
   "bottlenecks": [
-    "Processing consumed content into usable assets",
-    "Learning retention (consuming without internalizing)",
+    "Processing consumed content into real understanding (not just summaries)",
+    "Soul–Brain bridge: knowledge not touching life; vision not absorbing lessons",
+    "Building vs living: infrastructure design as procrastination risk",
     "Design throughput for Meesterwerk"
   ],
   "goals": [
-    "Build a system that improves itself without manual work",
-    "Turn every conversation into structured knowledge",
-    "Automate the KubeCraft content pipeline end-to-end",
-    "Make Obsidian a living knowledge graph maintained by Hermes"
+    "Build Processing Studio V1 — one YouTube video end-to-end through the wisdom loop",
+    "Ship Community Dashboard Phase 0 (Supabase schema) for client",
+    "Upgrade Recall Studio from local Node.js to Next.js + Supabase SaaS",
+    "Start Storyworthy Moments habit tonight — one line per day, forever",
+    "Make Obsidian a living knowledge graph maintained by Hermes",
+    "Automate the KubeCraft content pipeline end-to-end"
+  ],
+  "key_decisions_made": [
+    "Soul (Craft) / Brain (Obsidian) split is correct — but needs explicit bridge mechanisms",
+    "Source routing gate: DELETE / ARCHIVE / EXTRACT / DEEP PROCESS before anything enters vault",
+    "Processing Studio notecards must be in Stefan's own voice — 0 to 3 max per source",
+    "Community dashboard: data ownership model — retire HubSpot for pipeline, own qualification tags natively",
+    "Recall Studio: Visual DNA layer first, then artifacts — aesthetic is the product",
+    "No new Domain Mentor until 10+ processed sources in that domain"
   ],
   "updated": "2026-06-03"
 }

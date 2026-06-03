@@ -1,10 +1,127 @@
 {
-  "updated": null,
-  "sessions": [],
+  "updated": "2026-06-03T18:30:00+02:00",
+  "sessions": [
+    {
+      "id": "20260603_165734_751f25",
+      "date": "2026-06-03",
+      "title": "Community Dashboard Architecture",
+      "summary": "Stefan brought a client project: a Community Member Tracking Dashboard (free + paid Skool communities). Hermes diagnosed the core issue as a data ownership problem, not a dashboard problem — five fragmented systems (HubSpot, Fiducia, Excel, Slack, Skool) with no single source of truth. Designed a 5-phase Supabase-backed architecture: retire HubSpot for pipeline, own data at point of capture, role-based setter access via the dashboard. An existing HTML prototype at ~/Desktop/community-dashboard.html was confirmed, built in a prior ~865-message Claude Code session with full KubeCraft styling.",
+      "topics": ["supabase", "community-crm", "data-architecture", "skool", "client-work", "hubspot", "pipeline"],
+      "things_built": ["Community dashboard architecture blueprint (5-phase plan)", "Identified ~/Desktop/community-dashboard.html as existing prototype"],
+      "decisions": [
+        "Dashboard should own pipeline data outright — retire HubSpot for tracking",
+        "Qualification tags captured natively via webhook (not synced from Fiducia)",
+        "Phase 0 = Supabase schema first, no UI work until data spine exists",
+        "Member profiles from 196-row CSV are fastest win — build this first",
+        "Payments module needs access control decision before entering shared dashboard",
+        "Customer-facing AI requires founder sign-off (brand voice concern)"
+      ],
+      "project": "general"
+    },
+    {
+      "id": "20260603_103722_6b6c9e",
+      "date": "2026-06-03",
+      "title": "Morning Check-In Session",
+      "summary": "A 148-message casual check-in session between Stefan and Hermes earlier in the day. Full content not indexed in search yet.",
+      "topics": ["general"],
+      "things_built": [],
+      "decisions": [],
+      "project": "general"
+    },
+    {
+      "id": "20260601_163825_5b33fd56",
+      "date": "2026-06-01",
+      "title": "Learning System PDF Review",
+      "summary": "Stefan uploaded a 'Learning system.pdf' consolidating the full Commonplacebook architecture and asked Hermes to review it, refine the system, and clarify the build path. The Soul (Craft) vs Brain (Obsidian) split bridge is still an open design challenge — keeping both systems in sync without manual friction. Work on identifying what to build first in the Processing Studio continued.",
+      "topics": ["commonplacebook", "knowledge-system", "obsidian", "soul-brain-split", "processing-studio"],
+      "things_built": ["Learning system PDF review and synthesis"],
+      "decisions": [
+        "Soul/Brain bridge still unresolved — design active",
+        "Obsidian vault = canonical knowledge layer",
+        "Processing Studio V1 is next build target"
+      ],
+      "project": "obsidian"
+    },
+    {
+      "id": "20260525_171131_ab02c8",
+      "date": "2026-05-25",
+      "title": "Knowledge OS Deep Synthesis",
+      "summary": "Deep session extracting outcomes and bottlenecks from two private Claude share links. Wrote two major documents to the Commonplacebook vault: 'Online Knowledge OS Realization Plan' (12KB) and 'Knowledge OS Outcome and Bottleneck Extraction' (17KB). Core finding: the bottleneck is not capture — it is raw input → actual understanding → own words → connected ideas → useful behavior. Defined the 6-engine architecture and the first proof target (one YouTube video end-to-end through Processing Studio).",
+      "topics": ["commonplacebook", "knowledge-os", "processing-studio", "bottleneck-analysis", "obsidian"],
+      "things_built": [
+        "/Users/stefanberg/Documents/Commonplacebook/00 System/Online Knowledge OS Realization Plan - 2026-05-25.md",
+        "/Users/stefanberg/Documents/Commonplacebook/00 System/Knowledge OS Outcome and Bottleneck Extraction - 2026-05-25.md",
+        "/Users/stefanberg/Documents/Commonplacebook/00 System/Commonplacebook Deep Synthesis and Build Blueprint - 2026-05-25.md",
+        "/Users/stefanberg/Documents/Commonplacebook/00 System/Source Processor Build Plan.md"
+      ],
+      "decisions": [
+        "Bottleneck is processing, not capture",
+        "Source routing gate: DELETE / ARCHIVE / EXTRACT / DEEP PROCESS",
+        "Active Questions Board replaces topic filing",
+        "6-engine architecture: Capture Router → Processing Studio → Obsidian Brain → Output/Resource Studio → Action → Reflection",
+        "First proof: one YouTube video end-to-end before bulk operations",
+        "0–3 notecards by default (Stefan voice only, not AI voice)",
+        "No new AI projects until existing three earn their keep over 90 days"
+      ],
+      "project": "obsidian"
+    },
+    {
+      "id": "20260523_085829_24cdeb",
+      "date": "2026-05-23",
+      "title": "Recall Studio SaaS Build",
+      "summary": "Built the Recall Studio (later 'Resource Studio') — a Node.js app at ~/Documents/New project/ that turns YouTube transcripts into structured Recall Packs with visual artifacts. Major reframe mid-session: the product is not a summarizer but a 'Transcript-to-Resource Studio' — turning transcripts into publishable resources (assessments, microsites, guides, infographics). Visual DNA layer added so outputs have an art direction spine before any artifacts are generated. The KubeCraft assessment (kubecraftassessment.netlify.app) was used as the reference output quality standard.",
+      "topics": ["recall-studio", "resource-studio", "saas", "youtube-pipeline", "visual-artifacts", "netlify"],
+      "things_built": [
+        "Recall Studio app (~/Documents/New project/) — Node.js, Recall Pack data model",
+        "Visual DNA prompt layer in src/core/recall.ts",
+        "Expanded artifact types: assessment, microsite, guide, infographic, lead magnet",
+        "Resource Blueprint step before artifact generation",
+        "Running on port 8790"
+      ],
+      "decisions": [
+        "Product = Resource Studio, not notes app",
+        "Visual aesthetic is first-class; Visual DNA before artifacts",
+        "Three priority output formats: Interactive Assessment, Implementation Guide, Microsite",
+        "SaaS shape: personal-first, client workspaces ready",
+        "Human-in-the-loop drafting studio (not auto-delivery)",
+        "Stack: Next.js + Supabase eventually; current MVP is Node.js local"
+      ],
+      "project": "meesterwerk"
+    },
+    {
+      "id": "20260525_092429_cdbd4e",
+      "date": "2026-05-25",
+      "title": "Personal Infrastructure Architecture",
+      "summary": "Two parallel sub-sessions synthesizing Stefan's earlier Claude conversations about building a personal infrastructure for compounding mastery. Extracted the full 12-part vision (Soul/Brain split, 5-stage loop, domain template, AI services taxonomy). Claude challenged the Soul/Brain split but conceded it with the condition that explicit bridges are designed. Key tension identified: infrastructure design as procrastination — the system must not become the work.",
+      "topics": ["commonplacebook", "personal-infrastructure", "soul-brain-split", "ai-services", "knowledge-system", "domains"],
+      "things_built": [
+        "Comprehensive synthesis of personal OS architecture (Claude Code session 20260521)"
+      ],
+      "decisions": [
+        "Keep Soul (Craft) / Brain (Obsidian) split with explicit bridges",
+        "Vision enforcement via calendar rituals (not just documents)",
+        "Storyworthy Moments practice = highest-leverage immediate habit",
+        "Decision Journal = highest-leverage long-term practice",
+        "Source Processor is first AI project to build",
+        "Socratic Tutor + Self-Deception Spotter + Critic = three modes of one project",
+        "No new Domain Mentor until that domain has 10+ processed sources"
+      ],
+      "project": "obsidian"
+    }
+  ],
   "stats": {
-    "total_sessions_tracked": 0,
-    "things_built": [],
-    "top_topics": [],
+    "total_sessions_tracked": 6,
+    "things_built": [
+      "Community dashboard architecture blueprint (5-phase Supabase plan)",
+      "Community dashboard HTML prototype (~/Desktop/community-dashboard.html)",
+      "Recall Studio / Resource Studio app (~/Documents/New project/)",
+      "Visual DNA prompt layer for artifact generation",
+      "Online Knowledge OS Realization Plan (Obsidian doc)",
+      "Knowledge OS Outcome and Bottleneck Extraction (Obsidian doc)",
+      "Commonplacebook Deep Synthesis and Build Blueprint (Obsidian doc)",
+      "Source Processor Build Plan (Obsidian doc)"
+    ],
+    "top_topics": ["commonplacebook", "knowledge-system", "processing-studio", "resource-studio"],
     "recommendations_completed": 0
   }
 }
