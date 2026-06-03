@@ -298,5 +298,65 @@
     "prompt": "Help me extend my Skool scraper Chrome extension at ~/Claude/skool-scraper-v2/ to also capture member profiles and engagement metrics.",
     "status": "todo",
     "added_date": "2026-06-03"
+  },
+  {
+    "id": "supabase-community-dashboard",
+    "title": "Community Dashboard: Supabase Backend",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "You have a client project (community member tracking dashboard) with a beautiful HTML prototype but zero real data. The next phase is Phase 0: design the Supabase schema (members, pipeline, payments, tags) so the dashboard has a real spine. This unblocks setter access, payment tracking, and Skool sync — all the things that make the dashboard actually useful to the client's team.",
+    "prompt": "I have a community member tracking dashboard at ~/Desktop/community-dashboard.html. I need to build Phase 0: the Supabase schema. Tables needed: members (from 196-row CSV), pipeline_status, payments, qualification_tags, and setter_notes. Design the full ER diagram and scaffold the schema, then help me wire the HTML dashboard to pull from Supabase instead of demo data.",
+    "status": "todo",
+    "added_date": "2026-06-03"
+  },
+  {
+    "id": "processing-studio-v1",
+    "title": "Processing Studio V1 (Commonplacebook)",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "Your identified bottleneck is processing — not capture. Raw input never becomes real understanding in your own words. The Processing Studio solves this: paste a YouTube URL or transcript, answer recall questions, generate Stefan-voice notecards (0–3 max), MOC suggestions, and one action/output. Proof target: one Leo Gura video end-to-end without polluting the vault.",
+    "prompt": "Help me build Processing Studio V1 for my Commonplacebook at ~/Documents/Commonplacebook/. I need a simple interface (CLI or web) where I: 1) paste a transcript or YouTube URL, 2) answer recall questions before seeing the summary, 3) choose source routing (DELETE/ARCHIVE/EXTRACT/DEEP PROCESS), 4) generate 0–3 notecards in my own voice, 5) get MOC suggestions, 6) get one action/output prompt. Start with the recall question flow.",
+    "status": "todo",
+    "added_date": "2026-06-03"
+  },
+  {
+    "id": "soul-brain-bridge",
+    "title": "Soul–Brain Bridge Ritual",
+    "category": "workflow",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "You've designed the Soul (Craft) / Brain (Obsidian) split multiple times but the bridge is still unbuilt. Without it, the knowledge graph never touches your life and the vision documents never absorb what you learned. Three mechanisms are needed: weekly Brain→Soul crossover, Domain Anchor pages, and Storyworthy Moment tagging. Build this as a Hermes cron ritual.",
+    "prompt": "Build me a weekly Soul-Brain bridge ritual as a Hermes cron job. Every Sunday it should: 1) scan my Obsidian vault (~/Documents/Meesterwerk/) for notes from the past week, 2) surface the 3 most concept-rich notes, 3) generate a prompt asking how each concept applies to my active Domains, 4) deliver the prompt to Telegram so I can write it into Craft during my weekly review.",
+    "status": "todo",
+    "added_date": "2026-06-03"
+  },
+  {
+    "id": "recall-studio-saas-upgrade",
+    "title": "Recall Studio → Next.js + Supabase",
+    "category": "build",
+    "priority": "medium",
+    "action": "build",
+    "skill_id": null,
+    "why": "The Recall Studio app (~/Documents/New project/) is running locally on port 8790 with a Node.js prototype and local JSON storage. It works but it's not client-ready or SaaS-ready. The agreed stack is Next.js + Supabase with client workspaces. Migrating now preserves the data model and Visual DNA logic while making it deployable and multi-user.",
+    "prompt": "Help me migrate the Recall Studio at ~/Documents/New project/ from its current Node.js/local-JSON architecture to Next.js + Supabase. The data model (RecallPack, artifacts, Visual DNA fields) is already defined in src/shared/types.ts. I need: Supabase tables matching the existing schema, a Next.js app replacing the current public/ frontend, and auth so I can add client workspaces later.",
+    "status": "todo",
+    "added_date": "2026-06-03"
+  },
+  {
+    "id": "storyworthy-moments-habit",
+    "title": "Storyworthy Moments Daily Capture",
+    "category": "workflow",
+    "priority": "medium",
+    "action": "build",
+    "skill_id": null,
+    "why": "Multiple Claude sessions flagged this as your highest-leverage immediate habit: one line + date per day capturing what happened, forever. It builds memory, storytelling ability, and authorship of your own narrative. All it needs is a frictionless capture point and a weekly Telegram prompt to make sure it actually runs.",
+    "prompt": "Build me a Storyworthy Moments system: 1) A Telegram command /story that appends a one-line entry + today's date to ~/Documents/Meesterwerk/Journals/Storyworthy Moments.md. 2) A nightly Hermes cron at 21:00 Amsterdam time that sends a Telegram reminder: 'One line for today's story?' — with a quick-reply that accepts the text and appends it.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   }
 ]
