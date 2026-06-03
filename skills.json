@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-03T09:40:36.307925Z",
-  "hash": "9c54d8fac6ca38138f3a05806127a10b",
+  "synced_at": "2026-06-03T12:40:24.726350Z",
+  "hash": "aa2cb9c8d01799e7681742f8fb14718a",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -121,6 +121,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "design-language",
+      "what": "Extract and translate the design language from any production website so a non-designer can build in the same key",
+      "when": "the user says \"give me the design language of <URL>\", \"decode this site for me\", \"extract the brand system from <URL>\", \"I love this site, help me build something with the same feel\", \"translate this site's design system\", \"study the design of <URL>\", \"what makes <URL> feel the way it does\", or pastes a URL and asks to take inspiration from it. Do NOT trigger for: full source copying (this isn't a clone tool), scraping text or imagery, sites that gate CSS behind auth, or sites where the user has explicitly disclaimed permission.",
+      "raw_desc": "Extract and translate the design language from any production website so a non-designer can build in the same key. Trigger when the user says \"give me the design language of <URL>\", \"decode this site for me\", \"extract the brand system from <URL>\", \"I love this site, help me build something with the same feel\", \"translate this site's design system\", \"study the design of <URL>\", \"what makes <URL> feel the way it does\", or pastes a URL and asks to take inspiration from it. Do NOT trigger for: full source copying (this isn't a clone tool), scraping text or imagery, sites that gate CSS behind auth, or sites where the user has explicitly disclaimed permission.",
+      "folder": "design-language",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T12:40:24.726350Z",
+      "category": "Deploy"
     },
     {
       "name": "dispatching-parallel-agents",
