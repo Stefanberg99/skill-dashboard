@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-06-03T09:26:15.498849Z",
+  "synced_at": "2026-06-03T09:40:36.307925Z",
   "hash": "9c54d8fac6ca38138f3a05806127a10b",
   "skills": [
     {
@@ -10,7 +10,9 @@
       "folder": "algorithmic-art",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Design"
     },
     {
       "name": "artifact",
@@ -20,7 +22,9 @@
       "folder": "artifact",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Video"
     },
     {
       "name": "brainstorming",
@@ -30,7 +34,9 @@
       "folder": "brainstorming",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "changelog-generator",
@@ -40,7 +46,9 @@
       "folder": "changelog-generator",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "claude-os",
@@ -50,7 +58,9 @@
       "folder": "claude-os",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Memory"
     },
     {
       "name": "code-import",
@@ -60,7 +70,9 @@
       "folder": "code-import",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "competitive-ads-extractor",
@@ -70,7 +82,9 @@
       "folder": "competitive-ads-extractor",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "content-research-writer",
@@ -80,7 +94,9 @@
       "folder": "content-research-writer",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "deploy-to-vercel",
@@ -90,7 +106,9 @@
       "folder": "deploy-to-vercel",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Deploy"
     },
     {
       "name": "design-extract",
@@ -100,7 +118,9 @@
       "folder": "design-extract",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "dispatching-parallel-agents",
@@ -110,7 +130,9 @@
       "folder": "dispatching-parallel-agents",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "domain-name-brainstormer",
@@ -120,7 +142,9 @@
       "folder": "domain-name-brainstormer",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "dream",
@@ -130,7 +154,9 @@
       "folder": "dream",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "executing-plans",
@@ -140,7 +166,9 @@
       "folder": "executing-plans",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "figma-extract",
@@ -150,7 +178,9 @@
       "folder": "figma-extract",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "finishing-a-development-branch",
@@ -160,7 +190,9 @@
       "folder": "finishing-a-development-branch",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "frontend-design",
@@ -170,7 +202,9 @@
       "folder": "frontend-design",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Deploy"
     },
     {
       "name": "goal-best-practices",
@@ -180,7 +214,9 @@
       "folder": "goal-best-practices",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "lead-research-assistant",
@@ -190,7 +226,9 @@
       "folder": "lead-research-assistant",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "mcp-builder",
@@ -200,7 +238,9 @@
       "folder": "mcp-builder",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "meeting-insights-analyzer",
@@ -210,7 +250,9 @@
       "folder": "meeting-insights-analyzer",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Video"
     },
     {
       "name": "mission-control-long-term-goal",
@@ -220,7 +262,9 @@
       "folder": "mission-control-long-term-goal",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "notebooklm",
@@ -230,7 +274,9 @@
       "folder": "notebooklm",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Memory"
     },
     {
       "name": "obsidian-ask",
@@ -240,7 +286,9 @@
       "folder": "obsidian-ask",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Memory"
     },
     {
       "name": "obsidian-wrap-up",
@@ -250,7 +298,9 @@
       "folder": "obsidian-wrap-up",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Memory"
     },
     {
       "name": "pinecone-ask",
@@ -260,7 +310,9 @@
       "folder": "pinecone-ask",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Memory"
     },
     {
       "name": "pinecone-ingest",
@@ -270,7 +322,9 @@
       "folder": "pinecone-ingest",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Memory"
     },
     {
       "name": "pinecone-wrap-up",
@@ -280,7 +334,9 @@
       "folder": "pinecone-wrap-up",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "power-design",
@@ -290,7 +346,9 @@
       "folder": "power-design",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "ruflo",
@@ -300,7 +358,9 @@
       "folder": "ruflo",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "site-blueprint",
@@ -310,7 +370,9 @@
       "folder": "site-blueprint",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "subagent-driven-development",
@@ -320,7 +382,9 @@
       "folder": "subagent-driven-development",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "systematic-debugging",
@@ -330,7 +394,9 @@
       "folder": "systematic-debugging",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "test-driven-development",
@@ -340,7 +406,9 @@
       "folder": "test-driven-development",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "theme-factory",
@@ -350,7 +418,9 @@
       "folder": "theme-factory",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "token-map",
@@ -360,7 +430,9 @@
       "folder": "token-map",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "twitter-algorithm-optimizer",
@@ -370,7 +442,9 @@
       "folder": "twitter-algorithm-optimizer",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "using-superpowers",
@@ -380,7 +454,9 @@
       "folder": "using-superpowers",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "vercel-cli-with-tokens",
@@ -390,7 +466,9 @@
       "folder": "vercel-cli-with-tokens",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Deploy"
     },
     {
       "name": "vercel-composition-patterns",
@@ -400,7 +478,9 @@
       "folder": "vercel-composition-patterns",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "vercel-react-best-practices",
@@ -410,7 +490,9 @@
       "folder": "vercel-react-best-practices",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "vercel-react-native-skills",
@@ -420,7 +502,9 @@
       "folder": "vercel-react-native-skills",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "vercel-react-view-transitions",
@@ -430,7 +514,9 @@
       "folder": "vercel-react-view-transitions",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "web-artifacts-builder",
@@ -440,7 +526,9 @@
       "folder": "web-artifacts-builder",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "web-design-guidelines",
@@ -450,7 +538,9 @@
       "folder": "web-design-guidelines",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Design"
     },
     {
       "name": "webapp-testing",
@@ -460,7 +550,9 @@
       "folder": "webapp-testing",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "writing-plans",
@@ -470,7 +562,9 @@
       "folder": "writing-plans",
       "source": "personal",
       "source_label": "Your Skills",
-      "source_color": "#38bdf8"
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "canvas-design",
@@ -480,7 +574,9 @@
       "folder": "canvas-design",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "Claude Help",
@@ -490,7 +586,9 @@
       "folder": "meesterwerk-ai",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "consolidate-memory",
@@ -500,7 +598,9 @@
       "folder": "consolidate-memory",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Memory"
     },
     {
       "name": "docx",
@@ -510,7 +610,9 @@
       "folder": "docx",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "pdf",
@@ -520,7 +622,9 @@
       "folder": "pdf",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "pptx",
@@ -530,7 +634,9 @@
       "folder": "pptx",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "schedule",
@@ -540,7 +646,9 @@
       "folder": "schedule",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Productivity"
     },
     {
       "name": "setup-cowork",
@@ -550,7 +658,9 @@
       "folder": "setup-cowork",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "skill-creator",
@@ -560,7 +670,9 @@
       "folder": "skill-creator",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     },
     {
       "name": "video-prompt-builder",
@@ -570,7 +682,9 @@
       "folder": "video-prompt-builder",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Video"
     },
     {
       "name": "xlsx",
@@ -580,7 +694,9 @@
       "folder": "xlsx",
       "source": "anthropic",
       "source_label": "Anthropic",
-      "source_color": "#8b5cf6"
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "ai-gateway",
@@ -590,7 +706,9 @@
       "folder": "ai-gateway",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "ai-sdk",
@@ -600,7 +718,9 @@
       "folder": "ai-sdk",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "chat-sdk",
@@ -610,7 +730,9 @@
       "folder": "chat-sdk",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "deployments-cicd",
@@ -620,7 +742,9 @@
       "folder": "deployments-cicd",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "next-cache-components",
@@ -630,7 +754,9 @@
       "folder": "next-cache-components",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "next-forge",
@@ -640,7 +766,9 @@
       "folder": "next-forge",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Deploy"
     },
     {
       "name": "next-upgrade",
@@ -650,7 +778,9 @@
       "folder": "next-upgrade",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "nextjs",
@@ -660,7 +790,9 @@
       "folder": "nextjs",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "react-best-practices",
@@ -670,7 +802,9 @@
       "folder": "react-best-practices",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "routing-middleware",
@@ -680,7 +814,9 @@
       "folder": "routing-middleware",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "runtime-cache",
@@ -690,7 +826,9 @@
       "folder": "runtime-cache",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "shadcn",
@@ -700,7 +838,9 @@
       "folder": "shadcn",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Design"
     },
     {
       "name": "turbopack",
@@ -710,7 +850,9 @@
       "folder": "turbopack",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "vercel-agent",
@@ -720,7 +862,9 @@
       "folder": "vercel-agent",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "vercel-cli",
@@ -730,7 +874,9 @@
       "folder": "vercel-cli",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "vercel-firewall",
@@ -740,7 +886,9 @@
       "folder": "vercel-firewall",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "vercel-functions",
@@ -750,7 +898,9 @@
       "folder": "vercel-functions",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "vercel-sandbox",
@@ -760,7 +910,9 @@
       "folder": "vercel-sandbox",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "vercel-storage",
@@ -770,7 +922,9 @@
       "folder": "vercel-storage",
       "source": "vercel",
       "source_label": "Vercel",
-      "source_color": "#cbd5e1"
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "auth",
@@ -780,7 +934,9 @@
       "folder": "auth",
       "source": "plugin",
       "source_label": "Plugin",
-      "source_color": "#64748b"
+      "source_color": "#64748b",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
     },
     {
       "name": "bootstrap",
@@ -790,7 +946,9 @@
       "folder": "bootstrap",
       "source": "plugin",
       "source_label": "Plugin",
-      "source_color": "#64748b"
+      "source_color": "#64748b",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "env-vars",
@@ -800,7 +958,9 @@
       "folder": "env-vars",
       "source": "plugin",
       "source_label": "Plugin",
-      "source_color": "#64748b"
+      "source_color": "#64748b",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Design"
     },
     {
       "name": "knowledge-update",
@@ -810,7 +970,9 @@
       "folder": "knowledge-update",
       "source": "plugin",
       "source_label": "Plugin",
-      "source_color": "#64748b"
+      "source_color": "#64748b",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Memory"
     },
     {
       "name": "marketplace",
@@ -820,7 +982,9 @@
       "folder": "marketplace",
       "source": "plugin",
       "source_label": "Plugin",
-      "source_color": "#64748b"
+      "source_color": "#64748b",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "verification",
@@ -830,7 +994,9 @@
       "folder": "verification",
       "source": "plugin",
       "source_label": "Plugin",
-      "source_color": "#64748b"
+      "source_color": "#64748b",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Design"
     },
     {
       "name": "workflow",
@@ -840,7 +1006,9 @@
       "folder": "workflow",
       "source": "plugin",
       "source_label": "Plugin",
-      "source_color": "#64748b"
+      "source_color": "#64748b",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "skool-review",
@@ -850,7 +1018,9 @@
       "folder": "skool-review",
       "source": "scheduled",
       "source_label": "Scheduled",
-      "source_color": "#fb923c"
+      "source_color": "#fb923c",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
     }
   ]
 }
