@@ -1,0 +1,29 @@
+{
+  "name": "Stefan van den Berg",
+  "age": 27,
+  "location": "Netherlands",
+  "timezone": "Europe/Amsterdam",
+  "projects": [
+    {"name": "Meesterwerk", "type": "Education / Founder", "status": "active"},
+    {"name": "KubeCraft", "type": "YouTube / Social", "status": "active"}
+  ],
+  "tools": ["Obsidian", "Airtable", "Metricool", "Hermes", "Telegram", "Make.com", "Vercel"],
+  "current_focus": [
+    "Self-improving AI systems",
+    "Knowledge processing pipeline",
+    "Content creation automation",
+    "Superhuman productivity stack"
+  ],
+  "bottlenecks": [
+    "Processing consumed content into usable assets",
+    "Learning retention (consuming without internalizing)",
+    "Design throughput for Meesterwerk"
+  ],
+  "goals": [
+    "Build a system that improves itself without manual work",
+    "Turn every conversation into structured knowledge",
+    "Automate the KubeCraft content pipeline end-to-end",
+    "Make Obsidian a living knowledge graph maintained by Hermes"
+  ],
+  "updated": "2026-06-03"
+}

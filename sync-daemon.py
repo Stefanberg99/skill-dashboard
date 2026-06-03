@@ -16,7 +16,9 @@ from pathlib import Path
 HOME          = Path.home()
 CONFIG_PATH   = HOME / '.config' / 'claude' / 'skill-sync.json'
 HISTORY_FILE  = Path(__file__).parent / 'skill-history.json'
-REC_FILE      = Path(__file__).parent / 'recommendations.json'
+REC_FILE     = Path(__file__).parent / 'recommendations.json'
+INSIGHTS_FILE = Path(__file__).parent / 'insights.json'
+PROFILE_FILE  = Path(__file__).parent / 'profile.json'
 POLL_INTERVAL = 60  # seconds
 
 SCAN_PATTERNS = [
@@ -231,9 +233,11 @@ def main():
         print('Run:  bash ~/Claude/skill-dashboard/setup.sh')
         raise SystemExit(1)
 
-    config        = json.loads(CONFIG_PATH.read_text())
+    config    = json.loads(CONFIG_PATH.read_text())
     last_hash     = ''
     last_rec_hash = ''
+    last_ins_hash = ''
+    last_pro_hash = ''
     history       = load_history()
 
     log(f'Skill Sync Daemon started — polling every {POLL_INTERVAL}s')
@@ -255,7 +259,7 @@ def main():
             else:
                 log(f'No change ({len(skills)} skills)')
 
-            # Sync recommendations.json if it exists and changed
+            # Always sync recommendations.json if it exists
             if REC_FILE.exists():
                 rec_content = REC_FILE.read_text(encoding='utf-8')
                 rec_h = hashlib.md5(rec_content.encode()).hexdigest()
@@ -263,6 +267,24 @@ def main():
                     push_file_to_github(config, 'recommendations.json', rec_content, 'chore: sync recommendations')
                     last_rec_hash = rec_h
                     log(f'Pushed recommendations.json (hash: {rec_h[:8]}…)')
+
+            # Sync insights.json
+            if INSIGHTS_FILE.exists():
+                ins_content = INSIGHTS_FILE.read_text(encoding='utf-8')
+                ins_h = hashlib.md5(ins_content.encode()).hexdigest()
+                if ins_h != last_ins_hash:
+                    push_file_to_github(config, 'insights.json', ins_content, 'chore: sync insights')
+                    last_ins_hash = ins_h
+                    log(f'Pushed insights.json (hash: {ins_h[:8]}…)')
+
+            # Sync profile.json
+            if PROFILE_FILE.exists():
+                pro_content = PROFILE_FILE.read_text(encoding='utf-8')
+                pro_h = hashlib.md5(pro_content.encode()).hexdigest()
+                if pro_h != last_pro_hash:
+                    push_file_to_github(config, 'profile.json', pro_content, 'chore: sync profile')
+                    last_pro_hash = pro_h
+                    log(f'Pushed profile.json (hash: {pro_h[:8]}…)')
 
         except Exception as e:
             log(f'Error: {e}')

@@ -1,6 +1,7 @@
 {
   "routes": [
-    { "src": "/recommendations", "dest": "/recommendations.html" }
+    { "src": "/recommendations", "dest": "/recommendations.html" },
+    { "src": "/insights",        "dest": "/insights.html" }
   ],
   "headers": [
     {
@@ -12,6 +13,20 @@
     },
     {
       "source": "/recommendations.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Pragma",        "value": "no-cache" }
+      ]
+    },
+    {
+      "source": "/insights.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Pragma",        "value": "no-cache" }
+      ]
+    },
+    {
+      "source": "/profile.json",
       "headers": [
         { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
         { "key": "Pragma",        "value": "no-cache" }
