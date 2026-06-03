@@ -7,7 +7,9 @@
     "action": "install",
     "skill_id": "source-to-resource-transformation",
     "why": "Your stated bottleneck is processing consumed content into usable assets. This skill handles the full pipeline: transcript → Stefan-voice notecards → source note → output → action. Directly solves the Meesterwerk processing engine gap.",
-    "prompt": "Load the source-to-resource-transformation skill and help me set up a processing pipeline for Meesterwerk content."
+    "prompt": "Load the source-to-resource-transformation skill and help me set up a processing pipeline for Meesterwerk content.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "youtube-content",
@@ -17,7 +19,9 @@
     "action": "install",
     "skill_id": "youtube-content",
     "why": "KubeCraft runs on YouTube content. This turns any video URL into a complete structured Obsidian note: transcript, summary, key principles, quotes, and action items — in one command. Foundation for your daily learning system.",
-    "prompt": "Load the youtube-content skill and help me set up the YouTube → Obsidian pipeline for my vault at ~/Documents/Meesterwerk/"
+    "prompt": "Load the youtube-content skill and help me set up the YouTube → Obsidian pipeline for my vault at ~/Documents/Meesterwerk/",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "obsidian-skill",
@@ -27,7 +31,9 @@
     "action": "install",
     "skill_id": "obsidian",
     "why": "Your Meesterwerk Brain is Obsidian. This skill gives Hermes direct read/write/search access to your vault — so every conversation can file notes, backlink concepts, and build the knowledge graph. Foundation for everything else.",
-    "prompt": "Load the obsidian skill and connect it to my vault at ~/Documents/Meesterwerk/"
+    "prompt": "Load the obsidian skill and connect it to my vault at ~/Documents/Meesterwerk/",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "weekly-review-dashboard",
@@ -37,7 +43,9 @@
     "action": "build",
     "skill_id": null,
     "why": "Cron job every Sunday morning: Hermes searches the past week's sessions, compiles what was done, patterns noticed, open threads, and recommended focus for the coming week — delivered to Telegram before you start.",
-    "prompt": "Build me a weekly review cron job that searches my past sessions, summarizes patterns and key decisions, and delivers a structured Sunday review to Telegram."
+    "prompt": "Build me a weekly review cron job that searches my past sessions, summarizes patterns and key decisions, and delivers a structured Sunday review to Telegram.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "content-repurposing",
@@ -47,7 +55,9 @@
     "action": "build",
     "skill_id": null,
     "why": "You already use Airtable + Metricool for KubeCraft shorts. This adds a one-command layer: short title/hook → platform-optimized captions for Instagram, TikTok, and X. Removes the copy-writing bottleneck from your upload workflow.",
-    "prompt": "Build me a content repurposing tool for KubeCraft: takes a short title and concept, generates captions for Instagram, TikTok, and X, and stores them in Airtable."
+    "prompt": "Build me a content repurposing tool for KubeCraft: takes a short title and concept, generates captions for Instagram, TikTok, and X, and stores them in Airtable.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "airtable-skill",
@@ -57,7 +67,9 @@
     "action": "install",
     "skill_id": "airtable",
     "why": "You already use Airtable for KubeCraft's To Process → Approved → Scheduled workflow. This gives Hermes direct read/write access: query records, update statuses, generate reports, and automate the approval pipeline.",
-    "prompt": "Load the airtable skill and connect it to my KubeCraft base. Show me the current 'To Process' records."
+    "prompt": "Load the airtable skill and connect it to my KubeCraft base. Show me the current 'To Process' records.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "baoyu-infographic",
@@ -67,7 +79,9 @@
     "action": "install",
     "skill_id": "baoyu-infographic",
     "why": "Meesterwerk is education and you're a visual learner. Turn any concept, framework, or lesson into a polished infographic — 21 layouts × 21 styles. Use for course materials, client deliverables, and social content.",
-    "prompt": "Load the baoyu-infographic skill and create an infographic about the Meesterwerk processing engine workflow."
+    "prompt": "Load the baoyu-infographic skill and create an infographic about the Meesterwerk processing engine workflow.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "personal-style-extractor",
@@ -77,7 +91,9 @@
     "action": "build",
     "skill_id": null,
     "why": "Every future draft should start from your voice, not a generic AI template. Paste 5 pieces of writing you're proud of — Hermes builds a SKILL that captures your rhythm, defaults, and preferred patterns. One-time setup, permanent leverage.",
-    "prompt": "I want to build a personal writing voice skill. I'll paste 5 examples of my writing — analyze them and create a SKILL.md that captures my voice, structure preferences, and writing patterns."
+    "prompt": "I want to build a personal writing voice skill. I'll paste 5 examples of my writing — analyze them and create a SKILL.md that captures my voice, structure preferences, and writing patterns.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "source-to-insight-pipeline",
@@ -87,7 +103,9 @@
     "action": "build",
     "skill_id": null,
     "why": "Any URL → transcript → key principles → personal application notes → filed in Obsidian. One command. This is the foundation for your daily learning loop — everything you consume gets processed and becomes navigable knowledge.",
-    "prompt": "Build me a source-to-insight pipeline: take any URL (YouTube, article, podcast transcript), extract key principles, generate personal application notes, and file to my Obsidian vault."
+    "prompt": "Build me a source-to-insight pipeline: take any URL (YouTube, article, podcast transcript), extract key principles, generate personal application notes, and file to my Obsidian vault.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "architecture-diagram",
@@ -97,7 +115,9 @@
     "action": "install",
     "skill_id": "architecture-diagram",
     "why": "Build clear visual diagrams of your Meesterwerk stack, KubeCraft workflows, Obsidian/Paperclip/Hermes systems, and client architectures. Dark-themed SVG — looks professional in any presentation.",
-    "prompt": "Load the architecture-diagram skill and create a diagram of the Meesterwerk processing system."
+    "prompt": "Load the architecture-diagram skill and create a diagram of the Meesterwerk processing system.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "excalidraw-skill",
@@ -107,7 +127,9 @@
     "action": "install",
     "skill_id": "excalidraw",
     "why": "For visual thinking and client-facing work. Excalidraw's hand-drawn aesthetic is approachable and great for frameworks, funnels, and concept maps. Generate from a description — no drawing required.",
-    "prompt": "Load the excalidraw skill and create a diagram of my weekly content workflow for KubeCraft."
+    "prompt": "Load the excalidraw skill and create a diagram of my weekly content workflow for KubeCraft.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "arxiv-monitor",
@@ -117,7 +139,9 @@
     "action": "build",
     "skill_id": "arxiv",
     "why": "Set up a daily cron that searches arXiv for new papers on learning science, education, AI, and knowledge management — summarized and delivered to Telegram every morning. Deep research on autopilot.",
-    "prompt": "Load the arxiv skill and set up a daily morning digest for papers on: learning science, education technology, knowledge management, and AI agents. Deliver to Telegram."
+    "prompt": "Load the arxiv skill and set up a daily morning digest for papers on: learning science, education technology, knowledge management, and AI agents. Deliver to Telegram.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "blogwatcher-skill",
@@ -127,7 +151,9 @@
     "action": "install",
     "skill_id": "blogwatcher",
     "why": "Weekly scan of blogs and RSS feeds from competitors, educators, and founders in your space. Delivered as a delta digest: what's new, what changed, what's worth reading. Research on autopilot.",
-    "prompt": "Load the blogwatcher skill and set up monitoring for 5-10 key blogs in the education/founder/productivity space. Weekly digest to Telegram."
+    "prompt": "Load the blogwatcher skill and set up monitoring for 5-10 key blogs in the education/founder/productivity space. Weekly digest to Telegram.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "frontend-design-skill",
@@ -137,7 +163,9 @@
     "action": "install",
     "skill_id": "frontend-design",
     "why": "Build distinctive, production-grade interfaces for Meesterwerk products, KubeCraft tools, and client dashboards from description. Goes beyond generic — generates with real design taste.",
-    "prompt": "Load the frontend-design skill and build a landing page for Meesterwerk."
+    "prompt": "Load the frontend-design skill and build a landing page for Meesterwerk.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "pre-mortem-ritual",
@@ -147,7 +175,9 @@
     "action": "build",
     "skill_id": null,
     "why": "Before any launch or big decision: structured analysis of the 10 most likely failure modes. Generates specific mitigation for each. Turns Stoic obstacle-thinking into a repeatable system.",
-    "prompt": "Build me a pre-mortem template as a skill: given any project or decision, generate 10 failure modes ranked by likelihood, with a mitigation for each. Save it as a reusable skill."
+    "prompt": "Build me a pre-mortem template as a skill: given any project or decision, generate 10 failure modes ranked by likelihood, with a mitigation for each. Save it as a reusable skill.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "personal-kpi-dashboard",
@@ -157,7 +187,9 @@
     "action": "build",
     "skill_id": null,
     "why": "A self-updating HTML dashboard tracking what actually matters: KubeCraft upload velocity, Meesterwerk pipeline throughput, learning streaks, and output metrics. Weekly cron keeps it current.",
-    "prompt": "Build me a personal KPI dashboard as an HTML file that tracks KubeCraft and Meesterwerk metrics. Pull from Airtable where possible, and update weekly via cron."
+    "prompt": "Build me a personal KPI dashboard as an HTML file that tracks KubeCraft and Meesterwerk metrics. Pull from Airtable where possible, and update weekly via cron.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "active-recall-system",
@@ -167,7 +199,9 @@
     "action": "build",
     "skill_id": null,
     "why": "Every week: Hermes searches your sessions for topics covered, generates 10 spaced repetition questions, and quizzes you. Real learning through active recall — not passive consumption. Directly fights your bottleneck.",
-    "prompt": "Build me a weekly active recall session: Hermes searches the past week's conversations, identifies concepts studied, generates quiz questions, and runs a quiz with me."
+    "prompt": "Build me a weekly active recall session: Hermes searches the past week's conversations, identifies concepts studied, generates quiz questions, and runs a quiz with me.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "xurl-skill",
@@ -177,7 +211,9 @@
     "action": "install",
     "skill_id": "xurl",
     "why": "Post to X from Hermes. Integrate into the KubeCraft content pipeline — short clips can auto-generate tweet threads. Also useful for thought leadership content from Meesterwerk.",
-    "prompt": "Load the xurl skill and help me post a thread about the Meesterwerk system to X."
+    "prompt": "Load the xurl skill and help me post a thread about the Meesterwerk system to X.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "google-workspace-skill",
@@ -187,7 +223,9 @@
     "action": "install",
     "skill_id": "google-workspace",
     "why": "Gmail, Calendar, Drive, Docs, Sheets via CLI. Useful for Meesterwerk client ops, KubeCraft reporting, and automating the operational overhead that steals focus time.",
-    "prompt": "Load the google-workspace skill and show me what automations are possible for my Gmail and Google Sheets setup."
+    "prompt": "Load the google-workspace skill and show me what automations are possible for my Gmail and Google Sheets setup.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "kanban-orchestrator-skill",
@@ -197,7 +235,9 @@
     "action": "explore",
     "skill_id": "kanban-orchestrator",
     "why": "When you're ready to run parallel workstreams: decompose a project into Kanban tasks, assign to specialist subagents, coordinate output. Multiplies execution speed for larger builds.",
-    "prompt": "Load the kanban-orchestrator skill and show me how to decompose a Meesterwerk project into a multi-agent workflow."
+    "prompt": "Load the kanban-orchestrator skill and show me how to decompose a Meesterwerk project into a multi-agent workflow.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "baoyu-comic",
@@ -207,7 +247,9 @@
     "action": "install",
     "skill_id": "baoyu-comic",
     "why": "Educational comics for Meesterwerk: biography, tutorial, concept explainers. High-signal, shareable format for social content and course materials. Unique content format most competitors don't use.",
-    "prompt": "Load the baoyu-comic skill and create an educational comic about the Feynman technique."
+    "prompt": "Load the baoyu-comic skill and create an educational comic about the Feynman technique.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "llm-wiki-skill",
@@ -217,7 +259,9 @@
     "action": "explore",
     "skill_id": "llm-wiki",
     "why": "Build a queryable personal knowledge base with interlinked markdown nodes. Different from Obsidian — this is for deep research frameworks. Good for Meesterwerk's educational content system.",
-    "prompt": "Load the llm-wiki skill and show me how to build a knowledge base for Meesterwerk's core educational frameworks."
+    "prompt": "Load the llm-wiki skill and show me how to build a knowledge base for Meesterwerk's core educational frameworks.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "dspy-skill",
@@ -227,7 +271,9 @@
     "action": "explore",
     "skill_id": "dspy",
     "why": "When building AI-powered Meesterwerk tools that need consistent, testable behavior — not just prompts. DSPy lets you declaratively define what the AI should do and auto-optimize it. Foundation-level capability for product builders.",
-    "prompt": "Load the dspy skill and show me how to build a reliable content-processing pipeline for Meesterwerk using DSPy."
+    "prompt": "Load the dspy skill and show me how to build a reliable content-processing pipeline for Meesterwerk using DSPy.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "spotify-skill",
@@ -237,7 +283,9 @@
     "action": "install",
     "skill_id": "spotify",
     "why": "Control Spotify from Hermes. Set up deep-work playlists triggered by mode: research, writing, building. Small quality-of-life upgrade that compounds over focused sessions.",
-    "prompt": "Load the spotify skill and set up context-aware playlists: deep work, writing, and creative mode."
+    "prompt": "Load the spotify skill and set up context-aware playlists: deep work, writing, and creative mode.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   },
   {
     "id": "chrome-extension-builder",
@@ -247,6 +295,8 @@
     "action": "build",
     "skill_id": null,
     "why": "You already have skool-scraper-v2 in your workspace. Hermes can extend it, debug it, or build new browser extensions for any manual workflow you want to automate.",
-    "prompt": "Help me extend my Skool scraper Chrome extension at ~/Claude/skool-scraper-v2/ to also capture member profiles and engagement metrics."
+    "prompt": "Help me extend my Skool scraper Chrome extension at ~/Claude/skool-scraper-v2/ to also capture member profiles and engagement metrics.",
+    "status": "todo",
+    "added_date": "2026-06-03"
   }
 ]
