@@ -358,5 +358,29 @@
     "prompt": "Build me a Storyworthy Moments system: 1) A Telegram command /story that appends a one-line entry + today's date to ~/Documents/Meesterwerk/Journals/Storyworthy Moments.md. 2) A nightly Hermes cron at 21:00 Amsterdam time that sends a Telegram reminder: 'One line for today's story?' — with a quick-reply that accepts the text and appends it.",
     "status": "todo",
     "added_date": "2026-06-03"
+  },
+  {
+    "id": "apify-skool-sync",
+    "title": "Apify Skool Auto-Sync",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "The KubeCraft Community Dashboard has 1,497 real members imported, but currently requires a manual terminal CSV drop to update data. Setting up Apify to automatically scrape Skool member lists daily would make the dashboard self-updating for the setter team — no manual steps needed. This unblocks the dashboard from being a production tool the team can rely on without Stefan's involvement.",
+    "prompt": "Help me set up Apify to automatically sync Skool member data to my KubeCraft Community Dashboard. The dashboard is at ~/Desktop/Clients/KubeCraft/community-dashboard/ and uses Supabase (hfhvyxevwkwihhltswee.supabase.co). I need: 1) An Apify actor configured for Skool login + member list export. 2) A daily cron that runs the actor and pushes the CSV to the dashboard's import API. 3) Separate sync for free Linux community and paid KubeCraft community.",
+    "status": "todo",
+    "added_date": "2026-06-04"
+  },
+  {
+    "id": "slack-integration",
+    "title": "Slack → Hermes Integration",
+    "category": "workflow",
+    "priority": "medium",
+    "action": "configure",
+    "skill_id": null,
+    "why": "During the KubeCraft content session, Stefan needed to read a Slack message from a team member (Sammy's LinkedIn draft feedback) and had to ask Hermes to open the browser instead of reading it directly. A Slack integration would let Hermes read team Slack channels directly — removing friction when client/team context lives in Slack.",
+    "prompt": "Help me connect my Slack workspace to Hermes so I can ask Hermes to read channels and messages directly. I want to be able to say 'read Sammy's message in #content' and get the content without opening the browser.",
+    "status": "todo",
+    "added_date": "2026-06-04"
   }
 ]

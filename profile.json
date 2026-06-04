@@ -7,7 +7,8 @@
     {"name": "Meesterwerk", "type": "Education / Founder", "status": "active"},
     {"name": "KubeCraft", "type": "YouTube / Social", "status": "active"},
     {"name": "Recall Studio", "type": "SaaS product (transcript → resource)", "status": "in-progress"},
-    {"name": "Community Dashboard", "type": "Client build (Skool CRM + sales pipeline)", "status": "in-progress"}
+    {"name": "Community Dashboard", "type": "Client build (KubeCraft CRM + sales pipeline)", "status": "in-progress"},
+    {"name": "Content Engine", "type": "Client service tool (transcript → carousel/posts, white-label)", "status": "in-progress"}
   ],
   "tools": [
     "Obsidian (~/Documents/Commonplacebook/)",
@@ -20,14 +21,18 @@
     "Vercel",
     "Netlify",
     "Supabase",
+    "Apify",
+    "Slack",
+    "Higgsfield",
     "NextLVL",
     "Readwise",
     "Skool",
     "HubSpot"
   ],
   "current_focus": [
+    "KubeCraft Community Dashboard — Phase 1 complete (1,497 members, all views), next: Apify sync + Vercel deploy",
+    "Content Engine — white-label transcript-to-carousel/post tool for KubeCraft and future clients",
     "Processing Studio V1 — turning consumed content into Stefan-voice notecards (core bottleneck)",
-    "Community Member Tracking Dashboard — client project (Skool CRM, pipeline, payments)",
     "Recall Studio — transcript-to-resource SaaS (local prototype → Next.js + Supabase)",
     "Soul–Brain bridge — Craft (Soul) and Obsidian (Brain) integration rituals",
     "Storyworthy Moments — daily one-line memory capture habit"
@@ -43,11 +48,14 @@
     "Processing consumed content into real understanding (not just summaries)",
     "Soul–Brain bridge: knowledge not touching life; vision not absorbing lessons",
     "Building vs living: infrastructure design as procrastination risk",
-    "Design throughput for Meesterwerk"
+    "Design throughput for Meesterwerk",
+    "Community Dashboard: Apify sync and Vercel deploy still needed before team can use it"
   ],
   "goals": [
+    "Deploy KubeCraft Community Dashboard to Vercel (team can't use localhost)",
+    "Build Apify daily sync so dashboard data stays current without manual drops",
+    "Ship Content Engine V1 — carousel + LinkedIn post generator from any transcript",
     "Build Processing Studio V1 — one YouTube video end-to-end through the wisdom loop",
-    "Ship Community Dashboard Phase 0 (Supabase schema) for client",
     "Upgrade Recall Studio from local Node.js to Next.js + Supabase SaaS",
     "Start Storyworthy Moments habit tonight — one line per day, forever",
     "Make Obsidian a living knowledge graph maintained by Hermes",
@@ -59,7 +67,17 @@
     "Processing Studio notecards must be in Stefan's own voice — 0 to 3 max per source",
     "Community dashboard: data ownership model — retire HubSpot for pipeline, own qualification tags natively",
     "Recall Studio: Visual DNA layer first, then artifacts — aesthetic is the product",
+    "Content Engine: build as reusable white-label tool, not per-client Make.com automation",
+    "Community Dashboard data: manual CSV drop preferred over live Skool API scraping (fragile)",
     "No new Domain Mentor until 10+ processed sources in that domain"
   ],
-  "updated": "2026-06-03"
+  "active_client_projects": [
+    {
+      "client": "Mischa van den Burg (KubeCraft)",
+      "project": "Community Member Tracking Dashboard",
+      "status": "Phase 1 complete — local, 1,497 members, next: Apify + Vercel",
+      "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
+    }
+  ],
+  "updated": "2026-06-04"
 }

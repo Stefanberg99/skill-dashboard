@@ -1,20 +1,67 @@
 {
-  "updated": "2026-06-03T18:30:00+02:00",
+  "updated": "2026-06-04T12:00:00+02:00",
   "sessions": [
+    {
+      "id": "20260604_083214_3f751ca8",
+      "date": "2026-06-04",
+      "title": "KubeCraft Content Engine Design",
+      "summary": "Stefan worked on designing a content repurposing system for KubeCraft client Mischa van den Burg. The system turns transcripts from YouTube shorts, highlight channel videos, and LinkedIn clips into platform-optimized carousel assets and posts — all flowing through Airtable review → Metricool. Stefan pivoted mid-session toward building a white-labelable tool instead of a per-client Make.com automation. Hermes generated the carousel prompt grounded in KubeCraft.md brand guidelines and two calibrated LinkedIn post scripts based on top-performing post data.",
+      "topics": ["content-automation", "kubecraft", "carousels", "make.com", "airtable", "metricool", "higgsfield", "linkedin", "white-label"],
+      "things_built": [
+        "Carousel generation prompt (KubeCraft voice, Higgsfield-ready)",
+        "Two LinkedIn post scripts (Linux + Kubernetes, top-performer calibrated)",
+        "Content system architecture: Transcript → Make.com → Airtable → Metricool"
+      ],
+      "decisions": [
+        "Build a reusable content engine, not a per-client Make.com automation",
+        "Tool operated by Stefan on behalf of clients (not client-facing SaaS yet)",
+        "Carousel is first asset type — works for both IG and LinkedIn",
+        "All content must be rooted in brand .md file before any prompt is written"
+      ],
+      "project": "kubecraft"
+    },
+    {
+      "id": "20260604_111030_0b0b3b",
+      "date": "2026-06-04",
+      "title": "Community Dashboard Data Sync",
+      "summary": "Continued building the KubeCraft Community Dashboard (continuation of the June 3 build session). Designed the data synchronization architecture: manual CSV drop approach instead of live Skool API scraping (fragile). Key features scoped and built: CSV upload UI, payments tracker, daily snapshot form, free/paid community toggle. Apify being explored for automated Skool member sync. Dashboard currently has 1,497 real members in Supabase.",
+      "topics": ["community-dashboard", "kubecraft", "supabase", "apify", "csv-import", "payments", "skool", "data-sync"],
+      "things_built": [
+        "CSV upload UI (drag-and-drop, no terminal required for team)",
+        "Payments import (Excel/CSV mapper for paid community export)",
+        "Free/Paid community tab architecture",
+        "Daily snapshot form (2-minute team fill-in for engagement trend)"
+      ],
+      "decisions": [
+        "Manual CSV drop preferred over live Skool API — fragile and not worth maintenance cost",
+        "Apify being evaluated for automated daily sync",
+        "Free vs Paid community must be clearly separated — free = setter pipeline, paid = payments",
+        "Engagement tracking via daily snapshot form (not Skool API — locked)",
+        "Real-time member growth chart from join_date in CSV data"
+      ],
+      "project": "general"
+    },
     {
       "id": "20260603_165734_751f25",
       "date": "2026-06-03",
-      "title": "Community Dashboard Architecture",
-      "summary": "Stefan brought a client project: a Community Member Tracking Dashboard (free + paid Skool communities). Hermes diagnosed the core issue as a data ownership problem, not a dashboard problem — five fragmented systems (HubSpot, Fiducia, Excel, Slack, Skool) with no single source of truth. Designed a 5-phase Supabase-backed architecture: retire HubSpot for pipeline, own data at point of capture, role-based setter access via the dashboard. An existing HTML prototype at ~/Desktop/community-dashboard.html was confirmed, built in a prior ~865-message Claude Code session with full KubeCraft styling.",
-      "topics": ["supabase", "community-crm", "data-architecture", "skool", "client-work", "hubspot", "pipeline"],
-      "things_built": ["Community dashboard architecture blueprint (5-phase plan)", "Identified ~/Desktop/community-dashboard.html as existing prototype"],
+      "title": "Community Dashboard Full Build",
+      "summary": "Full-stack KubeCraft Community Dashboard built from scratch in one 104-message session. Scaffolded Next.js 14 app with Supabase backend, built all UI views (Dashboard KPIs, Members table, 9-stage Pipeline Kanban, Follow-ups, Payments), ran SQL migration, imported 1,497 real members from Skool CSV, and created admin auth user. The dashboard is a single source of truth for member pipeline, community analytics, payment tracking, and member profiles for the KubeCraft setter team.",
+      "topics": ["community-dashboard", "nextjs", "supabase", "kubecraft", "skool", "pipeline", "payments", "csv-import", "kanban"],
+      "things_built": [
+        "~/Desktop/Clients/KubeCraft/community-dashboard/ — full Next.js 14 + Supabase app",
+        "supabase/migrations/001_init.sql — 249-line schema (users, members, pipeline, payments, daily_snapshots)",
+        "Dashboard view (KPI cards, pipeline funnel, follow-ups due)",
+        "Members view (searchable table + profile drawer with goals/obstacles)",
+        "Pipeline Kanban (9 stages, dnd-kit drag-to-move)",
+        "Follow-ups view + Payments view (admin-only)",
+        "CSV import API (1,497 members imported: 218 qualified, 1,278 pending)",
+        "Auth user stefan@kubecraft.nl with admin role"
+      ],
       "decisions": [
-        "Dashboard should own pipeline data outright — retire HubSpot for tracking",
-        "Qualification tags captured natively via webhook (not synced from Fiducia)",
-        "Phase 0 = Supabase schema first, no UI work until data spine exists",
-        "Member profiles from 196-row CSV are fastest win — build this first",
-        "Payments module needs access control decision before entering shared dashboard",
-        "Customer-facing AI requires founder sign-off (brand voice concern)"
+        "Dashboard owns pipeline data — replaces HubSpot for setter workflow",
+        "Qualification from Skool membership questions, not Fiducia sync",
+        "Free community only for setter outbound calls, paid members in payments module",
+        "Stack: Next.js 14 App Router + Supabase + Vercel (local dev until feature complete)"
       ],
       "project": "general"
     },
@@ -110,10 +157,17 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 6,
+    "total_sessions_tracked": 8,
     "things_built": [
-      "Community dashboard architecture blueprint (5-phase Supabase plan)",
-      "Community dashboard HTML prototype (~/Desktop/community-dashboard.html)",
+      "KubeCraft Community Dashboard — Next.js 14 + Supabase app (~/Desktop/Clients/KubeCraft/community-dashboard/)",
+      "Supabase schema (users, members, pipeline, payments, daily_snapshots)",
+      "Dashboard views: KPI cards, Members table, Pipeline Kanban, Follow-ups, Payments",
+      "CSV import pipeline — 1,497 real members imported to Supabase",
+      "CSV upload UI (drag-and-drop, no terminal required)",
+      "Payments tracker (Excel/CSV mapper for paid community)",
+      "Carousel generation prompt (KubeCraft voice, Higgsfield-ready)",
+      "LinkedIn post scripts for Mischa (calibrated to top-performer data)",
+      "Content system architecture: Transcript → Airtable → Metricool",
       "Recall Studio / Resource Studio app (~/Documents/New project/)",
       "Visual DNA prompt layer for artifact generation",
       "Online Knowledge OS Realization Plan (Obsidian doc)",
@@ -121,7 +175,7 @@
       "Commonplacebook Deep Synthesis and Build Blueprint (Obsidian doc)",
       "Source Processor Build Plan (Obsidian doc)"
     ],
-    "top_topics": ["commonplacebook", "knowledge-system", "processing-studio", "resource-studio"],
+    "top_topics": ["kubecraft", "community-dashboard", "supabase", "content-automation"],
     "recommendations_completed": 0
   }
 }
