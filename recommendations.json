@@ -54,8 +54,8 @@
     "priority": "high",
     "action": "build",
     "skill_id": null,
-    "why": "You already use Airtable + Metricool for KubeCraft shorts. This adds a one-command layer: short title/hook → platform-optimized captions for Instagram, TikTok, and X. Removes the copy-writing bottleneck from your upload workflow.",
-    "prompt": "Build me a content repurposing tool for KubeCraft: takes a short title and concept, generates captions for Instagram, TikTok, and X, and stores them in Airtable.",
+    "why": "You're designing a white-label content engine for KubeCraft and future clients: transcript → carousel slides + Higgsfield prompts + platform copy → Airtable review → Metricool. You already have the carousel prompt and LinkedIn scripts. The next step is building a reusable tool you can use for multiple clients — not a per-client Make.com automation. Directly unblocks Mischa's content pipeline and becomes a productized service.",
+    "prompt": "Build me a reusable content engine: takes any transcript (YouTube/LinkedIn/shorts), generates platform-optimized carousel slides + Higgsfield image prompts + post copy in the client's brand voice (.md brief), lands in Airtable for review, flows to Metricool. Start with the carousel output for KubeCraft client using KubeCraft.md at /Users/stefanberg/.hermes/cache/documents/doc_63e228ae1237_KubeCraft.MD.",
     "status": "todo",
     "added_date": "2026-06-03"
   },
@@ -306,8 +306,8 @@
     "priority": "high",
     "action": "build",
     "skill_id": null,
-    "why": "You have a client project (community member tracking dashboard) with a beautiful HTML prototype but zero real data. The next phase is Phase 0: design the Supabase schema (members, pipeline, payments, tags) so the dashboard has a real spine. This unblocks setter access, payment tracking, and Skool sync — all the things that make the dashboard actually useful to the client's team.",
-    "prompt": "I have a community member tracking dashboard at ~/Desktop/community-dashboard.html. I need to build Phase 0: the Supabase schema. Tables needed: members (from 196-row CSV), pipeline_status, payments, qualification_tags, and setter_notes. Design the full ER diagram and scaffold the schema, then help me wire the HTML dashboard to pull from Supabase instead of demo data.",
+    "why": "Phase 0 and Phase 1 are complete: Supabase schema live, 1,497 members imported, auth working, all 5 views built (Dashboard, Members, Pipeline Kanban, Follow-ups, Payments). Next phase is Apify automation for daily Skool sync, payments CSV importer, and Vercel deployment. The dashboard is real and usable but not yet deployed or fully data-synced.",
+    "prompt": "Continue building the KubeCraft Community Dashboard at ~/Desktop/Clients/KubeCraft/community-dashboard/. Current state: Next.js 14 + Supabase, 1,497 members imported, all 5 views working locally. Next tasks: 1) Build the Apify daily sync to keep Skool member data fresh. 2) Build the payments CSV importer for the paid community Excel export. 3) Deploy to Vercel.",
     "status": "todo",
     "added_date": "2026-06-03"
   },
