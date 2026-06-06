@@ -442,5 +442,17 @@
     "prompt": "Help me migrate my Google Drive documents into the right permanent homes. Soul documents (Vision, BELIEFS, Character Building, Life Design, GOALS, MASTER VISION, Contemplation docs) → Craft Soul layer. Knowledge documents (Master Doc/48 Laws, Chase Hughes notes, SAM OVENS Mindset, Asymmetric Psychological Leverage, Community Building, Personal Brand, Mastery) → Commonplacebook /03 Wiki/ under appropriate domains. Start with the Vision doc — pull the key content and structure it into my Craft Vision & Purpose section.",
     "status": "todo",
     "added_date": "2026-06-06"
+  },
+  {
+    "id": "ollama-local-ai",
+    "title": "Ollama Local AI Setup",
+    "category": "intelligence",
+    "priority": "medium",
+    "action": "install",
+    "skill_id": null,
+    "why": "On June 6 you explored running local AI models via Ollama. Local inference has real advantages for your setup: privacy for sensitive knowledge base queries (Commonplacebook content, personal Vision/BELIEFS docs), no API costs for high-frequency tasks like note processing, and offline capability. The tradeoff is frontier capability — local models (Llama 3, Mistral, Phi) lag behind Claude/GPT-4 on complex reasoning. Best use: fast local searches, draft generation, batch note summaries where quality bar is lower. Not a Hermes replacement — a complement for high-volume, lower-stakes tasks.",
+    "prompt": "Help me set up Ollama on my Mac and configure it for use alongside Hermes. I want to: 1) Install Ollama and pull a capable local model (recommend the best one for my use case: knowledge processing + writing assistance). 2) Test it with a sample Commonplacebook note to see if it's good enough for batch processing. 3) Design a hybrid setup where local Ollama handles high-frequency/low-stakes tasks and Hermes handles strategic/complex work.",
+    "status": "todo",
+    "added_date": "2026-06-06"
   }
 ]

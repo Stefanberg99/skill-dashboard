@@ -1,6 +1,26 @@
 {
-  "updated": "2026-06-06T00:00:00+02:00",
+  "updated": "2026-06-06T10:30:00+02:00",
   "sessions": [
+    {
+      "id": "20260606_102403_768bee",
+      "date": "2026-06-06",
+      "title": "Ollama Local vs Cloud AI Tradeoffs",
+      "summary": "Stefan explored the question of whether to install Ollama to run AI models locally. The conversation weighed tradeoffs between local inference (privacy, cost at scale, offline capability) and cloud models (frontier capability, no hardware overhead). Short session, 4 messages — exploratory rather than decisive.",
+      "topics": ["local-ai", "ollama", "infrastructure", "ai-tools", "self-hosting"],
+      "things_built": [],
+      "decisions": ["Exploring Ollama for local model inference — tradeoffs being evaluated"],
+      "project": "hermes"
+    },
+    {
+      "id": "20260606_102315_99b0beb9",
+      "date": "2026-06-06",
+      "title": "WhatsApp Morning Check-In",
+      "summary": "Brief WhatsApp session (11 messages) — casual morning exchange. No significant decisions or artifacts produced.",
+      "topics": ["general"],
+      "things_built": [],
+      "decisions": [],
+      "project": "general"
+    },
     {
       "id": "20260605_154451_6c8ba7",
       "date": "2026-06-05",
@@ -192,7 +212,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 9,
+    "total_sessions_tracked": 11,
     "things_built": [
       "Complete 5-layer personal OS architecture (Soul/Brain/Capture/Action/Projects) with full tool declarations",
       "Domain-to-tool routing map (40+ domains mapped to exact tool/location)",
