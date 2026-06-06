@@ -8,11 +8,14 @@
     {"name": "KubeCraft", "type": "YouTube / Social", "status": "active"},
     {"name": "Recall Studio", "type": "SaaS product (transcript → resource)", "status": "in-progress"},
     {"name": "Community Dashboard", "type": "Client build (KubeCraft CRM + sales pipeline)", "status": "in-progress"},
-    {"name": "Content Engine", "type": "Client service tool (transcript → carousel/posts, white-label)", "status": "in-progress"}
+    {"name": "Content Engine", "type": "Client service tool (transcript → carousel/posts, white-label)", "status": "in-progress"},
+    {"name": "Personal OS Migration", "type": "Infrastructure build (5-layer OS: Soul/Brain/Capture/Action/Projects)", "status": "in-progress"}
   ],
   "tools": [
-    "Obsidian (~/Documents/Commonplacebook/)",
-    "Craft (Soul layer: vision, journaling, contemplation)",
+    "Obsidian (~/Documents/Commonplacebook/) — Brain layer",
+    "Craft — Soul layer (Vision, Identity, Journaling, Contemplation, Domains, Language)",
+    "Apple Notes — Capture only (Inbox, triaged weekly)",
+    "Day One — Daily journal (feeds Craft quarterly)",
     "Airtable",
     "Metricool",
     "Hermes",
@@ -24,44 +27,82 @@
     "Apify",
     "Slack",
     "Higgsfield",
-    "NextLVL",
+    "NextLVL — habit tracking",
+    "Todoist — single task manager",
+    "CharacterOS — character development execution",
+    "Tribe — CRM",
     "Readwise",
     "Skool",
-    "HubSpot"
+    "HubSpot",
+    "Google Drive — reference + heavy thinking docs (being migrated)"
   ],
   "current_focus": [
+    "Personal OS Migration — Build 1: Commonplacebook wiki structure (all domains, stub pages)",
+    "Personal OS Migration — Build 2: Mentor raw notes → proper wiki pages (9 mentors)",
+    "Personal OS Migration — Build 3: Craft skeleton + heavy Drive docs migrated in",
+    "Personal OS Migration — Build 4: Library consolidation (prompts, templates, resources → Toolbox)",
+    "Personal OS Migration — Build 5: Apple Notes triage ritual + capture routing setup",
     "KubeCraft Community Dashboard — Phase 1 complete (1,497 members, all views), next: Apify sync + Vercel deploy",
     "Content Engine — white-label transcript-to-carousel/post tool for KubeCraft and future clients",
     "Processing Studio V1 — turning consumed content into Stefan-voice notecards (core bottleneck)",
     "Recall Studio — transcript-to-resource SaaS (local prototype → Next.js + Supabase)",
-    "Soul–Brain bridge — Craft (Soul) and Obsidian (Brain) integration rituals",
-    "Storyworthy Moments — daily one-line memory capture habit"
+    "Soul–Brain bridge — Craft (Soul) and Obsidian (Brain) integration rituals"
   ],
   "system_architecture": {
-    "soul": "Craft — vision, domains, character, journaling, contemplation, personal reflection",
-    "brain": "Obsidian — sources, notecards, wiki, MOCs, output library, toolbox",
+    "soul": "Craft — Vision, Identity, Character/SBA, Domains of Life, Journaling (deep), Contemplation, Dreams, Language + Writing, Goal setting",
+    "brain": "Obsidian Commonplacebook — Sources (00 Inbox → 01 Sources → 02 Notecards → 03 Wiki → 04 Templates → 05 Toolbox → 06 Outputs)",
+    "capture": "Apple Notes — Inbox only, triaged weekly, nothing stays permanently",
+    "daily_journal": "Day One — daily log, feeds Craft quarterly",
+    "action": "Todoist (tasks) + NextLVL (habits) + Calendar (time blocking) + CharacterOS (identity execution)",
+    "projects": "Desktop 7-folder OS (Active Builds, Clients, Inner Work, Knowledge System, Meesterwerk, Personal OS, Relationships)",
+    "crm": "Tribe",
+    "reference": "Google Drive (being processed into Craft + Commonplacebook)",
+    "agents": "Hermes — orchestration, automation, cron jobs, session memory",
     "knowledge_vault": "~/Documents/Commonplacebook/",
-    "loop": "Vision → Capture → Process → Output → Reflect → Vision",
+    "loop": "Vision → Capture → Process → Output → Act → Reflect → Vision",
     "bottleneck": "Processing (raw input → own words → connected ideas → action)"
+  },
+  "key_finding_june5": {
+    "diagnosis": "Routing problem, not a knowledge problem",
+    "detail": "Stefan has 2,500+ pieces of content across 5 separate systems (Google Drive, Apple Notes, Mac filesystem, Obsidian vaults, Downloads) with zero integration between them. The raw material — Vision (419KB), BELIEFS (148KB), Chase Hughes notes (198KB), Master Doc (212KB) — exists and is high quality. The gap is routing it to the right place so it becomes usable.",
+    "content_inventory": {
+      "google_drive": "500+ items — heaviest thinking docs (Vision, BELIEFS, Master Doc, Chase Hughes, Character Building)",
+      "apple_notes": "438 notes — 374 unprocessed raw captures",
+      "mac_filesystem": "1,300+ files — vaults, code, tools",
+      "obsidian_vaults": "~900 notes across Stefan Second Brain + Hormozi vault + Commonplacebook",
+      "downloads": "100+ files including paradigm_v0.3.md, vision docs"
+    }
   },
   "bottlenecks": [
     "Processing consumed content into real understanding (not just summaries)",
+    "5 disconnected systems with no routing between them — the core infrastructure problem",
     "Soul–Brain bridge: knowledge not touching life; vision not absorbing lessons",
+    "374 unprocessed Apple Notes — raw captures that never became knowledge",
+    "Heavy thinking docs buried in Google Drive — not connected to daily operating system",
     "Building vs living: infrastructure design as procrastination risk",
     "Design throughput for Meesterwerk",
     "Community Dashboard: Apify sync and Vercel deploy still needed before team can use it"
   ],
   "goals": [
+    "Build Commonplacebook wiki structure — all domain folders + stub pages (Build 1)",
+    "Migrate mentor raw notes to proper wiki pages — 9 mentors (Build 2)",
+    "Build Craft Soul skeleton + migrate heavy Drive docs in (Build 3)",
+    "Triage 374 unprocessed Apple Notes into routing system (Build 4/5)",
     "Deploy KubeCraft Community Dashboard to Vercel (team can't use localhost)",
     "Build Apify daily sync so dashboard data stays current without manual drops",
     "Ship Content Engine V1 — carousel + LinkedIn post generator from any transcript",
     "Build Processing Studio V1 — one YouTube video end-to-end through the wisdom loop",
     "Upgrade Recall Studio from local Node.js to Next.js + Supabase SaaS",
-    "Start Storyworthy Moments habit tonight — one line per day, forever",
     "Make Obsidian a living knowledge graph maintained by Hermes",
     "Automate the KubeCraft content pipeline end-to-end"
   ],
   "key_decisions_made": [
+    "Routing problem framing: Stefan has all the raw material — the gap is routing it correctly",
+    "5-layer OS: Soul (Craft) / Brain (Commonplacebook) / Capture (Apple Notes) / Action (Todoist+NextLVL) / Projects (Desktop OS)",
+    "One tool per job — declared winners, retired duplicates: Drive PARA and Notes PARA both retired",
+    "Apple Notes = Capture inbox only — triaged weekly, nothing permanent",
+    "Day One = daily log (fast); Craft = deep quarterly reflection (slow)",
+    "Todoist = single task manager (no parallel systems)",
     "Soul (Craft) / Brain (Obsidian) split is correct — but needs explicit bridge mechanisms",
     "Source routing gate: DELETE / ARCHIVE / EXTRACT / DEEP PROCESS before anything enters vault",
     "Processing Studio notecards must be in Stefan's own voice — 0 to 3 max per source",
@@ -79,5 +120,5 @@
       "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
     }
   ],
-  "updated": "2026-06-04"
+  "updated": "2026-06-06"
 }

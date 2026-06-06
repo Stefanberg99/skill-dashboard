@@ -1,6 +1,41 @@
 {
-  "updated": "2026-06-05T13:23:00+02:00",
+  "updated": "2026-06-06T00:00:00+02:00",
   "sessions": [
+    {
+      "id": "20260605_154451_6c8ba7",
+      "date": "2026-06-05",
+      "title": "Full System Scan & Personal OS Architecture",
+      "summary": "Stefan asked Hermes to scan his entire computer — all drive folders, Obsidian vaults, and files — uncovering 2,500+ pieces of content across 5 separate systems (Google Drive, Apple Notes, Mac filesystem, Obsidian, Downloads) with zero integration between them. The core diagnosis: Stefan has a routing problem, not a knowledge problem — all the raw material exists but nothing talks to anything else. Hermes designed a complete 5-layer architecture (Soul/Craft, Brain/Commonplacebook, Capture/Apple Notes, Action/Todoist+NextLVL, Projects/Desktop OS) with tool declarations, migration plan, and 5 prioritized builds to execute.",
+      "topics": ["personal-os", "system-architecture", "commonplacebook", "craft", "obsidian", "knowledge-system", "migration", "google-drive", "apple-notes", "braindump", "tool-decisions"],
+      "things_built": [
+        "Complete 5-layer personal OS architecture (Soul/Brain/Capture/Action/Projects)",
+        "Master tool decision map: one tool per job, no overlap",
+        "Full Commonplacebook folder structure (00 Inbox → 01 Sources → 02 Notecards → 03 Wiki → 04 Templates → 05 Toolbox → 06 Outputs)",
+        "Craft Soul layer structure (Vision, Character, Domains, Journaling, Contemplation, Language)",
+        "Domain-to-tool routing map (all 40+ domains → exact tool/location)",
+        "Complete inventory: 500+ Drive items, 438 Apple Notes, 1,300+ Mac files, ~900 Obsidian notes",
+        "Migration plan: Google Drive heaviest docs → Craft Soul layer + Commonplacebook Wiki",
+        "5-build execution roadmap in priority order"
+      ],
+      "decisions": [
+        "Routing problem framing: Stefan has all the raw material — the gap is routing it to the right place",
+        "Craft = Soul layer (Vision, Identity, Journaling, Contemplation, Domains, Language)",
+        "Commonplacebook (Obsidian) = Brain (Sources, Notecards, Wiki, Toolbox, Outputs)",
+        "Apple Notes = Capture only — Inbox, triaged weekly, nothing stays permanently",
+        "Day One = daily journal (feeds Craft quarterly)",
+        "Todoist = single task manager (no more parallel systems)",
+        "NextLVL = habit tracking",
+        "CharacterOS = character development execution",
+        "Tribe = CRM",
+        "Drive PARA system and Notes PARA retired — Desktop 7-folder OS is canonical",
+        "Build 1: Commonplacebook wiki structure (everything else depends on this)",
+        "Build 2: Migrate mentor raw notes → proper wiki pages per mentor",
+        "Build 3: Craft skeleton — Vision, Character, Domains, Journaling, Language pages",
+        "Build 4: Consolidate libraries — prompts, templates, resources into Toolbox",
+        "Build 5: Set up capture routing and weekly processing ritual"
+      ],
+      "project": "obsidian"
+    },
     {
       "id": "20260604_083214_3f751ca8",
       "date": "2026-06-04",
@@ -157,8 +192,14 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 8,
+    "total_sessions_tracked": 9,
     "things_built": [
+      "Complete 5-layer personal OS architecture (Soul/Brain/Capture/Action/Projects) with full tool declarations",
+      "Domain-to-tool routing map (40+ domains mapped to exact tool/location)",
+      "Commonplacebook folder structure design (00 Inbox → 06 Outputs with all Wiki domains)",
+      "Craft Soul layer structure (Vision, Character, Domains, Journaling, Contemplation, Language)",
+      "Full inventory: 500+ Drive items, 438 Apple Notes, 1,300+ Mac files, ~900 Obsidian notes",
+      "Migration plan: heavy Drive docs → Craft/Commonplacebook",
       "KubeCraft Community Dashboard — Next.js 14 + Supabase app (~/Desktop/Clients/KubeCraft/community-dashboard/)",
       "Supabase schema (users, members, pipeline, payments, daily_snapshots)",
       "Dashboard views: KPI cards, Members table, Pipeline Kanban, Follow-ups, Payments",
@@ -175,7 +216,7 @@
       "Commonplacebook Deep Synthesis and Build Blueprint (Obsidian doc)",
       "Source Processor Build Plan (Obsidian doc)"
     ],
-    "top_topics": ["kubecraft", "community-dashboard", "supabase", "content-automation"],
+    "top_topics": ["obsidian", "kubecraft", "commonplacebook", "personal-os"],
     "recommendations_completed": 0
   }
 }
