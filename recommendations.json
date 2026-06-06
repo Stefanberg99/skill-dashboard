@@ -382,5 +382,65 @@
     "prompt": "Help me connect my Slack workspace to Hermes so I can ask Hermes to read channels and messages directly. I want to be able to say 'read Sammy's message in #content' and get the content without opening the browser.",
     "status": "todo",
     "added_date": "2026-06-04"
+  },
+  {
+    "id": "commonplacebook-wiki-structure",
+    "title": "Build Commonplacebook Wiki Structure",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "You designed the complete Commonplacebook folder structure in your June 5 system scan session (00 Inbox → 01 Sources → 02 Notecards → 03 Wiki → 04 Templates → 05 Toolbox → 06 Outputs with all sub-domains). This is Build 1 in your prioritized plan and everything else depends on it — without the structure, migration has nowhere to land. Takes 30 minutes of Hermes execution time.",
+    "prompt": "Build the complete Commonplacebook folder structure in my Obsidian vault at ~/Documents/Commonplacebook/. Create all folders and stub wiki pages for every domain: 03 Wiki/{AI & Agents, Audience Building, Business & Offers, Character & Identity, Community Building, Copywriting, Decision Making, Health & Body, Leadership, Marketing & Content, Mental Models, Mentors/{Alex Hormozi, Charlie Morgan, Chase Hughes, Dan Koe, David Senra, Leo Gura, Naval Ravikant, Robert Greene, Sam Ovens}, Personal Development, Productivity, Psychology & Behavior, Relationships, Sales, Writing & Storytelling/{Quotes, Maxims, Vocabulary, Hooks, Frameworks}}. Also create 05 Toolbox/{Mental Models, Decision Frameworks, Prompts, Resources, Links, Exercises} and 06 Outputs/{Guides, Frameworks, Infographics, SOPs}.",
+    "status": "todo",
+    "added_date": "2026-06-06"
+  },
+  {
+    "id": "mentor-pages-migration",
+    "title": "Migrate Mentor Raw Notes → Wiki Pages",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "You have massive raw mentor content scattered across Stefan Second Brain (Mentors RAW/ folder) and Google Drive (Master Doc = 212KB Robert Greene, Chase Hughes notes = 198KB, SAM OVENS = 79KB). This is Build 2 in your system plan — distilling each mentor into a proper /03 Wiki/Mentors/ page. 9 mentors, each with key principles + frameworks + where you've seen this play out. This is your most valuable raw material sitting unprocessed.",
+    "prompt": "Help me migrate my raw mentor notes into proper Commonplacebook wiki pages. Start with Robert Greene: pull from ~/Documents/Stefan Second Brain/Mentors RAW/ and Google Drive Master Doc (212KB, 48 Laws synthesis), distill into a proper /03 Wiki/Mentors/Robert Greene.md page with: Key principles (your voice), Core frameworks, Memorable quotes, Where you've seen this play out. Then move to Chase Hughes, Sam Ovens, Alex Hormozi, Naval, Leo Gura, Charlie Morgan, David Senra, Dan Koe.",
+    "status": "todo",
+    "added_date": "2026-06-06"
+  },
+  {
+    "id": "craft-soul-skeleton",
+    "title": "Build Craft Soul Layer Structure",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "Your Vision (419KB), BELIEFS (148KB), Character Building, and Life Design docs are all in Google Drive — unconnected to your daily operating system. Build 3 in your system plan: create the Craft skeleton (Vision, Character, Domains, Journaling, Contemplation, Language sections) and migrate the heavy Drive docs into it. Your North Star goes from buried in Drive to the top of your Soul layer.",
+    "prompt": "Help me build the Craft Soul layer structure and migrate my key identity documents into it. Create the structure: 01 Vision & Purpose (Life Purpose, Master Vision, Anti-Vision, Manifesto), 02 Character & Identity (Who I Am Becoming, Current Character, Values & Standards, Beliefs, My Story), 03 Domains of Life (template + Health, Mind, Business, Money, Relationships, Creativity, Lifestyle), 04 Journaling & Reflection (Weekly Review Template, Decision Journal, Dream Journal), 05 Contemplation, 06 Language & Writing (Quotes I Live By, Maxims, Drafts, Storytelling). Then help me process my Vision (419KB) and BELIEFS (148KB) Google Drive docs into the appropriate sections.",
+    "status": "todo",
+    "added_date": "2026-06-06"
+  },
+  {
+    "id": "apple-notes-triage-ritual",
+    "title": "Apple Notes → Commonplacebook Triage",
+    "category": "workflow",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "You have 438 Apple Notes — 374 unprocessed — with raw captures across Leo Gura content, language maxims, ideas, and quick thoughts. The system scan session confirmed: Apple Notes = Capture only, triaged weekly. Without the weekly ritual, captures rot in Notes forever. Build the triage system so nothing valuable gets lost and nothing useless accumulates.",
+    "prompt": "Help me build a weekly Apple Notes triage ritual. I have 438 notes — 374 unprocessed — in Apple Notes. The routing rules are: Language/maxims/vocabulary → Commonplacebook/03 Wiki/Writing & Storytelling/. Leo Gura content → Commonplacebook/03 Wiki/Mentors/Leo Gura.md. Ideas worth keeping → Commonplacebook/00 Inbox/ for full processing. Dead captures → delete. Help me triage the backlog now and set up a recurring Todoist task + Hermes reminder for every Sunday morning.",
+    "status": "todo",
+    "added_date": "2026-06-06"
+  },
+  {
+    "id": "drive-to-craft-migration",
+    "title": "Google Drive Docs → Craft + Commonplacebook",
+    "category": "workflow",
+    "priority": "medium",
+    "action": "build",
+    "skill_id": null,
+    "why": "Your heaviest thinking docs (Vision 419KB, BELIEFS 148KB, Chase Hughes 198KB, Master Doc 212KB, Character Building 145KB) live in Google Drive and don't talk to anything else. The migration plan from your June 5 session: Drive Soul docs → Craft, Drive knowledge docs → Commonplacebook Wiki. This migration is the single biggest leverage point for making your existing knowledge usable rather than buried.",
+    "prompt": "Help me migrate my Google Drive documents into the right permanent homes. Soul documents (Vision, BELIEFS, Character Building, Life Design, GOALS, MASTER VISION, Contemplation docs) → Craft Soul layer. Knowledge documents (Master Doc/48 Laws, Chase Hughes notes, SAM OVENS Mindset, Asymmetric Psychological Leverage, Community Building, Personal Brand, Mastery) → Commonplacebook /03 Wiki/ under appropriate domains. Start with the Vision doc — pull the key content and structure it into my Craft Vision & Purpose section.",
+    "status": "todo",
+    "added_date": "2026-06-06"
   }
 ]
