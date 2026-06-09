@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-09T10:00:09.341125Z",
-  "hash": "ff8be9d3eb620cc7c5013b8f8a16ef6e",
+  "synced_at": "2026-06-09T10:02:11.575294Z",
+  "hash": "68c8c14c29f3db02ca2a2e22c847dbe1",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -289,6 +289,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Video"
+    },
+    {
+      "name": "memoryos",
+      "what": "Behavioral guidelines to reduce common LLM coding mistakes",
+      "when": "writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+      "raw_desc": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+      "folder": "memoryos",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-09T10:02:11.575294Z",
+      "category": "Memory"
     },
     {
       "name": "mission-control-long-term-goal",
