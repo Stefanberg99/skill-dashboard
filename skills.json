@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-09T13:42:21.232884Z",
-  "hash": "af170c156b459629919d90e3b2cde952",
+  "synced_at": "2026-06-09T14:12:28.725532Z",
+  "hash": "0676744874d7ed6f3f598aeb8f7a1947",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -387,6 +387,18 @@
       "category": "Research"
     },
     {
+      "name": "recall",
+      "what": "Semantic search across all stored memories and reference knowledge in Pinecone (Bucket 01 \u2014 Memory and Bucket 02 \u2014 Knowledge)",
+      "when": "user asks \"what did we decide about X\", \"what did we say about Y last month\", \"what does [expert] say about Z\", \"search my notes for X\", \"do we have anything on\", \"find that thing about\", or any retrieval question about past content. Returns top 3-5 hits with date and source citations, then synthesizes a 2-line answer. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var. Configured indexes live in ~/.claude/memory-config.json. Do NOT use this skill for current state queries (e.g. \"what's my strategy on X right now\") \u2014 that's the strategy-awareness skill's job.",
+      "raw_desc": "Semantic search across all stored memories and reference knowledge in Pinecone (Bucket 01 \u2014 Memory and Bucket 02 \u2014 Knowledge). Trigger when user asks \"what did we decide about X\", \"what did we say about Y last month\", \"what does [expert] say about Z\", \"search my notes for X\", \"do we have anything on\", \"find that thing about\", or any retrieval question about past content. Returns top 3-5 hits with date and source citations, then synthesizes a 2-line answer. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var. Configured indexes live in ~/.claude/memory-config.json. Do NOT use this skill for current state queries (e.g. \"what's my strategy on X right now\") \u2014 that's the strategy-awareness skill's job.",
+      "folder": "memory-recall",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-09T14:12:28.725532Z",
+      "category": "Memory"
+    },
+    {
       "name": "ruflo",
       "what": "Decides when and how to use Ruflo \u2014 the multi-agent orchestration layer for Claude Code. Trigger this skill proactively whenever Stefan is about to tackle a large, complex, or multi-component development task, especially for Tribe, KubeCraft, or Meesterwerk. Use it when a task feels too big for a single linear conversation, involves parallel workstreams, touches 3+ files or domains, or spans code + docs + testing simultaneously. Don't wait for Stefan to explicitly ask for Ruflo \u2014 suggest it when the task qualifies",
       "when": "Stefan asks \"should I use Ruflo?\", \"is this a Ruflo task?\", or \"how do I start this in ruflo-workspace?\".",
@@ -409,6 +421,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "strategy-awareness",
+      "what": "A strategic governance skill \u2014 not a memory feature. Maintains a living strategy document at ~/.claude/strategy.md (or user-chosen path). Auto-fires when the conversation surfaces strategic substance \u2014 customer signals, market signals, decisions, focus shifts, wins, hypotheses, new offers, or learnings. Captures the moment to the right named section, dates it, and reflects conflicts against the user's existing Decisions and Don't-Do list. On first run, runs a 6-question setup flow to bootstrap the file. Manual triggers include \"run strategy setup\", \"show my strategy\", \"show me my strategy overview\", \"visualize my strategy\", \"edit my strategy\", \"what's my strategy on X\", and \"update my strategy\". When the user says \"show my strategy\" or \"strategy overview\" or asks to visually edit, generate the interactive visualization HTML and open it in the browser (see VISUALIZE mode below). Do NOT use this skill for personal preferences (oat milk, name, voice tone) \u2014 those belong in Claude's general memory or ~/.claude/CLAUDE.md. Use this only for strategic state that governs decisions.",
+      "when": "",
+      "raw_desc": "A strategic governance skill \u2014 not a memory feature. Maintains a living strategy document at ~/.claude/strategy.md (or user-chosen path). Auto-fires when the conversation surfaces strategic substance \u2014 customer signals, market signals, decisions, focus shifts, wins, hypotheses, new offers, or learnings. Captures the moment to the right named section, dates it, and reflects conflicts against the user's existing Decisions and Don't-Do list. On first run, runs a 6-question setup flow to bootstrap the file. Manual triggers include \"run strategy setup\", \"show my strategy\", \"show me my strategy overview\", \"visualize my strategy\", \"edit my strategy\", \"what's my strategy on X\", and \"update my strategy\". When the user says \"show my strategy\" or \"strategy overview\" or asks to visually edit, generate the interactive visualization HTML and open it in the browser (see VISUALIZE mode below). Do NOT use this skill for personal preferences (oat milk, name, voice tone) \u2014 those belong in Claude's general memory or ~/.claude/CLAUDE.md. Use this only for strategic state that governs decisions.",
+      "folder": "memory-strategy",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-09T14:12:28.725532Z",
+      "category": "Memory"
     },
     {
       "name": "subagent-driven-development",
@@ -589,6 +613,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Coding"
+    },
+    {
+      "name": "wrap-up",
+      "what": "Captures session summaries to Pinecone (Bucket 01 \u2014 Memory). At the end of a Claude session, generates a structured summary of what was discussed, what was decided, what was built, and saves it both as a dated markdown log and as an embedded vector in the user's personal Pinecone index",
+      "when": "user says \"wrap up\", \"save this session\", \"summarize and save\", \"end session\", \"log this\", or at natural session-end moments after substantial work is done. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var if using the bundled Python script. Do NOT trigger for trivial sessions or quick one-question chats \u2014 only when there's strategic substance worth recalling later.",
+      "raw_desc": "Captures session summaries to Pinecone (Bucket 01 \u2014 Memory). At the end of a Claude session, generates a structured summary of what was discussed, what was decided, what was built, and saves it both as a dated markdown log and as an embedded vector in the user's personal Pinecone index. Trigger when user says \"wrap up\", \"save this session\", \"summarize and save\", \"end session\", \"log this\", or at natural session-end moments after substantial work is done. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var if using the bundled Python script. Do NOT trigger for trivial sessions or quick one-question chats \u2014 only when there's strategic substance worth recalling later.",
+      "folder": "memory-wrap-up",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-09T14:12:28.725532Z",
+      "category": "Memory"
     },
     {
       "name": "writing-plans",
