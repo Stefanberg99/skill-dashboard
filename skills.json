@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-09T07:49:44.206198Z",
-  "hash": "aec1ffda7d3ef9f2008911b3053d09ba",
+  "synced_at": "2026-06-09T10:00:09.341125Z",
+  "hash": "ff8be9d3eb620cc7c5013b8f8a16ef6e",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -241,6 +241,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-09T07:49:44.206198Z",
       "category": "Video"
+    },
+    {
+      "name": "karpathy-guidelines",
+      "what": "Behavioral guidelines to reduce common LLM coding mistakes",
+      "when": "writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+      "raw_desc": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+      "folder": "karpathy-guidelines",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-09T10:00:09.341125Z",
+      "category": "AI & Agents"
     },
     {
       "name": "lead-research-assistant",
