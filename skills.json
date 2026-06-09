@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-09T14:12:28.725532Z",
-  "hash": "0676744874d7ed6f3f598aeb8f7a1947",
+  "synced_at": "2026-06-09T14:44:36.941917Z",
+  "hash": "8f075e3298d183a5bdb0960ed778aa6d",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -85,6 +85,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "content-repurpose",
+      "what": "Master content orchestration system for creator brands. Transforms long-form videos and high-performing social posts into branded, multi-format content packages with brand DNA baked into every output \u2014 so content looks intentional and on-brand, not scrappy and generic. Invoke this skill whenever the user wants to: - Repurpose a YouTube video or LinkedIn post into any other format - Generate content for Skool community, YouTube Shorts, LinkedIn carousels, or lead magnets - Create thumbnails, short briefs, community posts, carousel structures, or landing pages - Set up a content system for a creator (brand profile, performance catalog, review queue) - Process their content catalog or Airtable Content Garden - Improve brand consistency across channels - Work on the highlights channel, content garden, or community content Also trigger on phrases like: \"repurpose this\", \"turn this into a carousel\", \"generate a community post\", \"content system\", \"brand consistency\", \"highlights channel\", \"Skool post\", \"YouTube short brief\", \"content garden\", \"spray and pray\" (to fix it).",
+      "when": "",
+      "raw_desc": "Master content orchestration system for creator brands. Transforms long-form videos and high-performing social posts into branded, multi-format content packages with brand DNA baked into every output \u2014 so content looks intentional and on-brand, not scrappy and generic. Invoke this skill whenever the user wants to: - Repurpose a YouTube video or LinkedIn post into any other format - Generate content for Skool community, YouTube Shorts, LinkedIn carousels, or lead magnets - Create thumbnails, short briefs, community posts, carousel structures, or landing pages - Set up a content system for a creator (brand profile, performance catalog, review queue) - Process their content catalog or Airtable Content Garden - Improve brand consistency across channels - Work on the highlights channel, content garden, or community content Also trigger on phrases like: \"repurpose this\", \"turn this into a carousel\", \"generate a community post\", \"content system\", \"brand consistency\", \"highlights channel\", \"Skool post\", \"YouTube short brief\", \"content garden\", \"spray and pray\" (to fix it).",
+      "folder": "content-repurpose",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-09T14:44:36.941917Z",
+      "category": "Video"
     },
     {
       "name": "content-research-writer",
