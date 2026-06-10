@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-10T13:40:27.067126Z",
-  "hash": "29b46acdbd95408a9237cc46e070f8a0",
+  "synced_at": "2026-06-10T16:12:58.381337Z",
+  "hash": "28cac7f47749628928980d7a4bb1bde2",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -193,6 +193,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Writing"
+    },
+    {
+      "name": "excalidraw-visuals",
+      "what": "Before using this skill, make sure you have: 1. A kie.ai API key (sign up at https://kie.ai) added to ~/.claude/skills/excalidraw-visuals/.env as KIE_AI_API_KEY 2. Node.js installed 3. The generation script at ~/.claude/skills/excalidraw-visuals/scripts/excalidraw-visuals/generate-visual.js 4. The style reference\u2026",
+      "when": "someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or says \"excalidraw image\" or \"excalidraw visual\". This generates PNG images, not editable files.",
+      "raw_desc": "Use when someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or says \"excalidraw image\" or \"excalidraw visual\". This generates PNG images, not editable files.",
+      "folder": "excalidraw-visuals",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T16:12:58.381337Z",
+      "category": "Design"
     },
     {
       "name": "executing-plans",
