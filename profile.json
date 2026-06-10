@@ -9,6 +9,7 @@
     {"name": "Recall Studio", "type": "SaaS product (transcript → resource)", "status": "in-progress"},
     {"name": "Community Dashboard", "type": "Client build (KubeCraft CRM + sales pipeline)", "status": "in-progress"},
     {"name": "Content Engine", "type": "Client service tool (transcript → carousel/posts, white-label)", "status": "in-progress"},
+    {"name": "Content Images", "type": "KubeCraft LinkedIn post image system (HTML → screenshot, notebook aesthetic)", "status": "in-progress"},
     {"name": "Personal OS Migration", "type": "Infrastructure build (5-layer OS: Soul/Brain/Capture/Action/Projects)", "status": "in-progress"}
   ],
   "tools": [
@@ -44,6 +45,7 @@
     "Personal OS Migration — Build 5: Apple Notes triage ritual + capture routing setup",
     "KubeCraft Community Dashboard — Phase 1 complete (1,497 members, all views), next: Apify sync + Vercel deploy",
     "Content Engine — white-label transcript-to-carousel/post tool for KubeCraft and future clients",
+    "Content Images — HTML-based 1080×1080 LinkedIn post images in Matt Gray's notebook aesthetic",
     "Processing Studio V1 — turning consumed content into Stefan-voice notecards (core bottleneck)",
     "Recall Studio — transcript-to-resource SaaS (local prototype → Next.js + Supabase)",
     "Soul–Brain bridge — Craft (Soul) and Obsidian (Brain) integration rituals"
@@ -120,5 +122,5 @@
       "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
     }
   ],
-  "updated": "2026-06-07"
+  "updated": "2026-06-10"
 }

@@ -1,6 +1,22 @@
 {
-  "updated": "2026-06-08T10:05:00+02:00",
+  "updated": "2026-06-10T19:23:00+02:00",
   "sessions": [
+    {
+      "id": "20260610_152712_f8326e",
+      "date": "2026-06-10",
+      "title": "KubeCraft Content Image Builder",
+      "summary": "Stefan built 1080×1080 HTML-based LinkedIn post images for KubeCraft client Mischa van den Burg, targeting a hand-drawn notebook aesthetic inspired by Matt Gray. Iterated through multiple versions of post1 (DevOps job titles evolution) using Caveat font, cream paper texture, spiral binding, and amber accents. Settled on a single-column row layout that fills the full canvas — screenshot-ready for LinkedIn.",
+      "topics": ["kubecraft", "content-images", "html", "linkedin", "visual-design", "matt-gray", "social-media"],
+      "things_built": [
+        "post1-devops-titles.html — 1080×1080 notebook-aesthetic LinkedIn post image at ~/Desktop/Clients/KubeCraft/content-images/"
+      ],
+      "decisions": [
+        "Hand-drawn notebook aesthetic over polished digital — matches Matt Gray's engagement-driving style",
+        "HTML → browser screenshot workflow for content images (no design tool required)",
+        "Single-column row layout fills canvas better than 2×2 grid for this content type"
+      ],
+      "project": "kubecraft"
+    },
     {
       "id": "20260608_091932_656ff83c",
       "date": "2026-06-08",
@@ -104,7 +120,7 @@
         "Engagement tracking via daily snapshot form (not Skool API — locked)",
         "Real-time member growth chart from join_date in CSV data"
       ],
-      "project": "general"
+      "project": "kubecraft"
     },
     {
       "id": "20260603_165734_751f25",
@@ -128,7 +144,7 @@
         "Free community only for setter outbound calls, paid members in payments module",
         "Stack: Next.js 14 App Router + Supabase + Vercel (local dev until feature complete)"
       ],
-      "project": "general"
+      "project": "kubecraft"
     },
     {
       "id": "20260603_103722_6b6c9e",
@@ -222,7 +238,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 12,
+    "total_sessions_tracked": 13,
     "things_built": [
       "Complete 5-layer personal OS architecture (Soul/Brain/Capture/Action/Projects) with full tool declarations",
       "Domain-to-tool routing map (40+ domains mapped to exact tool/location)",
@@ -239,6 +255,7 @@
       "Carousel generation prompt (KubeCraft voice, Higgsfield-ready)",
       "LinkedIn post scripts for Mischa (calibrated to top-performer data)",
       "Content system architecture: Transcript → Airtable → Metricool",
+      "post1-devops-titles.html — 1080×1080 notebook-aesthetic LinkedIn post image (Matt Gray style)",
       "Recall Studio / Resource Studio app (~/Documents/New project/)",
       "Visual DNA prompt layer for artifact generation",
       "Online Knowledge OS Realization Plan (Obsidian doc)",
@@ -246,7 +263,7 @@
       "Commonplacebook Deep Synthesis and Build Blueprint (Obsidian doc)",
       "Source Processor Build Plan (Obsidian doc)"
     ],
-    "top_topics": ["obsidian", "kubecraft", "commonplacebook", "personal-os"],
+    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "personal-os"],
     "recommendations_completed": 0
   }
 }
