@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-10T17:23:19.728473Z",
-  "hash": "351e657ede2652a1c130be9c4e01aaf5",
+  "synced_at": "2026-06-10T17:29:22.718912Z",
+  "hash": "7d9024f61d487440f218438b7e6ee816",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -195,6 +195,18 @@
       "category": "Writing"
     },
     {
+      "name": "excalidraw-diagram",
+      "what": "Before generating anything, make sure you know: - What concept or system are they diagramming? - What are the major components or sections? - What is the flow or relationship between them?",
+      "when": "someone asks to draw a diagram, make an Excalidraw diagram, or build an editable diagram. Default for all diagram requests.",
+      "raw_desc": "Use when someone asks to draw a diagram, make an Excalidraw diagram, or build an editable diagram. Default for all diagram requests.",
+      "folder": "excalidraw-diagram",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T17:29:22.718912Z",
+      "category": "Coding"
+    },
+    {
       "name": "excalidraw-visuals",
       "what": "Before using this skill, make sure you have: 1. A kie.ai API key (sign up at https://kie.ai) added to ~/.claude/skills/excalidraw-visuals/.env as KIE_AI_API_KEY 2. Node.js installed (18+) 3. The generation script at ~/.claude/skills/excalidraw-visuals/scripts/excalidraw-visuals/generate-visual.js 4. The style\u2026",
       "when": "someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or visualization, or says \"excalidraw image\", \"excalidraw visual\", \"make a visual\", or \"draw a visual\". This generates PNG images, not editable files.",
@@ -264,6 +276,18 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
+    },
+    {
+      "name": "grill-me",
+      "what": "Interview the user relentlessly about a plan, design, or topic, checkpointing every answer to a brainstorm file so nothing is lost",
+      "when": "the user wants to stress-test a plan, get grilled on a design, run a brainstorm or discovery session, extract what's in their head into a doc, or says \"grill me\".",
+      "raw_desc": "Interview the user relentlessly about a plan, design, or topic, checkpointing every answer to a brainstorm file so nothing is lost. Use when the user wants to stress-test a plan, get grilled on a design, run a brainstorm or discovery session, extract what's in their head into a doc, or says \"grill me\".",
+      "folder": "grill-me",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T17:29:22.718912Z",
       "category": "AI & Agents"
     },
     {
@@ -505,6 +529,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "site-blueprint",
+      "what": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by scraping the top performers with Firecrawl, then ship a single-screen ACTION CARD (not a long-scroll analysis doc) so the reader can ship 5 changes this week without scrolling for evidence",
+      "when": "the user says \"site blueprint for [niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\"). Pulls 5 winners + 2 underperformers via Firecrawl + Google Maps + Yelp + BBB where appropriate, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
+      "raw_desc": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by scraping the top performers with Firecrawl, then ship a single-screen ACTION CARD (not a long-scroll analysis doc) so the reader can ship 5 changes this week without scrolling for evidence. Trigger when the user says \"site blueprint for [niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\"). Pulls 5 winners + 2 underperformers via Firecrawl + Google Maps + Yelp + BBB where appropriate, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
+      "folder": "outlier-research-engine",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T17:29:22.718912Z",
+      "category": "Research"
     },
     {
       "name": "site-blueprint",
