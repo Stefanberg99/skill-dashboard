@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-10T16:54:10.153714Z",
-  "hash": "51da15af7e6127d2b7d424abdb1908ec",
+  "synced_at": "2026-06-10T17:23:19.728473Z",
+  "hash": "351e657ede2652a1c130be9c4e01aaf5",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -469,6 +469,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "process-source",
+      "what": "Turn a source (YouTube link, transcript, PDF, or Stefan's notes) into a full Commonplacebook entry. Fetches and archives the source, extracts the knowledge, writes a source note plus topic-page updates in Stefan's voice, and renders a cinematic vibe-matched HTML guide in the source's voice",
+      "when": "Stefan shares a video/transcript/source to \"process\", \"run through the system\", \"turn into a guide\", or add to the vault. Invoke as /process-source.",
+      "raw_desc": "Turn a source (YouTube link, transcript, PDF, or Stefan's notes) into a full Commonplacebook entry. Fetches and archives the source, extracts the knowledge, writes a source note plus topic-page updates in Stefan's voice, and renders a cinematic vibe-matched HTML guide in the source's voice. Trigger when Stefan shares a video/transcript/source to \"process\", \"run through the system\", \"turn into a guide\", or add to the vault. Invoke as /process-source.",
+      "folder": "process-source",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T17:23:19.728473Z",
+      "category": "Video"
     },
     {
       "name": "recall",
