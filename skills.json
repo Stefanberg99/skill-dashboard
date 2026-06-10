@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-10T16:19:01.411489Z",
-  "hash": "8b7077706f9820d014ccdac4052d9834",
+  "synced_at": "2026-06-10T16:54:10.153714Z",
+  "hash": "51da15af7e6127d2b7d424abdb1908ec",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -196,9 +196,9 @@
     },
     {
       "name": "excalidraw-visuals",
-      "what": "Before using this skill, make sure you have: 1. A kie.ai API key (sign up at https://kie.ai) added to ~/.claude/skills/excalidraw-visuals/.env as KIE_AI_API_KEY 2. Node.js installed 3. The generation script at ~/.claude/skills/excalidraw-visuals/scripts/excalidraw-visuals/generate-visual.js 4. The style reference\u2026",
-      "when": "someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or says \"excalidraw image\" or \"excalidraw visual\". This generates PNG images, not editable files.",
-      "raw_desc": "Use when someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or says \"excalidraw image\" or \"excalidraw visual\". This generates PNG images, not editable files.",
+      "what": "Before using this skill, make sure you have: 1. A kie.ai API key (sign up at https://kie.ai) added to ~/.claude/skills/excalidraw-visuals/.env as KIE_AI_API_KEY 2. Node.js installed (18+) 3. The generation script at ~/.claude/skills/excalidraw-visuals/scripts/excalidraw-visuals/generate-visual.js 4. The style\u2026",
+      "when": "someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or visualization, or says \"excalidraw image\", \"excalidraw visual\", \"make a visual\", or \"draw a visual\". This generates PNG images, not editable files.",
+      "raw_desc": "Use when someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or visualization, or says \"excalidraw image\", \"excalidraw visual\", \"make a visual\", or \"draw a visual\". This generates PNG images, not editable files.",
       "folder": "excalidraw-visuals",
       "source": "personal",
       "source_label": "Your Skills",
@@ -505,6 +505,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "skill-builder",
+      "what": "Guides the creation and optimization of Claude Code skills using official best practices. Use this whenever:",
+      "when": "creating new skills, optimizing existing skills, or auditing skill quality. Guides skill development following Claude Code official best practices.",
+      "raw_desc": "Use when creating new skills, optimizing existing skills, or auditing skill quality. Guides skill development following Claude Code official best practices.",
+      "folder": "skill-builder",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T16:54:10.153714Z",
+      "category": "Coding"
     },
     {
       "name": "strategy-awareness",
