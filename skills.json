@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-10T17:29:22.718912Z",
-  "hash": "7d9024f61d487440f218438b7e6ee816",
+  "synced_at": "2026-06-10T17:31:24.898450Z",
+  "hash": "b5c7ea8ffeb9400a7b744fd0d60d4e20",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -447,6 +447,18 @@
       "category": "Other"
     },
     {
+      "name": "outlier-research-engine",
+      "what": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by scraping the top performers with Firecrawl, then ship a single-screen ACTION CARD (not a long-scroll analysis doc) so the reader can ship 5 changes this week without scrolling for evidence",
+      "when": "the user says \"site blueprint for [niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\"). Pulls 5 winners + 2 underperformers via Firecrawl + Google Maps + Yelp + BBB where appropriate, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
+      "raw_desc": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by scraping the top performers with Firecrawl, then ship a single-screen ACTION CARD (not a long-scroll analysis doc) so the reader can ship 5 changes this week without scrolling for evidence. Trigger when the user says \"site blueprint for [niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\"). Pulls 5 winners + 2 underperformers via Firecrawl + Google Maps + Yelp + BBB where appropriate, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
+      "folder": "site-blueprint",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Research"
+    },
+    {
       "name": "pinecone-ask",
       "what": "Query the Pinecone vector database to find semantically relevant content from Stefan's Obsidian vault and conversation history",
       "when": "Stefan says 'pinecone-ask', 'ask Pinecone', 'search my vector database', 'what does Pinecone know about...', 'find related notes on...', or when a question would benefit from semantic search across all stored knowledge.",
@@ -529,30 +541,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "AI & Agents"
-    },
-    {
-      "name": "site-blueprint",
-      "what": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by scraping the top performers with Firecrawl, then ship a single-screen ACTION CARD (not a long-scroll analysis doc) so the reader can ship 5 changes this week without scrolling for evidence",
-      "when": "the user says \"site blueprint for [niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\"). Pulls 5 winners + 2 underperformers via Firecrawl + Google Maps + Yelp + BBB where appropriate, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
-      "raw_desc": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by scraping the top performers with Firecrawl, then ship a single-screen ACTION CARD (not a long-scroll analysis doc) so the reader can ship 5 changes this week without scrolling for evidence. Trigger when the user says \"site blueprint for [niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\"). Pulls 5 winners + 2 underperformers via Firecrawl + Google Maps + Yelp + BBB where appropriate, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
-      "folder": "outlier-research-engine",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-10T17:29:22.718912Z",
-      "category": "Research"
-    },
-    {
-      "name": "site-blueprint",
-      "what": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by actually scraping the top performers in that niche with Firecrawl. The output is data-driven and niche-specific \u2014 never a generic template",
-      "when": "the user says \"site blueprint for [specific niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\") where geography is half the answer. Pulls 10\u201315 actual contenders for THAT exact niche via Firecrawl + Google Maps + Yelp + BBB where appropriate, scrapes the winners, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
-      "raw_desc": "Reverse-engineer the winning homepage structure of a SPECIFIC niche by actually scraping the top performers in that niche with Firecrawl. The output is data-driven and niche-specific \u2014 never a generic template. Trigger when the user says \"site blueprint for [specific niche]\", \"what does a winning [niche] site look like\", \"reverse-engineer the top [niche] sites\", \"research the best [trade] in [city]\", \"what should my [trade/business] homepage have\", \"analyze the top [niche] landing pages\", or any variant asking for the optimal section order / wireframe of a specific industry's website. Especially fires on LOCAL SERVICE briefs (\"roofers in Texas\", \"plumbers in Phoenix\", \"wedding photographers in Brooklyn\") where geography is half the answer. Pulls 10\u201315 actual contenders for THAT exact niche via Firecrawl + Google Maps + Yelp + BBB where appropriate, scrapes the winners, derives the structure FROM the data, and ships a niche-specific blueprint HTML on the Desktop. Do NOT trigger for: single-site critiques, copywriting-only requests, or brand-identity work.",
-      "folder": "site-blueprint",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Research"
     },
     {
       "name": "skill-builder",
