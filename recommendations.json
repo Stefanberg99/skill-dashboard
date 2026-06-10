@@ -444,6 +444,18 @@
     "added_date": "2026-06-06"
   },
   {
+    "id": "content-image-template-library",
+    "title": "KubeCraft Content Image Template Library",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "Stefan built post1-devops-titles.html on June 10 — a 1080×1080 HTML post image in Matt Gray's hand-drawn notebook style. The HTML → browser screenshot workflow works well and requires no design tool. Building a template library (5 layout types: list, comparison, quote callout, stat callout, framework) would make KubeCraft content images fast and systematic. One-time build, infinite reuse across clients.",
+    "prompt": "Build me a KubeCraft content image template library at ~/Desktop/Clients/KubeCraft/content-images/templates/. Base style: hand-drawn notebook aesthetic (Caveat font, cream #f5f0e8 paper background, spiral binding, amber #c85a0a accent). I need 5 reusable 1080×1080 HTML templates: 1) list.html (numbered rows like post1), 2) comparison.html (A vs B or before/after), 3) quote.html (large pull quote + attribution), 4) stat.html (big number + context + takeaway), 5) framework.html (3-step or 4-box process). Each should be customizable by editing only the content section, not the CSS.",
+    "status": "todo",
+    "added_date": "2026-06-10"
+  },
+  {
     "id": "ollama-local-ai",
     "title": "Ollama Local AI Setup",
     "category": "intelligence",
