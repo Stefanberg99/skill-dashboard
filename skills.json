@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-10T16:12:58.381337Z",
-  "hash": "28cac7f47749628928980d7a4bb1bde2",
+  "synced_at": "2026-06-10T16:19:01.411489Z",
+  "hash": "8b7077706f9820d014ccdac4052d9834",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -363,6 +363,18 @@
       "category": "AI & Agents"
     },
     {
+      "name": "Nano Banana 2 Image Generation Master",
+      "what": "A formalized skill for generating hyper-realistic, highly-controlled images using the Nano Banana 2 (Gemini 3.1 Flash) model through parameterized JSON prompting",
+      "when": "the user asks to generate a detailed, realistic, or complex image via Nano Banana 2 / Kie.ai.",
+      "raw_desc": "A formalized skill for generating hyper-realistic, highly-controlled images using the Nano Banana 2 (Gemini 3.1 Flash) model through parameterized JSON prompting. Trigger when the user asks to generate a detailed, realistic, or complex image via Nano Banana 2 / Kie.ai.",
+      "folder": "nano-banana-2",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T16:19:01.411489Z",
+      "category": "Design"
+    },
+    {
       "name": "notebooklm",
       "what": "Complete API for Google NotebookLM - full programmatic access including features not in the web UI. Create notebooks, add sources, generate all artifact types, download in multiple formats. Activates on explicit /notebooklm or intent like \"create a podcast about X\", \"install notebooklm\", \"add notebooklm to cowork\"",
       "when": "",
@@ -649,6 +661,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Other"
+    },
+    {
+      "name": "video-to-website",
+      "what": "Turn a video into a premium scroll-driven animated website with GSAP, canvas frame rendering, and layered animation choreography.",
+      "when": "",
+      "raw_desc": "Turn a video into a premium scroll-driven animated website with GSAP, canvas frame rendering, and layered animation choreography.",
+      "folder": "video-to-website",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T16:19:01.411489Z",
+      "category": "Video"
     },
     {
       "name": "web-artifacts-builder",
