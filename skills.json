@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-10T12:37:13.427258Z",
-  "hash": "ebe8b8bfea128eaf78669a739f647781",
+  "synced_at": "2026-06-10T13:40:27.067126Z",
+  "hash": "29b46acdbd95408a9237cc46e070f8a0",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -25,6 +25,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Video"
+    },
+    {
+      "name": "audit",
+      "what": "Runs the Four Cs Audit on the current Claude Code project. Reads (never writes) the project's operating manual, memory, skills, agents, MCPs, decisions, and references. Scores each of the Four Cs out of 25. Surfaces strengths and the top 3 leverage-weighted gaps with concrete next-step commands.",
+      "when": "someone asks for an AIOS audit, asks to score their setup against the Four Cs, or says \"is my AIOS working\" / \"audit my setup\" / \"find gaps in my AIOS\". Produces a Four-Cs scoreboard with top-3 fixes ranked by leverage.",
+      "raw_desc": "Use when someone asks for an AIOS audit, asks to score their setup against the Four Cs, or says \"is my AIOS working\" / \"audit my setup\" / \"find gaps in my AIOS\". Produces a Four-Cs scoreboard with top-3 fixes ranked by leverage.",
+      "folder": "audit",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T13:40:27.067126Z",
+      "category": "Memory"
     },
     {
       "name": "brainstorming",
@@ -267,6 +279,18 @@
       "category": "Research"
     },
     {
+      "name": "level-up",
+      "what": "Use weekly to find and ship one new automation. Walks the 3Ms interview \u2014 Mindset (find the candidate) \u2192 Method (scope one) \u2192 Machine (build it). Trigger on \"let's level up\", \"what should I automate next\", \"find me leverage this week\", or as a Friday ritual. One run = one shipped artifact.",
+      "when": "",
+      "raw_desc": "Use weekly to find and ship one new automation. Walks the 3Ms interview \u2014 Mindset (find the candidate) \u2192 Method (scope one) \u2192 Machine (build it). Trigger on \"let's level up\", \"what should I automate next\", \"find me leverage this week\", or as a Friday ritual. One run = one shipped artifact.",
+      "folder": "level-up",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T13:40:27.067126Z",
+      "category": "Coding"
+    },
+    {
       "name": "mcp-builder",
       "what": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools",
       "when": "building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
@@ -361,6 +385,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Memory"
+    },
+    {
+      "name": "onboard",
+      "what": "Use on Day 1 of an AIS-OS install, when someone says \"set me up\", \"onboard me\", \"let's get started\", \"fill in my AIOS\", or has just cloned the kit. Combined wizard \u2014 runs the 7-question intake AND scaffolds the Day-1 file set at the end. Idempotent \u2014 re-run any time after editing aios-intake.md.",
+      "when": "",
+      "raw_desc": "Use on Day 1 of an AIS-OS install, when someone says \"set me up\", \"onboard me\", \"let's get started\", \"fill in my AIOS\", or has just cloned the kit. Combined wizard \u2014 runs the 7-question intake AND scaffolds the Day-1 file set at the end. Idempotent \u2014 re-run any time after editing aios-intake.md.",
+      "folder": "onboard",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-10T13:40:27.067126Z",
+      "category": "Other"
     },
     {
       "name": "pinecone-ask",
