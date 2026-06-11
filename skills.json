@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-11T12:04:35.806869Z",
-  "hash": "cce8deec7976144a4712eeac3562fa4b",
+  "synced_at": "2026-06-11T15:41:53.012979Z",
+  "hash": "a83a9b1ba171e4f71c0f88e2b61a7540",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -543,6 +543,18 @@
       "category": "Memory"
     },
     {
+      "name": "reflect",
+      "what": "Evening ritual (5 min). Fills the evening section of today's daily note - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to the Language library",
+      "when": "Stefan says /reflect, \"close my day\", or \"evening reflection\".",
+      "raw_desc": "Evening ritual (5 min). Fills the evening section of today's daily note - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to the Language library. Trigger when Stefan says /reflect, \"close my day\", or \"evening reflection\".",
+      "folder": "reflect",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-11T15:41:53.012979Z",
+      "category": "Other"
+    },
+    {
       "name": "ruflo",
       "what": "Decides when and how to use Ruflo \u2014 the multi-agent orchestration layer for Claude Code. Trigger this skill proactively whenever Stefan is about to tackle a large, complex, or multi-component development task, especially for Tribe, KubeCraft, or Meesterwerk. Use it when a task feels too big for a single linear conversation, involves parallel workstreams, touches 3+ files or domains, or spans code + docs + testing simultaneously. Don't wait for Stefan to explicitly ask for Ruflo \u2014 suggest it when the task qualifies",
       "when": "Stefan asks \"should I use Ruflo?\", \"is this a Ruflo task?\", or \"how do I start this in ruflo-workspace?\".",
@@ -649,6 +661,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Other"
+    },
+    {
+      "name": "today",
+      "what": "Morning ritual (2 min). Creates today's daily note in the Commonplacebook from the current week's objectives, sets 3 actions + an intention, and pushes the actions to Todoist",
+      "when": "Stefan says /today, \"start my day\", or \"what's the plan today\".",
+      "raw_desc": "Morning ritual (2 min). Creates today's daily note in the Commonplacebook from the current week's objectives, sets 3 actions + an intention, and pushes the actions to Todoist. Trigger when Stefan says /today, \"start my day\", or \"what's the plan today\".",
+      "folder": "today",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-11T15:41:53.012979Z",
+      "category": "Memory"
     },
     {
       "name": "token-map",
