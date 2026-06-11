@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-11T15:41:53.012979Z",
-  "hash": "a83a9b1ba171e4f71c0f88e2b61a7540",
+  "synced_at": "2026-06-11T15:42:56.963163Z",
+  "hash": "58d4280c6a45baed57e6e253ce47d5b8",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -135,6 +135,18 @@
       "category": "Research"
     },
     {
+      "name": "decide",
+      "what": "Decision ritual. Walks a significant decision through options, mental models, values check, and a confidence-rated prediction, then logs it in the Decision Journal for later outcome review",
+      "when": "Stefan says /decide, \"help me decide\", or faces a real fork.",
+      "raw_desc": "Decision ritual. Walks a significant decision through options, mental models, values check, and a confidence-rated prediction, then logs it in the Decision Journal for later outcome review. Trigger when Stefan says /decide, \"help me decide\", or faces a real fork.",
+      "folder": "decide",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-11T15:42:56.963163Z",
+      "category": "Memory"
+    },
+    {
       "name": "deploy-to-vercel",
       "what": "Deploy applications and websites to Vercel",
       "when": "the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
@@ -241,6 +253,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Writing"
+    },
+    {
+      "name": "experiment",
+      "what": "Skill-building ritual. Turns a theory, exercise, or skill goal into a concrete experiment with a drill, success criteria, and a log, then tracks reps and verdicts",
+      "when": "Stefan says /experiment, \"I want to practice X\", \"turn this into a drill\", or wants to test something from a source.",
+      "raw_desc": "Skill-building ritual. Turns a theory, exercise, or skill goal into a concrete experiment with a drill, success criteria, and a log, then tracks reps and verdicts. Trigger when Stefan says /experiment, \"I want to practice X\", \"turn this into a drill\", or wants to test something from a source.",
+      "folder": "experiment",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-11T15:42:56.963163Z",
+      "category": "Coding"
     },
     {
       "name": "figma-extract",
@@ -816,6 +840,18 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
+    },
+    {
+      "name": "weekly",
+      "what": "Weekly review ritual (20 min). Reads the week's daily notes, scores objectives, surfaces patterns honestly, updates domain pages, and sets next week's objectives from the quarter missions",
+      "when": "Stefan says /weekly, \"weekly review\", or \"close the week\".",
+      "raw_desc": "Weekly review ritual (20 min). Reads the week's daily notes, scores objectives, surfaces patterns honestly, updates domain pages, and sets next week's objectives from the quarter missions. Trigger when Stefan says /weekly, \"weekly review\", or \"close the week\".",
+      "folder": "weekly",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-11T15:42:56.963163Z",
       "category": "Coding"
     },
     {
