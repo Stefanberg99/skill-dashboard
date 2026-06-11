@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-10T19:31:22.045810Z",
-  "hash": "b64dc9999129cca090adeec797838dee",
+  "synced_at": "2026-06-11T12:04:35.806869Z",
+  "hash": "cce8deec7976144a4712eeac3562fa4b",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -577,6 +577,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T16:54:10.153714Z",
       "category": "Coding"
+    },
+    {
+      "name": "sop-builder",
+      "what": "Turn source material (Loom or video transcripts, rough notes, an existing doc, a brain dump) into a polished, chronological SOP that a real human can follow start to finish. Every run produces three things in ~/Outputs/SOPs/<slug>/:",
+      "when": "someone wants to build an SOP, turn a transcript or Loom video or rough notes into an SOP, document a process or workflow, create a standard operating procedure, or \"make this into an SOP / training doc / playbook\". Produces a chronological SOP with one diagram per part, a self-contained HTML, and a native editable Google Doc.",
+      "raw_desc": "Use when someone wants to build an SOP, turn a transcript or Loom video or rough notes into an SOP, document a process or workflow, create a standard operating procedure, or \"make this into an SOP / training doc / playbook\". Produces a chronological SOP with one diagram per part, a self-contained HTML, and a native editable Google Doc.",
+      "folder": "sop-builder",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-11T12:04:35.806869Z",
+      "category": "Video"
     },
     {
       "name": "strategy-awareness",
