@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-11T15:42:56.963163Z",
-  "hash": "58d4280c6a45baed57e6e253ce47d5b8",
+  "synced_at": "2026-06-12T10:29:37.887042Z",
+  "hash": "89e8707c0e7d7b9226ad6587f70a82c0",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -373,6 +373,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T13:40:27.067126Z",
       "category": "Coding"
+    },
+    {
+      "name": "linkedin-post",
+      "what": "Generate high-performing LinkedIn posts for Mischa van den Burg's feed (KubeCraft client work) using the proven franchise + hook system from 810 analyzed posts, plus the matching Higgsfield image. Trigger on /linkedin-post, \"write a LinkedIn post for Mischa/KubeCraft\", \"deal me a post\", \"generate this week's LinkedIn posts\", or when Stefan pastes a brief from The Content Engine dashboard.",
+      "when": "",
+      "raw_desc": "Generate high-performing LinkedIn posts for Mischa van den Burg's feed (KubeCraft client work) using the proven franchise + hook system from 810 analyzed posts, plus the matching Higgsfield image. Trigger on /linkedin-post, \"write a LinkedIn post for Mischa/KubeCraft\", \"deal me a post\", \"generate this week's LinkedIn posts\", or when Stefan pastes a brief from The Content Engine dashboard.",
+      "folder": "linkedin-post",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-12T10:29:37.887042Z",
+      "category": "Design"
     },
     {
       "name": "mcp-builder",
