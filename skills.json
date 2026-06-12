@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-12T10:29:37.887042Z",
-  "hash": "89e8707c0e7d7b9226ad6587f70a82c0",
+  "synced_at": "2026-06-12T13:21:20.596014Z",
+  "hash": "db920dd87592ebf4aa4ad32b6fd7a274",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -361,6 +361,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "learn",
+      "what": "Turn any topic or domain into a researched, cited, on-brand single-page HTML learning resource with inline-SVG infographics",
+      "when": "Stefan says \"/learn\", \"make me a learning resource on X\", \"teach me X\", \"I want to learn the domain of X\", \"build me a course/primer/guide on X\" \u2014 i.e. he names a TOPIC (not a source he's pasting). Researches the topic first (does not need a source), structures it pedagogically, designs it in Stefan's studio brand, embeds 3\u20135 inline-SVG diagrams + one AI hero image, registers it in the Output gallery, and captures the verified knowledge into the vault. For turning a source Stefan PROVIDES (transcript/PDF/URL) into an artifact, use the `artifact` or `process-source` skill instead.",
+      "raw_desc": "Turn any topic or domain into a researched, cited, on-brand single-page HTML learning resource with inline-SVG infographics. Trigger when Stefan says \"/learn\", \"make me a learning resource on X\", \"teach me X\", \"I want to learn the domain of X\", \"build me a course/primer/guide on X\" \u2014 i.e. he names a TOPIC (not a source he's pasting). Researches the topic first (does not need a source), structures it pedagogically, designs it in Stefan's studio brand, embeds 3\u20135 inline-SVG diagrams + one AI hero image, registers it in the Output gallery, and captures the verified knowledge into the vault. For turning a source Stefan PROVIDES (transcript/PDF/URL) into an artifact, use the `artifact` or `process-source` skill instead.",
+      "folder": "learn",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-12T13:21:20.596014Z",
+      "category": "Video"
     },
     {
       "name": "level-up",
