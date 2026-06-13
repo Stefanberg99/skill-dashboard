@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-12T13:21:20.596014Z",
-  "hash": "db920dd87592ebf4aa4ad32b6fd7a274",
+  "synced_at": "2026-06-13T07:54:05.282924Z",
+  "hash": "b4488b935fcf7148151d8c4ef74c0c9b",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -351,6 +351,18 @@
       "category": "AI & Agents"
     },
     {
+      "name": "kubecraft-linkedin",
+      "what": "Generate KubeCraft LinkedIn posts across two accounts \u2014 Mischa van den Burg's personal profile AND the KubeCraft company page \u2014 using the proven hook + franchise system, then generate the matching Higgsfield image and file everything into Airtable. Trigger on /kubecraft-linkedin, \"write today's KubeCraft posts\", \"generate this week's LinkedIn schedule\", \"post for Mischa\", \"post for the KubeCraft page\", \"give me the daily pair\", or when Stefan pastes a brief from the content engine.",
+      "when": "",
+      "raw_desc": "Generate KubeCraft LinkedIn posts across two accounts \u2014 Mischa van den Burg's personal profile AND the KubeCraft company page \u2014 using the proven hook + franchise system, then generate the matching Higgsfield image and file everything into Airtable. Trigger on /kubecraft-linkedin, \"write today's KubeCraft posts\", \"generate this week's LinkedIn schedule\", \"post for Mischa\", \"post for the KubeCraft page\", \"give me the daily pair\", or when Stefan pastes a brief from the content engine.",
+      "folder": "kubecraft-linkedin",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-13T07:54:05.282924Z",
+      "category": "Design"
+    },
+    {
       "name": "lead-research-assistant",
       "what": "Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.",
       "when": "",
@@ -364,9 +376,9 @@
     },
     {
       "name": "learn",
-      "what": "Turn any topic or domain into a researched, cited, on-brand single-page HTML learning resource with inline-SVG infographics",
-      "when": "Stefan says \"/learn\", \"make me a learning resource on X\", \"teach me X\", \"I want to learn the domain of X\", \"build me a course/primer/guide on X\" \u2014 i.e. he names a TOPIC (not a source he's pasting). Researches the topic first (does not need a source), structures it pedagogically, designs it in Stefan's studio brand, embeds 3\u20135 inline-SVG diagrams + one AI hero image, registers it in the Output gallery, and captures the verified knowledge into the vault. For turning a source Stefan PROVIDES (transcript/PDF/URL) into an artifact, use the `artifact` or `process-source` skill instead.",
-      "raw_desc": "Turn any topic or domain into a researched, cited, on-brand single-page HTML learning resource with inline-SVG infographics. Trigger when Stefan says \"/learn\", \"make me a learning resource on X\", \"teach me X\", \"I want to learn the domain of X\", \"build me a course/primer/guide on X\" \u2014 i.e. he names a TOPIC (not a source he's pasting). Researches the topic first (does not need a source), structures it pedagogically, designs it in Stefan's studio brand, embeds 3\u20135 inline-SVG diagrams + one AI hero image, registers it in the Output gallery, and captures the verified knowledge into the vault. For turning a source Stefan PROVIDES (transcript/PDF/URL) into an artifact, use the `artifact` or `process-source` skill instead.",
+      "what": "Turn any topic into a researched, cited, on-brand single-page HTML learning resource grounded in what Stefan has consumed (YouTube, books, courses, his notes) and augmented with Perplexity web research",
+      "when": "Stefan says \"/learn\", \"make me a learning resource on X\", \"teach me X\", \"I want to learn the domain of X\", \"build me a course/primer/guide on X\" \u2014 i.e. he names a TOPIC. It asks what he has consumed on the topic, researches (consumed sources first, then web), structures it pedagogically around one core message, designs it in his studio brand with a full-bleed photo header + 3\u20135 inline-SVG infographics, adds a quiz and a personalized \"Make it yours\" behavior-change layer, and registers it in the Output gallery. For turning a single source Stefan PROVIDES into an artifact, use `artifact` or `process-source` instead.",
+      "raw_desc": "Turn any topic into a researched, cited, on-brand single-page HTML learning resource grounded in what Stefan has consumed (YouTube, books, courses, his notes) and augmented with Perplexity web research. Trigger when Stefan says \"/learn\", \"make me a learning resource on X\", \"teach me X\", \"I want to learn the domain of X\", \"build me a course/primer/guide on X\" \u2014 i.e. he names a TOPIC. It asks what he has consumed on the topic, researches (consumed sources first, then web), structures it pedagogically around one core message, designs it in his studio brand with a full-bleed photo header + 3\u20135 inline-SVG infographics, adds a quiz and a personalized \"Make it yours\" behavior-change layer, and registers it in the Output gallery. For turning a single source Stefan PROVIDES into an artifact, use `artifact` or `process-source` instead.",
       "folder": "learn",
       "source": "personal",
       "source_label": "Your Skills",
