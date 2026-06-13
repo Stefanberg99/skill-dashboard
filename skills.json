@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-13T07:56:07.242582Z",
-  "hash": "a248db0ba4d0095d6538a2c05ea8c757",
+  "synced_at": "2026-06-13T12:38:52.481645Z",
+  "hash": "ce0e867d81ad0949909b18056c7c4883",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -61,6 +61,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T17:58:33.767122Z",
       "category": "Video"
+    },
+    {
+      "name": "canvas-design",
+      "what": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should",
+      "when": "the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "raw_desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "folder": "canvas-design",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "changelog-generator",
@@ -352,9 +364,9 @@
     },
     {
       "name": "kubecraft-linkedin",
-      "what": "Generate KubeCraft LinkedIn posts across two accounts \u2014 Mischa van den Burg's personal profile AND the KubeCraft company page \u2014 using the proven hook + franchise system, then generate the matching Higgsfield image and file everything into Airtable. Trigger on /kubecraft-linkedin, \"write today's KubeCraft posts\", \"generate this week's LinkedIn schedule\", \"post for Mischa\", \"post for the KubeCraft page\", \"give me the daily pair\", or when Stefan pastes a brief from the content engine.",
+      "what": "Generate KubeCraft LinkedIn posts across two accounts (Mischa van den Burg's personal profile and the KubeCraft company page) using the proven hook + franchise system, generate the matching Higgsfield image with the consistent Mischa Character, and drop a ready-to-schedule bundle for Metricool. Trigger on /kubecraft-linkedin, \"write today's KubeCraft posts\", \"generate this week's LinkedIn schedule\", \"post for Mischa\", \"post for the KubeCraft page\", \"give me the daily pair\", or when Stefan pastes a brief.",
       "when": "",
-      "raw_desc": "Generate KubeCraft LinkedIn posts across two accounts \u2014 Mischa van den Burg's personal profile AND the KubeCraft company page \u2014 using the proven hook + franchise system, then generate the matching Higgsfield image and file everything into Airtable. Trigger on /kubecraft-linkedin, \"write today's KubeCraft posts\", \"generate this week's LinkedIn schedule\", \"post for Mischa\", \"post for the KubeCraft page\", \"give me the daily pair\", or when Stefan pastes a brief from the content engine.",
+      "raw_desc": "Generate KubeCraft LinkedIn posts across two accounts (Mischa van den Burg's personal profile and the KubeCraft company page) using the proven hook + franchise system, generate the matching Higgsfield image with the consistent Mischa Character, and drop a ready-to-schedule bundle for Metricool. Trigger on /kubecraft-linkedin, \"write today's KubeCraft posts\", \"generate this week's LinkedIn schedule\", \"post for Mischa\", \"post for the KubeCraft page\", \"give me the daily pair\", or when Stefan pastes a brief.",
       "folder": "kubecraft-linkedin",
       "source": "personal",
       "source_label": "Your Skills",
@@ -901,18 +913,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Writing"
-    },
-    {
-      "name": "canvas-design",
-      "what": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should",
-      "when": "the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-      "raw_desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-      "folder": "canvas-design",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Documents"
     },
     {
       "name": "consolidate-memory",
