@@ -1,6 +1,23 @@
 {
-  "updated": "2026-06-13T08:18:00+02:00",
+  "updated": "2026-06-13T15:45:00+02:00",
   "sessions": [
+    {
+      "id": "20260612_203019_ab9d91",
+      "date": "2026-06-12",
+      "title": "LinkedIn Scripts + Higgsfield Block",
+      "summary": "Stefan requested 8 LinkedIn post scripts (4 for Mischa van den Burg's account, 4 for KubeCraft) with matching Higgsfield images per script. Hermes wrote all 8 scripts in proven engagement formats (first-person story, contrarian, authority, diagnostic) and created a Google Doc. Higgsfield image generation was fully blocked — MCP endpoint returned Cloudflare 1010 (IP restriction on server-side calls) and the headless browser runs isolated from Stefan's login session. Stefan also tried connecting Slack to Hermes but Slack is not a supported messaging target — only Telegram and WhatsApp are available. Session ended with images still ungenerated.",
+      "topics": ["kubecraft", "linkedin", "content-scripts", "higgsfield", "slack", "google-docs", "content-images"],
+      "things_built": [
+        "Google Doc with 8 LinkedIn post scripts (4 Mischa + 4 KubeCraft) — docs.google.com/document/d/1OO5yQ6jNwzZLNDNqOgezaOTi8UIUbHmBfycC3DhU8Bw/edit",
+        "Higgsfield API key stored in Hermes config (MCP blocked by Cloudflare but key is live)"
+      ],
+      "decisions": [
+        "Higgsfield MCP blocked serverside by Cloudflare 1010 — needs FAL.ai key or manual browser as workaround",
+        "Slack not integrable as Hermes messaging target — only Telegram and WhatsApp DMs available",
+        "8 post formats: Mischa (Nurse→DevOps story, IT support trap, Linux origin, comment-your-path); KubeCraft (90-day pitch, 8 Linux commands carousel, helpdesk→platform student proof, proof scorecard)"
+      ],
+      "project": "kubecraft"
+    },
     {
       "id": "20260612_221749_b4f6be",
       "date": "2026-06-12",
@@ -258,8 +275,10 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 15,
+    "total_sessions_tracked": 16,
     "things_built": [
+      "Google Doc with 8 LinkedIn post scripts (4 Mischa + 4 KubeCraft)",
+      "Higgsfield API key stored in Hermes config",
       "Complete 5-layer personal OS architecture (Soul/Brain/Capture/Action/Projects) with full tool declarations",
       "Domain-to-tool routing map (40+ domains mapped to exact tool/location)",
       "Commonplacebook folder structure design (00 Inbox → 06 Outputs with all Wiki domains)",
@@ -283,7 +302,7 @@
       "Commonplacebook Deep Synthesis and Build Blueprint (Obsidian doc)",
       "Source Processor Build Plan (Obsidian doc)"
     ],
-    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "personal-os"],
+    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "linkedin"],
     "recommendations_completed": 0
   }
 }

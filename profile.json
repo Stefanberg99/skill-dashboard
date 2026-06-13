@@ -15,7 +15,7 @@
   "tools": [
     "Obsidian (~/Documents/Commonplacebook/) — Brain layer",
     "Craft — Soul layer (Vision, Identity, Journaling, Contemplation, Domains, Language)",
-    "Apple Notes — Capture only (Inbox, triaged weekly)",
+    "Apple Notes — Capture only (triaged weekly)",
     "Day One — Daily journal (feeds Craft quarterly)",
     "Airtable",
     "Metricool",
@@ -26,7 +26,7 @@
     "Netlify",
     "Supabase",
     "Apify",
-    "Slack",
+    "Slack (not yet connected to Hermes — only Telegram + WhatsApp are available as Hermes messaging targets)",
     "Higgsfield",
     "NextLVL — habit tracking",
     "Todoist — single task manager",
@@ -49,6 +49,11 @@
     "Processing Studio V1 — turning consumed content into Stefan-voice notecards (core bottleneck)",
     "Recall Studio — transcript-to-resource SaaS (local prototype → Next.js + Supabase)",
     "Soul–Brain bridge — Craft (Soul) and Obsidian (Brain) integration rituals"
+  ],
+  "known_blockers": [
+    "Higgsfield MCP blocked by Cloudflare 1010 — Hermes cannot generate images serverside via Higgsfield; needs FAL_KEY configured",
+    "Slack not connectable as Hermes messaging target — only Telegram and WhatsApp DMs are available",
+    "LinkedIn content images still require manual Higgsfield browser session — no programmatic path until FAL.ai is configured"
   ],
   "system_architecture": {
     "soul": "Craft — Vision, Identity, Character/SBA, Domains of Life, Journaling (deep), Contemplation, Dreams, Language + Writing, Goal setting",
@@ -122,5 +127,5 @@
       "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
     }
   ],
-  "updated": "2026-06-10"
+  "updated": "2026-06-13"
 }
