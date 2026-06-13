@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-12T07:45:00+02:00",
+  "updated": "2026-06-13T08:18:00+02:00",
   "sessions": [
+    {
+      "id": "20260612_221749_b4f6be",
+      "date": "2026-06-12",
+      "title": "Evening TUI Check-In",
+      "summary": "Single-message TUI session — Stefan opened with 'hey there' and no further interaction. No builds, no decisions, no project work.",
+      "topics": ["general"],
+      "things_built": [],
+      "decisions": [],
+      "project": "general"
+    },
     {
       "id": "20260611_225521_e12f8278",
       "date": "2026-06-11",
@@ -248,7 +258,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 14,
+    "total_sessions_tracked": 15,
     "things_built": [
       "Complete 5-layer personal OS architecture (Soul/Brain/Capture/Action/Projects) with full tool declarations",
       "Domain-to-tool routing map (40+ domains mapped to exact tool/location)",
