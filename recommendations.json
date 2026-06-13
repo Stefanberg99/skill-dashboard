@@ -466,5 +466,29 @@
     "prompt": "Help me set up Ollama on my Mac and configure it for use alongside Hermes. I want to: 1) Install Ollama and pull a capable local model (recommend the best one for my use case: knowledge processing + writing assistance). 2) Test it with a sample Commonplacebook note to see if it's good enough for batch processing. 3) Design a hybrid setup where local Ollama handles high-frequency/low-stakes tasks and Hermes handles strategic/complex work.",
     "status": "todo",
     "added_date": "2026-06-06"
+  },
+  {
+    "id": "fal-image-generation",
+    "title": "FAL.ai Image Generation Key",
+    "category": "workflow",
+    "priority": "high",
+    "action": "configure",
+    "skill_id": null,
+    "why": "On June 12, Stefan requested 8 LinkedIn images via Higgsfield — Hermes was fully blocked: Higgsfield MCP returns Cloudflare 1010 (IP restriction on server-side calls) and the headless browser runs in an isolated session with no access to Stefan's login. FAL.ai offers the same image quality (Flux, SDXL, Recraft) via a simple API key, no Cloudflare block. Free tier available. Adding FAL_KEY to ~/.hermes/.env unblocks Hermes from generating images end-to-end — LinkedIn post images, carousel visuals, content thumbnails. Single fastest unblock for the KubeCraft content image workflow.",
+    "prompt": "Help me configure FAL.ai for Hermes image generation. I need to: 1) Create a free account at fal.ai and get an API key. 2) Add FAL_KEY to ~/.hermes/.env. 3) Test by generating one 1080x1080 LinkedIn image in the KubeCraft notebook aesthetic (Caveat font, cream paper, spiral binding, amber accents). The goal is to unblock generating LinkedIn post images directly from Hermes without needing to open Higgsfield manually.",
+    "status": "todo",
+    "added_date": "2026-06-13"
+  },
+  {
+    "id": "linkedin-content-batch-system",
+    "title": "LinkedIn Content Batch Builder",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "Stefan ran an 8-post LinkedIn batch on June 12 — 4 scripts for Mischa's account + 4 for KubeCraft's account, each with a matching LinkedIn image. This is a recurring workflow: brand brief → 4 posts → 4 images → Google Doc → review → publish. Currently a multi-hour manual session. Building a structured batch builder (brand brief → post scripts → image prompts → Google Doc → Airtable) would make it a 5-minute Hermes command. Reusable across all KubeCraft clients.",
+    "prompt": "Build me a LinkedIn Content Batch Builder. Input: client brand brief (name, tone, target audience, past top posts). Output: 4 LinkedIn post scripts in proven formats (story, contrarian, authority, diagnostic), each with a Higgsfield/FAL image prompt, assembled into a Google Doc, and pushed to Airtable To Review. Use KubeCraft.md at /Users/stefanberg/.hermes/cache/documents/doc_63e228ae1237_KubeCraft.MD as the first test case. Build as a reusable Hermes skill so I can run it for any client.",
+    "status": "todo",
+    "added_date": "2026-06-13"
   }
 ]
