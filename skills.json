@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-15T17:17:29.062593Z",
-  "hash": "4991915ade42e412e0994c2bd015ce02",
+  "synced_at": "2026-06-15T18:14:38.895940Z",
+  "hash": "420026e25a64139481d9e60a64c4b807",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -364,9 +364,9 @@
     },
     {
       "name": "learn",
-      "what": "Turn any topic into a researched, cited, on-brand single-page HTML learning resource grounded in what Stefan has consumed (YouTube, books, courses, his notes) and augmented with Perplexity web research",
-      "when": "Stefan says \"/learn\", \"make me a learning resource on X\", \"teach me X\", \"I want to learn the domain of X\", \"build me a course/primer/guide on X\" \u2014 i.e. he names a TOPIC. It asks what he has consumed on the topic, researches (consumed sources first, then web), structures it pedagogically around one core message, designs it in his studio brand with a full-bleed photo header + 3\u20135 inline-SVG infographics, adds a quiz and a personalized \"Make it yours\" behavior-change layer, and registers it in the Output gallery. For turning a single source Stefan PROVIDES into an artifact, use `artifact` or `process-source` instead.",
-      "raw_desc": "Turn any topic into a researched, cited, on-brand single-page HTML learning resource grounded in what Stefan has consumed (YouTube, books, courses, his notes) and augmented with Perplexity web research. Trigger when Stefan says \"/learn\", \"make me a learning resource on X\", \"teach me X\", \"I want to learn the domain of X\", \"build me a course/primer/guide on X\" \u2014 i.e. he names a TOPIC. It asks what he has consumed on the topic, researches (consumed sources first, then web), structures it pedagogically around one core message, designs it in his studio brand with a full-bleed photo header + 3\u20135 inline-SVG infographics, adds a quiz and a personalized \"Make it yours\" behavior-change layer, and registers it in the Output gallery. For turning a single source Stefan PROVIDES into an artifact, use `artifact` or `process-source` instead.",
+      "what": "The single front door for turning anything into a polished output in Stefan's Output Gallery. Works two ways \u2014 (a) from a TOPIC in his head (\"teach me X\", \"make me a learning resource / primer / course on X\", \"I want to learn X\") and (b) from a SOURCE he hands over (\"turn this into\u2026\", \"make me a guide / quiz / infographic / reference from this\", paste a transcript / URL / YouTube link / PDF / notes). It researches (his consumed sources first, then web), picks or proposes the right output shape, builds one self-contained HTML page in his studio brand, lands it in the Output Gallery (~/Outputs/), ends in action (commitment layer + Todoist), and on for-me runs compounds the knowledge into his Commonplacebook brain (a source note + concept page + his Spark). For a deep cinematic vault entry in the SOURCE's voice (vibe-matched guide), use `process-source` instead; /learn is the gallery-first factory that also feeds the brain.",
+      "when": "",
+      "raw_desc": "The single front door for turning anything into a polished output in Stefan's Output Gallery. Works two ways \u2014 (a) from a TOPIC in his head (\"teach me X\", \"make me a learning resource / primer / course on X\", \"I want to learn X\") and (b) from a SOURCE he hands over (\"turn this into\u2026\", \"make me a guide / quiz / infographic / reference from this\", paste a transcript / URL / YouTube link / PDF / notes). It researches (his consumed sources first, then web), picks or proposes the right output shape, builds one self-contained HTML page in his studio brand, lands it in the Output Gallery (~/Outputs/), ends in action (commitment layer + Todoist), and on for-me runs compounds the knowledge into his Commonplacebook brain (a source note + concept page + his Spark). For a deep cinematic vault entry in the SOURCE's voice (vibe-matched guide), use `process-source` instead; /learn is the gallery-first factory that also feeds the brain.",
       "folder": "learn",
       "source": "personal",
       "source_label": "Your Skills",
@@ -769,6 +769,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Coding"
+    },
+    {
+      "name": "tend",
+      "what": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one \u2014 so sources compound into his Commonplacebook brain instead of dying as a fleeting-notes graveyard",
+      "when": "Stefan says \"/tend\", \"tend the garden\", \"process my notes / sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
+      "raw_desc": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one \u2014 so sources compound into his Commonplacebook brain instead of dying as a fleeting-notes graveyard. Trigger when Stefan says \"/tend\", \"tend the garden\", \"process my notes / sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
+      "folder": "tend",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-15T18:14:38.895940Z",
+      "category": "Memory"
     },
     {
       "name": "test-driven-development",
