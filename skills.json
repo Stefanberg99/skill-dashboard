@@ -1,7 +1,19 @@
 {
-  "synced_at": "2026-06-15T18:14:38.895940Z",
-  "hash": "420026e25a64139481d9e60a64c4b807",
+  "synced_at": "2026-06-15T19:03:47.579117Z",
+  "hash": "c31d226a5ce0257b9dd663e33356a451",
   "skills": [
+    {
+      "name": "agent-builder",
+      "what": "Helps edit, optimize, and audit Claude Code sub-agents through a conversational workflow. The user describes what they want in plain language. This skill translates their answers into the correct technical configuration.",
+      "when": "someone asks about agent settings, configuration, or best practices. Use proactively when the user is working on agent files.",
+      "raw_desc": "Use when editing sub-agents, optimizing agent configuration, auditing agent quality, troubleshooting agent issues, or when someone says \"improve this agent\", \"what's wrong with this agent\", \"help me tune this agent\", \"audit my agents\", or wants to understand how their agents work. Also use when someone asks about agent settings, configuration, or best practices. Use proactively when the user is working on agent files.",
+      "folder": "agent-builder",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-15T19:03:47.579117Z",
+      "category": "AI & Agents"
+    },
     {
       "name": "algorithmic-art",
       "what": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration",
