@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-15T09:37:54.013863Z",
-  "hash": "c3a269cdc1cf6f354cd9a14095001ca4",
+  "synced_at": "2026-06-15T17:17:29.062593Z",
+  "hash": "4991915ade42e412e0994c2bd015ce02",
   "skills": [
     {
       "name": "algorithmic-art",
@@ -13,18 +13,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Design"
-    },
-    {
-      "name": "artifact",
-      "what": "Transform a source (transcript, PDF, URL, notes, video) into a polished, self-contained artifact Stefan can use or share",
-      "when": "Stefan shares a source and wants to turn it into a reference site, step-by-step guide, quiz, infographic, contemplative essay, or similar usable output. Also triggers on phrases like \"turn this into\u2026\", \"make me a [guide/quiz/visual]\", \"build an artifact from this\", or when Stefan pastes a transcript without a specific framing.",
-      "raw_desc": "Transform a source (transcript, PDF, URL, notes, video) into a polished, self-contained artifact Stefan can use or share. Use when Stefan shares a source and wants to turn it into a reference site, step-by-step guide, quiz, infographic, contemplative essay, or similar usable output. Also triggers on phrases like \"turn this into\u2026\", \"make me a [guide/quiz/visual]\", \"build an artifact from this\", or when Stefan pastes a transcript without a specific framing.",
-      "folder": "artifact",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Video"
     },
     {
       "name": "audit",
