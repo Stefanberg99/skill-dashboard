@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-15T19:03:47.579117Z",
-  "hash": "c31d226a5ce0257b9dd663e33356a451",
+  "synced_at": "2026-06-16T09:08:51.709111Z",
+  "hash": "a710ab883e3c12119d6bd792aeb71885",
   "skills": [
     {
       "name": "agent-builder",
@@ -649,6 +649,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Other"
+    },
+    {
+      "name": "playwright-cli",
+      "what": "Automate browser interactions, test web pages and work with Playwright tests.",
+      "when": "",
+      "raw_desc": "Automate browser interactions, test web pages and work with Playwright tests.",
+      "folder": "playwright-cli",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-16T09:08:51.709111Z",
+      "category": "Coding"
     },
     {
       "name": "power-design",
