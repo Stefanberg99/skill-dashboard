@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-16T12:43:28.554033Z",
-  "hash": "0e550207f329fe77990a172750952959",
+  "synced_at": "2026-06-16T16:31:14.683106Z",
+  "hash": "c707ec7fff1b82b7bcd6f1bc08daff83",
   "skills": [
     {
       "name": "agent-builder",
@@ -721,6 +721,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "self-upgrade",
+      "what": "Scan what's new in AI tooling, audit the ClaudeOPS factory against it, and propose prioritized upgrades \u2014 then apply the ones Stefan approves and log them so they never get re-pitched",
+      "when": "Stefan says \"/self-upgrade\", \"upgrade my workspace\", \"what should I improve here\", \"check for upgrades\", \"audit the factory\", or wants the system to evolve itself based on what's happening in AI. ClaudeOPS factory only.",
+      "raw_desc": "Scan what's new in AI tooling, audit the ClaudeOPS factory against it, and propose prioritized upgrades \u2014 then apply the ones Stefan approves and log them so they never get re-pitched. Use when Stefan says \"/self-upgrade\", \"upgrade my workspace\", \"what should I improve here\", \"check for upgrades\", \"audit the factory\", or wants the system to evolve itself based on what's happening in AI. ClaudeOPS factory only.",
+      "folder": "self-upgrade",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-16T16:31:14.683106Z",
+      "category": "Coding"
     },
     {
       "name": "site-blueprint",
