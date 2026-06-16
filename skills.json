@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-16T16:31:14.683106Z",
-  "hash": "c707ec7fff1b82b7bcd6f1bc08daff83",
+  "synced_at": "2026-06-16T20:00:57.697258Z",
+  "hash": "c0679bead712427e338a8fe6c8ab6672",
   "skills": [
     {
       "name": "agent-builder",
@@ -349,6 +349,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T17:29:22.718912Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "isa",
+      "what": "Scaffold an ISA (Ideal State Artifact) \u2014 a one-page \"define what done looks like\" doc \u2014 for any task",
+      "when": "Stefan says \"/isa\", \"scaffold an ISA\", \"define done for X\", \"spec this out\", or starts a task big enough to deserve a clear finish line. The engine of MeesterwerkOS.",
+      "raw_desc": "Scaffold an ISA (Ideal State Artifact) \u2014 a one-page \"define what done looks like\" doc \u2014 for any task. Use when Stefan says \"/isa\", \"scaffold an ISA\", \"define done for X\", \"spec this out\", or starts a task big enough to deserve a clear finish line. The engine of MeesterwerkOS.",
+      "folder": "isa",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-16T20:00:57.697258Z",
+      "category": "Productivity"
     },
     {
       "name": "karpathy-guidelines",
