@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-16T20:00:57.697258Z",
-  "hash": "c0679bead712427e338a8fe6c8ab6672",
+  "synced_at": "2026-06-17T17:54:47.804805Z",
+  "hash": "cb20037e21646945c7d6b9a13e21279b",
   "skills": [
     {
       "name": "agent-builder",
@@ -697,6 +697,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T17:23:19.728473Z",
       "category": "Video"
+    },
+    {
+      "name": "prompt-coach",
+      "what": "Give Stefan sharp, structured feedback on a prompt \u2014 thinking, articulation, word economy, structure \u2014 and offer a tighter rewrite",
+      "when": "Stefan says \"/prompt-coach\", starts a message with \"??\", asks \"how was that prompt\", \"critique my prompt\", \"make me a better prompter\", or wants to sharpen how he asks. A coach, not a rewriter \u2014 it teaches the why so the skill installs.",
+      "raw_desc": "Give Stefan sharp, structured feedback on a prompt \u2014 thinking, articulation, word economy, structure \u2014 and offer a tighter rewrite. Use when Stefan says \"/prompt-coach\", starts a message with \"??\", asks \"how was that prompt\", \"critique my prompt\", \"make me a better prompter\", or wants to sharpen how he asks. A coach, not a rewriter \u2014 it teaches the why so the skill installs.",
+      "folder": "prompt-coach",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-17T17:54:47.804805Z",
+      "category": "Documents"
     },
     {
       "name": "recall",
