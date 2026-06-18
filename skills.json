@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-17T17:54:47.804805Z",
-  "hash": "cb20037e21646945c7d6b9a13e21279b",
+  "synced_at": "2026-06-18T10:00:33.196770Z",
+  "hash": "1511a34507183b8d66f739d46aeeb26c",
   "skills": [
     {
       "name": "agent-builder",
@@ -1141,6 +1141,18 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "skool-comment-engagement",
+      "what": "Engage on Skool community posts by drafting and posting human-sounding, question-led comments, with optional @mention tagging of the author",
+      "when": "the user wants to reply to, comment on, or \"engage\" with a post on skool.com \u2014 including phrases like \"comment on this post\", \"reply to X's post\", \"engage him/her\", \"draft a comment\", or \"tag them in a comment\". Covers finding the post, writing a varied human reply, tagging the person, and posting after approval. Do NOT use for creating new posts, liking, or non-Skool sites.",
+      "raw_desc": "Engage on Skool community posts by drafting and posting human-sounding, question-led comments, with optional @mention tagging of the author. Use this skill whenever the user wants to reply to, comment on, or \"engage\" with a post on skool.com \u2014 including phrases like \"comment on this post\", \"reply to X's post\", \"engage him/her\", \"draft a comment\", or \"tag them in a comment\". Covers finding the post, writing a varied human reply, tagging the person, and posting after approval. Do NOT use for creating new posts, liking, or non-Skool sites.",
+      "folder": "skool-comment-engagement",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-18T10:00:33.196770Z",
+      "category": "Writing"
     },
     {
       "name": "video-prompt-builder",
