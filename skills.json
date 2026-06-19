@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-19T08:31:47.375462Z",
-  "hash": "6b651fabff7658cd6c2b5fe31534eb3e",
+  "synced_at": "2026-06-19T12:21:36.379963Z",
+  "hash": "3adc48526c68a4db0a33e57bc3600b72",
   "skills": [
     {
       "name": "agent-builder",
@@ -459,6 +459,18 @@
       "category": "Video"
     },
     {
+      "name": "memory-recall",
+      "what": "Semantic search across all stored memories and reference knowledge in Pinecone (Bucket 01 \u2014 Memory and Bucket 02 \u2014 Knowledge)",
+      "when": "user asks \"what did we decide about X\", \"what did we say about Y last month\", \"what does [expert] say about Z\", \"search my notes for X\", \"do we have anything on\", \"find that thing about\", or any retrieval question about past content. Returns top 3-5 hits with date and source citations, then synthesizes a 2-line answer. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var. Configured indexes live in ~/.claude/memory-config.json. Do NOT use this skill for current state queries (e.g. \"what's my strategy on X right now\") \u2014 that's the strategy-awareness skill's job.",
+      "raw_desc": "Semantic search across all stored memories and reference knowledge in Pinecone (Bucket 01 \u2014 Memory and Bucket 02 \u2014 Knowledge). Trigger when user asks \"what did we decide about X\", \"what did we say about Y last month\", \"what does [expert] say about Z\", \"search my notes for X\", \"do we have anything on\", \"find that thing about\", or any retrieval question about past content. Returns top 3-5 hits with date and source citations, then synthesizes a 2-line answer. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var. Configured indexes live in ~/.claude/memory-config.json. Do NOT use this skill for current state queries (e.g. \"what's my strategy on X right now\") \u2014 that's the strategy-awareness skill's job.",
+      "folder": "memory-recall",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-09T14:12:28.725532Z",
+      "category": "Memory"
+    },
+    {
       "name": "memoryos",
       "what": "Behavioral guidelines to reduce common LLM coding mistakes",
       "when": "writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
@@ -700,9 +712,9 @@
     },
     {
       "name": "process-source",
-      "what": "Turn a source (YouTube link, transcript, PDF, or Stefan's notes) into a full Brain entry (Stefan's Second Brain). Fetches and archives the source, extracts the knowledge, writes a source note plus topic-page updates in Stefan's voice, and renders a cinematic vibe-matched HTML guide in the source's voice",
-      "when": "Stefan shares a video/transcript/source to \"process\", \"run through the system\", \"turn into a guide\", or add to the vault. Invoke as /process-source.",
-      "raw_desc": "Turn a source (YouTube link, transcript, PDF, or Stefan's notes) into a full Brain entry (Stefan's Second Brain). Fetches and archives the source, extracts the knowledge, writes a source note plus topic-page updates in Stefan's voice, and renders a cinematic vibe-matched HTML guide in the source's voice. Trigger when Stefan shares a video/transcript/source to \"process\", \"run through the system\", \"turn into a guide\", or add to the vault. Invoke as /process-source.",
+      "what": "Run the Brain pipeline on one source. Optimize for TOKENS: a subagent reads the transcript (keeps it off the main thread), the template's CSS is reused verbatim, and only one hero image is generated.",
+      "when": "Stefan says \"/process-source\", \"process this\", \"run this through the system\", \"turn this into a guide\", \"add this to the vault\", or hands over a YouTube link, transcript, PDF, or notes to process into his Brain (Stefan's Second Brain). Fetches and archives the source, extracts the knowledge, writes a source note plus topic-page updates in his voice, and renders a cinematic vibe-matched HTML guide in the source's voice. For a single-source deep dive into the vault; /learn is the gallery-first factory alternative.",
+      "raw_desc": "Use when Stefan says \"/process-source\", \"process this\", \"run this through the system\", \"turn this into a guide\", \"add this to the vault\", or hands over a YouTube link, transcript, PDF, or notes to process into his Brain (Stefan's Second Brain). Fetches and archives the source, extracts the knowledge, writes a source note plus topic-page updates in his voice, and renders a cinematic vibe-matched HTML guide in the source's voice. For a single-source deep dive into the vault; /learn is the gallery-first factory alternative.",
       "folder": "process-source",
       "source": "personal",
       "source_label": "Your Skills",
@@ -721,18 +733,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-17T17:54:47.804805Z",
       "category": "Documents"
-    },
-    {
-      "name": "recall",
-      "what": "Semantic search across all stored memories and reference knowledge in Pinecone (Bucket 01 \u2014 Memory and Bucket 02 \u2014 Knowledge)",
-      "when": "user asks \"what did we decide about X\", \"what did we say about Y last month\", \"what does [expert] say about Z\", \"search my notes for X\", \"do we have anything on\", \"find that thing about\", or any retrieval question about past content. Returns top 3-5 hits with date and source citations, then synthesizes a 2-line answer. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var. Configured indexes live in ~/.claude/memory-config.json. Do NOT use this skill for current state queries (e.g. \"what's my strategy on X right now\") \u2014 that's the strategy-awareness skill's job.",
-      "raw_desc": "Semantic search across all stored memories and reference knowledge in Pinecone (Bucket 01 \u2014 Memory and Bucket 02 \u2014 Knowledge). Trigger when user asks \"what did we decide about X\", \"what did we say about Y last month\", \"what does [expert] say about Z\", \"search my notes for X\", \"do we have anything on\", \"find that thing about\", or any retrieval question about past content. Returns top 3-5 hits with date and source citations, then synthesizes a 2-line answer. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var. Configured indexes live in ~/.claude/memory-config.json. Do NOT use this skill for current state queries (e.g. \"what's my strategy on X right now\") \u2014 that's the strategy-awareness skill's job.",
-      "folder": "memory-recall",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-09T14:12:28.725532Z",
-      "category": "Memory"
     },
     {
       "name": "reflect",
