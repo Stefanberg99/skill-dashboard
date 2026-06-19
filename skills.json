@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-18T18:01:30.724053Z",
-  "hash": "59205708d048639e075d4f5080f9bc80",
+  "synced_at": "2026-06-19T07:37:33.655179Z",
+  "hash": "6be89afa00293a8fe8ad1d119d851eda",
   "skills": [
     {
       "name": "agent-builder",
@@ -349,6 +349,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T17:29:22.718912Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "interview",
+      "what": "Interview Stefan to get clear before planning or building anything. Maps current state, desired state, and the gap (the problems between, in order), then writes a ready-to-act spec",
+      "when": "Stefan says \"/interview\", \"interview me\", \"let's get clear on X\", \"help me scope this\", \"before we build\", or starts something big enough that guessing the target would be expensive. Universal \u2014 a build, a decision, a content push, a business move.",
+      "raw_desc": "Interview Stefan to get clear before planning or building anything. Maps current state, desired state, and the gap (the problems between, in order), then writes a ready-to-act spec. Use when Stefan says \"/interview\", \"interview me\", \"let's get clear on X\", \"help me scope this\", \"before we build\", or starts something big enough that guessing the target would be expensive. Universal \u2014 a build, a decision, a content push, a business move.",
+      "folder": "interview",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-19T07:37:33.655179Z",
+      "category": "Writing"
     },
     {
       "name": "isa",
@@ -832,9 +844,9 @@
     },
     {
       "name": "tend",
-      "what": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one \u2014 so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard",
+      "what": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one, so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard",
       "when": "Stefan says \"/tend\", \"tend the garden\", \"process my notes / sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
-      "raw_desc": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one \u2014 so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard. Trigger when Stefan says \"/tend\", \"tend the garden\", \"process my notes / sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
+      "raw_desc": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one, so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard. Trigger when Stefan says \"/tend\", \"tend the garden\", \"process my notes / sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
       "folder": "tend",
       "source": "personal",
       "source_label": "Your Skills",
