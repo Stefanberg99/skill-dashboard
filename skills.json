@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-19T12:21:36.379963Z",
-  "hash": "3adc48526c68a4db0a33e57bc3600b72",
+  "synced_at": "2026-06-19T18:31:45.429083Z",
+  "hash": "564c0007fd076ff722daa960b08ab9a0",
   "skills": [
     {
       "name": "agent-builder",
@@ -133,6 +133,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "daily-ai-digest",
+      "what": "Stefan's morning AI intelligence ritual. Researches everything moving in the AI space (web news + the newest YouTube videos with transcripts pulled and summarized), synthesizes the signal from the noise, and builds a premium HTML email plus a PDF report, previewed before sending",
+      "when": "Stefan says \"/daily-digest\", \"run my AI digest\", \"what's going on in AI today\", \"my morning briefing\", \"AI digest\", \"what's new in AI\", or wants to catch up on AI news / model releases / new tools / what the AI creators are saying. Dispatches the ai-trend-hunter agent as the synthesis engine, and learns every run (locked creators, his feedback, tracked themes, pipeline health, and a growing craft bible so the writing and design get measurably better each day). The seamless front door to the AI Digest pipeline.",
+      "raw_desc": "Stefan's morning AI intelligence ritual. Researches everything moving in the AI space (web news + the newest YouTube videos with transcripts pulled and summarized), synthesizes the signal from the noise, and builds a premium HTML email plus a PDF report, previewed before sending. Trigger when Stefan says \"/daily-digest\", \"run my AI digest\", \"what's going on in AI today\", \"my morning briefing\", \"AI digest\", \"what's new in AI\", or wants to catch up on AI news / model releases / new tools / what the AI creators are saying. Dispatches the ai-trend-hunter agent as the synthesis engine, and learns every run (locked creators, his feedback, tracked themes, pipeline health, and a growing craft bible so the writing and design get measurably better each day). The seamless front door to the AI Digest pipeline.",
+      "folder": "daily-ai-digest",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-19T18:31:45.429083Z",
+      "category": "Video"
     },
     {
       "name": "decide",
@@ -784,9 +796,9 @@
     },
     {
       "name": "skill-builder",
-      "what": "Guides the creation and optimization of Claude Code skills using official best practices. Use this whenever:",
-      "when": "creating new skills, optimizing existing skills, or auditing skill quality. Guides skill development following Claude Code official best practices.",
-      "raw_desc": "Use when creating new skills, optimizing existing skills, or auditing skill quality. Guides skill development following Claude Code official best practices.",
+      "what": "The foundation skill: how skills work, the house template every MeesterwerkOS skill follows, and the two jobs \u2014 build a new skill (Mode 1) and optimize an existing one (Mode 2). Deep technical detail (every frontmatter field, locations, hooks, context: fork, troubleshooting) lives in reference.md \u2014 load it when you\u2026",
+      "when": "building a new Claude skill, optimizing or auditing an existing one, restructuring a skill to the house template, fixing a skill that won't trigger (or triggers too often), or deciding how a skill should load in a project (skillOverrides). The single source of truth for how skills work and how MeesterwerkOS builds them.",
+      "raw_desc": "Use when building a new Claude skill, optimizing or auditing an existing one, restructuring a skill to the house template, fixing a skill that won't trigger (or triggers too often), or deciding how a skill should load in a project (skillOverrides). The single source of truth for how skills work and how MeesterwerkOS builds them.",
       "folder": "skill-builder",
       "source": "personal",
       "source_label": "Your Skills",
