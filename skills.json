@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-19T07:37:33.655179Z",
-  "hash": "6be89afa00293a8fe8ad1d119d851eda",
+  "synced_at": "2026-06-19T08:31:47.375462Z",
+  "hash": "6b651fabff7658cd6c2b5fe31534eb3e",
   "skills": [
     {
       "name": "agent-builder",
@@ -1057,6 +1057,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-09T14:12:28.725532Z",
       "category": "Memory"
+    },
+    {
+      "name": "writing",
+      "what": "Stefan's thinking-and-writing gym. Not a ghostwriter \u2014 a practice that makes him a clearer thinker, because clear thinking makes clear writing makes clear prompting makes better decisions. Five modes: coach a draft, think through an idea, make a maxim, storytelling reps, and calibrate his voice. Reads his Writing Fundamentals + voice.md + Voice Spec, pulls fuel from and grows his Brain/06 Writing swipe file, and can graduate a sharpened idea into a draft",
+      "when": "Stefan says \"/writing\", \"coach this\", \"help me think through X\", \"make this a maxim\", \"tighten this\", \"does this sound like me\", \"turn this into a story\", or wants to write or think on the page. Thinking-first, lightweight, his voice never faked.",
+      "raw_desc": "Stefan's thinking-and-writing gym. Not a ghostwriter \u2014 a practice that makes him a clearer thinker, because clear thinking makes clear writing makes clear prompting makes better decisions. Five modes: coach a draft, think through an idea, make a maxim, storytelling reps, and calibrate his voice. Reads his Writing Fundamentals + voice.md + Voice Spec, pulls fuel from and grows his Brain/06 Writing swipe file, and can graduate a sharpened idea into a draft. Trigger when Stefan says \"/writing\", \"coach this\", \"help me think through X\", \"make this a maxim\", \"tighten this\", \"does this sound like me\", \"turn this into a story\", or wants to write or think on the page. Thinking-first, lightweight, his voice never faked.",
+      "folder": "writing",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-19T08:31:47.375462Z",
+      "category": "Writing"
     },
     {
       "name": "writing-plans",
