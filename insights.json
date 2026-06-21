@@ -1,6 +1,36 @@
 {
-  "updated": "2026-06-21T08:17:00+02:00",
+  "updated": "2026-06-21T15:20:00+02:00",
   "sessions": [
+    {
+      "id": "20260621_151124_4584c4",
+      "date": "2026-06-21",
+      "title": "Voice Mode Test & Vault Query",
+      "summary": "Stefan tested the Hermes voice call feature. He repeatedly asked whether Hermes is connected to his Obsidian vault, but Hermes gave reset greetings instead of answering (voice session context loss bug). No builds or decisions — a short feature test that exposed a voice-mode context bug to follow up on.",
+      "topics": ["voice-mode", "obsidian", "hermes", "bug"],
+      "things_built": [],
+      "decisions": ["Follow-up needed: confirm Obsidian vault connection in next session when Stefan asks; voice-mode appears to lose prior context"],
+      "project": "hermes"
+    },
+    {
+      "id": "20260621_151102_bb628a",
+      "date": "2026-06-21",
+      "title": "LifeOS Architecture Discovery",
+      "summary": "Stefan checked Obsidian vault connectivity — Hermes confirmed full filesystem access. Critical finding: the Commonplacebook at ~/Documents/Commonplacebook/ has been completely restructured with a new LifeOS CLAUDE.md constitution (v5). New schema: 00 Inbox, 01 Soul, 02 Domains, 03 Quests, 04 Journal, 05 Sources, 06 Notecards, 07 Wiki, 08 Language, 09 Toolbox, 10 Experiments, 11 Outputs, 12 Research, 90 Templates, 99 Archive. Governing Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md (approved 2026-06-11) takes precedence over the CLAUDE.md. Three arenas defined: Meesterwerk (€10k/month offer), Self (rituals + mastery), People (relationships).",
+      "topics": ["obsidian", "lifeos", "commonplacebook", "architecture", "LifeOS-v5", "blueprint"],
+      "things_built": [
+        "Commonplacebook LifeOS constitution v5 (CLAUDE.md) — confirmed in effect with 00-99 folder schema",
+        "LifeOS Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md (APPROVED 2026-06-11)"
+      ],
+      "decisions": [
+        "LifeOS v5 architecture is the active operating system — supersedes all prior schema documentation",
+        "Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md is the highest authority above the CLAUDE.md",
+        "Three arenas as 90-day games: Meesterwerk (proven offer, €10k/month), Self (rituals surviving 12 weeks), People (storyworthy moments)",
+        "Notes-Master at ~/Documents/Notes-Master = quarry (3,000+ old notes), never bulk-process — 2hr weekly triage only",
+        "One quest per arena — the quest .md file IS the AI working context for that project",
+        "Notecards must be in Stefan's voice; Wiki pages are AI-maintained but Stefan-directed"
+      ],
+      "project": "obsidian"
+    },
     {
       "id": "20260614_151716_192d7e1c",
       "date": "2026-06-14",
@@ -285,7 +315,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 17,
+    "total_sessions_tracked": 19,
     "things_built": [
       "Google Doc with 8 LinkedIn post scripts (4 Mischa + 4 KubeCraft)",
       "Higgsfield API key stored in Hermes config",
@@ -310,9 +340,11 @@
       "Online Knowledge OS Realization Plan (Obsidian doc)",
       "Knowledge OS Outcome and Bottleneck Extraction (Obsidian doc)",
       "Commonplacebook Deep Synthesis and Build Blueprint (Obsidian doc)",
-      "Source Processor Build Plan (Obsidian doc)"
+      "Source Processor Build Plan (Obsidian doc)",
+      "Commonplacebook LifeOS constitution v5 (CLAUDE.md) — 00-99 folder schema, three arenas",
+      "LifeOS Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md"
     ],
-    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "linkedin"],
+    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "lifeos"],
     "recommendations_completed": 0
   }
 }

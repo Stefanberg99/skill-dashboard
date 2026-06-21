@@ -562,5 +562,41 @@
     "prompt": "Load the prompt-coach skill and help me sharpen my top 3 recurring prompts: 1) My LinkedIn post script generator for KubeCraft clients. 2) My Processing Studio notecard generation prompt. 3) My carousel content generation prompt. Analyze each for clarity, specificity, and output consistency — then give me an improved version.",
     "status": "todo",
     "added_date": "2026-06-21"
+  },
+  {
+    "id": "lifeos-v5-quest-launch",
+    "title": "Launch LifeOS v5 — First Quest Per Arena",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "obsidian",
+    "why": "On June 21, Hermes confirmed the LifeOS v5 CLAUDE.md constitution is live in ~/Documents/Commonplacebook/ with the governing Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md (approved 2026-06-11). The architecture is designed but the arenas and quests need to be populated with actual content. The three 90-day games (Meesterwerk: €10k/month proven offer; Self: 12-week rituals; People: storyworthy moments as the trace) need one .md quest file each — and those quest files become the AI working context for every related session. This is the single highest-leverage next action in the LifeOS system.",
+    "prompt": "Help me launch LifeOS v5. Read ~/Documents/Commonplacebook/CLAUDE.md and ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md first. Then: 1) Set up 01 Soul with my purpose and who I am becoming (pull from what you know about me and prompt me to fill in my own words). 2) Set up 02 Domains for Health, Mind, Business, Relationships, Creativity, Lifestyle with current-state → desired-state gaps. 3) Create the first quest file per arena: Meesterwerk (proven offer, €10k/month), Self (12-week rituals surviving), People (storyworthy moments). Each quest gets its own .md with: goal, current state, next 3 moves, links to relevant notes. This is the foundation — everything else builds on top of it.",
+    "status": "todo",
+    "added_date": "2026-06-21"
+  },
+  {
+    "id": "lifeos-blueprint-review",
+    "title": "Read LifeOS Blueprint — Align All Hermes Sessions",
+    "category": "intelligence",
+    "priority": "high",
+    "action": "configure",
+    "skill_id": null,
+    "why": "The LifeOS BLUEPRINT.md at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md is the highest-authority document in Stefan's system (approved 2026-06-11) — it overrides the Commonplacebook CLAUDE.md when they conflict. The profile.json and obsidian skill CLAUDE.md reference it but it has never been fully read into a Hermes session. Until it's read, any Commonplacebook-related work might contradict the blueprint's decisions. Reading it once and updating the obsidian skill references would ensure every future session is aligned with the actual governing architecture.",
+    "prompt": "Read ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md fully. Then: 1) Summarize the key architectural decisions that differ from or extend the CLAUDE.md constitution in ~/Documents/Commonplacebook/. 2) Note any conflicts with what's in my profile.json or current skill documentation. 3) If there are significant new patterns, update the obsidian skill's references to capture the blueprint's authority correctly.",
+    "status": "todo",
+    "added_date": "2026-06-21"
+  },
+  {
+    "id": "voice-mode-context-fix",
+    "title": "Fix Voice Mode Context Loss",
+    "category": "build",
+    "priority": "medium",
+    "action": "configure",
+    "skill_id": null,
+    "why": "On June 21, Stefan tested the voice call feature three times and each time Hermes gave a reset greeting ('Hello there! Lovely to hear from you') instead of recognizing him or answering his question about Obsidian vault connectivity. Voice mode appears to drop prior context between call segments. This is a UX blocker — voice should feel like a continuous conversation with Hermes, not a fresh anonymous call each time. Worth investigating whether there's a voice system prompt or profile that can be configured to identify Stefan and maintain context.",
+    "prompt": "Help me investigate the voice mode context loss issue. On June 21, I called Hermes via voice three times asking if it was connected to my Obsidian vault — each time it gave a reset greeting instead of answering. I need: 1) An explanation of how the voice call session works and why context might drop between segments. 2) A way to configure the voice system so it recognizes me (Stefan) at the start of each call and has access to my profile/recent context. 3) If possible, a voice persona prompt that introduces Hermes correctly instead of defaulting to a blank-slate greeting.",
+    "status": "todo",
+    "added_date": "2026-06-21"
   }
 ]

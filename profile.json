@@ -4,19 +4,19 @@
   "location": "Netherlands",
   "timezone": "Europe/Amsterdam",
   "projects": [
-    {"name": "Meesterwerk", "type": "Education / Founder", "status": "active"},
+    {"name": "Meesterwerk", "type": "Education / Founder — 90-day arena goal: proven offer, €10k/month", "status": "active"},
     {"name": "KubeCraft", "type": "YouTube / Social", "status": "active"},
     {"name": "Recall Studio", "type": "SaaS product (transcript → resource)", "status": "in-progress"},
     {"name": "Community Dashboard", "type": "Client build (KubeCraft CRM + sales pipeline)", "status": "in-progress"},
     {"name": "Content Engine", "type": "Client service tool (transcript → carousel/posts, white-label)", "status": "in-progress"},
     {"name": "Content Images", "type": "KubeCraft LinkedIn post image system (HTML → screenshot, notebook aesthetic)", "status": "in-progress"},
-    {"name": "Personal OS Migration", "type": "Infrastructure build (5-layer OS: Soul/Brain/Capture/Action/Projects)", "status": "in-progress"}
+    {"name": "LifeOS v5", "type": "Personal OS — LifeOS CLAUDE.md constitution governs all Commonplacebook work", "status": "active"}
   ],
   "tools": [
-    "Obsidian (~/Documents/Commonplacebook/) — Brain layer",
-    "Craft — Soul layer (Vision, Identity, Journaling, Contemplation, Domains, Language)",
-    "Apple Notes — Capture only (triaged weekly)",
-    "Day One — Daily journal (feeds Craft quarterly)",
+    "Obsidian (~/Documents/Commonplacebook/) — LifeOS vault, primary Brain; 00-99 folder schema",
+    "Craft — deprecated as primary tool; Commonplacebook CLAUDE.md now governs Soul layer too",
+    "Apple Notes — Capture only (triaged weekly via quarry ritual)",
+    "Day One — Daily journal (feeds Commonplacebook 04 Journal)",
     "Airtable",
     "Metricool",
     "Hermes",
@@ -30,45 +30,60 @@
     "Slack (Slack API skill suite installed June 18 — Hermes can now read/search channels; direct messaging still Telegram/WhatsApp only)",
     "Higgsfield",
     "NextLVL — habit tracking",
-    "Todoist — single task manager",
+    "Todoist — single task manager (day's actions; integrates with /today ritual)",
     "CharacterOS — character development execution",
     "Tribe — CRM",
     "Readwise",
     "Skool",
     "HubSpot",
-    "Google Drive — reference + heavy thinking docs (being migrated)"
+    "Google Drive — reference + heavy thinking docs (being migrated)",
+    "mymind — visual capture"
   ],
   "current_focus": [
-    "Personal OS Migration — Build 1: Commonplacebook wiki structure (all domains, stub pages)",
-    "Personal OS Migration — Build 2: Mentor raw notes → proper wiki pages (9 mentors)",
-    "Personal OS Migration — Build 3: Craft skeleton + heavy Drive docs migrated in",
-    "Personal OS Migration — Build 4: Library consolidation (prompts, templates, resources → Toolbox)",
-    "Personal OS Migration — Build 5: Apple Notes triage ritual + capture routing setup",
+    "LifeOS v5 — populate 01 Soul, 02 Domains, 03 Quests, 04 Journal with actual content",
+    "LifeOS v5 — first quest per arena (Meesterwerk: proven offer/€10k; Self: 12-week rituals; People: storyworthy moments)",
     "KubeCraft Community Dashboard — Phase 1 complete (1,497 members, all views), next: Apify sync + Vercel deploy",
     "Content Engine — white-label transcript-to-carousel/post tool for KubeCraft and future clients",
     "Content Images — HTML-based 1080×1080 LinkedIn post images in Matt Gray's notebook aesthetic",
     "Processing Studio V1 — turning consumed content into Stefan-voice notecards (core bottleneck)",
     "Recall Studio — transcript-to-resource SaaS (local prototype → Next.js + Supabase)",
-    "Soul–Brain bridge — Craft (Soul) and Obsidian (Brain) integration rituals"
+    "Notes-Master quarry triage — 3,000+ old notes, 2hr weekly session, quest-relevant themes first"
   ],
   "known_blockers": [
     "Higgsfield MCP blocked by Cloudflare 1010 — Hermes cannot generate images serverside via Higgsfield; needs FAL_KEY configured",
     "Slack direct messaging still not available via Hermes — Slack API skills installed (read/search) but outbound DMs still Telegram/WhatsApp only",
-    "LinkedIn content images still require manual Higgsfield browser session — no programmatic path until FAL.ai is configured"
+    "LinkedIn content images still require manual Higgsfield browser session — no programmatic path until FAL.ai is configured",
+    "Voice mode context loss — when Stefan calls via voice, Hermes loses prior session context and gives reset greetings instead of continuity"
   ],
   "system_architecture": {
-    "soul": "Craft — Vision, Identity, Character/SBA, Domains of Life, Journaling (deep), Contemplation, Dreams, Language + Writing, Goal setting",
-    "brain": "Obsidian Commonplacebook — Sources (00 Inbox → 01 Sources → 02 Notecards → 03 Wiki → 04 Templates → 05 Toolbox → 06 Outputs)",
+    "governing_document": "~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md (APPROVED 2026-06-11) — highest authority, overrides CLAUDE.md when they conflict",
+    "vault_constitution": "~/Documents/Commonplacebook/CLAUDE.md — LifeOS v5 constitution, 'One Library, many windows, one Librarian'",
+    "library": "~/Documents/Commonplacebook/ — one substrate, all plain markdown. Everything: soul, quests, journals, knowledge, experiments, outputs",
+    "vault_schema": "00 Inbox | 01 Soul | 02 Domains | 03 Quests | 04 Journal | 05 Sources | 06 Notecards | 07 Wiki | 08 Language | 09 Toolbox | 10 Experiments | 11 Outputs | 12 Research | 90 Templates | 99 Archive",
+    "librarian": "Hermes/Aurelius — maintains bookkeeping (filing, linking, indexing, pattern detection, rendering outputs). Stefan does the living, judging, deciding, writing",
+    "windows": "Obsidian (browse + graph, phone via iCloud for KNOWLEDGE work) | Todoist (day's actions, phone) | ~/Outputs gallery | Apple Notes/voice memos (mobile capture) | mymind (visual capture) | generated Visual Deck (Quest Board, domain dashboards, soul page as HTML)",
+    "three_arenas": {
+      "meesterwerk": "From glorified contractor to his own game — 90-day win: proven offer, €10k/month",
+      "self": "2+2 bookends, emotional mastery, hero's journey — 90-day win: rituals surviving 12 weeks, 'making myself proud'",
+      "people": "Friendships, dating, hosting, bringing people together — 90-day win: real moments; storyworthy moments as the trace"
+    },
+    "cascade": "01 Soul (who and why) → 02 Domains (where you are vs where going) → 03 Quests (one per arena this quarter) → this week's objectives → this morning's 3 actions",
+    "quest_files": "One .md file per quest: goal, current state, next moves, links to research/pulled notes, log. That file IS the AI working context for that project",
+    "two_voices": {
+      "stefan_voice": "01 Soul, 02 Domains, 04 Journal, 06 Notecards, Wiki 'In Practice' sections — AI drafts FROM his words but never invents his opinions, vision, or feelings",
+      "ai_voice": "05 Sources, 07 Wiki Principles, 09 Toolbox, 11 Outputs, 12 Research synthesis — Hermes writes and maintains these"
+    },
+    "quarry": "~/Documents/Notes-Master — 3,000+ old notes. NEVER bulk-process. 2-hour weekly triage: quest-relevant themes first, four judgments per note: Delete / Keep / Act / Output",
     "capture": "Apple Notes — Inbox only, triaged weekly, nothing stays permanently",
-    "daily_journal": "Day One — daily log, feeds Craft quarterly",
-    "action": "Todoist (tasks) + NextLVL (habits) + Calendar (time blocking) + CharacterOS (identity execution)",
-    "projects": "Desktop 7-folder OS (Active Builds, Clients, Inner Work, Knowledge System, Meesterwerk, Personal OS, Relationships)",
-    "crm": "Tribe",
-    "reference": "Google Drive (being processed into Craft + Commonplacebook)",
-    "agents": "Hermes — orchestration, automation, cron jobs, session memory",
-    "knowledge_vault": "~/Documents/Commonplacebook/",
+    "action": "Todoist (tasks + /today ritual morning push) + NextLVL (habits) + Calendar (time blocking) + CharacterOS (identity execution)",
+    "daily_rituals": "/today (morning: after training/shower/meditation → Daily note + top 3 Todoist) | /reflect (evening: after run/mobility → same daily note + Storyworthy Moments)",
     "loop": "Vision → Capture → Process → Output → Act → Reflect → Vision",
-    "bottleneck": "Processing (raw input → own words → connected ideas → action)"
+    "bottleneck": "Processing (raw input → own words → connected ideas → behavior). A source that produces no action, no experiment, no decision, and no output gets a source note and nothing more.",
+    "learning_engine": "Consume (fleeting notes) → Process with AI (recall first, then extract) → Personalization step ('Given my three arenas, what does this change?') → Source note (objective) + notecards (Stefan's words) → Wiki updated → ONE concrete move → _library.md row added",
+    "knowledge_vault": "~/Documents/Commonplacebook/",
+    "legacy_raw_notes": "~/Documents/Obsidian/Stefan_second_Brain/ — legacy backlog + Readwise sync. Do NOT write processed content here.",
+    "mentor_vault": "~/Desktop/Hormozi Second Brain/ — single-mentor dedicated research vault. Keep separate.",
+    "project_wiki": "~/Desktop/Knowledge System/LLM-Wiki/ — project synthesis wiki (Meesterwerk, KubeCraft, etc.)"
   },
   "key_finding_june5": {
     "diagnosis": "Routing problem, not a knowledge problem",
@@ -78,8 +93,14 @@
       "apple_notes": "438 notes — 374 unprocessed raw captures",
       "mac_filesystem": "1,300+ files — vaults, code, tools",
       "obsidian_vaults": "~900 notes across Stefan Second Brain + Hormozi vault + Commonplacebook",
+      "notes_master": "3,000+ old notes — quarry, 2hr weekly triage",
       "downloads": "100+ files including paradigm_v0.3.md, vision docs"
     }
+  },
+  "key_finding_june21": {
+    "discovery": "LifeOS v5 architecture is in effect — supersedes all prior schema documentation",
+    "detail": "Hermes confirmed the Commonplacebook CLAUDE.md constitution (v5) with the 'One Library, many windows, one Librarian' framing and a new 00-99 folder schema. The governing Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md was approved 2026-06-11. This is a clean redesign from the old 5-layer OS approach — now a single unified Library rather than split Soul/Brain tools.",
+    "three_tests_for_every_design_choice": "(1) more human, not more digital; (2) arena-first — knowledge serves a live game or it waits its turn; (3) survives your worst week — daily parts are minutes, bolted onto habits you already have"
   },
   "bottlenecks": [
     "Processing consumed content into real understanding (not just summaries)",
@@ -89,30 +110,33 @@
     "Heavy thinking docs buried in Google Drive — not connected to daily operating system",
     "Building vs living: infrastructure design as procrastination risk",
     "Design throughput for Meesterwerk",
-    "Community Dashboard: Apify sync and Vercel deploy still needed before team can use it"
+    "Community Dashboard: Apify sync and Vercel deploy still needed before team can use it",
+    "Voice mode context loss — Hermes gives reset greetings in voice calls instead of maintaining continuity"
   ],
   "goals": [
-    "Build Commonplacebook wiki structure — all domain folders + stub pages (Build 1)",
-    "Migrate mentor raw notes to proper wiki pages — 9 mentors (Build 2)",
-    "Build Craft Soul skeleton + migrate heavy Drive docs in (Build 3)",
-    "Triage 374 unprocessed Apple Notes into routing system (Build 4/5)",
+    "Populate LifeOS v5 vault — 01 Soul, 02 Domains, 03 Quests with real content (not stubs)",
+    "Launch first quest per arena: Meesterwerk proven offer, Self 12-week rituals, People storyworthy moments",
     "Deploy KubeCraft Community Dashboard to Vercel (team can't use localhost)",
     "Build Apify daily sync so dashboard data stays current without manual drops",
     "Ship Content Engine V1 — carousel + LinkedIn post generator from any transcript",
     "Build Processing Studio V1 — one YouTube video end-to-end through the wisdom loop",
     "Upgrade Recall Studio from local Node.js to Next.js + Supabase SaaS",
-    "Make Obsidian a living knowledge graph maintained by Hermes",
+    "Start Notes-Master weekly triage ritual — 2hr session, quest-relevant themes first",
+    "Configure FAL.ai key to unblock image generation in Hermes",
     "Automate the KubeCraft content pipeline end-to-end"
   ],
   "key_decisions_made": [
+    "LifeOS v5 architecture is the operating system — Blueprint governs, CLAUDE.md implements",
+    "'One Library, many windows, one Librarian' — plain markdown survives every app",
+    "Three arenas as 90-day games: Meesterwerk (€10k/month), Self (12-week rituals), People (storyworthy moments)",
+    "One quest per arena — the quest .md file IS the AI's working context for that project",
     "Routing problem framing: Stefan has all the raw material — the gap is routing it correctly",
-    "5-layer OS: Soul (Craft) / Brain (Commonplacebook) / Capture (Apple Notes) / Action (Todoist+NextLVL) / Projects (Desktop OS)",
-    "One tool per job — declared winners, retired duplicates: Drive PARA and Notes PARA both retired",
+    "Notes-Master = quarry: never bulk process, 2hr weekly triage only, quest-relevant themes first",
     "Apple Notes = Capture inbox only — triaged weekly, nothing permanent",
-    "Day One = daily log (fast); Craft = deep quarterly reflection (slow)",
-    "Todoist = single task manager (no parallel systems)",
-    "Soul (Craft) / Brain (Obsidian) split is correct — but needs explicit bridge mechanisms",
-    "Source routing gate: DELETE / ARCHIVE / EXTRACT / DEEP PROCESS before anything enters vault",
+    "Todoist = single task manager (no parallel systems); integrated with /today ritual",
+    "Stefan's voice in 01 Soul, 02 Domains, 04 Journal, 06 Notecards — AI never invents his opinions",
+    "AI voice in 05 Sources, 07 Wiki Principles, 09 Toolbox, 11 Outputs, 12 Research",
+    "A source that produces no action/experiment/decision/output gets a source note and nothing more",
     "Processing Studio notecards must be in Stefan's own voice — 0 to 3 max per source",
     "Community dashboard: data ownership model — retire HubSpot for pipeline, own qualification tags natively",
     "Recall Studio: Visual DNA layer first, then artifacts — aesthetic is the product",
