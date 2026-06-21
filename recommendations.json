@@ -490,5 +490,77 @@
     "prompt": "Build me a LinkedIn Content Batch Builder. Input: client brand brief (name, tone, target audience, past top posts). Output: 4 LinkedIn post scripts in proven formats (story, contrarian, authority, diagnostic), each with a Higgsfield/FAL image prompt, assembled into a Google Doc, and pushed to Airtable To Review. Use KubeCraft.md at /Users/stefanberg/.hermes/cache/documents/doc_63e228ae1237_KubeCraft.MD as the first test case. Build as a reusable Hermes skill so I can run it for any client.",
     "status": "todo",
     "added_date": "2026-06-13"
+  },
+  {
+    "id": "n8n-content-pipeline",
+    "title": "n8n Content Automation Pipeline",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "n8n-workflow-patterns",
+    "why": "You installed a full n8n skill suite on June 15 (workflow patterns, node config, MCP tools, JS/Python code nodes, validation). This is a direct upgrade path from Make.com for the KubeCraft content engine — n8n is more powerful, self-hostable, and debuggable. First target: wire transcript → Airtable → Metricool with error handling and retry logic. The n8n-mcp-tools-expert skill also means Hermes can write n8n workflows on demand. High leverage: replaces the fragile Make.com automation you designed for the content engine.",
+    "prompt": "Help me build a KubeCraft content pipeline in n8n using your n8n skills. I need: 1) An HTTP trigger that accepts a transcript and client brand brief. 2) An AI node (Claude/GPT) that generates 4 LinkedIn post scripts in the KubeCraft voice. 3) A node that creates an Airtable record in 'To Review'. 4) A notification to Telegram when review is ready. Use the n8n-workflow-patterns and n8n-node-configuration skills to structure this properly.",
+    "status": "todo",
+    "added_date": "2026-06-21"
+  },
+  {
+    "id": "slack-api-integration",
+    "title": "Slack API — Read Team Channels",
+    "category": "workflow",
+    "priority": "high",
+    "action": "configure",
+    "skill_id": "slack-api",
+    "why": "You installed the full Slack skill suite on June 18 (slack-api, slack-cli, slack-messaging, slack-search, create-slack-app, block-kit). This directly resolves the blocker identified on June 12 — you needed to read Sammy's LinkedIn draft feedback from Slack and had to use the browser instead. With slack-api + slack-cli now available, Hermes can read channels, search messages, and post updates without opening a browser. First use: monitor the KubeCraft team Slack for content approvals.",
+    "prompt": "Help me connect my KubeCraft team Slack workspace to Hermes using the slack-api and slack-cli skills. I want to: 1) Read messages from specific channels (e.g. #content, #team). 2) Search for messages by keyword (e.g. 'approved', 'feedback'). 3) Post a Telegram summary of new Slack messages each morning. Configure it step by step.",
+    "status": "todo",
+    "added_date": "2026-06-21"
+  },
+  {
+    "id": "skool-comment-engagement",
+    "title": "Skool Comment Engagement Automation",
+    "category": "workflow",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "skool-comment-engagement",
+    "why": "You installed the skool-comment-engagement skill on June 18. Consistent, thoughtful engagement on Skool posts is one of the highest-leverage activities for growing the KubeCraft community and moving members through the pipeline. This skill can generate context-aware replies at scale — so Stefan or the setter team can engage 10x more members per hour. First target: reply to all unanswered posts in the free Linux community to qualify setters.",
+    "prompt": "Load the skool-comment-engagement skill and help me set up an engagement workflow for the KubeCraft Skool community. I want to: 1) Pull recent posts with no admin reply. 2) Generate thoughtful, on-brand engagement replies. 3) Review and post the best ones. Focus on posts from members in the 'Qualified' and 'Pending' stages of the pipeline.",
+    "status": "todo",
+    "added_date": "2026-06-21"
+  },
+  {
+    "id": "daily-ai-digest",
+    "title": "Daily AI & Learning Digest",
+    "category": "build",
+    "priority": "medium",
+    "action": "build",
+    "skill_id": "daily-ai-digest",
+    "why": "You installed the daily-ai-digest skill on June 19. This is the cron-backed equivalent of the arXiv monitor recommendation — delivered daily, covering AI agents, education, founder content, and learning science. Given your stated goal of staying ahead in self-improving AI systems and knowledge processing, a curated daily digest ensures you never miss the week's signal in these fields. Pairs well with the Processing Studio workflow — digest surfaces the source, Processing Studio turns it into notecards.",
+    "prompt": "Load the daily-ai-digest skill and configure a daily digest for me. Topics: AI agents and automation, education technology, founder/creator tools, learning science and knowledge processing. Deliver to Telegram every morning at 08:00 Amsterdam time. Format: 3–5 items with one-line summaries and why-it-matters context.",
+    "status": "todo",
+    "added_date": "2026-06-21"
+  },
+  {
+    "id": "agent-builder-meesterwerk",
+    "title": "Agent Builder — Processing Studio Agent",
+    "category": "intelligence",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "agent-builder",
+    "why": "You installed the agent-builder skill on June 15. Your most critical bottleneck is processing consumed content. Rather than manually running the Processing Studio flow each time, an agent can orchestrate the full pipeline: detect new source → fetch transcript → run recall questions → generate notecards in Stefan voice → file to Obsidian → suggest MOC connections. Agent-builder lets you define this as an autonomous worker rather than a manual workflow. Directly addresses the knowledge processing bottleneck.",
+    "prompt": "Help me build a Processing Studio agent using the agent-builder skill. The agent should: 1) Accept a YouTube URL or transcript as input. 2) Run the SOURCE ROUTING gate (DELETE / ARCHIVE / EXTRACT / DEEP PROCESS). 3) Generate Socratic recall questions before showing the summary. 4) Produce 0–3 notecards in Stefan's voice. 5) Suggest MOC connections in the Commonplacebook vault at ~/Documents/Commonplacebook/. 6) Produce one action/output prompt. Build it as an autonomous agent so I can trigger it from Telegram.",
+    "status": "todo",
+    "added_date": "2026-06-21"
+  },
+  {
+    "id": "prompt-coach-skill",
+    "title": "Prompt Coach — Sharpen AI Interactions",
+    "category": "intelligence",
+    "priority": "medium",
+    "action": "explore",
+    "skill_id": "prompt-coach",
+    "why": "You installed prompt-coach on June 17. As you build more Hermes automations, cron jobs, and AI-powered tools for Meesterwerk and KubeCraft, prompt quality becomes a compounding asset — better prompts → better outputs across every workflow. Use prompt-coach to audit and sharpen your most-used recurring prompts (Processing Studio notecard generator, LinkedIn post scripts, carousel generation prompt).",
+    "prompt": "Load the prompt-coach skill and help me sharpen my top 3 recurring prompts: 1) My LinkedIn post script generator for KubeCraft clients. 2) My Processing Studio notecard generation prompt. 3) My carousel content generation prompt. Analyze each for clarity, specificity, and output consistency — then give me an improved version.",
+    "status": "todo",
+    "added_date": "2026-06-21"
   }
 ]
