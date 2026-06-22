@@ -53,7 +53,8 @@
     "Higgsfield MCP blocked by Cloudflare 1010 — Hermes cannot generate images serverside via Higgsfield; needs FAL_KEY configured",
     "Slack direct messaging still not available via Hermes — Slack API skills installed (read/search) but outbound DMs still Telegram/WhatsApp only",
     "LinkedIn content images still require manual Higgsfield browser session — no programmatic path until FAL.ai is configured",
-    "Voice mode context loss — when Stefan calls via voice, Hermes loses prior session context and gives reset greetings instead of continuity"
+    "Voice mode context loss — when Stefan calls via voice, Hermes loses prior session context and gives reset greetings instead of continuity",
+    "Voice model Dutch/German language detection bug — voice model responds 'German' when asked to speak Dutch (Netherlands) before self-correcting (observed June 22)"
   ],
   "system_architecture": {
     "governing_document": "~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md (APPROVED 2026-06-11) — highest authority, overrides CLAUDE.md when they conflict",
@@ -152,5 +153,5 @@
       "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
     }
   ],
-  "updated": "2026-06-22"
+  "updated": "2026-06-23"
 }

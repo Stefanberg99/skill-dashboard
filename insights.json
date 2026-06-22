@@ -1,6 +1,16 @@
 {
-  "updated": "2026-06-22T08:00:00+02:00",
+  "updated": "2026-06-23T08:00:00+02:00",
   "sessions": [
+    {
+      "id": "20260622_211804_626b26",
+      "date": "2026-06-22",
+      "title": "Voice Call Dutch Language Bug",
+      "summary": "Two post-call voice transcripts processed via the CLI. A caller ('Gerda') asked Hermes to speak Dutch — the voice model initially responded 'German' before self-correcting to Dutch. Context-loss reset greeting also present again ('Hello there! How's it going?'). No Stefan-specific decisions or builds — a voice UX session that surfaced a language detection bug in the voice model.",
+      "topics": ["voice-mode", "hermes", "bug", "dutch", "language-detection"],
+      "things_built": [],
+      "decisions": ["Voice model has a language detection bug: responds 'German' when asked to speak Dutch (Netherlands) before self-correcting — needs a fix if Dutch voice calls are part of the product"],
+      "project": "hermes"
+    },
     {
       "id": "20260621_151124_4584c4",
       "date": "2026-06-21",
@@ -315,7 +325,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 19,
+    "total_sessions_tracked": 20,
     "things_built": [
       "Google Doc with 8 LinkedIn post scripts (4 Mischa + 4 KubeCraft)",
       "Higgsfield API key stored in Hermes config",
@@ -344,7 +354,7 @@
       "Commonplacebook LifeOS constitution v5 (CLAUDE.md) — 00-99 folder schema, three arenas",
       "LifeOS Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md"
     ],
-    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "lifeos"],
+    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "voice-mode"],
     "recommendations_completed": 0
   }
 }
