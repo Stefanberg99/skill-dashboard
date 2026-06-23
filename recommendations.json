@@ -670,5 +670,17 @@
     "prompt": "Build an Instagram drafter leaf for the KubeCraft content engine at ~/KubeCraft/tools/leaves/instagram.py. Clone the LinkedIn leaf architecture (reads source-spec.json, uses leafkit.py plumbing, falls back to in-session if API credit is out). Instagram format: 1080×1350 portrait (reuse kit.py with portrait aspect), caption is shorter and more casual than LinkedIn (150-200 chars), 3-5 hashtags, primary CTA is 'follow + link in bio'. Primary formats: carousel (4-6 slides, one key insight per slide) and single statement image. Output to Airtable Content Garden (reuse garden/airtable.py). Cadence: 3-5 posts/week from the same weekly trunk.",
     "status": "todo",
     "added_date": "2026-06-23"
+  },
+  {
+    "id": "wc26-cron-management",
+    "title": "Manage WC26 Match Predictor Cron",
+    "category": "workflow",
+    "priority": "medium",
+    "action": "configure",
+    "skill_id": null,
+    "why": "On June 23, Stefan created the 'WC26 Match Predictor' cron job (id: 28d68eecaebd) — runs every 15 minutes, monitors live World Cup 2026 matches on SofaScore, and only fires a Telegram alert when there's a high-confidence prediction window. This cron runs indefinitely. Once the World Cup group stage ends or Stefan no longer wants alerts, it should be disabled or deleted to avoid unnecessary Hermes API calls. Recommend reviewing after the Round of 16 (late June/early July 2026).",
+    "prompt": "Check the status of my WC26 Match Predictor cron job (id: 28d68eecaebd). Is it still running? Show me recent alerts it sent. If the World Cup is over or I'm done using it, help me disable or delete it: hermes jobs disable 28d68eecaebd (or delete). Also tell me if there are any other active cron jobs I should be aware of.",
+    "status": "todo",
+    "added_date": "2026-06-23"
   }
 ]
