@@ -1,6 +1,25 @@
 {
-  "updated": "2026-06-23T08:00:00+02:00",
+  "updated": "2026-06-23T09:30:00+02:00",
   "sessions": [
+    {
+      "id": "20260623_092015_c3c7c0",
+      "date": "2026-06-23",
+      "title": "KubeCraft Strategy & Content Gaps",
+      "summary": "Stefan asked Hermes to scan the KubeCraft workspace and build a strategy for delivering more value as brand & content manager. Hermes loaded the creator-content-engine skill, explored ~/KubeCraft/ (mature content engine with LinkedIn line, Content Garden, and Image engine), and scanned both Skool communities (6.1k free Linux, 888 paid KubeCraft at $4,800/year). Identified 5 critical gaps in order of leverage: (1) CTA routing only hits 2 of 5 lead magnet destinations, (2) Skool posts have no image renderer so go out naked, (3) members CSV not ingested into drafter missing member language intelligence, (4) newsletter workflow completely missing despite being the 'convert bridge' in the funnel, (5) Instagram drafter non-existent. Hermes framed the strategic shift: Stefan should position as systems owner, not task executor — the profile pictures/banner work is low-value; the missing systems are what creates leverage.",
+      "topics": ["kubecraft", "strategy", "content-engine", "skool", "linkedin", "newsletter", "instagram", "paperclip"],
+      "things_built": [],
+      "decisions": [
+        "Stefan's role: brand & content manager for KubeCraft (100K subscribers) — not just task executor",
+        "Priority 1: Fix CTA routing in draft_scripts.py (14 posts/week broken, 1h fix)",
+        "Priority 2: Build Skool image renderer — every post currently goes out without an image",
+        "Priority 3: Ingest members CSV → feed into drafter so posts mirror member language (69% fear AI replacement)",
+        "Priority 4: Build newsletter SOP + template — currently a gap nobody is filling",
+        "Priority 5: Instagram drafter — clone LinkedIn leaf, third reach channel untouched",
+        "Profile/banner/logo work: one block, then move up the value chain — don't stretch it",
+        "KubeCraft paid community: 888 members at $4,800/year; free Linux: 6.1k+ members"
+      ],
+      "project": "kubecraft"
+    },
     {
       "id": "20260622_211804_626b26",
       "date": "2026-06-22",
@@ -325,7 +344,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 20,
+    "total_sessions_tracked": 21,
     "things_built": [
       "Google Doc with 8 LinkedIn post scripts (4 Mischa + 4 KubeCraft)",
       "Higgsfield API key stored in Hermes config",
@@ -354,7 +373,7 @@
       "Commonplacebook LifeOS constitution v5 (CLAUDE.md) — 00-99 folder schema, three arenas",
       "LifeOS Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md"
     ],
-    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "voice-mode"],
+    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "content-engine"],
     "recommendations_completed": 0
   }
 }

@@ -5,7 +5,7 @@
   "timezone": "Europe/Amsterdam",
   "projects": [
     {"name": "Meesterwerk", "type": "Education / Founder — 90-day arena goal: proven offer, €10k/month", "status": "active"},
-    {"name": "KubeCraft", "type": "YouTube / Social", "status": "active"},
+    {"name": "KubeCraft", "type": "YouTube / Social — brand & content manager for Mischa van den Burg (100K subscribers), 2 LinkedIn posts/day", "status": "active"},
     {"name": "Recall Studio", "type": "SaaS product (transcript → resource)", "status": "in-progress"},
     {"name": "Community Dashboard", "type": "Client build (KubeCraft CRM + sales pipeline)", "status": "in-progress"},
     {"name": "Content Engine", "type": "Client service tool (transcript → carousel/posts, white-label)", "status": "in-progress"},
@@ -56,6 +56,24 @@
     "Voice mode context loss — when Stefan calls via voice, Hermes loses prior session context and gives reset greetings instead of continuity",
     "Voice model Dutch/German language detection bug — voice model responds 'German' when asked to speak Dutch (Netherlands) before self-correcting (observed June 22)"
   ],
+  "kubecraft_content_engine": {
+    "role": "Brand & content manager for KubeCraft (Mischa van den Burg, 100K subscribers)",
+    "location": "~/KubeCraft/ — mature content engine with two production lines + image engine",
+    "linkedin_line": "draft_scripts.py → week-spec.json → build_week.py/kit.py → review_page.py → backlog.py → Metricool. 14 posts/week (2/day). Fully operational.",
+    "content_garden_line": "trunk/ingest.py (YouTube → source-spec.json) → leaves/skool.py + leaves/shorts.py → garden/airtable.py → Content Garden Airtable. Operational but Skool posts go out without images.",
+    "image_engine": "7 families (cards/photographic/infographic/graphic-only/carousel/note-cards/brand-visuals). assemble.py + judge.py + publish.py. LinkedIn renderer deterministic HTML→Chrome.",
+    "communities": "Free Linux (6,100+ members, Skool) + KubeCraft Career Accelerator (888 members, $4,800/year)",
+    "critical_gaps_june23": [
+      "CTA routing: draft_scripts.py only routes to 2 of 5 lead magnet destinations (fixing = 1h, high ROI)",
+      "Skool image renderer: image_brief is captured in spec but not rendered — all Skool posts go out naked",
+      "Members CSV: skool-member-language-bank.md not ingested into drafter — missing voice-of-customer intelligence",
+      "Newsletter: explicit 'convert bridge' in funnel strategy but zero workflow, template, or drafter",
+      "Instagram: channel card exists, no drafter, no output — third reach channel untouched"
+    ],
+    "brand_truth": "~/brand-library/clients/kubecraft/ + ~/KubeCraft/house-style.md",
+    "content_amber": "#f07020 (content accent, NOT site amber #E54A19)",
+    "airtable_base": "appkrGKdWVLlJYBD6 (Content Garden)"
+  },
   "system_architecture": {
     "governing_document": "~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md (APPROVED 2026-06-11) — highest authority, overrides CLAUDE.md when they conflict",
     "vault_constitution": "~/Documents/Commonplacebook/CLAUDE.md — LifeOS v5 constitution, 'One Library, many windows, one Librarian'",

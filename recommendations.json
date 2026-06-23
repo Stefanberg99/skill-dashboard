@@ -610,5 +610,65 @@
     "prompt": "Help me fix two voice mode bugs. Bug 1: the voice model misidentifies 'Dutch' as 'German' before self-correcting — I need to find where the voice system prompt is configured and add an explicit Dutch (Netherlands) language instruction. Bug 2: every voice call starts with a reset greeting ('Hello there! How's it going?') instead of recognizing me. Investigate: 1) Where is the voice model system prompt defined? 2) Can I add Stefan-context to the voice session start so it knows who's calling? 3) Add explicit Dutch/Netherlands language handling so it doesn't need self-correction.",
     "status": "todo",
     "added_date": "2026-06-23"
+  },
+  {
+    "id": "kubecraft-cta-routing-fix",
+    "title": "Fix KubeCraft CTA Routing (14 Posts/Week)",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "creator-content-engine",
+    "why": "In the June 23 KubeCraft strategy session, Hermes discovered that draft_scripts.py only routes CTAs to 2 destinations (linux_course + devops_blueprint) while the content strategy calls for 5 distinct routes: Sprint ×4, DM diagnostic ×3, lead magnet ×3, Linux course ×2, newsletter ×2 per week across 14 posts. This is a 1-hour fix that directly changes the conversion trajectory of every post batch. High ROI for minimal effort.",
+    "prompt": "Fix the CTA routing in /Users/stefanberg/KubeCraft/tools/kubecraft/draft_scripts.py. Currently it only routes to 2 lead magnet destinations. The content strategy (~/KubeCraft/channels/linkedin.md) targets: Sprint ×4, DM diagnostic ×3, lead magnet ×3, Linux course ×2, newsletter ×2 per week. Update the CTA logic to distribute across all 5 routes per 14-post batch. Reference the full lead magnet map in ~/KubeCraft/references/kubecraft-lead-magnets.md.",
+    "status": "todo",
+    "added_date": "2026-06-23"
+  },
+  {
+    "id": "skool-image-renderer",
+    "title": "Build Skool Post Image Renderer",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "creator-content-engine",
+    "why": "Every Skool post goes out without an image right now. The content garden drafter (tools/leaves/skool.py) captures an image_brief field in the source-spec but nothing renders it. The strategy doc says 'one image per post'. Reusing kit.py with a Skool-appropriate layout (different brand treatment than LinkedIn — warmer, community feel) would lift every post. The image engine is mature; extending it for a new channel format is the right build.",
+    "prompt": "Build a Skool image renderer for the KubeCraft content engine at /Users/stefanberg/KubeCraft/. The tools/leaves/skool.py already captures an image_brief in the output spec — build a renderer that reads this brief and outputs a 1080×1080 or 4:5 image using kit.py as the base (reuse the HTML→Chrome pipeline). The Skool aesthetic should be warmer and more community-focused than the LinkedIn terminal style — use the same amber #f07020 accent but a lighter background and a more conversational layout. Write the output to ~/Outputs/kubecraft-skool-posts/<week>/.",
+    "status": "todo",
+    "added_date": "2026-06-23"
+  },
+  {
+    "id": "skool-member-language-ingestion",
+    "title": "Ingest Members CSV → Drafter Intelligence",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "creator-content-engine",
+    "why": "The KubeCraft Skool community has 6,100+ free and 888 paid members. The strategy doc references a members CSV with intro posts capturing member language — and 69% of members mention AI replacement fears in exact phrases ('renting a prompt from a centralized black box in California'). This language is documented in ~/KubeCraft/references/skool-member-language-bank.md but zero code reads it. Feeding this into the Skool drafter would make every post feel like it reads minds. One of the highest-leverage improvements available.",
+    "prompt": "Build a member language ingestion step for the KubeCraft Skool drafter. Read ~/KubeCraft/references/skool-member-language-bank.md and integrate the member fear language, goals language, and objection language into the tools/leaves/skool.py drafter context. When generating a Skool post, the drafter should pull the top 3 matching fears/language patterns based on the post topic and inject them as voice-of-customer context. Goal: Skool posts that mirror member language exactly, making members feel seen.",
+    "status": "todo",
+    "added_date": "2026-06-23"
+  },
+  {
+    "id": "kubecraft-newsletter-workflow",
+    "title": "Build KubeCraft Newsletter SOP & Drafter",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "creator-content-engine",
+    "why": "The content strategy explicitly assigns the newsletter as the 'convert bridge' between the free Skool community and the paid product — but there is zero workflow, template, or drafter for it. Nobody is building this for Mischa. Stefan building the newsletter workflow would be a distinct new capability that directly addresses the weakest link in the funnel: warming free members into paid buyers. The source material (long-form video transcripts + skool posts) is already flowing — the newsletter is the missing distribution layer.",
+    "prompt": "Build a KubeCraft newsletter workflow. First, create ~/KubeCraft/channels/newsletter.md with the channel strategy (funnel stage: nurture bridge, one CTA path to paid Sprint, weekly cadence). Then build a newsletter drafter leaf at ~/KubeCraft/tools/leaves/newsletter.py that reads source-spec.json and produces a weekly newsletter: 3-section structure (1 insight from the week's video, 1 member win or community moment, 1 soft CTA to kubecraft.dev). Output to ~/Outputs/kubecraft-newsletter/<week>/newsletter-draft.md. Voice should be warmer than LinkedIn — direct conversation from Mischa to a trusted audience.",
+    "status": "todo",
+    "added_date": "2026-06-23"
+  },
+  {
+    "id": "kubecraft-instagram-drafter",
+    "title": "Build Instagram Drafter (Reach Channel 3)",
+    "category": "build",
+    "priority": "medium",
+    "action": "build",
+    "skill_id": "creator-content-engine",
+    "why": "Instagram has a channel card at ~/KubeCraft/channels/instagram.md and a defined funnel role (awareness + reach, carousels and reels) but no drafter, no output, and no workflow. The trunk already extracts what's needed from source-spec.json. Cloning the LinkedIn leaf pattern into an Instagram leaf is the right build — it unlocks a third reach channel from the same source material without additional content creation effort. Cadence target: 3-5 posts/week.",
+    "prompt": "Build an Instagram drafter leaf for the KubeCraft content engine at ~/KubeCraft/tools/leaves/instagram.py. Clone the LinkedIn leaf architecture (reads source-spec.json, uses leafkit.py plumbing, falls back to in-session if API credit is out). Instagram format: 1080×1350 portrait (reuse kit.py with portrait aspect), caption is shorter and more casual than LinkedIn (150-200 chars), 3-5 hashtags, primary CTA is 'follow + link in bio'. Primary formats: carousel (4-6 slides, one key insight per slide) and single statement image. Output to Airtable Content Garden (reuse garden/airtable.py). Cadence: 3-5 posts/week from the same weekly trunk.",
+    "status": "todo",
+    "added_date": "2026-06-23"
   }
 ]
