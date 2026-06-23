@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-23T07:41:22.867534Z",
-  "hash": "41b9a7ba2d7e8350f7643dcf51c69717",
+  "synced_at": "2026-06-23T08:06:28.975185Z",
+  "hash": "564c0007fd076ff722daa960b08ab9a0",
   "skills": [
     {
       "name": "agent-builder",
@@ -397,18 +397,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-09T10:00:09.341125Z",
       "category": "AI & Agents"
-    },
-    {
-      "name": "kubecraft-linkedin",
-      "what": "Turn a topic (or an existing week-spec.json) into upload-ready KubeCraft LinkedIn posts: branded 1080x1350 PNG/JPG slides and carousel PDFs in ~/Outputs/kubecraft-linkedin-posts/<week>/<slug>/, with the two human approval gates respected.",
-      "when": "rendering or producing KubeCraft LinkedIn posts for Mischa van den Burg \u2014 fires on \"render the week-spec\", \"build the KubeCraft carousel\", \"make KubeCraft LinkedIn posts\", \"draft KubeCraft scripts\", or when handed a week-spec.json. Drives the deterministic draft \u2192 render \u2192 review \u2192 backlog pipeline (Apple x KubeCraft design system, 1080x1350 PNG/JPG slides + carousel PDFs).",
-      "raw_desc": "Use when rendering or producing KubeCraft LinkedIn posts for Mischa van den Burg \u2014 fires on \"render the week-spec\", \"build the KubeCraft carousel\", \"make KubeCraft LinkedIn posts\", \"draft KubeCraft scripts\", or when handed a week-spec.json. Drives the deterministic draft \u2192 render \u2192 review \u2192 backlog pipeline (Apple x KubeCraft design system, 1080x1350 PNG/JPG slides + carousel PDFs).",
-      "folder": "kubecraft-linkedin",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-13T07:54:05.282924Z",
-      "category": "Design"
     },
     {
       "name": "lead-research-assistant",
