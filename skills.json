@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-23T08:37:52.149288Z",
-  "hash": "fbd41efe1a0c3dd28499f58b28607620",
+  "synced_at": "2026-06-23T15:17:25.767422Z",
+  "hash": "ecc6fdf556b15dfc8e274d34d391d597",
   "skills": [
     {
       "name": "agent-builder",
@@ -241,6 +241,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Writing"
+    },
+    {
+      "name": "educational-infographics",
+      "what": "Turn any topic or description into a polished, branded educational infographic PNG using Nano Banana 2 \u2014 styled with Stefan's personal brand colors, fonts, and logo in the top right corner \u2014 auto-organized in ~/Outputs/ by date and title.",
+      "when": "Stefan wants to create an educational infographic from any input \u2014 \"make me an educational infographic\", \"create an infographic about X\", \"turn this into an infographic\", \"visualize this topic\". Generates a branded PNG using Nano Banana 2, styled with Stefan's personal brand identity (colors, fonts, logo top-right), output saved to ~/Outputs/educational-infographics/YYYY-MM-DD-title/.",
+      "raw_desc": "Use when Stefan wants to create an educational infographic from any input \u2014 \"make me an educational infographic\", \"create an infographic about X\", \"turn this into an infographic\", \"visualize this topic\". Generates a branded PNG using Nano Banana 2, styled with Stefan's personal brand identity (colors, fonts, logo top-right), output saved to ~/Outputs/educational-infographics/YYYY-MM-DD-title/.",
+      "folder": "educational-infographics",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-23T15:17:25.767422Z",
+      "category": "Design"
     },
     {
       "name": "excalidraw-diagram",
