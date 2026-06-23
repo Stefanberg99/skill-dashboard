@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-19T18:31:45.429083Z",
-  "hash": "564c0007fd076ff722daa960b08ab9a0",
+  "synced_at": "2026-06-23T07:41:22.867534Z",
+  "hash": "41b9a7ba2d7e8350f7643dcf51c69717",
   "skills": [
     {
       "name": "agent-builder",
@@ -280,15 +280,15 @@
     },
     {
       "name": "experiment",
-      "what": "Skill-building ritual. Turns a theory, exercise, or skill goal into a concrete experiment with a drill, success criteria, and a log, then tracks reps and verdicts",
-      "when": "Stefan says /experiment, \"I want to practice X\", \"turn this into a drill\", or wants to test something from a source.",
-      "raw_desc": "Skill-building ritual. Turns a theory, exercise, or skill goal into a concrete experiment with a drill, success criteria, and a log, then tracks reps and verdicts. Trigger when Stefan says /experiment, \"I want to practice X\", \"turn this into a drill\", or wants to test something from a source.",
+      "what": "The front door to Stefan's R&D lab \u2014 turns any experience or intention into a falsifiable experiment that compounds (action \u2192 result \u2192 feedback \u2192 iterate), logged to his Brain in his voice. Dispatches the experiment-partner agent, which reads his Soul (TELOS), Domains, Knowledge, and Toolbox read-only so the feedback is grounded in who he is, then writes to the right domain log",
+      "when": "Stefan says \"/experiment\", \"log this\", \"debrief this\", \"design an experiment\", \"let's run an experiment\", \"what should I test next\", \"review my experiment\", \"turn this into a drill\", or shares a relationship/dating or business/content experience he wants to learn from. NOT the daily/weekly cadence (/today, /reflect, /weekly) \u2014 this is the separate experiment track for building skills and gathering real reps.",
+      "raw_desc": "The front door to Stefan's R&D lab \u2014 turns any experience or intention into a falsifiable experiment that compounds (action \u2192 result \u2192 feedback \u2192 iterate), logged to his Brain in his voice. Dispatches the experiment-partner agent, which reads his Soul (TELOS), Domains, Knowledge, and Toolbox read-only so the feedback is grounded in who he is, then writes to the right domain log. Trigger when Stefan says \"/experiment\", \"log this\", \"debrief this\", \"design an experiment\", \"let's run an experiment\", \"what should I test next\", \"review my experiment\", \"turn this into a drill\", or shares a relationship/dating or business/content experience he wants to learn from. NOT the daily/weekly cadence (/today, /reflect, /weekly) \u2014 this is the separate experiment track for building skills and gathering real reps.",
       "folder": "experiment",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-11T15:42:56.963163Z",
-      "category": "Coding"
+      "category": "Memory"
     },
     {
       "name": "figma-extract",
@@ -397,6 +397,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-09T10:00:09.341125Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "kubecraft-linkedin",
+      "what": "Turn a topic (or an existing week-spec.json) into upload-ready KubeCraft LinkedIn posts: branded 1080x1350 PNG/JPG slides and carousel PDFs in ~/Outputs/kubecraft-linkedin-posts/<week>/<slug>/, with the two human approval gates respected.",
+      "when": "rendering or producing KubeCraft LinkedIn posts for Mischa van den Burg \u2014 fires on \"render the week-spec\", \"build the KubeCraft carousel\", \"make KubeCraft LinkedIn posts\", \"draft KubeCraft scripts\", or when handed a week-spec.json. Drives the deterministic draft \u2192 render \u2192 review \u2192 backlog pipeline (Apple x KubeCraft design system, 1080x1350 PNG/JPG slides + carousel PDFs).",
+      "raw_desc": "Use when rendering or producing KubeCraft LinkedIn posts for Mischa van den Burg \u2014 fires on \"render the week-spec\", \"build the KubeCraft carousel\", \"make KubeCraft LinkedIn posts\", \"draft KubeCraft scripts\", or when handed a week-spec.json. Drives the deterministic draft \u2192 render \u2192 review \u2192 backlog pipeline (Apple x KubeCraft design system, 1080x1350 PNG/JPG slides + carousel PDFs).",
+      "folder": "kubecraft-linkedin",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-13T07:54:05.282924Z",
+      "category": "Design"
     },
     {
       "name": "lead-research-assistant",
@@ -1144,7 +1156,7 @@
     },
     {
       "name": "pptx",
-      "what": "| Task | Guide | |------|-------| | Read/analyze content | python -m markitdown presentation.pptx | | Edit or create from template | Read editing.md | | Create from scratch | Read pptxgenjs.md |",
+      "what": "| Task | Guide | |------|-------| | Read/analyze content | extract-text presentation.pptx | | Edit or create from template | Read editing.md | | Create from scratch | Read pptxgenjs.md |",
       "when": "a .pptx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
       "raw_desc": "Use this skill any time a .pptx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
       "folder": "pptx",
