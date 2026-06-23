@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-23T08:06:28.975185Z",
-  "hash": "564c0007fd076ff722daa960b08ab9a0",
+  "synced_at": "2026-06-23T08:37:52.149288Z",
+  "hash": "fbd41efe1a0c3dd28499f58b28607620",
   "skills": [
     {
       "name": "agent-builder",
@@ -612,6 +612,18 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T16:19:01.411489Z",
+      "category": "Design"
+    },
+    {
+      "name": "nano-banana-images",
+      "what": "Generate hyper-realistic, tightly-controlled images with Nano Banana 2 (Gemini 3 image model) via the Kie.ai API, using structured JSON prompts that neutralize the model's \"plastic AI\" bias. Trigger whenever Stefan wants to create, generate, or make an image, photo, render, selfie, product shot, infographic, mockup, or visual \u2014 especially when he says \"make me a nano banana image of...\", \"generate an image\", \"create a photo of\", \"render\", or describes a scene he wants pictured. Costs ~$0.04-0.09 per image. Use this even when he doesn't say \"nano banana\" by name, as long as he wants a still image produced from a description.",
+      "when": "",
+      "raw_desc": "Generate hyper-realistic, tightly-controlled images with Nano Banana 2 (Gemini 3 image model) via the Kie.ai API, using structured JSON prompts that neutralize the model's \"plastic AI\" bias. Trigger whenever Stefan wants to create, generate, or make an image, photo, render, selfie, product shot, infographic, mockup, or visual \u2014 especially when he says \"make me a nano banana image of...\", \"generate an image\", \"create a photo of\", \"render\", or describes a scene he wants pictured. Costs ~$0.04-0.09 per image. Use this even when he doesn't say \"nano banana\" by name, as long as he wants a still image produced from a description.",
+      "folder": "nano-banana-images",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-23T08:37:52.149288Z",
       "category": "Design"
     },
     {
