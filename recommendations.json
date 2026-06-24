@@ -678,9 +678,10 @@
     "priority": "medium",
     "action": "configure",
     "skill_id": null,
-    "why": "On June 23, Stefan created the 'WC26 Match Predictor' cron job (id: 28d68eecaebd) — runs every 15 minutes, monitors live World Cup 2026 matches on SofaScore, and only fires a Telegram alert when there's a high-confidence prediction window. This cron runs indefinitely. Once the World Cup group stage ends or Stefan no longer wants alerts, it should be disabled or deleted to avoid unnecessary Hermes API calls. Recommend reviewing after the Round of 16 (late June/early July 2026).",
-    "prompt": "Check the status of my WC26 Match Predictor cron job (id: 28d68eecaebd). Is it still running? Show me recent alerts it sent. If the World Cup is over or I'm done using it, help me disable or delete it: hermes jobs disable 28d68eecaebd (or delete). Also tell me if there are any other active cron jobs I should be aware of.",
+    "why": "On June 23, Stefan created the 'WC26 Match Predictor' cron job (id: 28d68eecaebd) — runs every 15 minutes, monitors live World Cup 2026 matches on SofaScore, and only fires a Telegram alert when there's a high-confidence prediction window. ⚠️ NEW (Jun 24): SofaScore is now blocked at 403 in the server-side browser — the cron falls back to BBC Sport, which lacks xG data and live minute-by-minute granularity. This degrades prediction confidence significantly. Options: (1) configure a residential proxy for SofaScore access, (2) switch primary source to FlashScore or FotMob, or (3) accept BBC-only mode with lower-confidence alerts. Also: Round of 16 begins late June — review scope (cron will fire more during evening kickoffs 20:00–23:00 CET).",
+    "prompt": "Check the status of my WC26 Match Predictor cron job (id: 28d68eecaebd). SofaScore is now blocked (403) so it's falling back to BBC Sport. Options: 1) Find a working live score API (FlashScore, FotMob, api-football.com) that doesn't block server-side requests. 2) Update the cron prompt to use the new source with xG/minute data. 3) Or disable the cron if I don't want it running anymore. Also show me what matches have triggered alerts so far.",
     "status": "todo",
-    "added_date": "2026-06-23"
+    "added_date": "2026-06-23",
+    "updated_date": "2026-06-24"
   }
 ]
