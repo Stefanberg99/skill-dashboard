@@ -675,13 +675,13 @@
     "id": "wc26-cron-management",
     "title": "Manage WC26 Match Predictor Cron",
     "category": "workflow",
-    "priority": "medium",
+    "priority": "high",
     "action": "configure",
     "skill_id": null,
-    "why": "On June 23, Stefan created the 'WC26 Match Predictor' cron job (id: 28d68eecaebd) — runs every 15 minutes, monitors live World Cup 2026 matches on SofaScore, and only fires a Telegram alert when there's a high-confidence prediction window. ⚠️ NEW (Jun 24): SofaScore is now blocked at 403 in the server-side browser — the cron falls back to BBC Sport, which lacks xG data and live minute-by-minute granularity. This degrades prediction confidence significantly. Options: (1) configure a residential proxy for SofaScore access, (2) switch primary source to FlashScore or FotMob, or (3) accept BBC-only mode with lower-confidence alerts. Also: Round of 16 begins late June — review scope (cron will fire more during evening kickoffs 20:00–23:00 CET).",
-    "prompt": "Check the status of my WC26 Match Predictor cron job (id: 28d68eecaebd). SofaScore is now blocked (403) so it's falling back to BBC Sport. Options: 1) Find a working live score API (FlashScore, FotMob, api-football.com) that doesn't block server-side requests. 2) Update the cron prompt to use the new source with xG/minute data. 3) Or disable the cron if I don't want it running anymore. Also show me what matches have triggered alerts so far.",
+    "why": "On June 23, Stefan created the 'WC26 Match Predictor' cron job (id: 28d68eecaebd) — runs every 15 minutes, monitors live World Cup 2026 matches on SofaScore, and only fires a Telegram alert when there's a high-confidence prediction window. ⚠️ BROKEN (Jun 24–25): Both automated and manual live match fetch paths are currently failing. (1) The cron falls back to BBC Sport (SofaScore blocked 403 server-side — no xG or minute granularity). (2) Stefan manually asked for live match analysis on Telegram at 22:17 — the web delegate task timed out after 379 seconds with no results delivered. This needs urgent fixing for Round of 16 matches (Bosnia-Herz vs Qatar, Switzerland vs Canada, Morocco vs Haiti, Scotland vs Brazil on Jun 24). Options: switch primary source to api-football.com or FlashScore (no Cloudflare blocks), or configure a proxy.",
+    "prompt": "Check the status of my WC26 Match Predictor cron job (id: 28d68eecaebd). SofaScore is now blocked (403) so it's falling back to BBC Sport. My manual Telegram request for live match analysis also timed out on Jun 24. Fix this: 1) Find a working live score API (api-football.com, FlashScore, FotMob) that doesn't block server-side requests. 2) Update the cron prompt to use the new source with xG/minute data. 3) Or disable the cron if I don't want it running anymore. Also show me what matches have triggered alerts so far.",
     "status": "todo",
     "added_date": "2026-06-23",
-    "updated_date": "2026-06-24"
+    "updated_date": "2026-06-25"
   }
 ]

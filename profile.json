@@ -54,7 +54,8 @@
     "Slack direct messaging still not available via Hermes — Slack API skills installed (read/search) but outbound DMs still Telegram/WhatsApp only",
     "LinkedIn content images still require manual Higgsfield browser session — no programmatic path until FAL.ai is configured",
     "Voice mode context loss — when Stefan calls via voice, Hermes loses prior session context and gives reset greetings instead of continuity",
-    "Voice model Dutch/German language detection bug — voice model responds 'German' when asked to speak Dutch (Netherlands) before self-correcting (observed June 22)"
+    "Voice model Dutch/German language detection bug — voice model responds 'German' when asked to speak Dutch (Netherlands) before self-correcting (observed June 22)",
+    "WC26 live match fetch broken — both the cron (SofaScore 403, BBC fallback) and manual Telegram delegate_task (379s timeout) fail to deliver live match data; neither path works for real-time sports analysis"
   ],
   "kubecraft_content_engine": {
     "role": "Brand & content manager for KubeCraft (Mischa van den Burg, 100K subscribers)",
@@ -171,5 +172,5 @@
       "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
     }
   ],
-  "updated": "2026-06-24"
+  "updated": "2026-06-25"
 }
