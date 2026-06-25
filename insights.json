@@ -1,6 +1,23 @@
 {
-  "updated": "2026-06-25T17:00:00+02:00",
+  "updated": "2026-06-25T22:05:00+02:00",
   "sessions": [
+    {
+      "id": "cron_28d68eecaebd_20260625_213721",
+      "date": "2026-06-25",
+      "title": "WC26 June 25 Evening — Match Results",
+      "summary": "The WC26 Match Predictor cron ran ~10 times during the June 25 evening window (19:29–21:55 Amsterdam), all returning SILENT as there were no live matches between batches. The 21:37 run fetched ESPN and confirmed all June 25 results: Morocco 4–2 Haiti, Scotland 0–3 Brazil (Scotland eliminated), South Africa 1–0 South Korea, Czech Republic 0–3 Mexico. Germany vs Ecuador and Curaçao vs Ivory Coast kick off at 22:00 ET (04:00 Amsterdam). SofaScore remains 403-blocked; BBC Sport renders pages but doesn't expose live score data; ESPN is the confirmed working fallback.",
+      "topics": ["world-cup", "cron-job", "espn", "live-analysis", "sports-prediction"],
+      "things_built": [],
+      "decisions": [
+        "Scotland eliminated from WC26 — 0-3 loss to Brazil ends their tournament",
+        "South Africa reach knockouts for the first time — 1-0 win over South Korea",
+        "Mexico maintain 100% record — 3-0 over Czech Republic (CZE eliminated)",
+        "Morocco progress as runners-up — 4-2 over Haiti",
+        "ESPN scoreboard confirmed working for WC26 final scores and upcoming fixture times; SofaScore 403 remains the blocker for xG/minute granularity",
+        "BBC Sport scores-fixtures page renders without live score data — not useful for the cron monitoring path"
+      ],
+      "project": "general"
+    },
     {
       "id": "cron_28d68eecaebd_20260625_152923",
       "date": "2026-06-25",
