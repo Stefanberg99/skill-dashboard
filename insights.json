@@ -1,6 +1,20 @@
 {
-  "updated": "2026-06-25T09:00:00+02:00",
+  "updated": "2026-06-25T17:00:00+02:00",
   "sessions": [
+    {
+      "id": "cron_28d68eecaebd_20260625_152923",
+      "date": "2026-06-25",
+      "title": "WC26 Cron: ESPN Source Confirmed",
+      "summary": "The WC26 Match Predictor cron ran multiple times on June 25. The 15:32 run (52 messages) confirmed ESPN (espn.com/soccer/scoreboard) works as a data source — no 403 blocking, full match data accessible. Completed matches discovered: Mexico 100% record (beat Czech Republic), South Africa beat South Korea. Upcoming June 25 evening matches: Germany vs Ecuador (Group E, MetLife), Ivory Coast vs Curacao (Group E, Philadelphia), Netherlands vs Tunisia, Sweden vs Japan, Australia vs Paraguay, USA vs Turkey. Cron returned [SILENT] because no matches were live at the time of the checks (evening US kickoffs not yet started). SofaScore remains blocked but ESPN is a working fallback.",
+      "topics": ["world-cup", "cron-job", "espn", "live-analysis", "sports-prediction", "data-source"],
+      "things_built": [],
+      "decisions": [
+        "ESPN is a confirmed working WC26 data source — no 403 blocking unlike SofaScore",
+        "June 25 WC26 matches: Germany vs Ecuador (10PM), Ivory Coast vs Curacao (10PM), Netherlands vs Tunisia, Sweden vs Japan, Australia vs Paraguay, USA vs Turkey",
+        "Cron correctly returns SILENT when no live matches — noise suppression working as designed"
+      ],
+      "project": "general"
+    },
     {
       "id": "20260624_221721_74a10db2",
       "date": "2026-06-24",
@@ -327,6 +341,26 @@
       "project": "obsidian"
     },
     {
+      "id": "20260525_092429_cdbd4e",
+      "date": "2026-05-25",
+      "title": "Personal Infrastructure Architecture",
+      "summary": "Two parallel sub-sessions synthesizing Stefan's earlier Claude conversations about building a personal infrastructure for compounding mastery. Extracted the full 12-part vision (Soul/Brain split, 5-stage loop, domain template, AI services taxonomy). Claude challenged the Soul/Brain split but conceded it with the condition that explicit bridges are designed. Key tension identified: infrastructure design as procrastination — the system must not become the work.",
+      "topics": ["commonplacebook", "personal-infrastructure", "soul-brain-split", "ai-services", "knowledge-system", "domains"],
+      "things_built": [
+        "Comprehensive synthesis of personal OS architecture (Claude Code session 20260521)"
+      ],
+      "decisions": [
+        "Keep Soul (Craft) / Brain (Obsidian) split with explicit bridges",
+        "Vision enforcement via calendar rituals (not just documents)",
+        "Storyworthy Moments practice = highest-leverage immediate habit",
+        "Decision Journal = highest-leverage long-term practice",
+        "Source Processor is first AI project to build",
+        "Socratic Tutor + Self-Deception Spotter + Critic = three modes of one project",
+        "No new Domain Mentor until that domain has 10+ processed sources"
+      ],
+      "project": "obsidian"
+    },
+    {
       "id": "20260523_085829_24cdeb",
       "date": "2026-05-23",
       "title": "Recall Studio SaaS Build",
@@ -348,30 +382,10 @@
         "Stack: Next.js + Supabase eventually; current MVP is Node.js local"
       ],
       "project": "meesterwerk"
-    },
-    {
-      "id": "20260525_092429_cdbd4e",
-      "date": "2026-05-25",
-      "title": "Personal Infrastructure Architecture",
-      "summary": "Two parallel sub-sessions synthesizing Stefan's earlier Claude conversations about building a personal infrastructure for compounding mastery. Extracted the full 12-part vision (Soul/Brain split, 5-stage loop, domain template, AI services taxonomy). Claude challenged the Soul/Brain split but conceded it with the condition that explicit bridges are designed. Key tension identified: infrastructure design as procrastination — the system must not become the work.",
-      "topics": ["commonplacebook", "personal-infrastructure", "soul-brain-split", "ai-services", "knowledge-system", "domains"],
-      "things_built": [
-        "Comprehensive synthesis of personal OS architecture (Claude Code session 20260521)"
-      ],
-      "decisions": [
-        "Keep Soul (Craft) / Brain (Obsidian) split with explicit bridges",
-        "Vision enforcement via calendar rituals (not just documents)",
-        "Storyworthy Moments practice = highest-leverage immediate habit",
-        "Decision Journal = highest-leverage long-term practice",
-        "Source Processor is first AI project to build",
-        "Socratic Tutor + Self-Deception Spotter + Critic = three modes of one project",
-        "No new Domain Mentor until that domain has 10+ processed sources"
-      ],
-      "project": "obsidian"
     }
   ],
   "stats": {
-    "total_sessions_tracked": 23,
+    "total_sessions_tracked": 24,
     "things_built": [
       "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments)",
       "Higgsfield API key stored in Hermes config",
