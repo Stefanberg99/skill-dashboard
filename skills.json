@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-24T06:42:42.760994Z",
-  "hash": "ecc6fdf556b15dfc8e274d34d391d597",
+  "synced_at": "2026-06-25T20:19:27.006909Z",
+  "hash": "2659894b56d267913ca7e762cc4ef1d6",
   "skills": [
     {
       "name": "agent-builder",
@@ -781,6 +781,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-11T15:41:53.012979Z",
       "category": "Other"
+    },
+    {
+      "name": "roast",
+      "what": "Claude's default is to agree with you. /roast is the opposite. It convenes a council of five independent persona agents who tear an idea apart and build it up from every angle, then a Judge synthesizes everything into one honest verdict. Use it before you sink time and money into building the wrong thing.",
+      "when": "someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, \"convene the council\", get a brutal second opinion before building something, or says \"/roast\". Spins up a 5-persona council that attacks the idea from every angle, then a Judge returns one GO / RESHAPE / KILL verdict with the cheapest test to de-risk it.",
+      "raw_desc": "Use when someone asks to roast an idea, pressure-test or stress-test an idea, validate a business idea, \"convene the council\", get a brutal second opinion before building something, or says \"/roast\". Spins up a 5-persona council that attacks the idea from every angle, then a Judge returns one GO / RESHAPE / KILL verdict with the cheapest test to de-risk it.",
+      "folder": "roast",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-25T20:19:27.006909Z",
+      "category": "Design"
     },
     {
       "name": "ruflo",
