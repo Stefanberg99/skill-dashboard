@@ -55,7 +55,7 @@
     "LinkedIn content images still require manual Higgsfield browser session — no programmatic path until FAL.ai is configured",
     "Voice mode context loss — when Stefan calls via voice, Hermes loses prior session context and gives reset greetings instead of continuity",
     "Voice model Dutch/German language detection bug — voice model responds 'German' when asked to speak Dutch (Netherlands) before self-correcting (observed June 22)",
-    "WC26 live match fetch broken — both the cron (SofaScore 403, BBC fallback) and manual Telegram delegate_task (379s timeout) fail to deliver live match data; neither path works for real-time sports analysis"
+    "WC26 live match fetch partially working — ESPN (espn.com/soccer/scoreboard) confirmed accessible for scores and fixture times (no blocking). SofaScore 403 remains the blocker for xG/minute live analytics. BBC Sport scoreboard page renders but doesn't expose live score data. Manual Telegram delegate_task still times out (379s). Cron is functioning correctly — returns SILENT when no live matches are active."
   ],
   "kubecraft_content_engine": {
     "role": "Brand & content manager for KubeCraft (Mischa van den Burg, 100K subscribers)",
