@@ -402,7 +402,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 24,
+    "total_sessions_tracked": 25,
     "things_built": [
       "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments)",
       "Higgsfield API key stored in Hermes config",
