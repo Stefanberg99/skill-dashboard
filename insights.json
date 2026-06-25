@@ -1,6 +1,18 @@
 {
-  "updated": "2026-06-24T23:30:00+02:00",
+  "updated": "2026-06-25T09:00:00+02:00",
   "sessions": [
+    {
+      "id": "20260624_221721_74a10db2",
+      "date": "2026-06-24",
+      "title": "WC26 Live Match Analysis Attempt",
+      "summary": "Stefan asked Hermes on Telegram to analyze live World Cup 2026 matches ('New matches? I mean football wk, can you analyze the live matches'). Hermes delegated a web search task to fetch current scores and highlights, but the delegate_task timed out after ~379 seconds with an 'interrupted' status — no analysis was delivered to Stefan. Short 6-message session; no builds or decisions, but confirms the WC26 live match fetching issue is affecting both the automated cron and manual on-demand requests.",
+      "topics": ["world-cup", "live-analysis", "telegram", "web-search", "timeout"],
+      "things_built": [],
+      "decisions": [
+        "Web delegate task for live sports data timed out — same root cause as SofaScore 403 blocking the WC26 cron; both automated and manual live match fetch paths are currently broken"
+      ],
+      "project": "general"
+    },
     {
       "id": "20260623_203623_8f9631e2",
       "date": "2026-06-23",
@@ -359,7 +371,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 22,
+    "total_sessions_tracked": 23,
     "things_built": [
       "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments)",
       "Higgsfield API key stored in Hermes config",
