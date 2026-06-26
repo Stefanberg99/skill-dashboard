@@ -1,6 +1,21 @@
 {
-  "updated": "2026-06-25T22:05:00+02:00",
+  "updated": "2026-06-26T00:05:00+02:00",
   "sessions": [
+    {
+      "id": "cron_28d68eecaebd_20260625_224228",
+      "date": "2026-06-25",
+      "title": "WC26 Late Night — Flashscore Found",
+      "summary": "Three WC26 Match Predictor crons ran between 22:11–22:43 Amsterdam (June 25), all returning SILENT. Group E final-round matches were live but only in the first half (~42–43'): Curaçao 0–1 Ivory Coast and Ecuador 1–1 Germany — no prediction windows materialized. Key discovery: Flashscore.com is accessible from the cron (navigates past the age dialog), shows live WC26 scores with minute-level data — a better real-time source than ESPN and without the SofaScore 403 block. BBC news also revealed England faces Panama on June 26 (Shearer urging Saka + Rashford).",
+      "topics": ["world-cup", "cron-job", "flashscore", "live-analysis", "data-source"],
+      "things_built": [],
+      "decisions": [
+        "Flashscore.com confirmed accessible with live WC26 minute + score data (navigates past age gate)",
+        "Group E final round: Curaçao 0–1 Ivory Coast, Ecuador 1–1 Germany — both first half, no high-confidence windows",
+        "All three late-evening cron runs correctly SILENT — noise suppression working as designed",
+        "England vs Panama confirmed for June 26 WC26 fixtures"
+      ],
+      "project": "general"
+    },
     {
       "id": "cron_28d68eecaebd_20260625_213721",
       "date": "2026-06-25",
@@ -402,7 +417,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 25,
+    "total_sessions_tracked": 26,
     "things_built": [
       "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments)",
       "Higgsfield API key stored in Hermes config",
