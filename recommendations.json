@@ -675,13 +675,25 @@
     "id": "wc26-cron-management",
     "title": "Manage WC26 Match Predictor Cron",
     "category": "workflow",
+    "priority": "low",
+    "action": "configure",
+    "skill_id": null,
+    "why": "✅ DONE (Jun 27): Stefan manually removed the WC26 Match Predictor cron (id: 28d68eecaebd) via Telegram on June 27 — it ran for 4+ days and correctly returned SILENT for all runs that didn't meet the prediction criteria. The experiment was a success: proved that Hermes can monitor live data, suppress noise, and only alert on genuine signal. ESPN and Flashscore both confirmed as accessible data sources for future sports cron experiments.",
+    "prompt": "If you want to re-create a sports prediction cron for WC26 knockouts or another tournament: create a cron that navigates to Flashscore.com (navigates past age gate, shows live minute + score data) or ESPN (no 403 blocking, full scoreboard). Run every 15 min, alert only on high-confidence windows (60-85', 2+ goal lead OR 0-0/1-1 in 75'+), deliver to Telegram.",
+    "status": "done",
+    "added_date": "2026-06-23",
+    "updated_date": "2026-06-27"
+  },
+  {
+    "id": "hermes-vs-ide-onboarding",
+    "title": "Document Hermes vs Anti-Gravity IDE Roles",
+    "category": "workflow",
     "priority": "medium",
     "action": "configure",
     "skill_id": null,
-    "why": "On June 23, Stefan created the 'WC26 Match Predictor' cron job (id: 28d68eecaebd) — runs every 15 minutes, monitors live World Cup 2026 matches, and only fires a Telegram alert when there's a high-confidence prediction window. ✅ PARTIALLY RESOLVED (Jun 25): The cron successfully switched to ESPN (espn.com/soccer/scoreboard) — confirmed accessible, no 403 blocking, full match data and scorelines available. Upcoming June 25 evening fixtures confirmed via ESPN: Germany vs Ecuador (MetLife, Group E), Ivory Coast vs Curacao (Philadelphia, Group E), Netherlands vs Tunisia, Sweden vs Japan, Australia vs Paraguay, USA vs Turkey. SofaScore remains blocked server-side but ESPN is a working fallback. The cron is currently returning SILENT when no matches are live (working as designed). Remaining gap: ESPN doesn't expose xG/minute granularity like SofaScore did — live commentary or match page scraping needed for deeper analytics.",
-    "prompt": "Check the status of my WC26 Match Predictor cron job (id: 28d68eecaebd). Update: ESPN is now confirmed working as the data source (no 403 blocks). The cron runs every 15 min and returns SILENT when no live matches are found. Review: 1) Check the current cron prompt and confirm it's using ESPN correctly. 2) Improve the live match detection — can we get minute and score data from the ESPN scoreboard page? 3) For the late group stage and Round of 16, make sure the cron handles simultaneous same-group fixtures correctly (they matter for qualification). 4) Optionally: disable the cron once the WC26 group stage ends (final matches ~June 26) or decide if you want it for knockouts too.",
+    "why": "On June 27, Stefan asked a clarifying question: 'I've built an Anti-Gravity IDE workspace with Claude Code, Obsidian integration, skills, sub-agents — what do I use Hermes for instead?' The distinction matters: IDE = synchronous workshop (you drive it, deep file access, code execution). Hermes = ambient operator (cron jobs, Telegram alerts, platform connectors, persistent cross-session memory, background autonomy). Documenting this clearly as a profile/SOUL note would stop Stefan from asking again and help him route tasks correctly to the right tool without second-guessing.",
+    "prompt": "Help me document the Hermes vs Anti-Gravity IDE distinction in a clear reference card. I want to know: 1) Which tasks belong in the IDE (Claude Code + Obsidian)? 2) Which tasks belong in Hermes? 3) How do they hand off to each other? Create this as a note in ~/Documents/Commonplacebook/09 Toolbox/ so I can reference it when onboarding Hermes to a new project.",
     "status": "todo",
-    "added_date": "2026-06-23",
-    "updated_date": "2026-06-25"
+    "added_date": "2026-06-27"
   }
 ]
