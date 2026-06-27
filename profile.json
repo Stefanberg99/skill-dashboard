@@ -7,7 +7,6 @@
     {"name": "Meesterwerk", "type": "Education / Founder — 90-day arena goal: proven offer, €10k/month", "status": "active"},
     {"name": "KubeCraft", "type": "YouTube / Social — brand & content manager for Mischa van den Burg (100K subscribers), 2 LinkedIn posts/day", "status": "active"},
     {"name": "Recall Studio", "type": "SaaS product (transcript → resource)", "status": "in-progress"},
-    {"name": "Anti-Gravity IDE Workspace", "type": "Claude Code workspace with Obsidian integration, skills, sub-agents — used for deep synchronous builds", "status": "active"},
     {"name": "Community Dashboard", "type": "Client build (KubeCraft CRM + sales pipeline)", "status": "in-progress"},
     {"name": "Content Engine", "type": "Client service tool (transcript → carousel/posts, white-label)", "status": "in-progress"},
     {"name": "Content Images", "type": "KubeCraft LinkedIn post image system (HTML → screenshot, notebook aesthetic)", "status": "in-progress"},
@@ -173,9 +172,5 @@
       "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
     }
   ],
-<<<<<<< HEAD
   "updated": "2026-06-26"
-=======
-  "updated": "2026-06-27"
->>>>>>> 511c75f (auto: dashboard update 2026-06-27)
 }
