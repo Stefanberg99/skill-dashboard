@@ -7,6 +7,7 @@
     {"name": "Meesterwerk", "type": "Education / Founder — 90-day arena goal: proven offer, €10k/month", "status": "active"},
     {"name": "KubeCraft", "type": "YouTube / Social — brand & content manager for Mischa van den Burg (100K subscribers), 2 LinkedIn posts/day", "status": "active"},
     {"name": "Recall Studio", "type": "SaaS product (transcript → resource)", "status": "in-progress"},
+    {"name": "Anti-Gravity IDE Workspace", "type": "Claude Code workspace with Obsidian integration, skills, sub-agents — used for deep synchronous builds", "status": "active"},
     {"name": "Community Dashboard", "type": "Client build (KubeCraft CRM + sales pipeline)", "status": "in-progress"},
     {"name": "Content Engine", "type": "Client service tool (transcript → carousel/posts, white-label)", "status": "in-progress"},
     {"name": "Content Images", "type": "KubeCraft LinkedIn post image system (HTML → screenshot, notebook aesthetic)", "status": "in-progress"},
@@ -55,7 +56,7 @@
     "LinkedIn content images still require manual Higgsfield browser session — no programmatic path until FAL.ai is configured",
     "Voice mode context loss — when Stefan calls via voice, Hermes loses prior session context and gives reset greetings instead of continuity",
     "Voice model Dutch/German language detection bug — voice model responds 'German' when asked to speak Dutch (Netherlands) before self-correcting (observed June 22)",
-    "WC26 live match fetch — Flashscore.com confirmed as best working source: live scores + minute data, navigates past age gate. ESPN also works for scores/fixtures. SofaScore remains 403-blocked. Manual Telegram delegate_task still times out (379s). Cron correctly returns SILENT when no high-confidence windows (60-85') exist."
+    "WC26 Match Predictor cron — RESOLVED (removed June 27 by Stefan). ESPN and Flashscore both work as live WC26 data sources. SofaScore remains 403-blocked server-side. No active sports crons currently."
   ],
   "kubecraft_content_engine": {
     "role": "Brand & content manager for KubeCraft (Mischa van den Burg, 100K subscribers)",
@@ -172,5 +173,9 @@
       "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
     }
   ],
+<<<<<<< HEAD
   "updated": "2026-06-26"
+=======
+  "updated": "2026-06-27"
+>>>>>>> 511c75f (auto: dashboard update 2026-06-27)
 }
