@@ -1,6 +1,35 @@
 {
-  "updated": "2026-06-26T00:05:00+02:00",
+  "updated": "2026-06-27T22:35:00+02:00",
   "sessions": [
+    {
+      "id": "20260627_190451_097a7686",
+      "date": "2026-06-27",
+      "title": "WC26 Cron Stopped; Hermes vs IDE Question",
+      "summary": "Stefan asked Hermes (via Telegram) to stop the WC26 Match Predictor cron job — it was firing too frequently and he couldn't disable it from the Telegram interface. Hermes listed active crons and removed the WC26 predictor (id: 28d68eecaebd). Stefan also asked a clarifying question about the difference between his Anti-Gravity IDE workspace (Claude Code with Obsidian integration, skills, sub-agents) and Hermes — Hermes explained: IDE = synchronous workshop, Hermes = ambient operator (cron jobs, Telegram alerts, platform connectors, persistent memory, background autonomy).",
+      "topics": ["hermes", "cron-job", "world-cup", "anti-gravity", "ide", "telegram"],
+      "things_built": [],
+      "decisions": [
+        "WC26 Match Predictor cron (28d68eecaebd) permanently removed at Stefan's request",
+        "Hermes role clarified: ambient operator (proactive, scheduled, always reachable) vs IDE Claude (synchronous workshop)"
+      ],
+      "project": "hermes"
+    },
+    {
+      "id": "20260626_wc26_results_summary",
+      "date": "2026-06-26",
+      "title": "WC26 June 26 Group Stage Results",
+      "summary": "The WC26 Match Predictor cron ran throughout June 26, monitoring all group stage matches. Key June 26 results confirmed via BBC Sport: Group F — Japan 1–1 Sweden (both through to Round of 32), Tunisia 1–3 Netherlands (Netherlands through, set up Morocco match); Group D — Paraguay 0–0 Australia (both through), Turkey 3–2 USA (USA eliminated despite hosts status). Group I (Norway vs France, Senegal vs Iraq) was scheduled for 20:00 but cron returned SILENT before they started. Stefan tried multiple times to stop the cron via Telegram (messages at 13:21, 16:35 TUI) but the assistant wasn't connected — cron kept running.",
+      "topics": ["world-cup", "cron-job", "espn", "bbc-sport", "group-stage-results"],
+      "things_built": [],
+      "decisions": [
+        "Netherlands confirmed through Group F — face Morocco in Round of 32",
+        "Turkey 3-2 USA — USA eliminated despite being co-host; Turkey exits but on a high",
+        "Australia and Paraguay both through Group D with a 0-0 draw",
+        "Japan and Sweden both through Group F after 1-1 draw",
+        "Stefan was unable to stop the WC26 cron from Telegram — escalated to TUI on June 27"
+      ],
+      "project": "general"
+    },
     {
       "id": "cron_28d68eecaebd_20260625_224228",
       "date": "2026-06-25",
@@ -417,9 +446,9 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 26,
+    "total_sessions_tracked": 28,
     "things_built": [
-      "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments)",
+      "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments) — REMOVED June 27",
       "Higgsfield API key stored in Hermes config",
       "Complete 5-layer personal OS architecture (Soul/Brain/Capture/Action/Projects) with full tool declarations",
       "Domain-to-tool routing map (40+ domains mapped to exact tool/location)",
@@ -446,7 +475,7 @@
       "Commonplacebook LifeOS constitution v5 (CLAUDE.md) — 00-99 folder schema, three arenas",
       "LifeOS Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md"
     ],
-    "top_topics": ["kubecraft", "obsidian", "commonplacebook", "world-cup"],
+    "top_topics": ["kubecraft", "world-cup", "obsidian", "hermes"],
     "recommendations_completed": 0
   }
 }
