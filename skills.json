@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-25T20:19:27.006909Z",
-  "hash": "2659894b56d267913ca7e762cc4ef1d6",
+  "synced_at": "2026-06-28T20:17:39.748360Z",
+  "hash": "a4af7b466af864981424fa75797370d1",
   "skills": [
     {
       "name": "agent-builder",
@@ -772,15 +772,15 @@
     },
     {
       "name": "reflect",
-      "what": "Evening ritual (5 min). Fills the evening section of today's daily note - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to the Language library",
+      "what": "Evening ritual (5 min). Fills the evening section of today's daily note - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to the Writing library (06 Writing)",
       "when": "Stefan says /reflect, \"close my day\", or \"evening reflection\".",
-      "raw_desc": "Evening ritual (5 min). Fills the evening section of today's daily note - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to the Language library. Trigger when Stefan says /reflect, \"close my day\", or \"evening reflection\".",
+      "raw_desc": "Evening ritual (5 min). Fills the evening section of today's daily note - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to the Writing library (06 Writing). Trigger when Stefan says /reflect, \"close my day\", or \"evening reflection\".",
       "folder": "reflect",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-11T15:41:53.012979Z",
-      "category": "Other"
+      "category": "Writing"
     },
     {
       "name": "roast",
@@ -928,15 +928,15 @@
     },
     {
       "name": "today",
-      "what": "Morning ritual (2 min). Creates today's daily note in the Commonplacebook from the current week's objectives, sets 3 actions + an intention, and pushes the actions to Todoist",
+      "what": "Morning ritual (2 min). Creates today's daily note in the Brain (Stefan's Second Brain) from the current week's objectives, sets 3 actions + an intention, and pushes the actions to Todoist",
       "when": "Stefan says /today, \"start my day\", or \"what's the plan today\".",
-      "raw_desc": "Morning ritual (2 min). Creates today's daily note in the Commonplacebook from the current week's objectives, sets 3 actions + an intention, and pushes the actions to Todoist. Trigger when Stefan says /today, \"start my day\", or \"what's the plan today\".",
+      "raw_desc": "Morning ritual (2 min). Creates today's daily note in the Brain (Stefan's Second Brain) from the current week's objectives, sets 3 actions + an intention, and pushes the actions to Todoist. Trigger when Stefan says /today, \"start my day\", or \"what's the plan today\".",
       "folder": "today",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-11T15:41:53.012979Z",
-      "category": "Memory"
+      "category": "Design"
     },
     {
       "name": "token-map",
@@ -1443,6 +1443,18 @@
       "category": "Other"
     },
     {
+      "name": "vercel-connect",
+      "what": "Vercel Connect expert guidance \u2014 securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC",
+      "when": "wiring up third-party API access, connecting to MCP servers, sending Slack messages, accessing GitHub APIs, receiving webhook events from Slack/Linear/GitHub and forwarding them to your agents and apps, or building Eve agent connections.",
+      "raw_desc": "Vercel Connect expert guidance \u2014 securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use when wiring up third-party API access, connecting to MCP servers, sending Slack messages, accessing GitHub APIs, receiving webhook events from Slack/Linear/GitHub and forwarding them to your agents and apps, or building Eve agent connections.",
+      "folder": "vercel-connect",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-28T20:17:39.748360Z",
+      "category": "AI & Agents"
+    },
+    {
       "name": "vercel-firewall",
       "what": "Vercel Firewall expert guidance \u2014 automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the `vercel firewall` CLI",
       "when": "configuring platform-level security, responding to attacks, or staging firewall rules.",
@@ -1540,15 +1552,15 @@
     },
     {
       "name": "marketplace",
-      "what": "Vercel Marketplace expert guidance \u2014 discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI",
-      "when": "consuming third-party services, building custom integrations, or managing marketplace resources on Vercel.",
-      "raw_desc": "Vercel Marketplace expert guidance \u2014 discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI. Use when consuming third-party services, building custom integrations, or managing marketplace resources on Vercel.",
+      "what": "Vercel Marketplace expert guidance \u2014 discovering, installing, and managing integrations via the `vercel integration` CLI, with auto-provisioned environment variables and unified billing",
+      "when": "consuming third-party services on Vercel.",
+      "raw_desc": "Vercel Marketplace expert guidance \u2014 discovering, installing, and managing integrations via the `vercel integration` CLI, with auto-provisioned environment variables and unified billing. Use when consuming third-party services on Vercel.",
       "folder": "marketplace",
       "source": "plugin",
       "source_label": "Plugin",
       "source_color": "#64748b",
       "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Coding"
+      "category": "Other"
     },
     {
       "name": "microfrontends",
