@@ -1,6 +1,43 @@
 {
-  "updated": "2026-06-28T12:15:00+02:00",
+  "updated": "2026-06-28T22:00:00+02:00",
   "sessions": [
+    {
+      "id": "20260628_201649_984c3b",
+      "date": "2026-06-28",
+      "title": "Aurelius vs Claude vs Factory",
+      "summary": "Stefan asked: 'What can you do compared to the factory and Claude itself?' Hermes delivered a 3-tier breakdown: Claude base (language/reasoning, no persistence), Hermes factory (persistent memory, tools, crons, skills, messaging, MCP), and Stefan's Aurelius instance (custom persona, Pantheon personas, Paperclip team, skill dashboard at skill-dashboard-theta.vercel.app, KubeCraft image fallback, 60+ domain skills). Session confirmed Stefan is actively orienting himself to the Aurelius capability stack.",
+      "topics": ["hermes", "capabilities", "claude-code", "anti-gravity", "aurelius", "skill-dashboard"],
+      "things_built": [],
+      "decisions": [
+        "Stefan is mapping the three-tier capability stack: Claude base → Hermes factory → Aurelius custom instance",
+        "Aurelius has OpenAI Codex plugin for KubeCraft image generation as fallback to Higgsfield"
+      ],
+      "project": "hermes"
+    },
+    {
+      "id": "20260628_201457_cd856d",
+      "date": "2026-06-28",
+      "title": "Dashboard Cron Retry Attempt",
+      "summary": "Stefan sent 'try agai' (truncated 'try again') after a previous action — triggering a 24-message session. Hermes searched recent sessions for the last task attempt context, finding the June 27 dashboard auto-updater cron. Session was largely a context-recovery attempt, reading prior state to understand what had failed. No new artifacts built.",
+      "topics": ["hermes", "cron-job", "skill-dashboard", "session-search"],
+      "things_built": [],
+      "decisions": [
+        "Dashboard auto-updater cron (cron_2dfcb9f69ed2) confirmed as the prior reference session"
+      ],
+      "project": "hermes"
+    },
+    {
+      "id": "20260628_201151_861cb6",
+      "date": "2026-06-28",
+      "title": "Antigravity + Obsidian Review Request",
+      "summary": "Stefan asked Hermes to review his setup in the Antigravity workspace and Obsidian Vault. Single-message session with no response — session ended before any analysis could be delivered. Follow-up needed.",
+      "topics": ["anti-gravity", "obsidian", "hermes", "setup-review"],
+      "things_built": [],
+      "decisions": [
+        "Follow-up needed: Stefan wants a review of his Antigravity Claude Code workspace and Obsidian Vault — never delivered"
+      ],
+      "project": "hermes"
+    },
     {
       "id": "20260627_190451_097a7686",
       "date": "2026-06-27",
@@ -446,7 +483,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 28,
+    "total_sessions_tracked": 31,
     "things_built": [
       "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments) — REMOVED June 27",
       "Higgsfield API key stored in Hermes config",
