@@ -688,12 +688,25 @@
     "id": "hermes-vs-ide-onboarding",
     "title": "Document Hermes vs Anti-Gravity IDE Roles",
     "category": "workflow",
-    "priority": "medium",
+    "priority": "high",
     "action": "configure",
     "skill_id": null,
-    "why": "On June 27, Stefan asked a clarifying question: 'I've built an Anti-Gravity IDE workspace with Claude Code, Obsidian integration, skills, sub-agents — what do I use Hermes for instead?' The distinction matters: IDE = synchronous workshop (you drive it, deep file access, code execution). Hermes = ambient operator (cron jobs, Telegram alerts, platform connectors, persistent cross-session memory, background autonomy). Documenting this clearly as a profile/SOUL note would stop Stefan from asking again and help him route tasks correctly to the right tool without second-guessing.",
-    "prompt": "Help me document the Hermes vs Anti-Gravity IDE distinction in a clear reference card. I want to know: 1) Which tasks belong in the IDE (Claude Code + Obsidian)? 2) Which tasks belong in Hermes? 3) How do they hand off to each other? Create this as a note in ~/Documents/Commonplacebook/09 Toolbox/ so I can reference it when onboarding Hermes to a new project.",
+    "why": "Stefan has asked about the Hermes vs Anti-Gravity IDE distinction twice in two days (June 27 + June 28). The pattern is clear: without a canonical reference, he'll keep re-asking. IDE = synchronous workshop (deep file access, code execution, you drive it). Hermes = ambient operator (cron jobs, Telegram alerts, persistent memory, background autonomy). Creating a Toolbox note that permanently answers this would eliminate the repeated context-setting and help Stefan route tasks without second-guessing. High priority now that it's a recurring friction point.",
+    "prompt": "Help me document the Hermes vs Anti-Gravity IDE distinction in a clear reference card. I want to know: 1) Which tasks belong in the IDE (Claude Code + Obsidian)? 2) Which tasks belong in Hermes? 3) How do they hand off to each other? 4) What's the canonical workflow when a build starts in IDE but needs Hermes for deployment/monitoring? Create this as a note in ~/Documents/Commonplacebook/09 Toolbox/Hermes-vs-IDE.md so I can reference it when onboarding Hermes to a new project.",
     "status": "todo",
-    "added_date": "2026-06-27"
+    "added_date": "2026-06-27",
+    "updated_date": "2026-06-28"
+  },
+  {
+    "id": "antigravity-obsidian-review",
+    "title": "Audit Antigravity Workspace + Obsidian Vault State",
+    "category": "intelligence",
+    "priority": "high",
+    "action": "configure",
+    "skill_id": "obsidian",
+    "why": "On June 28, Stefan asked Hermes to review his Anti-Gravity Claude Code workspace and Obsidian Vault setup — the session ended before any response was delivered. This is an open request. Stefan wants a full audit of his Antigravity setup (skills, sub-agents, Obsidian integration, CLAUDE.md files) and the current Commonplacebook state (which folders are populated vs stubs, which quests are active, what's in the inbox). This would give a clear 'where things stand' snapshot and reveal the next highest-priority build in the LifeOS.",
+    "prompt": "Review my Anti-Gravity workspace setup and my Obsidian Vault. For Antigravity: 1) What skills are installed and active? 2) What sub-agents are configured (Scribe, Mercury, Philosopher, Labyrinth, Leo)? 3) What does the CLAUDE.md say about how it should work? For Obsidian (~/Documents/Commonplacebook/): 4) Which LifeOS v5 folders are populated vs empty stubs? 5) What's currently in 00 Inbox needing processing? 6) Are the three arena quest files created? Give me a 'state of the system' snapshot with the top 3 gaps to close.",
+    "status": "todo",
+    "added_date": "2026-06-28"
   }
 ]
