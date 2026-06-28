@@ -173,5 +173,13 @@
       "path": "~/Desktop/Clients/KubeCraft/community-dashboard/"
     }
   ],
+  "key_finding_june28": {
+    "discovery": "Stefan is actively mapping the Aurelius capability stack and orienting to the three-tier system (Claude base → Hermes factory → Aurelius custom)",
+    "detail": "On June 28, Stefan asked what Aurelius can do compared to the factory Hermes and base Claude. This confirms he's intentionally learning the capability layers rather than just using Hermes reactively. He also asked for a review of his Antigravity workspace and Obsidian Vault (session ended before response). Two sessions in one day asking about the IDE/Hermes boundary signals this is a recurring question that needs a permanent Toolbox reference.",
+    "open_requests": [
+      "Antigravity workspace + Obsidian Vault state review — requested June 28, never delivered",
+      "Hermes vs Anti-Gravity IDE reference card — asked June 27 and June 28, still unbuilt"
+    ]
+  },
   "updated": "2026-06-28"
 }
