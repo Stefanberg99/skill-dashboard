@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-06-29T07:42:22.308588Z",
-  "hash": "2659894b56d267913ca7e762cc4ef1d6",
+  "synced_at": "2026-06-29T09:32:55.314584Z",
+  "hash": "2aa3a1c5af8cd21166556a6b106c6fda",
   "skills": [
     {
       "name": "agent-builder",
@@ -949,6 +949,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "trip",
+      "what": "Stefan's psychedelic journey loop",
+      "when": "he prepares for or integrates a trip / journey. Fires on \"/trip\", \"/trip prepare\", \"/trip integrate\", \"prepare my trip\", \"set up my journey\", \"integrate my trip\", \"help me process my trip\", \"interview me about my trip\", \"make sense of my trip\", or when he comes back from a journey and wants to work out what it was about. Prepare mode sets up a journey note (intention as questions, carry-in questions, how to prepare) in his Trips system. Integrate mode runs a deep conversational interview, going back and forth, then writes a \"what it was about\" synthesis into the journey note for deep contemplation. NOT the daily/weekly rituals (/today, /reflect, /weekly) and not /experiment.",
+      "raw_desc": "Stefan's psychedelic journey loop. Use when he prepares for or integrates a trip / journey. Fires on \"/trip\", \"/trip prepare\", \"/trip integrate\", \"prepare my trip\", \"set up my journey\", \"integrate my trip\", \"help me process my trip\", \"interview me about my trip\", \"make sense of my trip\", or when he comes back from a journey and wants to work out what it was about. Prepare mode sets up a journey note (intention as questions, carry-in questions, how to prepare) in his Trips system. Integrate mode runs a deep conversational interview, going back and forth, then writes a \"what it was about\" synthesis into the journey note for deep contemplation. NOT the daily/weekly rituals (/today, /reflect, /weekly) and not /experiment.",
+      "folder": "trip",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-29T09:32:55.314584Z",
+      "category": "Writing"
     },
     {
       "name": "twitter-algorithm-optimizer",
