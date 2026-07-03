@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-02T18:31:51.855797Z",
-  "hash": "ee182ed9815fb7f866136b66fd8ab3a1",
+  "synced_at": "2026-07-03T20:19:45.621250Z",
+  "hash": "1443507d74669911199511dceee92757",
   "skills": [
     {
       "name": "agent-builder",
@@ -61,6 +61,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T17:58:33.767122Z",
       "category": "Video"
+    },
+    {
+      "name": "capture",
+      "what": "Turn a standalone visual (infographic, framework diagram, chart, screenshot, mood-board image) into a processed Learning Library entry with Stefan's own take attached",
+      "when": "Stefan says \"/capture\", \"capture this visual\", \"save this infographic\", \"process this image\", \"add this visual to my library\", drops image file(s) with intent to keep them, or wants to import a visuals folder from Google Drive (\"import my Chase Hughes visuals\", \"batch import from Drive\"). NOT for generating new images (that's nano-banana-images / educational-infographics) and NOT for registering finished HTML outputs (that's /gallery add). mymind stays his quick-capture inbox; /capture is where a visual gets PROCESSED \u2014 understood, annotated with his take, made findable and recallable.",
+      "raw_desc": "Turn a standalone visual (infographic, framework diagram, chart, screenshot, mood-board image) into a processed Learning Library entry with Stefan's own take attached. Trigger when Stefan says \"/capture\", \"capture this visual\", \"save this infographic\", \"process this image\", \"add this visual to my library\", drops image file(s) with intent to keep them, or wants to import a visuals folder from Google Drive (\"import my Chase Hughes visuals\", \"batch import from Drive\"). NOT for generating new images (that's nano-banana-images / educational-infographics) and NOT for registering finished HTML outputs (that's /gallery add). mymind stays his quick-capture inbox; /capture is where a visual gets PROCESSED \u2014 understood, annotated with his take, made findable and recallable.",
+      "folder": "capture",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-03T20:19:45.621250Z",
+      "category": "Design"
     },
     {
       "name": "changelog-generator",
@@ -245,8 +257,8 @@
     {
       "name": "educational-infographics",
       "what": "Turn any topic or description into a polished, branded educational infographic PNG using Nano Banana 2 \u2014 styled with Stefan's personal brand colors, fonts, and logo in the top right corner \u2014 auto-organized in ~/Outputs/ by date and title.",
-      "when": "Stefan wants to create an educational infographic from any input \u2014 \"make me an educational infographic\", \"create an infographic about X\", \"turn this into an infographic\", \"visualize this topic\". Generates a branded PNG using Nano Banana 2, styled with Stefan's personal brand identity (colors, fonts, logo top-right), output saved to ~/Outputs/educational-infographics/YYYY-MM-DD-title/.",
-      "raw_desc": "Use when Stefan wants to create an educational infographic from any input \u2014 \"make me an educational infographic\", \"create an infographic about X\", \"turn this into an infographic\", \"visualize this topic\". Generates a branded PNG using Nano Banana 2, styled with Stefan's personal brand identity (colors, fonts, logo top-right), output saved to ~/Outputs/educational-infographics/YYYY-MM-DD-title/.",
+      "when": "Stefan wants to create an educational infographic from any input \u2014 \"make me an educational infographic\", \"create an infographic about X\", \"turn this into an infographic\", \"visualize this topic\". Generates a branded PNG using Nano Banana 2, styled with Stefan's personal brand identity (colors, fonts, logo top-right), output saved to ~/Outputs/YYYY-MM-DD-title-infographic/.",
+      "raw_desc": "Use when Stefan wants to create an educational infographic from any input \u2014 \"make me an educational infographic\", \"create an infographic about X\", \"turn this into an infographic\", \"visualize this topic\". Generates a branded PNG using Nano Banana 2, styled with Stefan's personal brand identity (colors, fonts, logo top-right), output saved to ~/Outputs/YYYY-MM-DD-title-infographic/.",
       "folder": "educational-infographics",
       "source": "personal",
       "source_label": "Your Skills",
@@ -340,15 +352,15 @@
     },
     {
       "name": "gallery",
-      "what": "Manages Stefan's output gallery at ~/Outputs/ \u2014 one home for every artifact he generates (websites, guides, infographics, images, graphics, and future formats). Each artifact is a folder with its files plus a meta.json. ~/Outputs/build.py walks the folder and emits a filterable index.html: live iframe previews for\u2026",
-      "when": "Stefan wants to see, build, refresh, or add to his output gallery, the library of everything he generates (websites, guides, infographics, images, graphics). Triggers on \"/gallery\", \"open my gallery\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\". The library lives at ~/Outputs/ and is browsable as a filterable visual index.",
-      "raw_desc": "Use when Stefan wants to see, build, refresh, or add to his output gallery, the library of everything he generates (websites, guides, infographics, images, graphics). Triggers on \"/gallery\", \"open my gallery\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\". The library lives at ~/Outputs/ and is browsable as a filterable visual index.",
+      "what": "Manages Stefan's Learning Library at ~/Outputs/ \u2014 one home for every artifact he generates and every source he processes (guides, research papers, book/course living entries, visuals, infographics, images, apps). Each entry is a flat top-level folder ~/Outputs/<slug>/ with its files plus a meta.json.",
+      "when": "Stefan wants to see, build, refresh, or add to his Learning Library (formerly the output gallery) \u2014 the library of everything he generates and learns from (websites, guides, research papers, books, courses, visuals, infographics, images). Triggers on \"/gallery\", \"open my gallery\", \"open my library\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\". The library lives at ~/Outputs/ and is browsable as a filterable visual index by shelf.",
+      "raw_desc": "Use when Stefan wants to see, build, refresh, or add to his Learning Library (formerly the output gallery) \u2014 the library of everything he generates and learns from (websites, guides, research papers, books, courses, visuals, infographics, images). Triggers on \"/gallery\", \"open my gallery\", \"open my library\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\". The library lives at ~/Outputs/ and is browsable as a filterable visual index by shelf.",
       "folder": "gallery",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T19:31:22.045810Z",
-      "category": "Design"
+      "category": "Research"
     },
     {
       "name": "goal-best-practices",
@@ -424,9 +436,9 @@
     },
     {
       "name": "learn",
-      "what": "The single front door for turning anything into a polished output in Stefan's Output Gallery. Works two ways \u2014 (a) from a TOPIC in his head (\"teach me X\", \"make me a learning resource / primer / course on X\", \"I want to learn X\") and (b) from a SOURCE he hands over (\"turn this into\u2026\", \"make me a guide / quiz / infographic / reference from this\", paste a transcript / URL / YouTube link / PDF / notes). It researches (his consumed sources first, then web), picks or proposes the right output shape, builds one self-contained HTML page in his studio brand, lands it in the Output Gallery (~/Outputs/), ends in action (commitment layer + Todoist), and on for-me runs compounds the knowledge into his Brain (a source note + concept page + his Spark). For a deep cinematic vault entry in the SOURCE's voice (vibe-matched guide), use `process-source` instead; /learn is the gallery-first factory that also feeds the brain.",
+      "what": "The single front door for turning anything into a polished entry in Stefan's Learning Library (~/Outputs/). Works three ways \u2014 (a) from a TOPIC in his head (\"teach me X\", \"make me a learning resource / primer / course on X\", \"I want to learn X\"), (b) from a SOURCE he hands over (\"turn this into\u2026\", \"make me a guide / quiz / infographic / reference from this\", paste a transcript / URL / YouTube link / PDF / notes), and (c) as a LIVING ENTRY for a book or course he's working through over multiple sessions (\"I'm reading X\", \"book session\", \"chapter 3 of X\", \"finished module 2\" \u2014 interview + Feynman check per session, the entry grows over time). It researches (his consumed sources first, then web), picks or proposes the right output shape, builds one self-contained HTML page in his studio brand, lands it in the Learning Library, ends in action (commitment layer + Todoist), seeds recall questions for spaced repetition, and on for-me runs compounds the knowledge into his Brain (a source note + concept page + his Spark). For a deep cinematic vault entry in the SOURCE's voice (vibe-matched guide), use `process-source` instead; /learn is the library-first factory that also feeds the brain.",
       "when": "",
-      "raw_desc": "The single front door for turning anything into a polished output in Stefan's Output Gallery. Works two ways \u2014 (a) from a TOPIC in his head (\"teach me X\", \"make me a learning resource / primer / course on X\", \"I want to learn X\") and (b) from a SOURCE he hands over (\"turn this into\u2026\", \"make me a guide / quiz / infographic / reference from this\", paste a transcript / URL / YouTube link / PDF / notes). It researches (his consumed sources first, then web), picks or proposes the right output shape, builds one self-contained HTML page in his studio brand, lands it in the Output Gallery (~/Outputs/), ends in action (commitment layer + Todoist), and on for-me runs compounds the knowledge into his Brain (a source note + concept page + his Spark). For a deep cinematic vault entry in the SOURCE's voice (vibe-matched guide), use `process-source` instead; /learn is the gallery-first factory that also feeds the brain.",
+      "raw_desc": "The single front door for turning anything into a polished entry in Stefan's Learning Library (~/Outputs/). Works three ways \u2014 (a) from a TOPIC in his head (\"teach me X\", \"make me a learning resource / primer / course on X\", \"I want to learn X\"), (b) from a SOURCE he hands over (\"turn this into\u2026\", \"make me a guide / quiz / infographic / reference from this\", paste a transcript / URL / YouTube link / PDF / notes), and (c) as a LIVING ENTRY for a book or course he's working through over multiple sessions (\"I'm reading X\", \"book session\", \"chapter 3 of X\", \"finished module 2\" \u2014 interview + Feynman check per session, the entry grows over time). It researches (his consumed sources first, then web), picks or proposes the right output shape, builds one self-contained HTML page in his studio brand, lands it in the Learning Library, ends in action (commitment layer + Todoist), seeds recall questions for spaced repetition, and on for-me runs compounds the knowledge into his Brain (a source note + concept page + his Spark). For a deep cinematic vault entry in the SOURCE's voice (vibe-matched guide), use `process-source` instead; /learn is the library-first factory that also feeds the brain.",
       "folder": "learn",
       "source": "personal",
       "source_label": "Your Skills",
