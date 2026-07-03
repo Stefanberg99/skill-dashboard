@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-03T20:19:45.621250Z",
-  "hash": "1443507d74669911199511dceee92757",
+  "synced_at": "2026-07-03T21:30:58.264183Z",
+  "hash": "7ae2aa4f91a2dc78be6d898550ea233c",
   "skills": [
     {
       "name": "agent-builder",
@@ -793,6 +793,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-11T15:41:53.012979Z",
       "category": "Writing"
+    },
+    {
+      "name": "revisit",
+      "what": "The atomization rep that makes knowledge compound. Takes ONE already-consumed source (a book note, a mentor note, a script) from the Brain's 05 Sources and routes its captures onto 04 Notecards topic buckets (quotes, stories, metaphors, frameworks, ideas \u2014 attributed, source form), propose-confirm, so sources stop being silos and topics grow across many sources",
+      "when": "Stefan says \"/revisit\", \"/revisit <book>\", \"atomize <source>\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn or /process-source) and NOT for reviewing Sparks (that's /tend).",
+      "raw_desc": "The atomization rep that makes knowledge compound. Takes ONE already-consumed source (a book note, a mentor note, a script) from the Brain's 05 Sources and routes its captures onto 04 Notecards topic buckets (quotes, stories, metaphors, frameworks, ideas \u2014 attributed, source form), propose-confirm, so sources stop being silos and topics grow across many sources. Trigger when Stefan says \"/revisit\", \"/revisit <book>\", \"atomize <source>\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn or /process-source) and NOT for reviewing Sparks (that's /tend).",
+      "folder": "revisit",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-03T21:30:58.264183Z",
+      "category": "Memory"
     },
     {
       "name": "roast",
