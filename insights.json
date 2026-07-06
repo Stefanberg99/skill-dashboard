@@ -1,6 +1,25 @@
 {
-  "updated": "2026-07-06T06:02:00+02:00",
+  "updated": "2026-07-06T16:00:00+02:00",
   "sessions": [
+    {
+      "id": "20260706_131837_5f4ee16e",
+      "date": "2026-07-06",
+      "title": "Hermes Mirror + Growth Dashboard",
+      "summary": "Stefan asked Hermes to back up his entire Hermes config to a private GitHub repo (Stefanberg99/hermes-mirror) so it's portable to any machine. Hermes ran a credential scan, wrote a README, rsync'd ~/.hermes/ with proper exclusions (no auth tokens, .env, sessions, logs), and pushed the initial commit — verified live at 11:44 UTC. A daily backup cron was also wired (03:00 Amsterdam). In the same session, Stefan asked for a KubeCraft Monthly Growth Report — Hermes built a full HTML dashboard at ~/Outputs/kubecraft-growth-report/index.html with Chart.js trend charts, 8 KPI cards, platform breakdown, and localStorage persistence (no server needed).",
+      "topics": ["hermes-backup", "github", "kubecraft", "growth-report", "dashboard", "html", "cron-job"],
+      "things_built": [
+        "Stefanberg99/hermes-mirror — private GitHub repo with full Hermes config backup (daily cron at 03:00 AMS)",
+        "~/Outputs/kubecraft-growth-report/index.html — KubeCraft Monthly Growth Report dashboard (Chart.js, localStorage, 8 KPIs, platform breakdown, trend charts)"
+      ],
+      "decisions": [
+        "Hermes config backed up to Stefanberg99/hermes-mirror (private) — portable to any machine via git clone",
+        "Exclusions: sessions/, auth*, state*, logs/, .env, gateway.pid, audio_cache/, image_cache/, sandboxes/, checkpoints/",
+        "Daily backup cron at 03:00 Amsterdam runs rsync + commit + push automatically",
+        "KubeCraft growth report uses localStorage (no server) — browser opens index.html, team fills in monthly numbers",
+        "YouTube auto-fetch and Airtable push identified as optional next steps for the growth dashboard"
+      ],
+      "project": "kubecraft"
+    },
     {
       "id": "20260628_201649_984c3b",
       "date": "2026-06-28",
@@ -192,22 +211,12 @@
       "decisions": [
         "LifeOS v5 architecture is the active operating system — supersedes all prior schema documentation",
         "Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md is the highest authority above the CLAUDE.md",
-        "Three arenas as 90-day games: Meesterwerk (proven offer, €10k/month), Self (rituals surviving 12 weeks), People (storyworthy moments)",
+        "Three arenas as 90-day games: Meesterwerk (proven offer, €10k/month), Self (rituals surviving 12 weeks), People (storyworthy moments as the trace)",
         "Notes-Master at ~/Documents/Notes-Master = quarry (3,000+ old notes), never bulk-process — 2hr weekly triage only",
         "One quest per arena — the quest .md file IS the AI working context for that project",
         "Notecards must be in Stefan's voice; Wiki pages are AI-maintained but Stefan-directed"
       ],
       "project": "obsidian"
-    },
-    {
-      "id": "20260614_151716_192d7e1c",
-      "date": "2026-06-14",
-      "title": "Telegram Claude Code Monitor Request",
-      "summary": "Brief 2-message Telegram session. Stefan was running a Claude Code session on his desktop generating images and asked Hermes to keep him updated with screenshots while he stepped away. No response was delivered (session_meta null). No builds or decisions.",
-      "topics": ["general", "claude-code", "image-generation", "telegram"],
-      "things_built": [],
-      "decisions": [],
-      "project": "general"
     },
     {
       "id": "20260612_203019_ab9d91",
@@ -227,26 +236,6 @@
       "project": "kubecraft"
     },
     {
-      "id": "20260612_221749_b4f6be",
-      "date": "2026-06-12",
-      "title": "Evening TUI Check-In",
-      "summary": "Single-message TUI session — Stefan opened with 'hey there' and no further interaction. No builds, no decisions, no project work.",
-      "topics": ["general"],
-      "things_built": [],
-      "decisions": [],
-      "project": "general"
-    },
-    {
-      "id": "20260611_225521_e12f8278",
-      "date": "2026-06-11",
-      "title": "Evening Telegram Check-In",
-      "summary": "Short 3-message Telegram session — Stefan opened with 'Hey' and Hermes asked what to work on. No response, no builds, no decisions. Session ended with no substantive work.",
-      "topics": ["general"],
-      "things_built": [],
-      "decisions": [],
-      "project": "general"
-    },
-    {
       "id": "20260610_152712_f8326e",
       "date": "2026-06-10",
       "title": "KubeCraft Content Image Builder",
@@ -263,16 +252,6 @@
       "project": "kubecraft"
     },
     {
-      "id": "20260608_091932_656ff83c",
-      "date": "2026-06-08",
-      "title": "Morning Telegram Check-In",
-      "summary": "Short casual Telegram greeting session (7 messages). No decisions, builds, or significant topics — Stefan opened with 'Hey!' and exchanged a brief morning check-in. No project work.",
-      "topics": ["general"],
-      "things_built": [],
-      "decisions": [],
-      "project": "general"
-    },
-    {
       "id": "20260606_102403_768bee",
       "date": "2026-06-06",
       "title": "Ollama Local vs Cloud AI Tradeoffs",
@@ -281,16 +260,6 @@
       "things_built": [],
       "decisions": ["Exploring Ollama for local model inference — tradeoffs being evaluated"],
       "project": "hermes"
-    },
-    {
-      "id": "20260606_102315_99b0beb9",
-      "date": "2026-06-06",
-      "title": "WhatsApp Morning Check-In",
-      "summary": "Brief WhatsApp session (11 messages) — casual morning exchange. No significant decisions or artifacts produced.",
-      "topics": ["general"],
-      "things_built": [],
-      "decisions": [],
-      "project": "general"
     },
     {
       "id": "20260605_154451_6c8ba7",
@@ -328,46 +297,6 @@
       "project": "obsidian"
     },
     {
-      "id": "20260604_083214_3f751ca8",
-      "date": "2026-06-04",
-      "title": "KubeCraft Content Engine Design",
-      "summary": "Stefan worked on designing a content repurposing system for KubeCraft client Mischa van den Burg. The system turns transcripts from YouTube shorts, highlight channel videos, and LinkedIn clips into platform-optimized carousel assets and posts — all flowing through Airtable review → Metricool. Stefan pivoted mid-session toward building a white-labelable tool instead of a per-client Make.com automation. Hermes generated the carousel prompt grounded in KubeCraft.md brand guidelines and two calibrated LinkedIn post scripts based on top-performing post data.",
-      "topics": ["content-automation", "kubecraft", "carousels", "make.com", "airtable", "metricool", "higgsfield", "linkedin", "white-label"],
-      "things_built": [
-        "Carousel generation prompt (KubeCraft voice, Higgsfield-ready)",
-        "Two LinkedIn post scripts (Linux + Kubernetes, top-performer calibrated)",
-        "Content system architecture: Transcript → Make.com → Airtable → Metricool"
-      ],
-      "decisions": [
-        "Build a reusable content engine, not a per-client Make.com automation",
-        "Tool operated by Stefan on behalf of clients (not client-facing SaaS yet)",
-        "Carousel is first asset type — works for both IG and LinkedIn",
-        "All content must be rooted in brand .md file before any prompt is written"
-      ],
-      "project": "kubecraft"
-    },
-    {
-      "id": "20260604_111030_0b0b3b",
-      "date": "2026-06-04",
-      "title": "Community Dashboard Data Sync",
-      "summary": "Continued building the KubeCraft Community Dashboard (continuation of the June 3 build session). Designed the data synchronization architecture: manual CSV drop approach instead of live Skool API scraping (fragile). Key features scoped and built: CSV upload UI, payments tracker, daily snapshot form, free/paid community toggle. Apify being explored for automated Skool member sync. Dashboard currently has 1,497 real members in Supabase.",
-      "topics": ["community-dashboard", "kubecraft", "supabase", "apify", "csv-import", "payments", "skool", "data-sync"],
-      "things_built": [
-        "CSV upload UI (drag-and-drop, no terminal required for team)",
-        "Payments import (Excel/CSV mapper for paid community export)",
-        "Free/Paid community tab architecture",
-        "Daily snapshot form (2-minute team fill-in for engagement trend)"
-      ],
-      "decisions": [
-        "Manual CSV drop preferred over live Skool API — fragile and not worth maintenance cost",
-        "Apify being evaluated for automated daily sync",
-        "Free vs Paid community must be clearly separated — free = setter pipeline, paid = payments",
-        "Engagement tracking via daily snapshot form (not Skool API — locked)",
-        "Real-time member growth chart from join_date in CSV data"
-      ],
-      "project": "kubecraft"
-    },
-    {
       "id": "20260603_165734_751f25",
       "date": "2026-06-03",
       "title": "Community Dashboard Full Build",
@@ -390,73 +319,6 @@
         "Stack: Next.js 14 App Router + Supabase + Vercel (local dev until feature complete)"
       ],
       "project": "kubecraft"
-    },
-    {
-      "id": "20260603_103722_6b6c9e",
-      "date": "2026-06-03",
-      "title": "Morning Check-In Session",
-      "summary": "A 148-message casual check-in session between Stefan and Hermes earlier in the day. Full content not indexed in search yet.",
-      "topics": ["general"],
-      "things_built": [],
-      "decisions": [],
-      "project": "general"
-    },
-    {
-      "id": "20260601_163825_5b33fd56",
-      "date": "2026-06-01",
-      "title": "Learning System PDF Review",
-      "summary": "Stefan uploaded a 'Learning system.pdf' consolidating the full Commonplacebook architecture and asked Hermes to review it, refine the system, and clarify the build path. The Soul (Craft) vs Brain (Obsidian) split bridge is still an open design challenge — keeping both systems in sync without manual friction. Work on identifying what to build first in the Processing Studio continued.",
-      "topics": ["commonplacebook", "knowledge-system", "obsidian", "soul-brain-split", "processing-studio"],
-      "things_built": ["Learning system PDF review and synthesis"],
-      "decisions": [
-        "Soul/Brain bridge still unresolved — design active",
-        "Obsidian vault = canonical knowledge layer",
-        "Processing Studio V1 is next build target"
-      ],
-      "project": "obsidian"
-    },
-    {
-      "id": "20260525_171131_ab02c8",
-      "date": "2026-05-25",
-      "title": "Knowledge OS Deep Synthesis",
-      "summary": "Deep session extracting outcomes and bottlenecks from two private Claude share links. Wrote two major documents to the Commonplacebook vault: 'Online Knowledge OS Realization Plan' (12KB) and 'Knowledge OS Outcome and Bottleneck Extraction' (17KB). Core finding: the bottleneck is not capture — it is raw input → actual understanding → own words → connected ideas → useful behavior. Defined the 6-engine architecture and the first proof target (one YouTube video end-to-end through Processing Studio).",
-      "topics": ["commonplacebook", "knowledge-os", "processing-studio", "bottleneck-analysis", "obsidian"],
-      "things_built": [
-        "/Users/stefanberg/Documents/Commonplacebook/00 System/Online Knowledge OS Realization Plan - 2026-05-25.md",
-        "/Users/stefanberg/Documents/Commonplacebook/00 System/Knowledge OS Outcome and Bottleneck Extraction - 2026-05-25.md",
-        "/Users/stefanberg/Documents/Commonplacebook/00 System/Commonplacebook Deep Synthesis and Build Blueprint - 2026-05-25.md",
-        "/Users/stefanberg/Documents/Commonplacebook/00 System/Source Processor Build Plan.md"
-      ],
-      "decisions": [
-        "Bottleneck is processing, not capture",
-        "Source routing gate: DELETE / ARCHIVE / EXTRACT / DEEP PROCESS",
-        "Active Questions Board replaces topic filing",
-        "6-engine architecture: Capture Router → Processing Studio → Obsidian Brain → Output/Resource Studio → Action → Reflection",
-        "First proof: one YouTube video end-to-end before bulk operations",
-        "0–3 notecards by default (Stefan voice only, not AI voice)",
-        "No new AI projects until existing three earn their keep over 90 days"
-      ],
-      "project": "obsidian"
-    },
-    {
-      "id": "20260525_092429_cdbd4e",
-      "date": "2026-05-25",
-      "title": "Personal Infrastructure Architecture",
-      "summary": "Two parallel sub-sessions synthesizing Stefan's earlier Claude conversations about building a personal infrastructure for compounding mastery. Extracted the full 12-part vision (Soul/Brain split, 5-stage loop, domain template, AI services taxonomy). Claude challenged the Soul/Brain split but conceded it with the condition that explicit bridges are designed. Key tension identified: infrastructure design as procrastination — the system must not become the work.",
-      "topics": ["commonplacebook", "personal-infrastructure", "soul-brain-split", "ai-services", "knowledge-system", "domains"],
-      "things_built": [
-        "Comprehensive synthesis of personal OS architecture (Claude Code session 20260521)"
-      ],
-      "decisions": [
-        "Keep Soul (Craft) / Brain (Obsidian) split with explicit bridges",
-        "Vision enforcement via calendar rituals (not just documents)",
-        "Storyworthy Moments practice = highest-leverage immediate habit",
-        "Decision Journal = highest-leverage long-term practice",
-        "Source Processor is first AI project to build",
-        "Socratic Tutor + Self-Deception Spotter + Critic = three modes of one project",
-        "No new Domain Mentor until that domain has 10+ processed sources"
-      ],
-      "project": "obsidian"
     },
     {
       "id": "20260523_085829_24cdeb",
@@ -483,8 +345,10 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 31,
+    "total_sessions_tracked": 32,
     "things_built": [
+      "Stefanberg99/hermes-mirror — private GitHub repo with full Hermes config backup (daily cron at 03:00 AMS)",
+      "~/Outputs/kubecraft-growth-report/index.html — KubeCraft Monthly Growth Report dashboard (Chart.js, localStorage, 8 KPIs, platform breakdown, trend charts)",
       "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments) — REMOVED June 27",
       "Higgsfield API key stored in Hermes config",
       "Complete 5-layer personal OS architecture (Soul/Brain/Capture/Action/Projects) with full tool declarations",
@@ -498,21 +362,14 @@
       "Dashboard views: KPI cards, Members table, Pipeline Kanban, Follow-ups, Payments",
       "CSV import pipeline — 1,497 real members imported to Supabase",
       "CSV upload UI (drag-and-drop, no terminal required)",
-      "Payments tracker (Excel/CSV mapper for paid community)",
-      "Carousel generation prompt (KubeCraft voice, Higgsfield-ready)",
-      "LinkedIn post scripts for Mischa (calibrated to top-performer data)",
-      "Content system architecture: Transcript → Airtable → Metricool",
-      "post1-devops-titles.html — 1080×1080 notebook-aesthetic LinkedIn post image (Matt Gray style)",
-      "Recall Studio / Resource Studio app (~/Documents/New project/)",
-      "Visual DNA prompt layer for artifact generation",
-      "Online Knowledge OS Realization Plan (Obsidian doc)",
-      "Knowledge OS Outcome and Bottleneck Extraction (Obsidian doc)",
-      "Commonplacebook Deep Synthesis and Build Blueprint (Obsidian doc)",
-      "Source Processor Build Plan (Obsidian doc)",
-      "Commonplacebook LifeOS constitution v5 (CLAUDE.md) — 00-99 folder schema, three arenas",
-      "LifeOS Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md"
+      "Payments import (Excel/CSV mapper for paid community export)",
+      "Google Doc with 8 LinkedIn post scripts (4 Mischa + 4 KubeCraft)",
+      "post1-devops-titles.html — 1080×1080 notebook-aesthetic LinkedIn post image",
+      "Recall Studio app (~/Documents/New project/) — Node.js, Recall Pack data model with Visual DNA layer",
+      "LifeOS Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md (APPROVED 2026-06-11)",
+      "Commonplacebook LifeOS constitution v5 (CLAUDE.md)"
     ],
-    "top_topics": ["kubecraft", "world-cup", "obsidian", "hermes"],
-    "recommendations_completed": 1
+    "top_topics": ["kubecraft", "hermes", "obsidian", "content-engine"],
+    "recommendations_completed": 2
   }
 }
