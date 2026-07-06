@@ -708,5 +708,31 @@
     "prompt": "Review my Anti-Gravity workspace setup and my Obsidian Vault. For Antigravity: 1) What skills are installed and active? 2) What sub-agents are configured (Scribe, Mercury, Philosopher, Labyrinth, Leo)? 3) What does the CLAUDE.md say about how it should work? For Obsidian (~/Documents/Commonplacebook/): 4) Which LifeOS v5 folders are populated vs empty stubs? 5) What's currently in 00 Inbox needing processing? 6) Are the three arena quest files created? Give me a 'state of the system' snapshot with the top 3 gaps to close.",
     "status": "todo",
     "added_date": "2026-06-28"
+  },
+  {
+    "id": "hermes-mirror-backup",
+    "title": "Hermes Config Backup → Private GitHub",
+    "category": "workflow",
+    "priority": "high",
+    "action": "configure",
+    "skill_id": null,
+    "why": "✅ DONE (Jul 6): Stefan asked Hermes to back up his entire ~/.hermes/ config to Stefanberg99/hermes-mirror (private) so he can restore it on any machine. Hermes ran a credential scan, excluded all auth tokens / .env / sessions / logs, wrote a README explaining the layout, and pushed the initial commit. A daily cron at 03:00 Amsterdam runs rsync + commit + push automatically — the backup stays fresh without any manual action.",
+    "prompt": "To restore Hermes on a new machine: 1) git clone git@github.com:Stefanberg99/hermes-mirror.git ~/.hermes (or merge selectively). 2) Re-add auth files manually (auth.json, google_token.json, higgsfield_token.json — NOT in the repo). 3) Re-run hermes-mirror-sync.sh to confirm the daily cron is registered. The README in the repo has the full layout guide.",
+    "status": "done",
+    "added_date": "2026-07-06",
+    "updated_date": "2026-07-06"
+  },
+  {
+    "id": "kubecraft-growth-report",
+    "title": "KubeCraft Monthly Growth Report Dashboard",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": null,
+    "why": "✅ DONE (Jul 6): Built a full KubeCraft Monthly Growth Report dashboard at ~/Outputs/kubecraft-growth-report/index.html. Works offline with localStorage — no server required. Stefan (or the setter team) clicks '+ Log This Month', fills in ~15 numbers from Metricool/YouTube Studio/Skool, and gets 8 KPI cards with MoM deltas, platform breakdown, trend charts (LinkedIn impressions + Skool growth), best post tracker, and strategic notes section. Two optional upgrades identified: (A) Airtable push so Mischa can see it, (B) YouTube Data API auto-fetch to eliminate manual input.",
+    "prompt": "Open ~/Outputs/kubecraft-growth-report/index.html in your browser. Click '+ Log This Month' to enter this month's data. For the Airtable push upgrade: add your Airtable PAT key and I'll wire a POST to a Monthly_Snapshots table. For YouTube auto-fetch: get a Google Cloud API key with YouTube Data API v3 enabled and I'll pull KubeCraft stats automatically.",
+    "status": "done",
+    "added_date": "2026-07-06",
+    "updated_date": "2026-07-06"
   }
 ]

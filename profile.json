@@ -181,5 +181,13 @@
       "Hermes vs Anti-Gravity IDE reference card — asked June 27 and June 28, still unbuilt"
     ]
   },
+  "key_finding_july6": {
+    "discovery": "Hermes config is now fully backed up to private GitHub — portable to any machine. KubeCraft growth tracking dashboard shipped.",
+    "detail": "On July 6, Stefan asked Hermes to back up his entire Hermes config to Stefanberg99/hermes-mirror (private GitHub repo). Hermes completed the full operation: credential scan, rsync with exclusions, README, git push, and daily backup cron at 03:00 Amsterdam. In the same session Stefan asked for a KubeCraft Monthly Growth Report — Hermes built a standalone HTML dashboard at ~/Outputs/kubecraft-growth-report/index.html with localStorage persistence, 8 KPI cards, trend charts, and platform breakdown (LinkedIn, YouTube, Skool, IG, TikTok). Session shows Stefan's interest in operationalizing Hermes as infrastructure (backup, portability) alongside client deliverables.",
+    "things_shipped": [
+      "Stefanberg99/hermes-mirror — private GitHub backup of ~/.hermes/ config, daily cron keeping it fresh",
+      "~/Outputs/kubecraft-growth-report/index.html — KubeCraft Monthly Growth Report dashboard (offline, localStorage)"
+    ]
+  },
   "updated": "2026-07-06"
 }
