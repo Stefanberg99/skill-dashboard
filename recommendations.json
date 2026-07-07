@@ -758,5 +758,53 @@
     "prompt": "Upgrade ~/Outputs/kubecraft-growth-report/index.html with two features: 1) Airtable push: when '+ Log This Month' is saved, POST the data to an Airtable base (Monthly_Snapshots table). Add an Airtable PAT key field in the settings panel. 2) YouTube Data API auto-fetch: add a 'Fetch YouTube Stats' button that calls the YouTube Data API v3 with a Google Cloud API key to pull KubeCraft's subscriber count, views, and video count automatically. Guide me through getting both API keys if I don't have them.",
     "status": "todo",
     "added_date": "2026-07-07"
+  },
+  {
+    "id": "kubecraft-activation-call-engine",
+    "title": "Build the Activation → Call Engine",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "creator-content-engine",
+    "why": "The July 7 strategy session named this Stefan's single highest-leverage move to become irreplaceable to Mischa & Sammy: stop stacking reach systems and instead OWN the number the founders care about — booked calls sourced from the free Skool community + free-to-paid conversion rate. Stefan's own 404-line relaunch research is a strong plan but 'a plan, not a machine' — its value is near-zero until operated and instrumented. The customer-journey map in that doc identifies the exact leak: new members join, see 10 classroom modules, get overwhelmed, don't know the next step, consume a little, never return. That leak sits directly upstream of every booked call. This build plugs it and turns the plan into an operating system Stefan runs. It's sticky (embedded in daily ops), unique (no other operator does it), and produces the two things Mischa can't argue with: more calls (money) and less of his manual time (freedom) — the honest basis for charging more.",
+    "prompt": "Help me build 'The Activation → Call Engine' for the KubeCraft free Skool community. Four components: 1) A guided first-48h member path — replace the overwhelming 10-module classroom with ONE obvious next step at a time (intro post → micro-win → one workshop → soft call offer). Write the welcome DM sequence (day 0/3/7) and the 'Start Here' post. 2) Warm-lead detection — define the interest signals (asks a question, completes the free course, hits a Skool level) and produce a daily 'who to DM today' list so appointment setting becomes systematic instead of ad-hoc. 3) The weekly Sunday workshop→call funnel operated as a repeatable loop (event post → livestream teach → community Q&A post → recording post → book-a-call CTA). 4) One dashboard Mischa checks weekly: booked calls this week, free→paid conversion rate, warm leads in pipeline, activation rate (% posting an intro within 48h) — extend the existing growth-report scaffold at ~/Outputs/kubecraft-growth-report/. Reference my relaunch research and the creator-content-engine skill.",
+    "status": "todo",
+    "added_date": "2026-07-07"
+  },
+  {
+    "id": "airtable-metricool-scheduler",
+    "title": "Airtable → Metricool Scheduling Script",
+    "category": "build",
+    "priority": "high",
+    "action": "build",
+    "skill_id": "creator-content-engine",
+    "why": "On the July 7 call with Mischa, Stefan planned to set up the Metricool API to schedule LinkedIn + multi-channel posts. Hermes flagged the two prerequisites: Metricool's API requires the Advanced plan, and auth is an API token + blog/user ID per connected brand. Once those are in hand, the missing piece is the automation that closes the loop: Airtable (approved post) → Metricool schedule → published. This removes the manual copy-paste-schedule step from the content workflow and makes the Airtable Content Garden the true single spine for all channels. Depends on getting the Metricool token + blog ID from Mischa's account.",
+    "prompt": "Build me an Airtable → Metricool scheduling script for the KubeCraft content pipeline. Input: approved posts in the Content Garden Airtable base (appkrGKdWVLlJYBD6) with their target date, channel, copy, and image. When a record is flipped to 'Approved', the script should push it to Metricool's scheduling API for the correct brand/blog. I'll provide the Metricool API token + blog ID (from the Advanced plan) and an Airtable PAT. Use the subprocess+curl pattern (not urllib — SSL issues on macOS). Handle: LinkedIn personal + business accounts, error/retry logic, and a Telegram confirmation when posts are scheduled.",
+    "status": "todo",
+    "added_date": "2026-07-07"
+  },
+  {
+    "id": "airtable-pat-content-garden",
+    "title": "Get Airtable PAT for Content Garden Base",
+    "category": "workflow",
+    "priority": "high",
+    "action": "configure",
+    "skill_id": "creator-content-engine",
+    "why": "On July 7, Hermes tried to pull live data from the KubeCraft Content Garden Airtable (base appkrGKdWVLlJYBD6) to give real feedback but hit a login wall (headless browser is not Stefan's Chrome session) and found NO Airtable PAT stored anywhere on the machine (checked config, secrets, ~/Desktop, ~/Outputs, ~/Documents). This blocks every Airtable-dependent workflow: reading Content Garden posts, the Airtable→Metricool scheduler, the growth-report Airtable push, and writing generated posts directly. Hermes flagged this as 'the first concrete outcome of the call' — get Mischa to create a scoped PAT. One-time setup that unblocks a whole cluster of high-value builds.",
+    "prompt": "Help me set up an Airtable Personal Access Token so Hermes can read/write the KubeCraft Content Garden base (appkrGKdWVLlJYBD6). The token needs scopes data.records:read, data.records:write, and schema.bases:read, AND the Content Garden base must be added to the token's Access list (a fresh token returns UNAUTHORIZED if the base isn't in its access list). Once I paste the PAT, store it securely, then test it by reading the Posts table (tbl3qCAicKces6Deh) and confirming you can see the records.",
+    "status": "todo",
+    "added_date": "2026-07-07"
+  },
+  {
+    "id": "kubecraft-growth-operator-pitch",
+    "title": "Growth Operator One-Page Pitch for Mischa",
+    "category": "workflow",
+    "priority": "medium",
+    "action": "build",
+    "skill_id": "creator-content-engine",
+    "why": "The July 7 session established Stefan's positioning shift: move from 'content executor' (the floor) to 'growth operator who owns conversion + cross-channel reporting' (the ceiling, where the income is). Hermes offered twice to draft a one-page pitch positioning Stefan as the person who owns the booked-calls number, with the monthly growth report as proof — and to propose a base + performance component tied to booked calls. Having this document ready turns the strategy conversation into a concrete offer Stefan can send Mischa, making the price increase Mischa's idea rather than a request.",
+    "prompt": "Draft me a one-page 'growth operator' pitch for Mischa. Structure: 1) The reframe — I own an outcome (turning free Skool members into booked calls) and report the number weekly, not just 'manage the community'. 2) The engine I run — the Activation → Call Engine (guided onboarding, warm-lead detection, weekly workshop→call funnel, founder dashboard). 3) Proof — the monthly growth report already shows I understand the business in numbers. 4) The ask — a base retainer + a performance component tied to booked calls / sales, so my pay aligns with the exact metric you care about. Keep it tight, confident, and outcome-first. Deliver as a Google Doc I can send after the call.",
+    "status": "todo",
+    "added_date": "2026-07-07"
   }
 ]

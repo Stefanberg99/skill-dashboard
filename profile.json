@@ -41,6 +41,8 @@
     "mymind — visual capture"
   ],
   "current_focus": [
+    "KubeCraft growth operator — own booked calls from the free Skool community → sales; build 'The Activation → Call Engine' (highest-leverage move)",
+    "KubeCraft Metricool + Airtable automation — get Airtable PAT + Metricool token, wire Airtable(approved)→Metricool scheduling",
     "LifeOS v5 — populate 01 Soul, 02 Domains, 03 Quests, 04 Journal with actual content",
     "LifeOS v5 — first quest per arena (Meesterwerk: proven offer/€10k; Self: 12-week rituals; People: storyworthy moments)",
     "KubeCraft Community Dashboard — Phase 1 complete (1,497 members, all views), next: Apify sync + Vercel deploy",
@@ -197,6 +199,17 @@
       "Commit d25d12e pushed to Stefanberg99/hermes-mirror (12 files changed)"
     ],
     "open_bug": "Hermes Mirror backup cron: rsync --delete wipes .git/ on every run. Fix: add --exclude='.git/' to the rsync command in the cron job."
+  },
+  "key_finding_july7_community": {
+    "discovery": "Stefan's KubeCraft role is crystallizing into 'growth operator' — the strategic pivot is to own the number the founders care about (booked calls from the free community → sales), not to post more content.",
+    "detail": "On July 7, ahead of a call with Mischa, Stefan asked Hermes to design a strategy to solve bigger problems for the KubeCraft founders and become irreplaceable / higher-paid. Hermes reframed it: content execution is the floor; owning conversion + cross-channel intelligence is the ceiling where income lives. Stefan is responsible for the free Linux Skool community (6,100+ members) as the main conversion hub into the paid KubeCraft Career Accelerator (888 members, €4,800/yr). He has a detailed 404-line Dutch relaunch research doc ('Notes (niet openen)') covering identity/tribe, onboarding, rituals, gamification, ambassadors, the Lurker→Contributor→Warm-lead→Buyer funnel, 8-step launch, webinars-as-call-generators, and the money model (free → €4,800/yr → €500/mo downsell → continuity). Hermes' verdict: strong plan but 'a plan, not a machine' — worthless until operated and instrumented. The identified highest-leverage build is 'The Activation → Call Engine': fix the first-48h overwhelm leak (new members see 10 modules and bounce), systematize warm-lead detection ('who to DM today'), operate the weekly Sunday workshop→call funnel, and give Mischa one dashboard (booked calls, free→paid rate, warm leads, activation rate). Stefan wants to go all-in with Mischa & Sammy and charge higher prices — Hermes recommended a base + performance component tied to booked calls.",
+    "strategic_metric": "Booked calls sourced from the free community + free-to-paid conversion rate (NOT engagement, which Stefan's own research flags as superficial)",
+    "api_decisions_from_call": [
+      "Metricool API requires the Advanced plan + API token + blog/user ID per brand — Metricool should be the LinkedIn publisher",
+      "Do NOT build direct LinkedIn API company-page posting — needs the Community Management API (reviewed app + partner approval, weeks). Reserve a direct app only for analytics Metricool can't provide",
+      "No Airtable PAT is stored on the machine — getting a scoped PAT for Content Garden (appkrGKdWVLlJYBD6) is the first prerequisite unblocking the whole automation cluster"
+    ],
+    "positioning": "Move from 'content executor' (floor) to 'growth operator who owns conversion + reporting' (ceiling). Sell an outcome you own, report the number weekly, price on base + performance tied to booked calls."
   },
   "updated": "2026-07-07"
 }
