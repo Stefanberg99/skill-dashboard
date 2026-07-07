@@ -1,6 +1,24 @@
 {
-  "updated": "2026-07-07T03:30:00+02:00",
+  "updated": "2026-07-07T16:13:02+02:00",
   "sessions": [
+    {
+      "id": "20260707_150806_017c00",
+      "date": "2026-07-07",
+      "title": "KubeCraft Community Conversion Strategy",
+      "summary": "Ahead of a call with Mischa, Stefan asked Hermes to help design a strategy to solve bigger problems for the KubeCraft founders and become irreplaceable. Hermes reframed the whole thing: you don't get irreplaceable by posting more — you get it by owning a number the founders care about. Diagnosis: the free Linux Skool community's only job is booked calls → sales, so the metric to own is 'booked calls sourced from the free community + free-to-paid conversion rate' (not engagement, which is superficial). Hermes read Stefan's 404-line Dutch community-relaunch research doc ('Notes (niet openen)') and gave the verdict: it's a strong plan but 'a plan, not a machine' — worth near-zero until someone operates and instruments it. The highest-leverage build identified is 'The Activation → Call Engine': a guided first-48h member path (kill the 10-module overwhelm leak in the customer-journey map), warm-lead detection with a daily 'who to DM today' list, the weekly Sunday workshop→call funnel run for real, and one dashboard Mischa checks (booked calls, free→paid rate, warm leads, activation rate). Also gave call guidance on the two API decisions: Metricool needs the Advanced plan + token + blog ID; LinkedIn direct-API posting to a company page needs the Community Management API (weeks of partner approval) so use Metricool as the publisher instead.",
+      "topics": ["kubecraft", "community-strategy", "conversion", "skool", "metricool-api", "linkedin-api", "content-engine", "appointment-setting"],
+      "things_built": [],
+      "decisions": [
+        "Own the metric that matters: booked calls sourced from the free community + free-to-paid conversion rate — NOT engagement (superficial, per Stefan's own research)",
+        "Highest-leverage build = 'The Activation → Call Engine': guided first-48h path, warm-lead detection ('who to DM today'), weekly workshop→call funnel, one founder-facing dashboard",
+        "Verdict on Stefan's 404-line relaunch research doc: strong plan but 'a plan, not a machine' — value comes from operating + instrumenting it, which is the irreplaceability play",
+        "Metricool API requires the Advanced plan + API token + blog/user ID per connected brand — confirm on call, then Hermes builds the Airtable→Metricool scheduling script",
+        "Do NOT build direct LinkedIn API posting yet — company-page posting needs the Community Management API (reviewed app + partner approval, weeks). Use Metricool as the LinkedIn publisher; reserve a direct app only for analytics Metricool can't give",
+        "Pricing/positioning: sell an outcome you own (turn free members into booked calls, report weekly), not 'I manage the community' — base + performance component tied to booked calls",
+        "First concrete outcome of the call: get Mischa to create an Airtable PAT scoped to base appkrGKdWVLlJYBD6 so Hermes can read/write Content Garden directly (no PAT currently stored on the machine)"
+      ],
+      "project": "kubecraft"
+    },
     {
       "id": "cron_1a84ff3063b5_20260707_030054",
       "date": "2026-07-07",
@@ -374,7 +392,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 36,
+    "total_sessions_tracked": 37,
     "things_built": [
       "Stefanberg99/hermes-mirror — private GitHub repo with full Hermes config backup (daily cron at 03:00 AMS)",
       "skills/devops/hermes-backup/SKILL.md — Hermes backup skill with gitignore template",
