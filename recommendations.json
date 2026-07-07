@@ -734,5 +734,29 @@
     "status": "done",
     "added_date": "2026-07-06",
     "updated_date": "2026-07-06"
+  },
+  {
+    "id": "hermes-mirror-rsync-git-fix",
+    "title": "Fix Hermes Mirror Cron: Add --exclude='.git/' to rsync",
+    "category": "workflow",
+    "priority": "high",
+    "action": "configure",
+    "skill_id": "hermes-backup",
+    "why": "CRITICAL BUG discovered July 7: the daily backup cron runs rsync --delete ~/.hermes/ ~/code/hermes-mirror/ which wipes the .git/ directory contents on every run because ~/.hermes/ has no .git/ folder. The cron then re-initializes and recovers via git fetch, but this is fragile — if the recovery fails once, the backup history is lost. Fix: add --exclude='.git/' to the rsync command in the cron job definition. The hermes-backup skill (skills/devops/hermes-backup/) documents the correct exclusion list.",
+    "prompt": "Fix the Hermes Mirror backup cron job to add --exclude='.git/' to the rsync command. The cron is currently: rsync -av --delete [exclusions] ~/.hermes/ ~/code/hermes-mirror/. Add --exclude='.git/' so the git repository structure is preserved between runs. Update the cron job at ~/.hermes/cron/jobs.json or via 'hermes cron edit'. Test by running the rsync manually and confirming 'git status' still works in ~/code/hermes-mirror/ afterward.",
+    "status": "todo",
+    "added_date": "2026-07-07"
+  },
+  {
+    "id": "kubecraft-growth-report-airtable",
+    "title": "KubeCraft Growth Report — Airtable Auto-Push",
+    "category": "build",
+    "priority": "medium",
+    "action": "build",
+    "skill_id": null,
+    "why": "The KubeCraft Monthly Growth Report dashboard (~/Outputs/kubecraft-growth-report/index.html) is live and working with localStorage. Two upgrade paths were identified when it was built (Jul 6): (A) Airtable push so Mischa can see the data live without Stefan sharing the HTML file, and (B) YouTube Data API auto-fetch to eliminate the manual 15-number entry step. The Airtable push is the higher-value upgrade — it turns a solo tool into a shared team dashboard. The YouTube API fetch removes the biggest friction point in the monthly data entry workflow.",
+    "prompt": "Upgrade ~/Outputs/kubecraft-growth-report/index.html with two features: 1) Airtable push: when '+ Log This Month' is saved, POST the data to an Airtable base (Monthly_Snapshots table). Add an Airtable PAT key field in the settings panel. 2) YouTube Data API auto-fetch: add a 'Fetch YouTube Stats' button that calls the YouTube Data API v3 with a Google Cloud API key to pull KubeCraft's subscriber count, views, and video count automatically. Guide me through getting both API keys if I don't have them.",
+    "status": "todo",
+    "added_date": "2026-07-07"
   }
 ]

@@ -189,5 +189,14 @@
       "~/Outputs/kubecraft-growth-report/index.html — KubeCraft Monthly Growth Report dashboard (offline, localStorage)"
     ]
   },
-  "updated": "2026-07-06"
+  "key_finding_july7": {
+    "discovery": "CRITICAL BUG in the Hermes Mirror daily backup cron: rsync --delete wipes .git/ on every run.",
+    "detail": "On July 7 at 03:00 Amsterdam, the daily backup cron ran and rsync --delete wiped the .git/ directory contents in ~/code/hermes-mirror/ because ~/.hermes/ (the source) has no .git/ folder. The cron recovered by re-initializing git, fetching from origin main --depth=1, resetting the index, and pushing commit d25d12e with 12 changed files (including the new hermes-backup skill, creator-content-engine updates, and cron output logs). The fix is simple: add --exclude='.git/' to the rsync command. Until fixed, every backup run will wipe and re-init the git repo — which is fragile. A new 'hermes-mirror-rsync-git-fix' recommendation has been added to the dashboard.",
+    "things_shipped": [
+      "skills/devops/hermes-backup/ — new Hermes backup skill with SKILL.md and gitignore reference",
+      "Commit d25d12e pushed to Stefanberg99/hermes-mirror (12 files changed)"
+    ],
+    "open_bug": "Hermes Mirror backup cron: rsync --delete wipes .git/ on every run. Fix: add --exclude='.git/' to the rsync command in the cron job."
+  },
+  "updated": "2026-07-07"
 }
