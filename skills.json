@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-06T21:34:22.099274Z",
-  "hash": "bf8761d95ea0d451fa49cd2596e30c91",
+  "synced_at": "2026-07-07T17:48:04.417128Z",
+  "hash": "ede701139a8fee2db99cf673c9eb27df",
   "skills": [
     {
       "name": "agent-builder",
@@ -531,6 +531,18 @@
       "category": "AI & Agents"
     },
     {
+      "name": "monthly",
+      "what": "Monthly review ritual (~1 hour, once a month). Reads the month's weekly reviews, scores the month's focus, names the pattern across the four weeks honestly, and sets next month's focus from the quarter's missions. The monthly rung of The Ladder (Vision to Day)",
+      "when": "Stefan says /monthly, \"monthly review\", \"close the month\", or at the turn of a month.",
+      "raw_desc": "Monthly review ritual (~1 hour, once a month). Reads the month's weekly reviews, scores the month's focus, names the pattern across the four weeks honestly, and sets next month's focus from the quarter's missions. The monthly rung of The Ladder (Vision to Day). Trigger when Stefan says /monthly, \"monthly review\", \"close the month\", or at the turn of a month.",
+      "folder": "monthly",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-07T17:48:04.417128Z",
+      "category": "Coding"
+    },
+    {
       "name": "n8n-code-javascript",
       "what": "Write JavaScript code in n8n Code nodes",
       "when": "writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, choosing between Code node modes, or doing any custom data transformation in n8n. Always use this skill when a workflow needs a Code node \u2014 whether for data aggregation, filtering, API calls, format conversion, batch processing logic, or any custom JavaScript. Covers SplitInBatches loop patterns, cross-iteration data, pairedItem, and real-world production patterns. EXCEPTION \u2014 for the AI-agent-callable Custom Code Tool (@n8n/n8n-nodes-langchain.toolCode, a tool attached to an AI Agent), use the n8n-code-tool skill instead; it has a different runtime contract.",
@@ -781,6 +793,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-17T17:54:47.804805Z",
       "category": "Documents"
+    },
+    {
+      "name": "quarterly",
+      "what": "Quarterly review ritual (~half a day, four times a year). Reads the quarter's monthly reviews, scores the 3 missions, names the arc across the three months, checks whether reality asks the vision itself to move, and sets next quarter's 3 missions from the year and the Future Self ladder. The quarterly rung of The Ladder",
+      "when": "Stefan says /quarterly, \"quarterly review\", \"close the quarter\", or at the turn of a quarter.",
+      "raw_desc": "Quarterly review ritual (~half a day, four times a year). Reads the quarter's monthly reviews, scores the 3 missions, names the arc across the three months, checks whether reality asks the vision itself to move, and sets next quarter's 3 missions from the year and the Future Self ladder. The quarterly rung of The Ladder. Trigger when Stefan says /quarterly, \"quarterly review\", \"close the quarter\", or at the turn of a quarter.",
+      "folder": "quarterly",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-07T17:48:04.417128Z",
+      "category": "Coding"
     },
     {
       "name": "reflect",
