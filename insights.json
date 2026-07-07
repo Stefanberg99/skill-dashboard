@@ -1,6 +1,35 @@
 {
-  "updated": "2026-07-06T18:01:00+02:00",
+  "updated": "2026-07-07T03:30:00+02:00",
   "sessions": [
+    {
+      "id": "cron_1a84ff3063b5_20260707_030054",
+      "date": "2026-07-07",
+      "title": "Hermes Mirror Backup — Git Bug Found",
+      "summary": "The daily Hermes Mirror backup cron (03:00 Amsterdam) ran successfully but exposed a critical bug: rsync --delete wipes the .git/ directory contents because ~/.hermes/ has no .git/ folder. Hermes recovered by re-initializing the repo, fetching from origin, and pushing commit d25d12e to Stefanberg99/hermes-mirror. 12 files changed — new hermes-backup skill created (with SKILL.md + gitignore template), creator-content-engine skill updated, cron output files logged, memories/MEMORY.md updated. The rsync command in the cron job must have --exclude='.git/' added to prevent this from happening on every run.",
+      "topics": ["hermes-backup", "github", "rsync-bug", "cron-job", "devops"],
+      "things_built": [
+        "skills/devops/hermes-backup/SKILL.md — new Hermes backup skill with gitignore template reference",
+        "Commit d25d12e pushed to Stefanberg99/hermes-mirror — daily backup confirmed live"
+      ],
+      "decisions": [
+        "CRITICAL: rsync --delete wipes .git/ contents on every backup run — must add --exclude='.git/' to the rsync command in the cron job",
+        "Recovery path confirmed: re-init git, fetch from origin main --depth=1, reset HEAD, re-stage only changed files, push",
+        "hermes-backup skill created to document the backup process and gitignore pattern for future reference"
+      ],
+      "project": "hermes"
+    },
+    {
+      "id": "cron_2dfcb9f69ed2_20260706_220215",
+      "date": "2026-07-06",
+      "title": "Dashboard Auto-Updater (Evening Run)",
+      "summary": "Second dashboard auto-updater run of July 6 (22:03 Amsterdam). Reviewed the same July 6 session (Hermes Mirror + Growth Dashboard) that had already been logged by the 16:01 run. Found no new sessions since the earlier update — a [SILENT]-eligible run but it completed the full update cycle confirming insights.json and recommendations.json were current as of the July 6 state.",
+      "topics": ["skill-dashboard", "cron-job", "hermes"],
+      "things_built": [],
+      "decisions": [
+        "Dashboard auto-updater ran twice on July 6 — both successfully; second run confirmed state was already current"
+      ],
+      "project": "hermes"
+    },
     {
       "id": "20260706_131837_5f4ee16e",
       "date": "2026-07-06",
@@ -210,7 +239,7 @@
       ],
       "decisions": [
         "LifeOS v5 architecture is the active operating system — supersedes all prior schema documentation",
-        "Blueprint at ~/Downloads/ClaudeOPS/projects/lifeos/BLUEPRINT.md is the highest authority above the CLAUDE.md",
+        "Blueprint at ~/Downloads/ClaudeOBS/projects/lifeos/BLUEPRINT.md is the highest authority above the CLAUDE.md",
         "Three arenas as 90-day games: Meesterwerk (proven offer, €10k/month), Self (rituals surviving 12 weeks), People (storyworthy moments as the trace)",
         "Notes-Master at ~/Documents/Notes-Master = quarry (3,000+ old notes), never bulk-process — 2hr weekly triage only",
         "One quest per arena — the quest .md file IS the AI working context for that project",
@@ -345,9 +374,10 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 32,
+    "total_sessions_tracked": 36,
     "things_built": [
       "Stefanberg99/hermes-mirror — private GitHub repo with full Hermes config backup (daily cron at 03:00 AMS)",
+      "skills/devops/hermes-backup/SKILL.md — Hermes backup skill with gitignore template",
       "~/Outputs/kubecraft-growth-report/index.html — KubeCraft Monthly Growth Report dashboard (Chart.js, localStorage, 8 KPIs, platform breakdown, trend charts)",
       "WC26 Match Predictor cron job (every 15 min, SofaScore → Telegram alerts on high-confidence moments) — REMOVED June 27",
       "Higgsfield API key stored in Hermes config",
