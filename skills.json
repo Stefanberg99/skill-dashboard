@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-08T13:04:54.852867Z",
-  "hash": "360544048fa6e51c54360ea230b69d0f",
+  "synced_at": "2026-07-08T13:06:56.819675Z",
+  "hash": "7b1b275d9933570adcd98c64c883b2de",
   "skills": [
     {
       "name": "agent-builder",
@@ -361,6 +361,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T17:29:22.718912Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "humanizer",
+      "what": "Identify and remove signs of AI-generated text to make writing sound natural and human. Based on Wikipedia's \"Signs of AI writing\" guide (maintained by WikiProject AI Cleanup), derived from observations of thousands of AI-generated text instances.",
+      "when": "Stefan asks to humanize, de-AI, de-slop, or un-ChatGPT a piece of text, edit a draft (blog post, essay, PR description, docs, memo, email, tweet, resume bullet) to sound natural and human, match his voice in writing, or review text for AI tells before publishing. Also apply it to your own user-facing prose (release notes, summaries, long explanations). Invoke with /humanizer.",
+      "raw_desc": "Use when Stefan asks to humanize, de-AI, de-slop, or un-ChatGPT a piece of text, edit a draft (blog post, essay, PR description, docs, memo, email, tweet, resume bullet) to sound natural and human, match his voice in writing, or review text for AI tells before publishing. Also apply it to your own user-facing prose (release notes, summaries, long explanations). Invoke with /humanizer.",
+      "folder": "humanizer",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-08T13:06:56.819675Z",
+      "category": "Deploy"
     },
     {
       "name": "interview",
