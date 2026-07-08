@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-08T11:37:35.055047Z",
-  "hash": "0510968337a6768a271fc5ddbd86a3c6",
+  "synced_at": "2026-07-08T12:42:49.176077Z",
+  "hash": "9eeccf1d2d6406ccd8191376001a9fae",
   "skills": [
     {
       "name": "agent-builder",
@@ -145,6 +145,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "decide",
+      "what": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction",
+      "when": "Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from 09 Output/Decisions. A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
+      "raw_desc": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction. Trigger when Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from 09 Output/Decisions. A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
+      "folder": "decide",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-11T15:42:56.963163Z",
+      "category": "Memory"
     },
     {
       "name": "deploy-to-vercel",
