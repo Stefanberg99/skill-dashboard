@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-08T09:29:05.527704Z",
-  "hash": "185afde63fae2dc4dc7a213b4b5df2aa",
+  "synced_at": "2026-07-08T09:30:07.495932Z",
+  "hash": "eaaa14fba460b29a572a46050db3f763",
   "skills": [
     {
       "name": "agent-builder",
@@ -1261,90 +1261,6 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Documents"
-    },
-    {
-      "name": "block-kit",
-      "what": "Help developers build and validate Block Kit layouts for Slack messages, modals, and Home tabs. Provides authoritative block references and validates with the blocks.validate API",
-      "when": "the developer wants to compose Slack message layouts, build modals/forms/dialogs, design Home tab interfaces, create interactive messages with buttons or menus, modify existing Block Kit JSON, or asks about any Slack UI component (sections, actions, inputs, headers, alerts, tables, carousels). Also trigger when they mention \"blocks\", \"Block Kit Builder\", or paste JSON containing block structures like `\"type\": \"section\"`.",
-      "raw_desc": "Help developers build and validate Block Kit layouts for Slack messages, modals, and Home tabs. Provides authoritative block references and validates with the blocks.validate API. Use this skill whenever the developer wants to compose Slack message layouts, build modals/forms/dialogs, design Home tab interfaces, create interactive messages with buttons or menus, modify existing Block Kit JSON, or asks about any Slack UI component (sections, actions, inputs, headers, alerts, tables, carousels). Also trigger when they mention \"blocks\", \"Block Kit Builder\", or paste JSON containing block structures like `\"type\": \"section\"`.",
-      "folder": "block-kit",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-18T12:26:59.169561Z",
-      "category": "Design"
-    },
-    {
-      "name": "create-slack-app",
-      "what": "Guide developers through creating a Slack app or agent using the Slack CLI and Bolt (JS or Python). Handles prerequisites, sandbox setup, authentication, project creation from templates, and local development.",
-      "when": "",
-      "raw_desc": "Guide developers through creating a Slack app or agent using the Slack CLI and Bolt (JS or Python). Handles prerequisites, sandbox setup, authentication, project creation from templates, and local development.",
-      "folder": "create-slack-app",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-18T12:26:59.169561Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "postiz",
-      "what": "Postiz is a tool to schedule social media and chat posts to 28+ channels X, LinkedIn, LinkedIn Page, Reddit, Instagram, Facebook Page, Threads, YouTube, Google My Business, TikTok, Pinterest, Dribbble, Discord, Slack, Kick, Twitch, Mastodon, Bluesky, Lemmy, Farcaster, Telegram, Nostr, VK, Medium, Dev.to, Hashnode, WordPress, ListMonk",
-      "when": "",
-      "raw_desc": "Postiz is a tool to schedule social media and chat posts to 28+ channels X, LinkedIn, LinkedIn Page, Reddit, Instagram, Facebook Page, Threads, YouTube, Google My Business, TikTok, Pinterest, Dribbble, Discord, Slack, Kick, Twitch, Mastodon, Bluesky, Lemmy, Farcaster, Telegram, Nostr, VK, Medium, Dev.to, Hashnode, WordPress, ListMonk",
-      "folder": "postiz",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-08T09:29:05.527704Z",
-      "category": "Video"
-    },
-    {
-      "name": "slack-api",
-      "what": "Discover, navigate, and call Slack Web API methods (the family.method endpoints at slack.com/api like chat.postMessage, conversations.history, users.info, views.open)",
-      "when": "the developer asks which Slack API method does something, needs a method's required OAuth scopes or token type, wants to call or test a Web API method, is handling cursor pagination (next_cursor), hitting rate limits (tier/ratelimited/Retry-After), or debugging API errors like missing_scope, invalid_auth, or channel_not_found. Also trigger when they paste a slack.com/api/ URL or a docs.slack.dev/reference/methods link, or ask how to list/fetch/post/update Slack resources via the API. This skill covers the Web API method layer: finding the right method, reading its contract (scopes, arguments, errors), and calling it over raw HTTP with curl or through a Slack SDK.",
-      "raw_desc": "Discover, navigate, and call Slack Web API methods (the family.method endpoints at slack.com/api like chat.postMessage, conversations.history, users.info, views.open). Use this skill whenever the developer asks which Slack API method does something, needs a method's required OAuth scopes or token type, wants to call or test a Web API method, is handling cursor pagination (next_cursor), hitting rate limits (tier/ratelimited/Retry-After), or debugging API errors like missing_scope, invalid_auth, or channel_not_found. Also trigger when they paste a slack.com/api/ URL or a docs.slack.dev/reference/methods link, or ask how to list/fetch/post/update Slack resources via the API. This skill covers the Web API method layer: finding the right method, reading its contract (scopes, arguments, errors), and calling it over raw HTTP with curl or through a Slack SDK.",
-      "folder": "slack-api",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-18T12:26:59.169561Z",
-      "category": "Design"
-    },
-    {
-      "name": "slack-cli",
-      "what": "Use the Slack CLI to create, run, and manage Slack apps from the terminal",
-      "when": "the developer wants to log in, add a team, switch workspaces, or authenticate with Slack; whenever Slack CLI commands are needed (local development with `slack run`, managing app lifecycle, the manifest); or when searching the Slack developer documentation for any topic (socket mode, the Events API, OAuth, manifests, Bolt).",
-      "raw_desc": "Use the Slack CLI to create, run, and manage Slack apps from the terminal. Use whenever the developer wants to log in, add a team, switch workspaces, or authenticate with Slack; whenever Slack CLI commands are needed (local development with `slack run`, managing app lifecycle, the manifest); or when searching the Slack developer documentation for any topic (socket mode, the Events API, OAuth, manifests, Bolt).",
-      "folder": "slack-cli",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-18T12:26:59.169561Z",
-      "category": "Other"
-    },
-    {
-      "name": "slack-messaging",
-      "what": "Guidance for composing well-formatted, effective Slack messages using standard markdown",
-      "when": "",
-      "raw_desc": "Guidance for composing well-formatted, effective Slack messages using standard markdown",
-      "folder": "slack-messaging",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-18T12:26:59.169561Z",
-      "category": "Other"
-    },
-    {
-      "name": "slack-search",
-      "what": "Guidance for effectively searching Slack to find messages, files, channels, and people",
-      "when": "",
-      "raw_desc": "Guidance for effectively searching Slack to find messages, files, channels, and people",
-      "folder": "slack-search",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-18T12:26:59.169561Z",
-      "category": "Other"
     },
     {
       "name": "skool-review",
