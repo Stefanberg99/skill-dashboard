@@ -1,6 +1,24 @@
 {
-  "updated": "2026-07-07T16:13:02+02:00",
+  "updated": "2026-07-08T03:15:00+02:00",
   "sessions": [
+    {
+      "id": "cron_1a84ff3063b5_20260708_030012",
+      "date": "2026-07-08",
+      "title": "Backup Bug Recurred + Credential Leak Caught",
+      "summary": "The daily Hermes Mirror backup cron (03:00 Amsterdam) ran and hit the SAME rsync --delete .git-wipe bug from July 7 — confirming the July 7 fix ('add --exclude=.git/') was never applied. Hermes recovered again: re-init repo, fetch origin main --depth=1, re-stage, and pushed commit dddbcc5 (11 files changed, +512/-16). Critically, this run ALSO caught a new credential leak: google_oauth_pending.json had appeared in ~/.hermes/ containing a live OAuth PKCE code_verifier — it was not in the rsync exclude list and would have been committed. Hermes added it to .gitignore and kept it out of the commit. Two fixes now needed on the cron rsync command: --exclude='.git/' AND --exclude='google_oauth_pending.json'. Better: have the cron call the maintained ~/code/hermes-mirror-sync.sh which already excludes .git/ correctly.",
+      "topics": ["hermes-backup", "github", "rsync-bug", "cron-job", "devops", "credential-leak", "oauth"],
+      "things_built": [
+        "Commit dddbcc5 pushed to Stefanberg99/hermes-mirror (11 files changed, +512/-16) — backup recovered and confirmed live",
+        ".gitignore updated to exclude google_oauth_pending.json (blocked OAuth PKCE code_verifier leak)"
+      ],
+      "decisions": [
+        "The July 7 rsync .git-wipe fix was NEVER applied — bug recurred on July 8, self-inflicted on every run until --exclude='.git/' is added to the cron command",
+        "NEW credential exposure: google_oauth_pending.json (OAuth PKCE code_verifier) appeared in ~/.hermes/ and is not in the rsync exclude list — must add --exclude='google_oauth_pending.json'",
+        "Cleanest fix: point the cron at the maintained ~/code/hermes-mirror-sync.sh (already excludes .git/) instead of the drifted inline rsync command",
+        "Prior good commit d25d12e; recovery path (re-init → fetch origin --depth=1 → re-stage → push) is proven but fragile — one failed recovery loses history"
+      ],
+      "project": "hermes"
+    },
     {
       "id": "20260707_150806_017c00",
       "date": "2026-07-07",
@@ -392,8 +410,9 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 37,
+    "total_sessions_tracked": 38,
     "things_built": [
+      "Commit dddbcc5 pushed to Stefanberg99/hermes-mirror — backup recovered (11 files, +512/-16); .gitignore now excludes google_oauth_pending.json",
       "Stefanberg99/hermes-mirror — private GitHub repo with full Hermes config backup (daily cron at 03:00 AMS)",
       "skills/devops/hermes-backup/SKILL.md — Hermes backup skill with gitignore template",
       "~/Outputs/kubecraft-growth-report/index.html — KubeCraft Monthly Growth Report dashboard (Chart.js, localStorage, 8 KPIs, platform breakdown, trend charts)",
