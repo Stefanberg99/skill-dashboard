@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-08T08:33:52.964049Z",
-  "hash": "041d125caf5a91cb12c9cf9b4fe922b1",
+  "synced_at": "2026-07-08T08:34:54.937972Z",
+  "hash": "eaaa14fba460b29a572a46050db3f763",
   "skills": [
     {
       "name": "agent-builder",
@@ -145,30 +145,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
-    },
-    {
-      "name": "daily-ai-digest",
-      "what": "Stefan's daily AI intelligence ritual and the front door to the AI Digest pipeline",
-      "when": "Stefan says \"/daily-digest\", \"run my AI digest\", \"what's going on in AI today\", \"my morning briefing\", \"AI digest\", \"what's new in AI\", \"build my report\", \"future-proof report\", or wants to catch up on AI news, model releases, new tools, or what the AI creators are saying. Researches everything moving in AI (primary lab sources plus web news via Perplexity and Firecrawl, plus the newest YouTube creator videos with transcripts pulled and summarized), synthesizes signal from noise, generates original visuals (hero image, real data charts, a hand-drawn landscape diagram, tool illustrations), and builds a premium branded HTML email plus a personalized SWOT and data-trend PDF, previewed before sending. Dispatches the ai-trend-hunter agent and learns every run so writing, design, and personalization get sharper. Not for a one-off question about a single AI tool (answer that directly); this is the full briefing.",
-      "raw_desc": "Stefan's daily AI intelligence ritual and the front door to the AI Digest pipeline. Use when Stefan says \"/daily-digest\", \"run my AI digest\", \"what's going on in AI today\", \"my morning briefing\", \"AI digest\", \"what's new in AI\", \"build my report\", \"future-proof report\", or wants to catch up on AI news, model releases, new tools, or what the AI creators are saying. Researches everything moving in AI (primary lab sources plus web news via Perplexity and Firecrawl, plus the newest YouTube creator videos with transcripts pulled and summarized), synthesizes signal from noise, generates original visuals (hero image, real data charts, a hand-drawn landscape diagram, tool illustrations), and builds a premium branded HTML email plus a personalized SWOT and data-trend PDF, previewed before sending. Dispatches the ai-trend-hunter agent and learns every run so writing, design, and personalization get sharper. Not for a one-off question about a single AI tool (answer that directly); this is the full briefing.",
-      "folder": "daily-ai-digest",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-19T18:31:45.429083Z",
-      "category": "Video"
-    },
-    {
-      "name": "decide",
-      "what": "Decision ritual. Walks a significant decision through options, mental models, values check, and a confidence-rated prediction, then logs it in the Decision Journal for later outcome review",
-      "when": "Stefan says /decide, \"help me decide\", or faces a real fork.",
-      "raw_desc": "Decision ritual. Walks a significant decision through options, mental models, values check, and a confidence-rated prediction, then logs it in the Decision Journal for later outcome review. Trigger when Stefan says /decide, \"help me decide\", or faces a real fork.",
-      "folder": "decide",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-11T15:42:56.963163Z",
-      "category": "Memory"
     },
     {
       "name": "deploy-to-vercel",
@@ -927,18 +903,6 @@
       "category": "Coding"
     },
     {
-      "name": "tend",
-      "what": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one, so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard",
-      "when": "Stefan says \"/tend\", \"tend the garden\", \"process my sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
-      "raw_desc": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one, so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard. Trigger when Stefan says \"/tend\", \"tend the garden\", \"process my sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
-      "folder": "tend",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-15T18:14:38.895940Z",
-      "category": "Memory"
-    },
-    {
       "name": "test-driven-development",
       "what": "Write the test first. Watch it fail. Write minimal code to pass.",
       "when": "implementing any feature or bugfix, before writing implementation code",
@@ -1153,18 +1117,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-09T14:12:28.725532Z",
       "category": "Memory"
-    },
-    {
-      "name": "writing",
-      "what": "Stefan's thinking-and-writing gym. Not a ghostwriter \u2014 a practice that makes him a clearer thinker, because clear thinking makes clear writing makes clear prompting makes better decisions. Five modes: coach a draft, think through an idea, make a maxim, storytelling reps, and calibrate his voice. Reads his Writing Fundamentals + voice.md + Voice Spec, pulls fuel from and grows his Brain/06 Writing swipe file, and can graduate a sharpened idea into a draft",
-      "when": "Stefan says \"/writing\", \"coach this\", \"help me think through X\", \"make this a maxim\", \"tighten this\", \"does this sound like me\", \"turn this into a story\", or wants to write or think on the page. Thinking-first, lightweight, his voice never faked.",
-      "raw_desc": "Stefan's thinking-and-writing gym. Not a ghostwriter \u2014 a practice that makes him a clearer thinker, because clear thinking makes clear writing makes clear prompting makes better decisions. Five modes: coach a draft, think through an idea, make a maxim, storytelling reps, and calibrate his voice. Reads his Writing Fundamentals + voice.md + Voice Spec, pulls fuel from and grows his Brain/06 Writing swipe file, and can graduate a sharpened idea into a draft. Trigger when Stefan says \"/writing\", \"coach this\", \"help me think through X\", \"make this a maxim\", \"tighten this\", \"does this sound like me\", \"turn this into a story\", or wants to write or think on the page. Thinking-first, lightweight, his voice never faked.",
-      "folder": "writing",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-19T08:31:47.375462Z",
-      "category": "Writing"
     },
     {
       "name": "writing-plans",
