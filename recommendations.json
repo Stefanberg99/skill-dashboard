@@ -737,15 +737,16 @@
   },
   {
     "id": "hermes-mirror-rsync-git-fix",
-    "title": "Fix Hermes Mirror Cron: Add --exclude='.git/' to rsync",
+    "title": "URGENT: Fix Backup Cron — Exclude .git/ AND google_oauth_pending.json",
     "category": "workflow",
     "priority": "high",
     "action": "configure",
     "skill_id": "hermes-backup",
-    "why": "CRITICAL BUG discovered July 7: the daily backup cron runs rsync --delete ~/.hermes/ ~/code/hermes-mirror/ which wipes the .git/ directory contents on every run because ~/.hermes/ has no .git/ folder. The cron then re-initializes and recovers via git fetch, but this is fragile — if the recovery fails once, the backup history is lost. Fix: add --exclude='.git/' to the rsync command in the cron job definition. The hermes-backup skill (skills/devops/hermes-backup/) documents the correct exclusion list.",
-    "prompt": "Fix the Hermes Mirror backup cron job to add --exclude='.git/' to the rsync command. The cron is currently: rsync -av --delete [exclusions] ~/.hermes/ ~/code/hermes-mirror/. Add --exclude='.git/' so the git repository structure is preserved between runs. Update the cron job at ~/.hermes/cron/jobs.json or via 'hermes cron edit'. Test by running the rsync manually and confirming 'git status' still works in ~/code/hermes-mirror/ afterward.",
+    "why": "RECURRED July 8 — the July 7 fix was never applied, so the bug fired AGAIN: rsync --delete wipes the mirror's .git/ on every run because ~/.hermes/ has no .git/. Hermes recovered both times (re-init + fetch origin), but this is fragile — one failed recovery permanently loses backup history. WORSE, the July 8 run caught a NEW credential leak: google_oauth_pending.json (containing a live OAuth PKCE code_verifier) appeared in ~/.hermes/, was NOT in the exclude list, and would have been committed to GitHub. Two exclusions are now missing from the cron's inline rsync. The maintained ~/code/hermes-mirror-sync.sh already handles .git/ correctly — the cron drifted from it. Cleanest fix: point the cron at that script. This is the single most urgent open item — it self-inflicts damage on every 03:00 run.",
+    "prompt": "Fix the Hermes Mirror backup cron NOW — it has recurred twice (July 7 and July 8). Two options: (A) BEST: change the cron job to simply run ~/code/hermes-mirror-sync.sh, which already has --exclude='.git/' and the correct safety filter. (B) Or edit the inline rsync command in ~/.hermes/cron/jobs.json (job 1a84ff3063b5) to add BOTH --exclude='.git/' AND --exclude='google_oauth_pending.json'. Then test: run the backup manually and confirm 'git status' still works in ~/code/hermes-mirror/ afterward AND that google_oauth_pending.json is not staged. Also add google_oauth_pending.json to the repo .gitignore permanently (already done in the July 8 run, but verify it persisted).",
     "status": "todo",
-    "added_date": "2026-07-07"
+    "added_date": "2026-07-07",
+    "updated_date": "2026-07-08"
   },
   {
     "id": "kubecraft-growth-report-airtable",
