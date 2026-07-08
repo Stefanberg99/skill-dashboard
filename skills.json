@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-07T17:48:04.417128Z",
-  "hash": "ede701139a8fee2db99cf673c9eb27df",
+  "synced_at": "2026-07-08T08:33:52.964049Z",
+  "hash": "041d125caf5a91cb12c9cf9b4fe922b1",
   "skills": [
     {
       "name": "agent-builder",
@@ -233,8 +233,8 @@
     {
       "name": "drain",
       "what": "The on-command front door to Stefan's MeesterwerkOS knowledge processing. Loads the whole system context (the vision, the two homes, the phases, the voice, the Brain schema) and then drains a small quest-relevant batch of his own notes from the quarry into the canonical Brain, in his voice, non-destructively",
-      "when": "Stefan says \"/drain\", \"drain a batch\", \"process my notes\", \"process my knowledge\", \"let's do a knowledge batch\", \"load MeesterwerkOS\", or wants to continue Phase 3. Self-contained: works in any conversation, even a fresh one with no prior context.",
-      "raw_desc": "The on-command front door to Stefan's MeesterwerkOS knowledge processing. Loads the whole system context (the vision, the two homes, the phases, the voice, the Brain schema) and then drains a small quest-relevant batch of his own notes from the quarry into the canonical Brain, in his voice, non-destructively. Trigger when Stefan says \"/drain\", \"drain a batch\", \"process my notes\", \"process my knowledge\", \"let's do a knowledge batch\", \"load MeesterwerkOS\", or wants to continue Phase 3. Self-contained: works in any conversation, even a fresh one with no prior context.",
+      "when": "Stefan says \"/drain\", \"drain a batch\", \"process my notes\", \"process my knowledge\" (the raw backlog from the quarry), \"let's do a knowledge batch\", \"load MeesterwerkOS\", or wants to continue Phase 3. Self-contained: works in any conversation, even a fresh one with no prior context.",
+      "raw_desc": "The on-command front door to Stefan's MeesterwerkOS knowledge processing. Loads the whole system context (the vision, the two homes, the phases, the voice, the Brain schema) and then drains a small quest-relevant batch of his own notes from the quarry into the canonical Brain, in his voice, non-destructively. Trigger when Stefan says \"/drain\", \"drain a batch\", \"process my notes\", \"process my knowledge\" (the raw backlog from the quarry), \"let's do a knowledge batch\", \"load MeesterwerkOS\", or wants to continue Phase 3. Self-contained: works in any conversation, even a fresh one with no prior context.",
       "folder": "drain",
       "source": "personal",
       "source_label": "Your Skills",
@@ -253,18 +253,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Writing"
-    },
-    {
-      "name": "educational-infographics",
-      "what": "Turn any topic or description into a polished, branded educational infographic PNG using Nano Banana 2 \u2014 styled with Stefan's personal brand colors, fonts, and logo in the top right corner \u2014 auto-organized in ~/Outputs/ by date and title.",
-      "when": "Stefan wants to create an educational infographic from any input \u2014 \"make me an educational infographic\", \"create an infographic about X\", \"turn this into an infographic\", \"visualize this topic\". Generates a branded PNG using Nano Banana 2, styled with Stefan's personal brand identity (colors, fonts, logo top-right), output saved to ~/Outputs/YYYY-MM-DD-title-infographic/.",
-      "raw_desc": "Use when Stefan wants to create an educational infographic from any input \u2014 \"make me an educational infographic\", \"create an infographic about X\", \"turn this into an infographic\", \"visualize this topic\". Generates a branded PNG using Nano Banana 2, styled with Stefan's personal brand identity (colors, fonts, logo top-right), output saved to ~/Outputs/YYYY-MM-DD-title-infographic/.",
-      "folder": "educational-infographics",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-23T15:17:25.767422Z",
-      "category": "Design"
     },
     {
       "name": "excalidraw-diagram",
@@ -353,8 +341,8 @@
     {
       "name": "gallery",
       "what": "Manages Stefan's Learning Library at ~/Outputs/ \u2014 one home for every artifact he generates and every source he processes (guides, research papers, book/course living entries, visuals, infographics, images, apps). Each entry is a flat top-level folder ~/Outputs/<slug>/ with its files plus a meta.json.",
-      "when": "Stefan wants to see, build, refresh, or add to his Learning Library (formerly the output gallery) \u2014 the library of everything he generates and learns from (websites, guides, research papers, books, courses, visuals, infographics, images). Triggers on \"/gallery\", \"open my gallery\", \"open my library\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\". The library lives at ~/Outputs/ and is browsable as a filterable visual index by shelf.",
-      "raw_desc": "Use when Stefan wants to see, build, refresh, or add to his Learning Library (formerly the output gallery) \u2014 the library of everything he generates and learns from (websites, guides, research papers, books, courses, visuals, infographics, images). Triggers on \"/gallery\", \"open my gallery\", \"open my library\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\". The library lives at ~/Outputs/ and is browsable as a filterable visual index by shelf.",
+      "when": "Stefan wants to see, build, refresh, or add to his Learning Library (formerly the output gallery) \u2014 the library of everything he generates and learns from (websites, guides, research papers, books, courses, visuals, infographics, images). Triggers on \"/gallery\", \"open my gallery\", \"open my library\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\", \"update\", \"update my library\", \"log reading: a book + minutes\". The library lives at ~/Outputs/ and is browsable as a filterable visual index by shelf.",
+      "raw_desc": "Use when Stefan wants to see, build, refresh, or add to his Learning Library (formerly the output gallery) \u2014 the library of everything he generates and learns from (websites, guides, research papers, books, courses, visuals, infographics, images). Triggers on \"/gallery\", \"open my gallery\", \"open my library\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\", \"update\", \"update my library\", \"log reading: a book + minutes\". The library lives at ~/Outputs/ and is browsable as a filterable visual index by shelf.",
       "folder": "gallery",
       "source": "personal",
       "source_label": "Your Skills",
@@ -436,9 +424,9 @@
     },
     {
       "name": "learn",
-      "what": "The ONE door for turning anything into real learning: playbooks, step-by-step guides, primers and courses, quizzes and infographics, and living book/course entries",
-      "when": "Stefan says \"/learn\", \"teach me X\", \"make me a primer / course / playbook / guide on X\", \"turn this into a guide / quiz / infographic\" (with a pasted transcript, URL, YouTube link, PDF, or notes), \"I'm reading X\" / \"book session\" / \"chapter N of X\", or \"process this / run this through the system / add this to the vault\". Four ways in \u2014 (a) TOPIC: a taught resource on a subject; (b) SOURCE: a guide/quiz/infographic from material he gives; (c) LIVING ENTRY: a per-session book/course companion (interview + Feynman check) that grows; (d) VAULT DEEP-DIVE (the absorbed /process-source pipeline): archives the raw source, writes the source note + notecard updates into the Brain, renders a cinematic vibe-matched guide in the source's own voice. Output is one self-contained, branded HTML page in the Learning Library (~/Outputs/), designed to the source's own vibe (never one template), whose climax is testable experiments (the what into the how); moves feed a cross-source Playbook (one on trial at a time, closed by /ship) plus spaced recall, and runs compound into the Brain via the Processing Engine. NOT for a deep, cited web-research paper on a question, or \"investigate / what's the landscape of X\" \u2014 that's /research; NOT for a one-fact lookup \u2014 answer that directly.",
-      "raw_desc": "The ONE door for turning anything into real learning: playbooks, step-by-step guides, primers and courses, quizzes and infographics, and living book/course entries. Use this whenever Stefan says \"/learn\", \"teach me X\", \"make me a primer / course / playbook / guide on X\", \"turn this into a guide / quiz / infographic\" (with a pasted transcript, URL, YouTube link, PDF, or notes), \"I'm reading X\" / \"book session\" / \"chapter N of X\", or \"process this / run this through the system / add this to the vault\". Four ways in \u2014 (a) TOPIC: a taught resource on a subject; (b) SOURCE: a guide/quiz/infographic from material he gives; (c) LIVING ENTRY: a per-session book/course companion (interview + Feynman check) that grows; (d) VAULT DEEP-DIVE (the absorbed /process-source pipeline): archives the raw source, writes the source note + notecard updates into the Brain, renders a cinematic vibe-matched guide in the source's own voice. Output is one self-contained, branded HTML page in the Learning Library (~/Outputs/), designed to the source's own vibe (never one template), whose climax is testable experiments (the what into the how); moves feed a cross-source Playbook (one on trial at a time, closed by /ship) plus spaced recall, and runs compound into the Brain via the Processing Engine. NOT for a deep, cited web-research paper on a question, or \"investigate / what's the landscape of X\" \u2014 that's /research; NOT for a one-fact lookup \u2014 answer that directly.",
+      "what": "The ONE door for turning anything into real learning: playbooks, guides, primers, courses, quizzes, infographics, living book entries",
+      "when": "Stefan says \"/learn\", \"teach me X\", \"make me a primer / playbook / guide on X\", \"turn this into a guide / quiz / infographic\" (paste a transcript/URL/YouTube/PDF/notes), \"I'm reading X\" / \"book session\" / \"chapter N of X\", or \"process this / add this to the vault\". Four ways in: (a) TOPIC, a taught resource on a subject; (b) SOURCE, a guide/quiz/infographic from his material; (c) LIVING ENTRY, a book/course companion that grows; (d) VAULT DEEP-DIVE, writes the source note + notecards into the Brain and renders a vibe-matched guide in the source's own voice. Output is one branded HTML page in the Learning Library (~/Outputs/), climaxing in testable experiments that feed a Playbook + spaced recall. NOT for a deep cited research paper or \"investigate / the landscape of X\" (that's /research); NOT for a one-fact lookup (answer directly).",
+      "raw_desc": "The ONE door for turning anything into real learning: playbooks, guides, primers, courses, quizzes, infographics, living book entries. Use when Stefan says \"/learn\", \"teach me X\", \"make me a primer / playbook / guide on X\", \"turn this into a guide / quiz / infographic\" (paste a transcript/URL/YouTube/PDF/notes), \"I'm reading X\" / \"book session\" / \"chapter N of X\", or \"process this / add this to the vault\". Four ways in: (a) TOPIC, a taught resource on a subject; (b) SOURCE, a guide/quiz/infographic from his material; (c) LIVING ENTRY, a book/course companion that grows; (d) VAULT DEEP-DIVE, writes the source note + notecards into the Brain and renders a vibe-matched guide in the source's own voice. Output is one branded HTML page in the Learning Library (~/Outputs/), climaxing in testable experiments that feed a Playbook + spaced recall. NOT for a deep cited research paper or \"investigate / the landscape of X\" (that's /research); NOT for a one-fact lookup (answer directly).",
       "folder": "learn",
       "source": "personal",
       "source_label": "Your Skills",
@@ -493,18 +481,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Video"
-    },
-    {
-      "name": "memory-recall",
-      "what": "Semantic search across all stored memories and reference knowledge in Pinecone (Bucket 01 \u2014 Memory and Bucket 02 \u2014 Knowledge)",
-      "when": "user asks \"what did we decide about X\", \"what did we say about Y last month\", \"what does [expert] say about Z\", \"search my notes for X\", \"do we have anything on\", \"find that thing about\", or any retrieval question about past content. Returns top 3-5 hits with date and source citations, then synthesizes a 2-line answer. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var. Configured indexes live in ~/.claude/memory-config.json. Do NOT use this skill for current state queries (e.g. \"what's my strategy on X right now\") \u2014 that's the strategy-awareness skill's job.",
-      "raw_desc": "Semantic search across all stored memories and reference knowledge in Pinecone (Bucket 01 \u2014 Memory and Bucket 02 \u2014 Knowledge). Trigger when user asks \"what did we decide about X\", \"what did we say about Y last month\", \"what does [expert] say about Z\", \"search my notes for X\", \"do we have anything on\", \"find that thing about\", or any retrieval question about past content. Returns top 3-5 hits with date and source citations, then synthesizes a 2-line answer. Requires Pinecone MCP server connected, or PINECONE_API_KEY env var. Configured indexes live in ~/.claude/memory-config.json. Do NOT use this skill for current state queries (e.g. \"what's my strategy on X right now\") \u2014 that's the strategy-awareness skill's job.",
-      "folder": "memory-recall",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-09T14:12:28.725532Z",
-      "category": "Memory"
     },
     {
       "name": "memoryos",
@@ -652,9 +628,9 @@
     },
     {
       "name": "nano-banana-images",
-      "what": "Generate hyper-realistic, tightly-controlled images with Nano Banana 2 (Gemini 3 image model) via the Kie.ai API, using structured JSON prompts that neutralize the model's \"plastic AI\" bias. Trigger whenever Stefan wants to create, generate, or make an image, photo, render, selfie, product shot, infographic, mockup, or visual \u2014 especially when he says \"make me a nano banana image of...\", \"generate an image\", \"create a photo of\", \"render\", or describes a scene he wants pictured. Costs ~$0.04-0.09 per image. Use this even when he doesn't say \"nano banana\" by name, as long as he wants a still image produced from a description.",
+      "what": "Generate hyper-realistic, tightly-controlled images with Nano Banana 2 (Gemini 3 image model) via the Kie.ai API, using structured JSON prompts that neutralize the model's \"plastic AI\" bias. Trigger whenever Stefan wants to create, generate, or make an image, photo, render, selfie, product shot, mockup, or visual (for infographics use /educational-infographics) \u2014 especially when he says \"make me a nano banana image of...\", \"generate an image\", \"create a photo of\", \"render\", or describes a scene he wants pictured. Costs ~$0.04-0.09 per image. Use this even when he doesn't say \"nano banana\" by name, as long as he wants a still image produced from a description.",
       "when": "",
-      "raw_desc": "Generate hyper-realistic, tightly-controlled images with Nano Banana 2 (Gemini 3 image model) via the Kie.ai API, using structured JSON prompts that neutralize the model's \"plastic AI\" bias. Trigger whenever Stefan wants to create, generate, or make an image, photo, render, selfie, product shot, infographic, mockup, or visual \u2014 especially when he says \"make me a nano banana image of...\", \"generate an image\", \"create a photo of\", \"render\", or describes a scene he wants pictured. Costs ~$0.04-0.09 per image. Use this even when he doesn't say \"nano banana\" by name, as long as he wants a still image produced from a description.",
+      "raw_desc": "Generate hyper-realistic, tightly-controlled images with Nano Banana 2 (Gemini 3 image model) via the Kie.ai API, using structured JSON prompts that neutralize the model's \"plastic AI\" bias. Trigger whenever Stefan wants to create, generate, or make an image, photo, render, selfie, product shot, mockup, or visual (for infographics use /educational-infographics) \u2014 especially when he says \"make me a nano banana image of...\", \"generate an image\", \"create a photo of\", \"render\", or describes a scene he wants pictured. Costs ~$0.04-0.09 per image. Use this even when he doesn't say \"nano banana\" by name, as long as he wants a still image produced from a description.",
       "folder": "nano-banana-images",
       "source": "personal",
       "source_label": "Your Skills",
@@ -821,8 +797,8 @@
     {
       "name": "revisit",
       "what": "The atomization rep that makes knowledge compound. Takes ONE already-consumed source (a book note, a mentor note, a script) from the Brain's 05 Sources and routes its captures onto 04 Notecards topic buckets (quotes, stories, metaphors, frameworks, ideas \u2014 attributed, source form), propose-confirm, so sources stop being silos and topics grow across many sources",
-      "when": "Stefan says \"/revisit\", \"/revisit <book>\", \"atomize <source>\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn or /process-source) and NOT for reviewing Sparks (that's /tend).",
-      "raw_desc": "The atomization rep that makes knowledge compound. Takes ONE already-consumed source (a book note, a mentor note, a script) from the Brain's 05 Sources and routes its captures onto 04 Notecards topic buckets (quotes, stories, metaphors, frameworks, ideas \u2014 attributed, source form), propose-confirm, so sources stop being silos and topics grow across many sources. Trigger when Stefan says \"/revisit\", \"/revisit <book>\", \"atomize <source>\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn or /process-source) and NOT for reviewing Sparks (that's /tend).",
+      "when": "Stefan says \"/revisit\", \"/revisit [book]\", \"atomize [source]\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn or /process-source) and NOT for reviewing Sparks (that's /tend).",
+      "raw_desc": "The atomization rep that makes knowledge compound. Takes ONE already-consumed source (a book note, a mentor note, a script) from the Brain's 05 Sources and routes its captures onto 04 Notecards topic buckets (quotes, stories, metaphors, frameworks, ideas \u2014 attributed, source form), propose-confirm, so sources stop being silos and topics grow across many sources. Trigger when Stefan says \"/revisit\", \"/revisit [book]\", \"atomize [source]\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn or /process-source) and NOT for reviewing Sparks (that's /tend).",
       "folder": "revisit",
       "source": "personal",
       "source_label": "Your Skills",
@@ -856,9 +832,9 @@
     },
     {
       "name": "self-upgrade",
-      "what": "Scan what's new in AI tooling, audit the ClaudeOPS factory against it, and propose prioritized upgrades \u2014 then apply the ones Stefan approves and log them so they never get re-pitched",
-      "when": "Stefan says \"/self-upgrade\", \"upgrade my workspace\", \"what should I improve here\", \"check for upgrades\", \"audit the factory\", or wants the system to evolve itself based on what's happening in AI. ClaudeOPS factory only.",
-      "raw_desc": "Scan what's new in AI tooling, audit the ClaudeOPS factory against it, and propose prioritized upgrades \u2014 then apply the ones Stefan approves and log them so they never get re-pitched. Use when Stefan says \"/self-upgrade\", \"upgrade my workspace\", \"what should I improve here\", \"check for upgrades\", \"audit the factory\", or wants the system to evolve itself based on what's happening in AI. ClaudeOPS factory only.",
+      "what": "Scan what's new in AI tooling, audit the MeesterwerkOS factory against it, and propose prioritized upgrades \u2014 then apply the ones Stefan approves and log them so they never get re-pitched",
+      "when": "Stefan says \"/self-upgrade\", \"upgrade my workspace\", \"what should I improve here\", \"check for upgrades\", \"audit the factory\", or wants the system to evolve itself based on what's happening in AI. MeesterwerkOS factory only.",
+      "raw_desc": "Scan what's new in AI tooling, audit the MeesterwerkOS factory against it, and propose prioritized upgrades \u2014 then apply the ones Stefan approves and log them so they never get re-pitched. Use when Stefan says \"/self-upgrade\", \"upgrade my workspace\", \"what should I improve here\", \"check for upgrades\", \"audit the factory\", or wants the system to evolve itself based on what's happening in AI. MeesterwerkOS factory only.",
       "folder": "self-upgrade",
       "source": "personal",
       "source_label": "Your Skills",
@@ -953,8 +929,8 @@
     {
       "name": "tend",
       "what": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one, so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard",
-      "when": "Stefan says \"/tend\", \"tend the garden\", \"process my notes / sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
-      "raw_desc": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one, so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard. Trigger when Stefan says \"/tend\", \"tend the garden\", \"process my notes / sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
+      "when": "Stefan says \"/tend\", \"tend the garden\", \"process my sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
+      "raw_desc": "The weekly \"tend the garden\" pass that turns fleeting notes into permanent, connected thinking. It gathers the unprocessed Sparks (Stefan's raw reactions captured by /learn and /process-source), surfaces connections and contradictions against what he already believes, and lets him promote / merge / drop each one, so sources compound into his Brain (Stefan's Second Brain) instead of dying as a fleeting-notes graveyard. Trigger when Stefan says \"/tend\", \"tend the garden\", \"process my sparks\", \"weekly knowledge review\", or as the knowledge step inside /weekly. NOT for ingesting a new source (that's /learn or /process-source).",
       "folder": "tend",
       "source": "personal",
       "source_label": "Your Skills",
