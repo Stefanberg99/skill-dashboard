@@ -1,6 +1,20 @@
 {
-  "updated": "2026-07-08T03:15:00+02:00",
+  "updated": "2026-07-09T10:45:00+02:00",
   "sessions": [
+    {
+      "id": "cron_1a84ff3063b5_20260709_032509",
+      "date": "2026-07-09",
+      "title": "Backup Cron — No Commit, .git Intact",
+      "summary": "The daily Hermes Mirror backup cron fired at 03:25 Amsterdam but produced NO July 9 commit — the latest commit on Stefanberg99/hermes-mirror remains dddbcc5 (July 8). Ground-truth check: ~/code/hermes-mirror/.git/HEAD still carries a July 8 03:03 timestamp, meaning the destructive rsync --delete did NOT re-wipe .git this run (unlike July 7 and July 8). The most likely reading is the run found no material changes to commit, or did not execute its rsync steps at all. Either way, the backup has not landed a fresh commit since July 8 and the standing fix (point the cron at ~/code/hermes-mirror-sync.sh) is still unapplied.",
+      "topics": ["hermes-backup", "github", "cron-job", "devops", "rsync-bug"],
+      "things_built": [],
+      "decisions": [
+        "No July 9 backup commit exists — latest remains dddbcc5 (July 8); the backup has not refreshed in 24h+",
+        ".git/HEAD timestamp is still July 8 03:03 — the rsync --delete .git-wipe bug did NOT fire this run (no re-init), unlike July 7/8",
+        "The urgent backup-cron fix (point cron at hermes-mirror-sync.sh, or add --exclude='.git/' + --exclude='google_oauth_pending.json') remains unapplied and is still the single most urgent open item"
+      ],
+      "project": "hermes"
+    },
     {
       "id": "cron_1a84ff3063b5_20260708_030012",
       "date": "2026-07-08",
@@ -410,7 +424,7 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 38,
+    "total_sessions_tracked": 39,
     "things_built": [
       "Commit dddbcc5 pushed to Stefanberg99/hermes-mirror — backup recovered (11 files, +512/-16); .gitignore now excludes google_oauth_pending.json",
       "Stefanberg99/hermes-mirror — private GitHub repo with full Hermes config backup (daily cron at 03:00 AMS)",

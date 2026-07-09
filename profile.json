@@ -59,7 +59,7 @@
     "Voice mode context loss — when Stefan calls via voice, Hermes loses prior session context and gives reset greetings instead of continuity",
     "Voice model Dutch/German language detection bug — voice model responds 'German' when asked to speak Dutch (Netherlands) before self-correcting (observed June 22)",
     "WC26 Match Predictor cron — RESOLVED (removed June 27 by Stefan). ESPN and Flashscore both work as live WC26 data sources. SofaScore remains 403-blocked server-side. No active sports crons currently.",
-    "Hermes Mirror backup cron self-inflicts damage on every 03:00 run — rsync --delete wipes the mirror's .git/ (recurred July 7 AND July 8; the July 7 fix was never applied). July 8 also nearly leaked google_oauth_pending.json (OAuth PKCE code_verifier). Fix: point cron at ~/code/hermes-mirror-sync.sh OR add --exclude='.git/' + --exclude='google_oauth_pending.json' to the inline rsync in job 1a84ff3063b5."
+    "Hermes Mirror backup cron is unreliable — July 7 AND July 8 the rsync --delete wiped the mirror's .git/ (Hermes recovered both times; July 8 also nearly leaked google_oauth_pending.json, an OAuth PKCE code_verifier). July 9 the wipe did NOT fire but the run landed NO commit — backup is now STALE (latest commit dddbcc5 = July 8, config unbacked-up 24h+). Fix still unapplied: point cron at ~/code/hermes-mirror-sync.sh OR add --exclude='.git/' + --exclude='google_oauth_pending.json' to the inline rsync in job 1a84ff3063b5."
   ],
   "kubecraft_content_engine": {
     "role": "Brand & content manager for KubeCraft (Mischa van den Burg, 100K subscribers)",
@@ -221,5 +221,10 @@
     ],
     "positioning": "Move from 'content executor' (floor) to 'growth operator who owns conversion + reporting' (ceiling). Sell an outcome you own, report the number weekly, price on base + performance tied to booked calls."
   },
-  "updated": "2026-07-08"
+  "key_finding_july9": {
+    "discovery": "The Hermes Mirror backup has gone stale — no commit has landed since July 8, and the underlying cron is still unfixed.",
+    "detail": "On July 9 at 03:25 Amsterdam the daily backup cron fired but produced no commit: the latest commit on Stefanberg99/hermes-mirror is still dddbcc5 (July 8) and ~/code/hermes-mirror/.git/HEAD still carries a July 8 03:03 timestamp. The good news: the destructive rsync --delete .git-wipe did NOT recur this run (no re-init). The bad news: no fresh backup landed either, so Stefan's Hermes config has not been mirrored to GitHub for over 24h. Across three consecutive nights the inline cron command has behaved differently each time (July 7 wipe+recover, July 8 wipe+recover+near-leak, July 9 silent no-commit) — it is fundamentally unreliable and must be replaced by the maintained ~/code/hermes-mirror-sync.sh. This remains the single most urgent open item on the dashboard.",
+    "open_bug": "Backup cron (job 1a84ff3063b5) is unreliable and has not landed a commit since July 8. Fix: point the cron at ~/code/hermes-mirror-sync.sh, OR add --exclude='.git/' and --exclude='google_oauth_pending.json' to the inline rsync — then verify a fresh commit actually pushes."
+  },
+  "updated": "2026-07-09"
 }
