@@ -1,6 +1,24 @@
 {
-  "updated": "2026-07-09T10:45:00+02:00",
+  "updated": "2026-07-10T09:15:00+02:00",
   "sessions": [
+    {
+      "id": "cron_1a84ff3063b5_20260710_030016",
+      "date": "2026-07-10",
+      "title": "Backup .git-Wipe Recurred — Root Cause Found",
+      "summary": "The daily Hermes Mirror backup cron (03:00 Amsterdam) ran and the rsync --delete .git-wipe bug fired AGAIN — a fourth consecutive incident. This run pinned down the exact root cause: the cron's --exclude='logs/' pattern also matches .git/logs, so --delete spared only .git/logs while destroying the rest of the git metadata (HEAD, config, objects, refs) — leaving ~/code/hermes-mirror as a non-repo with a hollow .git/. Hermes recovered a third time but hit two new snags: the inline rsync now carries a full exclude list (the improvement partially landed) yet still lacks --exclude='.git/'; and SSH recovery failed (host key untrusted) so it fell back to gh HTTPS auth. It re-initialized, fetched origin, reset to origin/main (dddbcc5, July 8) without touching the working tree, stripped stale cruft that predated the excludes (lock files, .pyc/__pycache__, whatsapp/bridge.log, and an embedded hermes-agent git repo), then committed and pushed 0693def (8437 files, +610468/-472). Backup is CURRENT again as of July 10 — but the underlying cron is still self-destructing every run.",
+      "topics": ["hermes-backup", "github", "rsync-bug", "cron-job", "devops", "git-recovery"],
+      "things_built": [
+        "Commit 0693def pushed to Stefanberg99/hermes-mirror (8437 files, +610468/-472) — backup recovered a third time and confirmed current",
+        "Mirror .git repo rebuilt via gh HTTPS auth (SSH host key was untrusted) + stale cruft purged (locks, .pyc, __pycache__, whatsapp/, embedded hermes-agent repo)"
+      ],
+      "decisions": [
+        "ROOT CAUSE PINNED: --exclude='logs/' also matches .git/logs — so rsync --delete gutted everything in .git EXCEPT .git/logs, leaving a hollow non-repo. The real fix must protect .git/ explicitly (--exclude='.git/' or --filter='protect .git/')",
+        ".git-wipe bug has now fired FOUR nights (Jul 7, 8, 10 wiped; Jul 9 no-commit) — the inline cron rsync gained a full exclude list but STILL lacks --exclude='.git/'; recovery is proven but fragile (one failed recovery loses history)",
+        "SSH recovery path is unreliable (host key verification fails in cron) — gh HTTPS auth is the working fallback for re-fetching origin",
+        "Cleanest permanent fix remains: point the cron at ~/code/hermes-mirror-sync.sh which already excludes .git/ correctly"
+      ],
+      "project": "hermes"
+    },
     {
       "id": "cron_1a84ff3063b5_20260709_032509",
       "date": "2026-07-09",
