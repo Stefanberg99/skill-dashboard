@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-10T08:50:17.088465Z",
-  "hash": "6a6e887f9a26cea96e9e0d51078a961f",
+  "synced_at": "2026-07-10T10:01:39.637214Z",
+  "hash": "91d120c04cfa75f81acc652fe8ddda98",
   "skills": [
     {
       "name": "agent-builder",
@@ -891,6 +891,18 @@
       "category": "Video"
     },
     {
+      "name": "spark",
+      "what": "Zero-friction capture into the Brain's Output layer",
+      "when": "Stefan says \"/spark <text>\", \"spark: ...\", \"idea: ...\", \"park this idea\", \"save this idea\", \"add to my ideas\", \"new decision: ...\", or drops a raw idea/fork/question mid-session that he wants kept. Appends one dated line, verbatim, to the right shelf (Ideas Inbox by default; Decisions queue for forks) and gets out of the way. NOT for visuals (/capture), not for processing (/learn), not for making the call (/decide).",
+      "raw_desc": "Zero-friction capture into the Brain's Output layer. Trigger when Stefan says \"/spark <text>\", \"spark: ...\", \"idea: ...\", \"park this idea\", \"save this idea\", \"add to my ideas\", \"new decision: ...\", or drops a raw idea/fork/question mid-session that he wants kept. Appends one dated line, verbatim, to the right shelf (Ideas Inbox by default; Decisions queue for forks) and gets out of the way. NOT for visuals (/capture), not for processing (/learn), not for making the call (/decide).",
+      "folder": "spark",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-10T10:01:39.637214Z",
+      "category": "Design"
+    },
+    {
       "name": "strategy-awareness",
       "what": "A strategic governance skill \u2014 not a memory feature. Maintains a living strategy document at ~/.claude/strategy.md (or user-chosen path). Auto-fires when the conversation surfaces strategic substance \u2014 customer signals, market signals, decisions, focus shifts, wins, hypotheses, new offers, or learnings. Captures the moment to the right named section, dates it, and reflects conflicts against the user's existing Decisions and Don't-Do list. On first run, runs a 6-question setup flow to bootstrap the file. Manual triggers include \"run strategy setup\", \"show my strategy\", \"show me my strategy overview\", \"visualize my strategy\", \"edit my strategy\", \"what's my strategy on X\", and \"update my strategy\". When the user says \"show my strategy\" or \"strategy overview\" or asks to visually edit, generate the interactive visualization HTML and open it in the browser (see VISUALIZE mode below). Do NOT use this skill for personal preferences (oat milk, name, voice tone) \u2014 those belong in Claude's general memory or ~/.claude/CLAUDE.md. Use this only for strategic state that governs decisions.",
       "when": "",
@@ -964,9 +976,9 @@
     },
     {
       "name": "today",
-      "what": "Morning ritual (2 min). Creates today's daily note in the Brain (Stefan's Second Brain) from the current week's objectives, sets 3 actions + an intention, and pushes the actions to Todoist",
+      "what": "Morning ritual (2 min). Creates today's daily note in the Brain (Stefan's Second Brain) from the week's objectives + the Bridge's live instruments (active projects, due decisions, action debt), sets 3 actions + an intention. The daily note is the day's task home",
       "when": "Stefan says /today, \"start my day\", or \"what's the plan today\".",
-      "raw_desc": "Morning ritual (2 min). Creates today's daily note in the Brain (Stefan's Second Brain) from the current week's objectives, sets 3 actions + an intention, and pushes the actions to Todoist. Trigger when Stefan says /today, \"start my day\", or \"what's the plan today\".",
+      "raw_desc": "Morning ritual (2 min). Creates today's daily note in the Brain (Stefan's Second Brain) from the week's objectives + the Bridge's live instruments (active projects, due decisions, action debt), sets 3 actions + an intention. The daily note is the day's task home. Trigger when Stefan says /today, \"start my day\", or \"what's the plan today\".",
       "folder": "today",
       "source": "personal",
       "source_label": "Your Skills",
@@ -1229,8 +1241,8 @@
     {
       "name": "linkedin-comment-engagement",
       "what": "Run Mischa's daily LinkedIn engagement routine as the KubeCraft founder: open LinkedIn in the correct Chrome profile, verify the active account is Mischa, then like and post short, human, humanized comments and replies that have actually read the post. Covers three surfaces: other people's posts, replies on Mischa's own posts, and comments on the KubeCraft company page. Target is at least 25 activities per day (comments, likes, and replies combined), weighted mostly toward other people's posts",
-      "when": "the user says \"do my LinkedIn comments\", \"engage LinkedIn\", \"run the LinkedIn routine\", \"comment on LinkedIn\", \"reply to my LinkedIn comments\", or \"LinkedIn engagement\". Does NOT create new posts.",
-      "raw_desc": "Run Mischa's daily LinkedIn engagement routine as the KubeCraft founder: open LinkedIn in the correct Chrome profile, verify the active account is Mischa, then like and post short, human, humanized comments and replies that have actually read the post. Covers three surfaces: other people's posts, replies on Mischa's own posts, and comments on the KubeCraft company page. Target is at least 25 activities per day (comments, likes, and replies combined), weighted mostly toward other people's posts. Use whenever the user says \"do my LinkedIn comments\", \"engage LinkedIn\", \"run the LinkedIn routine\", \"comment on LinkedIn\", \"reply to my LinkedIn comments\", or \"LinkedIn engagement\". Does NOT create new posts.",
+      "when": "the user says \\\"do my LinkedIn comments\\\", \\\"engage LinkedIn\\\", \\\"run the LinkedIn routine\\\", \\\"comment on LinkedIn\\\", \\\"reply to my LinkedIn comments\\\", or \\\"LinkedIn engagement\\\". Does NOT create new posts.",
+      "raw_desc": "Run Mischa's daily LinkedIn engagement routine as the KubeCraft founder: open LinkedIn in the correct Chrome profile, verify the active account is Mischa, then like and post short, human, humanized comments and replies that have actually read the post. Covers three surfaces: other people's posts, replies on Mischa's own posts, and comments on the KubeCraft company page. Target is at least 25 activities per day (comments, likes, and replies combined), weighted mostly toward other people's posts. Use whenever the user says \\\"do my LinkedIn comments\\\", \\\"engage LinkedIn\\\", \\\"run the LinkedIn routine\\\", \\\"comment on LinkedIn\\\", \\\"reply to my LinkedIn comments\\\", or \\\"LinkedIn engagement\\\". Does NOT create new posts.",
       "folder": "linkedin-comment-engagement",
       "source": "anthropic",
       "source_label": "Anthropic",
