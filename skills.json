@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-08T14:29:04.837915Z",
-  "hash": "a881d55dcbb74418ea1d93b1a2d061fc",
+  "synced_at": "2026-07-10T08:50:17.088465Z",
+  "hash": "6a6e887f9a26cea96e9e0d51078a961f",
   "skills": [
     {
       "name": "agent-builder",
@@ -244,9 +244,9 @@
     },
     {
       "name": "educational-infographics",
-      "what": "Create polished, on-brand EDUCATIONAL INFOGRAPHICS with Nano Banana Pro (Gemini 3 Pro Image) via the Kie.ai API \u2014 teaching visuals with legible in-image text, laid out in Stefan's Meesterwerk brand. Trigger whenever Stefan wants to explain, teach, or break down a concept as a visual \u2014 \"make an infographic about X\", \"turn this into an infographic\", \"explain X as a visual / diagram\", \"a teaching graphic for\u2026\", \"visual breakdown of\u2026\", \"carousel / explainer graphic\" \u2014 or whenever he has a concept, framework, process, or set of stats he wants pictured for an audience. Use this even when he does not say \"infographic\" by name, as long as he wants information taught through a designed visual. Always shows a plan and confirms the roughly $0.09-0.17 cost before generating. NOT for realistic photos, product shots, or selfies (use nano-banana-images), NOT for HTML dashboards, and NOT for editable hand-drawn diagrams (use research / excalidraw).",
+      "what": "Create polished, on-brand EDUCATIONAL INFOGRAPHICS with Nano Banana Pro (Gemini 3 Pro Image) via the Kie.ai API \u2014 teaching visuals with legible in-image text, in Stefan's Meesterwerk brand (crisp white, engraving illustration, one orange cut, the crown logo top-left). Trigger whenever Stefan wants to explain, teach, or break down a concept, framework, process, principle, or set of stats as a visual \u2014 \"make an infographic about X\", \"turn this into an infographic\", \"explain X as a visual / diagram\", \"a teaching graphic / carousel / explainer for\u2026\", \"visual breakdown of\u2026\" \u2014 or whenever he has an idea he wants pictured for an audience. Use this even when he does not say \"infographic\" by name, as long as he wants information TAUGHT through a designed visual. Every infographic must teach something real from first principles, and it always shows a plan and confirms the roughly $0.09-0.17 cost before generating. NOT for realistic photos, product shots, or selfies (use nano-banana-images), NOT for HTML dashboards, and NOT for editable hand-drawn diagrams (use research / excalidraw).",
       "when": "",
-      "raw_desc": "Create polished, on-brand EDUCATIONAL INFOGRAPHICS with Nano Banana Pro (Gemini 3 Pro Image) via the Kie.ai API \u2014 teaching visuals with legible in-image text, laid out in Stefan's Meesterwerk brand. Trigger whenever Stefan wants to explain, teach, or break down a concept as a visual \u2014 \"make an infographic about X\", \"turn this into an infographic\", \"explain X as a visual / diagram\", \"a teaching graphic for\u2026\", \"visual breakdown of\u2026\", \"carousel / explainer graphic\" \u2014 or whenever he has a concept, framework, process, or set of stats he wants pictured for an audience. Use this even when he does not say \"infographic\" by name, as long as he wants information taught through a designed visual. Always shows a plan and confirms the roughly $0.09-0.17 cost before generating. NOT for realistic photos, product shots, or selfies (use nano-banana-images), NOT for HTML dashboards, and NOT for editable hand-drawn diagrams (use research / excalidraw).",
+      "raw_desc": "Create polished, on-brand EDUCATIONAL INFOGRAPHICS with Nano Banana Pro (Gemini 3 Pro Image) via the Kie.ai API \u2014 teaching visuals with legible in-image text, in Stefan's Meesterwerk brand (crisp white, engraving illustration, one orange cut, the crown logo top-left). Trigger whenever Stefan wants to explain, teach, or break down a concept, framework, process, principle, or set of stats as a visual \u2014 \"make an infographic about X\", \"turn this into an infographic\", \"explain X as a visual / diagram\", \"a teaching graphic / carousel / explainer for\u2026\", \"visual breakdown of\u2026\" \u2014 or whenever he has an idea he wants pictured for an audience. Use this even when he does not say \"infographic\" by name, as long as he wants information TAUGHT through a designed visual. Every infographic must teach something real from first principles, and it always shows a plan and confirms the roughly $0.09-0.17 cost before generating. NOT for realistic photos, product shots, or selfies (use nano-banana-images), NOT for HTML dashboards, and NOT for editable hand-drawn diagrams (use research / excalidraw).",
       "folder": "educational-infographics",
       "source": "personal",
       "source_label": "Your Skills",
@@ -1225,6 +1225,18 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-07-08T11:37:35.055047Z",
       "category": "Research"
+    },
+    {
+      "name": "linkedin-comment-engagement",
+      "what": "Run Mischa's daily LinkedIn engagement routine as the KubeCraft founder: open LinkedIn in the correct Chrome profile, verify the active account is Mischa, then like and post short, human, humanized comments and replies that have actually read the post. Covers three surfaces: other people's posts, replies on Mischa's own posts, and comments on the KubeCraft company page. Target is at least 25 activities per day (comments, likes, and replies combined), weighted mostly toward other people's posts",
+      "when": "the user says \"do my LinkedIn comments\", \"engage LinkedIn\", \"run the LinkedIn routine\", \"comment on LinkedIn\", \"reply to my LinkedIn comments\", or \"LinkedIn engagement\". Does NOT create new posts.",
+      "raw_desc": "Run Mischa's daily LinkedIn engagement routine as the KubeCraft founder: open LinkedIn in the correct Chrome profile, verify the active account is Mischa, then like and post short, human, humanized comments and replies that have actually read the post. Covers three surfaces: other people's posts, replies on Mischa's own posts, and comments on the KubeCraft company page. Target is at least 25 activities per day (comments, likes, and replies combined), weighted mostly toward other people's posts. Use whenever the user says \"do my LinkedIn comments\", \"engage LinkedIn\", \"run the LinkedIn routine\", \"comment on LinkedIn\", \"reply to my LinkedIn comments\", or \"LinkedIn engagement\". Does NOT create new posts.",
+      "folder": "linkedin-comment-engagement",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-07-10T08:50:17.088465Z",
+      "category": "Other"
     },
     {
       "name": "pdf",
