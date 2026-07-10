@@ -442,8 +442,9 @@
     }
   ],
   "stats": {
-    "total_sessions_tracked": 39,
+    "total_sessions_tracked": 40,
     "things_built": [
+      "Commit 0693def pushed to Stefanberg99/hermes-mirror — backup recovered a third time (8437 files, +610468/-472); .git repo rebuilt via gh HTTPS after SSH host-key failure; stale cruft purged",
       "Commit dddbcc5 pushed to Stefanberg99/hermes-mirror — backup recovered (11 files, +512/-16); .gitignore now excludes google_oauth_pending.json",
       "Stefanberg99/hermes-mirror — private GitHub repo with full Hermes config backup (daily cron at 03:00 AMS)",
       "skills/devops/hermes-backup/SKILL.md — Hermes backup skill with gitignore template",
