@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-12T19:54:42.506848Z",
-  "hash": "308748bcfe839d716d036dd5eb1b3eb7",
+  "synced_at": "2026-07-13T08:02:20.104070Z",
+  "hash": "c7c2649802fbb5d7417d654f290cb1ca",
   "skills": [
     {
       "name": "agent-builder",
@@ -1225,6 +1225,18 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Memory"
+    },
+    {
+      "name": "copywriting",
+      "what": "Stefan's copywriting and writing engine. A complete system for diagnosing a reader, choosing an angle, writing hooks, and producing copy that moves someone to act",
+      "when": "the user is writing, rewriting, critiquing, or planning ANY persuasive or audience-facing text: ads, emails, subject lines, hooks, headlines, fascinations, video scripts, YouTube titles, community posts, Skool or LinkedIn posts, tweets, threads, newsletters, landing pages, sales pages, VSLs, outreach DMs, launch sequences, CTAs, bios, offers, or long-form content. ALSO trigger when the user asks for 'feedback' on any piece of writing, asks 'is this good', asks to 'make this punchier / clearer / stronger', asks for hook or headline variations, asks why copy is not converting, or asks how to say something more persuasively. Trigger even if the user never says the word 'copywriting'. If text is going to be read by another human in order to make them feel, believe, or do something, this skill applies.",
+      "raw_desc": "Stefan's copywriting and writing engine. A complete system for diagnosing a reader, choosing an angle, writing hooks, and producing copy that moves someone to act. Use this skill whenever the user is writing, rewriting, critiquing, or planning ANY persuasive or audience-facing text: ads, emails, subject lines, hooks, headlines, fascinations, video scripts, YouTube titles, community posts, Skool or LinkedIn posts, tweets, threads, newsletters, landing pages, sales pages, VSLs, outreach DMs, launch sequences, CTAs, bios, offers, or long-form content. ALSO trigger when the user asks for 'feedback' on any piece of writing, asks 'is this good', asks to 'make this punchier / clearer / stronger', asks for hook or headline variations, asks why copy is not converting, or asks how to say something more persuasively. Trigger even if the user never says the word 'copywriting'. If text is going to be read by another human in order to make them feel, believe, or do something, this skill applies.",
+      "folder": "copywriting",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-07-13T08:01:12.739027Z",
+      "category": "Video"
     },
     {
       "name": "docx",
