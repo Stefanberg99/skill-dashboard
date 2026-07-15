@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-14T16:42:29.705009Z",
-  "hash": "0f0c2e45639f1917c55023ebf24d81aa",
+  "synced_at": "2026-07-15T10:04:14.033358Z",
+  "hash": "330ea452c302c829e13c305f5c756617",
   "skills": [
     {
       "name": "agent-builder",
@@ -1285,6 +1285,18 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-07-10T08:50:17.088465Z",
       "category": "Other"
+    },
+    {
+      "name": "morning",
+      "what": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use when: morning brief, daily brief, set up my morning brief, what's my day look like, run my brief.",
+      "when": "",
+      "raw_desc": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use when: morning brief, daily brief, set up my morning brief, what's my day look like, run my brief.",
+      "folder": "morning",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-07-15T10:04:14.033358Z",
+      "category": "Design"
     },
     {
       "name": "pdf",
