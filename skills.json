@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-15T10:04:14.033358Z",
-  "hash": "330ea452c302c829e13c305f5c756617",
+  "synced_at": "2026-07-16T11:44:10.816974Z",
+  "hash": "32fb9d7d6a7bfc9fadbcad8710ff2cb8",
   "skills": [
     {
       "name": "agent-builder",
@@ -385,6 +385,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-08T13:06:56.819675Z",
       "category": "Deploy"
+    },
+    {
+      "name": "inbox",
+      "what": "The Inbox orchestrator for Stefan's Second Brain \u2014 empties 00 Inbox by routing every fleeting note into the rest of the system. It understands the whole vault (rooms, maps, schema) and gives each capture one of four fates \u2014 organize, process, archive, or delete",
+      "when": "Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my fleeting notes\", \"route my captures\", \"clean up the inbox\", or when fleeting notes / strays have piled up in 00 Inbox or at the vault root. NOT for the quarry backlog (/drain), full sources like transcripts or courses (/learn), or capturing INTO the system (/spark).",
+      "raw_desc": "The Inbox orchestrator for Stefan's Second Brain \u2014 empties 00 Inbox by routing every fleeting note into the rest of the system. It understands the whole vault (rooms, maps, schema) and gives each capture one of four fates \u2014 organize, process, archive, or delete. Trigger when Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my fleeting notes\", \"route my captures\", \"clean up the inbox\", or when fleeting notes / strays have piled up in 00 Inbox or at the vault root. NOT for the quarry backlog (/drain), full sources like transcripts or courses (/learn), or capturing INTO the system (/spark).",
+      "folder": "inbox",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-16T11:44:10.816974Z",
+      "category": "Video"
     },
     {
       "name": "interview",
