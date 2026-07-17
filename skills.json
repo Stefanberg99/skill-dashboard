@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-16T11:44:10.816974Z",
-  "hash": "32fb9d7d6a7bfc9fadbcad8710ff2cb8",
+  "synced_at": "2026-07-17T09:53:19.181031Z",
+  "hash": "67bd42d63a6463f7525cb385936a2f58",
   "skills": [
     {
       "name": "agent-builder",
@@ -916,9 +916,9 @@
     },
     {
       "name": "spark",
-      "what": "Zero-friction capture into the Brain's Output layer",
-      "when": "Stefan says \"/spark <text>\", \"spark: ...\", \"idea: ...\", \"park this idea\", \"save this idea\", \"add to my ideas\", \"new decision: ...\", or drops a raw idea/fork/question mid-session that he wants kept. Appends one dated line, verbatim, to the right shelf (Ideas Inbox by default; Decisions queue for forks) and gets out of the way. NOT for visuals (/capture), not for processing (/learn), not for making the call (/decide).",
-      "raw_desc": "Zero-friction capture into the Brain's Output layer. Trigger when Stefan says \"/spark <text>\", \"spark: ...\", \"idea: ...\", \"park this idea\", \"save this idea\", \"add to my ideas\", \"new decision: ...\", or drops a raw idea/fork/question mid-session that he wants kept. Appends one dated line, verbatim, to the right shelf (Ideas Inbox by default; Decisions queue for forks) and gets out of the way. NOT for visuals (/capture), not for processing (/learn), not for making the call (/decide).",
+      "what": "Zero-friction capture into the Brain's 00 Inbox",
+      "when": "Stefan says \"/spark <text>\", \"spark: ...\", \"idea: ...\", \"park this idea\", \"save this idea\", \"add to my ideas\", \"new decision: ...\", or drops a raw idea/fork/question mid-session that he wants kept. Creates one raw verbatim note in 00 Inbox by default; only explicit actions or decisions route directly. NOT for visuals (/capture), not for processing (/learn), not for making the call (/decide).",
+      "raw_desc": "Zero-friction capture into the Brain's 00 Inbox. Trigger when Stefan says \"/spark <text>\", \"spark: ...\", \"idea: ...\", \"park this idea\", \"save this idea\", \"add to my ideas\", \"new decision: ...\", or drops a raw idea/fork/question mid-session that he wants kept. Creates one raw verbatim note in 00 Inbox by default; only explicit actions or decisions route directly. NOT for visuals (/capture), not for processing (/learn), not for making the call (/decide).",
       "folder": "spark",
       "source": "personal",
       "source_label": "Your Skills",
@@ -1225,6 +1225,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Writing"
+    },
+    {
+      "name": "youtube-thumbnails",
+      "what": "Design and generate click-worthy YouTube thumbnails with Nano Banana Pro (Gemini 3 Pro Image) via the Kie.ai API \u2014 16:9, big legible hook text, styled per client from saved client profiles (KubeCraft, Meesterwerk, or any new client captured once and reused). Trigger whenever Stefan wants a thumbnail for a video: \"make a thumbnail\", \"thumbnail for this video\", \"YT thumbnail\", \"youtube cover\", \"cover image for my video\", or he names a video title/topic that needs artwork \u2014 even if he never says \"thumbnail\", as long as the image is the cover for a YouTube video. Goes straight to images: designs the strongest concept itself, confirms the ~$0.18-0.35 cost once (2 variants at ~$0.09-0.17 each), then generates. NOT for infographics or teaching visuals (educational-infographics), NOT for general photos, renders, or selfies (nano-banana-images).",
+      "when": "",
+      "raw_desc": "Design and generate click-worthy YouTube thumbnails with Nano Banana Pro (Gemini 3 Pro Image) via the Kie.ai API \u2014 16:9, big legible hook text, styled per client from saved client profiles (KubeCraft, Meesterwerk, or any new client captured once and reused). Trigger whenever Stefan wants a thumbnail for a video: \"make a thumbnail\", \"thumbnail for this video\", \"YT thumbnail\", \"youtube cover\", \"cover image for my video\", or he names a video title/topic that needs artwork \u2014 even if he never says \"thumbnail\", as long as the image is the cover for a YouTube video. Goes straight to images: designs the strongest concept itself, confirms the ~$0.18-0.35 cost once (2 variants at ~$0.09-0.17 each), then generates. NOT for infographics or teaching visuals (educational-infographics), NOT for general photos, renders, or selfies (nano-banana-images).",
+      "folder": "youtube-thumbnails",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-17T09:53:19.181031Z",
+      "category": "Video"
     },
     {
       "name": "canvas-design",
