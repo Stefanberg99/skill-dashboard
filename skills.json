@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-24T07:29:05.231367Z",
-  "hash": "7e9797483b671d6f0a64c455acdccc63",
+  "synced_at": "2026-07-24T18:01:25.639296Z",
+  "hash": "beccbc94beb59238e7b97c5dc5059fe7",
   "skills": [
     {
       "name": "agent-builder",
@@ -315,6 +315,18 @@
       "category": "Research"
     },
     {
+      "name": "find-skills",
+      "what": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "when": "",
+      "raw_desc": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "folder": "find-skills",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "AI & Agents"
+    },
+    {
       "name": "finishing-a-development-branch",
       "what": "Guide completion of development work by presenting clear options and handling chosen workflow.",
       "when": "implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
@@ -481,6 +493,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "mediabunny",
+      "what": "Multimedia handling with the Mediabunny library",
+      "when": "",
+      "raw_desc": "Multimedia handling with the Mediabunny library",
+      "folder": "mediabunny",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Other"
     },
     {
       "name": "meesterwerk-ai",
@@ -829,6 +853,114 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-11T15:41:53.012979Z",
       "category": "Writing"
+    },
+    {
+      "name": "remotion-best-practices",
+      "what": "Best practices for Remotion",
+      "when": "",
+      "raw_desc": "Best practices for Remotion",
+      "folder": "remotion-best-practices",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Other"
+    },
+    {
+      "name": "remotion-captions",
+      "what": "Dealing with captions in Remotion",
+      "when": "",
+      "raw_desc": "Dealing with captions in Remotion",
+      "folder": "remotion-captions",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Other"
+    },
+    {
+      "name": "remotion-create",
+      "what": "Creating a new Remotion video",
+      "when": "",
+      "raw_desc": "Creating a new Remotion video",
+      "folder": "remotion-create",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Video"
+    },
+    {
+      "name": "remotion-interactivity",
+      "what": "Best practices for writing Remotion animations that stay intuitive for agents and editable in Remotion Studio Visual Mode.",
+      "when": "",
+      "raw_desc": "Best practices for writing Remotion animations that stay intuitive for agents and editable in Remotion Studio Visual Mode.",
+      "folder": "remotion-interactivity",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Design"
+    },
+    {
+      "name": "remotion-maps",
+      "what": "Best practices for animating Maps in Remotion",
+      "when": "",
+      "raw_desc": "Best practices for animating Maps in Remotion",
+      "folder": "remotion-maps",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Other"
+    },
+    {
+      "name": "remotion-markup",
+      "what": "Best practices for writing Remotion React Markup",
+      "when": "",
+      "raw_desc": "Best practices for writing Remotion React Markup",
+      "folder": "remotion-markup",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Writing"
+    },
+    {
+      "name": "remotion-render",
+      "what": "Best practices for rendering videos",
+      "when": "",
+      "raw_desc": "Best practices for rendering videos",
+      "folder": "remotion-render",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Video"
+    },
+    {
+      "name": "remotion-saas",
+      "what": "Building video apps with Remotion - framework, rendering and Player advice",
+      "when": "",
+      "raw_desc": "Building video apps with Remotion - framework, rendering and Player advice",
+      "folder": "remotion-saas",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "Video"
+    },
+    {
+      "name": "remotion-upgrade",
+      "what": "Upgrade Remotion, its related packages, compatible Mediabunny packages, and installed Remotion Agent Skills",
+      "when": "asked to upgrade or update a Remotion project.",
+      "raw_desc": "Upgrade Remotion, its related packages, compatible Mediabunny packages, and installed Remotion Agent Skills. Use when asked to upgrade or update a Remotion project.",
+      "folder": "remotion-upgrade",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T18:01:25.639296Z",
+      "category": "AI & Agents"
     },
     {
       "name": "revisit",
