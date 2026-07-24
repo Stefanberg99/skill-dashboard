@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-23T08:24:51.238548Z",
-  "hash": "67bd42d63a6463f7525cb385936a2f58",
+  "synced_at": "2026-07-24T07:29:05.231367Z",
+  "hash": "7e9797483b671d6f0a64c455acdccc63",
   "skills": [
     {
       "name": "agent-builder",
@@ -709,6 +709,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T13:40:27.067126Z",
       "category": "Other"
+    },
+    {
+      "name": "os-audit",
+      "what": "Your operating manual, indexes, and wikis are claims about what exists and what's current. This audit checks every claim against reality. Structure problems are loud; freshness problems are silent. When people say \"my agent keeps forgetting things,\" it's usually the agent faithfully reading a frozen index.",
+      "when": "someone asks to run an OS audit, check their AIOS for stale or outdated data, verify routing points at things that actually exist, find duplicate or bloated folders, clean up or organize their project, check for context failure modes (poisoning, bloat, confusion, clash), or says \"os audit\", \"is my setup stale\", \"run a data audit\", \"my project root is a mess\", or \"my agent keeps missing things that are there\". Read-only drift, freshness, and organization audit of the current project.",
+      "raw_desc": "Use when someone asks to run an OS audit, check their AIOS for stale or outdated data, verify routing points at things that actually exist, find duplicate or bloated folders, clean up or organize their project, check for context failure modes (poisoning, bloat, confusion, clash), or says \"os audit\", \"is my setup stale\", \"run a data audit\", \"my project root is a mess\", or \"my agent keeps missing things that are there\". Read-only drift, freshness, and organization audit of the current project.",
+      "folder": "os-audit",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-24T07:29:05.231367Z",
+      "category": "AI & Agents"
     },
     {
       "name": "pinecone-ask",
