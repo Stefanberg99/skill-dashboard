@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-24T18:01:25.639296Z",
-  "hash": "beccbc94beb59238e7b97c5dc5059fe7",
+  "synced_at": "2026-07-25T08:31:34.005208Z",
+  "hash": "29ab95554ee67772dd569fc9839305a8",
   "skills": [
     {
       "name": "agent-builder",
@@ -1561,6 +1561,30 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Documents"
+    },
+    {
+      "name": "remember",
+      "what": "Save session state for clean continuation next session.",
+      "when": "",
+      "raw_desc": "Save session state for clean continuation next session.",
+      "folder": "remember",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-07-25T08:31:34.005208Z",
+      "category": "Other"
+    },
+    {
+      "name": "vibe-prospecting",
+      "what": "Find company & contact data. Turn your agent into a prospecting platform. Get contact information, roles, tech stack, business events, website changes, intent data. Build lead lists, research prospects, identify talent. 150M+ companies, 800M+ professionals, 50+ data sources.",
+      "when": "",
+      "raw_desc": "Find company & contact data. Turn your agent into a prospecting platform. Get contact information, roles, tech stack, business events, website changes, intent data. Build lead lists, research prospects, identify talent. 150M+ companies, 800M+ professionals, 50+ data sources.",
+      "folder": "vibe-prospecting",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-07-25T08:31:34.005208Z",
+      "category": "AI & Agents"
     },
     {
       "name": "skool-review",
