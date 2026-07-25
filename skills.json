@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-25T08:31:34.005208Z",
-  "hash": "29ab95554ee67772dd569fc9839305a8",
+  "synced_at": "2026-07-25T11:33:35.716402Z",
+  "hash": "8b3c6ee14f67de3635e0861595cf86a9",
   "skills": [
     {
       "name": "agent-builder",
@@ -145,6 +145,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "debrief",
+      "what": "Explain to Stefan, in easy language, what Claude actually did in THIS session, so he understands it well enough to explain it to someone else",
+      "when": "he says \"/debrief\", \"debrief this session\", \"debrief our work\", \"explain what we did\", \"explain what you just did\", \"what happened in this session\", \"break down this session for me\", or \"I don't understand what we built\". Chat only, never writes files. Runs from what happened in the conversation, never from the filesystem. Also has a test-me mode, but ONLY when he explicitly asks to be tested. Not for debriefing a life experiment (that is the experiment skill), not for handing context to a fresh agent (session-handoff), not for the evening ritual (reflect).",
+      "raw_desc": "Explain to Stefan, in easy language, what Claude actually did in THIS session, so he understands it well enough to explain it to someone else. Trigger when he says \"/debrief\", \"debrief this session\", \"debrief our work\", \"explain what we did\", \"explain what you just did\", \"what happened in this session\", \"break down this session for me\", or \"I don't understand what we built\". Chat only, never writes files. Runs from what happened in the conversation, never from the filesystem. Also has a test-me mode, but ONLY when he explicitly asks to be tested. Not for debriefing a life experiment (that is the experiment skill), not for handing context to a fresh agent (session-handoff), not for the evening ritual (reflect).",
+      "folder": "debrief",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-07-25T11:33:35.716402Z",
+      "category": "AI & Agents"
     },
     {
       "name": "decide",
