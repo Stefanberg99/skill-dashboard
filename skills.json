@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-30T21:24:36.719458Z",
+  "synced_at": "2026-08-01T19:56:25.840619Z",
   "hash": "54a215add1b4cb1c727db21909f48c63",
   "skills": [
     {
@@ -149,8 +149,8 @@
     {
       "name": "decide",
       "what": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction",
-      "when": "Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from 09 Output/Decisions. A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
-      "raw_desc": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction. Trigger when Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from 09 Output/Decisions. A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
+      "when": "Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from 09 Output/To think about. A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
+      "raw_desc": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction. Trigger when Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from 09 Output/To think about. A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
       "folder": "decide",
       "source": "personal",
       "source_label": "Your Skills",
@@ -352,7 +352,7 @@
     },
     {
       "name": "humanizer",
-      "what": "Identify and remove signs of AI-generated text to make writing sound natural and human. Based on Wikipedia's \"Signs of AI writing\" guide (maintained by WikiProject AI Cleanup), derived from observations of thousands of AI-generated text instances.",
+      "what": "Identify and remove signs of AI-generated text so writing sounds like a person wrote it. Built on Wikipedia's \"Signs of AI writing\" guide (WikiProject AI Cleanup), derived from observations of thousands of AI-generated text instances.",
       "when": "Stefan asks to humanize, de-AI, de-slop, or un-ChatGPT a piece of text, edit a draft (blog post, essay, PR description, docs, memo, email, tweet, resume bullet) to sound natural and human, match his voice in writing, or review text for AI tells before publishing. Also apply it to your own user-facing prose (release notes, summaries, long explanations). Invoke with /humanizer.",
       "raw_desc": "Use when Stefan asks to humanize, de-AI, de-slop, or un-ChatGPT a piece of text, edit a draft (blog post, essay, PR description, docs, memo, email, tweet, resume bullet) to sound natural and human, match his voice in writing, or review text for AI tells before publishing. Also apply it to your own user-facing prose (release notes, summaries, long explanations). Invoke with /humanizer.",
       "folder": "humanizer",
@@ -364,15 +364,15 @@
     },
     {
       "name": "inbox",
-      "what": "The Inbox orchestrator for Stefan's Second Brain \u2014 empties 00 Inbox by routing every fleeting note into the rest of the system. It understands the whole vault (rooms, maps, schema) and gives each capture one of four fates \u2014 organize, process, archive, or delete",
-      "when": "Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my fleeting notes\", \"route my captures\", \"clean up the inbox\", or when fleeting notes / strays have piled up in 00 Inbox or at the vault root. NOT for the quarry backlog (/drain), full sources like transcripts or courses (/learn), or capturing INTO the system (/spark).",
-      "raw_desc": "The Inbox orchestrator for Stefan's Second Brain \u2014 empties 00 Inbox by routing every fleeting note into the rest of the system. It understands the whole vault (rooms, maps, schema) and gives each capture one of four fates \u2014 organize, process, archive, or delete. Trigger when Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my fleeting notes\", \"route my captures\", \"clean up the inbox\", or when fleeting notes / strays have piled up in 00 Inbox or at the vault root. NOT for the quarry backlog (/drain), full sources like transcripts or courses (/learn), or capturing INTO the system (/spark).",
+      "what": "Empty Stefan's 00 Inbox by routing every capture into one of the six lists in 09 Output (To do list \u00b7 To think about \u00b7 To contemplate \u00b7 To organize \u00b7 Written notes \u00b7 Idea list). The manual twin of the Sunday Hermes sort, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in 03 Journal/Thinking (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer)",
+      "when": "Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my captures\", \"clean up the inbox\", \"structure this thinking\", \"process my thinking\", or when 00 Inbox has filled up. NOT for the bulk quarry in 00 Inbox/_import (that is /drain), NOT for writing a real note from a source (that is /learn), NOT for capturing INTO the system (that is /spark).",
+      "raw_desc": "Empty Stefan's 00 Inbox by routing every capture into one of the six lists in 09 Output (To do list \u00b7 To think about \u00b7 To contemplate \u00b7 To organize \u00b7 Written notes \u00b7 Idea list). The manual twin of the Sunday Hermes sort, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in 03 Journal/Thinking (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer). Trigger when Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my captures\", \"clean up the inbox\", \"structure this thinking\", \"process my thinking\", or when 00 Inbox has filled up. NOT for the bulk quarry in 00 Inbox/_import (that is /drain), NOT for writing a real note from a source (that is /learn), NOT for capturing INTO the system (that is /spark).",
       "folder": "inbox",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-07-16T11:44:10.816974Z",
-      "category": "Video"
+      "category": "Memory"
     },
     {
       "name": "interview",
