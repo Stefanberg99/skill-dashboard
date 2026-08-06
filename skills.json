@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-06T03:44:35.682626Z",
-  "hash": "c68a2acd2b4d9f787222e7d52c3d0076",
+  "synced_at": "2026-08-06T07:32:24.276502Z",
+  "hash": "0f615f8580ae92236737236cfc7d61fe",
   "skills": [
     {
       "name": "agent-builder",
@@ -24,6 +24,42 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Design"
+    },
+    {
+      "name": "animate",
+      "what": "Build an animation from scratch, making the decisions in the order that determines whether it feels right \u2014 should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation",
+      "when": "asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations; for auditing a whole codebase use improve-animations.",
+      "raw_desc": "Build an animation from scratch, making the decisions in the order that determines whether it feels right \u2014 should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations; for auditing a whole codebase use improve-animations.",
+      "folder": "animate",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
+      "category": "Writing"
+    },
+    {
+      "name": "animation-vocabulary",
+      "what": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" \u2192 Pop in; \"the iOS rubber-band scroll\" \u2192 Rubber-banding)",
+      "when": "the user asks \"what's it called when\u2026\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one.",
+      "raw_desc": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" \u2192 Pop in; \"the iOS rubber-band scroll\" \u2192 Rubber-banding). Use when the user asks \"what's it called when\u2026\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one.",
+      "folder": "animation-vocabulary",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
+      "category": "Documents"
+    },
+    {
+      "name": "apple-design",
+      "what": "Apple's approach to interface design and fluid, physical motion, translated for the web",
+      "when": "building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
+      "raw_desc": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
+      "folder": "apple-design",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
       "category": "Design"
     },
     {
@@ -243,6 +279,18 @@
       "category": "Research"
     },
     {
+      "name": "emil-design-eng",
+      "what": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+      "when": "",
+      "raw_desc": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+      "folder": "emil-design-eng",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
+      "category": "Design"
+    },
+    {
       "name": "excalidraw-diagram",
       "what": "Before generating anything, make sure you know: - What concept or system are they diagramming? - What are the major components or sections? - What is the flow or relationship between them?",
       "when": "someone asks to draw a diagram, make an Excalidraw diagram, or build an editable diagram. Default for all diagram requests.",
@@ -289,6 +337,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "what": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it",
+      "when": "the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead.",
+      "raw_desc": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead.",
+      "folder": "find-animation-opportunities",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
+      "category": "Coding"
     },
     {
       "name": "find-skills",
@@ -361,6 +421,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-08T13:06:56.819675Z",
       "category": "Deploy"
+    },
+    {
+      "name": "improve-animations",
+      "what": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code \u2014 it plans improvements, it does not apply them",
+      "when": "the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+      "raw_desc": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code \u2014 it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+      "folder": "improve-animations",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
+      "category": "Coding"
     },
     {
       "name": "inbox",
@@ -711,6 +783,18 @@
       "category": "AI & Agents"
     },
     {
+      "name": "pick-ui-library",
+      "what": "Pick the right library for a given frontend task from a curated, opinionated list \u2014 numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.",
+      "when": "",
+      "raw_desc": "Pick the right library for a given frontend task from a curated, opinionated list \u2014 numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.",
+      "folder": "pick-ui-library",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
+      "category": "Productivity"
+    },
+    {
       "name": "pinecone-ask",
       "what": "Query the Pinecone vector database to find semantically relevant content from Stefan's Obsidian vault and conversation history",
       "when": "Stefan says 'pinecone-ask', 'ask Pinecone', 'search my vector database', 'what does Pinecone know about...', 'find related notes on...', or when a question would benefit from semantic search across all stored knowledge.",
@@ -793,6 +877,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-17T17:54:47.804805Z",
       "category": "Documents"
+    },
+    {
+      "name": "prototype",
+      "what": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.",
+      "when": "",
+      "raw_desc": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.",
+      "folder": "prototype",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
+      "category": "Design"
     },
     {
       "name": "quarterly",
@@ -925,6 +1021,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-24T18:01:25.639296Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "review-animations",
+      "what": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+      "when": "",
+      "raw_desc": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+      "folder": "review-animations",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-06T07:32:24.276502Z",
+      "category": "Design"
     },
     {
       "name": "revisit",
