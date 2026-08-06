@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-06T10:16:00.415900Z",
-  "hash": "8038dad3ba5d4cfca9e9f4da7add31fa",
+  "synced_at": "2026-08-06T10:17:02.372550Z",
+  "hash": "0f615f8580ae92236737236cfc7d61fe",
   "skills": [
     {
       "name": "agent-builder",
@@ -1633,18 +1633,6 @@
       "source_color": "#64748b",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Coding"
-    },
-    {
-      "name": "postiz",
-      "what": "Postiz is a tool to schedule social media and chat posts to 28+ channels X, LinkedIn, LinkedIn Page, Reddit, Instagram, Facebook Page, Threads, YouTube, Google My Business, TikTok, Pinterest, Dribbble, Discord, Slack, Kick, Twitch, Mastodon, Bluesky, Lemmy, Farcaster, Telegram, Nostr, VK, Medium, Dev.to, Hashnode, WordPress, ListMonk",
-      "when": "",
-      "raw_desc": "Postiz is a tool to schedule social media and chat posts to 28+ channels X, LinkedIn, LinkedIn Page, Reddit, Instagram, Facebook Page, Threads, YouTube, Google My Business, TikTok, Pinterest, Dribbble, Discord, Slack, Kick, Twitch, Mastodon, Bluesky, Lemmy, Farcaster, Telegram, Nostr, VK, Medium, Dev.to, Hashnode, WordPress, ListMonk",
-      "folder": "postiz",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-08T09:29:05.527704Z",
-      "category": "Video"
     },
     {
       "name": "receiving-code-review",
