@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-06T10:17:02.372550Z",
-  "hash": "0f615f8580ae92236737236cfc7d61fe",
+  "synced_at": "2026-08-08T08:33:49.702325Z",
+  "hash": "df12794bc61cab624354c7e36912e2e9",
   "skills": [
     {
       "name": "agent-builder",
@@ -856,9 +856,9 @@
     },
     {
       "name": "process-source",
-      "what": "MERGED into /learn on 2026-07-04 \u2014 kept only as a redirect. The pipeline now runs as /learn Branch D (\"process this\", \"run this through the system\", \"add this to the vault\"). This folder's reference/, scripts/, and templates/ remain the canonical shared assets, read by /learn and /tend.",
+      "what": "MERGED into /learn on 2026-07-04 \u2014 kept only as a redirect. The pipeline now runs as /learn Branch D (\"process this\", \"run this through the system\", \"add this to the vault\"). This folder's reference/, scripts/, and templates/ remain the canonical shared assets, read by /learn and /weekly.",
       "when": "",
-      "raw_desc": "MERGED into /learn on 2026-07-04 \u2014 kept only as a redirect. The pipeline now runs as /learn Branch D (\"process this\", \"run this through the system\", \"add this to the vault\"). This folder's reference/, scripts/, and templates/ remain the canonical shared assets, read by /learn and /tend.",
+      "raw_desc": "MERGED into /learn on 2026-07-04 \u2014 kept only as a redirect. The pipeline now runs as /learn Branch D (\"process this\", \"run this through the system\", \"add this to the vault\"). This folder's reference/, scripts/, and templates/ remain the canonical shared assets, read by /learn and /weekly.",
       "folder": "process-source",
       "source": "personal",
       "source_label": "Your Skills",
@@ -1037,8 +1037,8 @@
     {
       "name": "revisit",
       "what": "The atomization rep that makes knowledge compound. Takes ONE already-consumed source (a book note, a mentor note, a script) from the Brain's 05 Sources and routes its captures onto 04 Notecards topic buckets (quotes, stories, metaphors, frameworks, ideas \u2014 attributed, source form), propose-confirm, so sources stop being silos and topics grow across many sources",
-      "when": "Stefan says \"/revisit\", \"/revisit [book]\", \"atomize [source]\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn or /process-source) and NOT for reviewing Sparks (that's /tend).",
-      "raw_desc": "The atomization rep that makes knowledge compound. Takes ONE already-consumed source (a book note, a mentor note, a script) from the Brain's 05 Sources and routes its captures onto 04 Notecards topic buckets (quotes, stories, metaphors, frameworks, ideas \u2014 attributed, source form), propose-confirm, so sources stop being silos and topics grow across many sources. Trigger when Stefan says \"/revisit\", \"/revisit [book]\", \"atomize [source]\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn or /process-source) and NOT for reviewing Sparks (that's /tend).",
+      "when": "Stefan says \"/revisit\", \"/revisit [book]\", \"atomize [source]\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn) and NOT for reviewing Sparks (that's /weekly).",
+      "raw_desc": "The atomization rep that makes knowledge compound. Takes ONE already-consumed source (a book note, a mentor note, a script) from the Brain's 05 Sources and routes its captures onto 04 Notecards topic buckets (quotes, stories, metaphors, frameworks, ideas \u2014 attributed, source form), propose-confirm, so sources stop being silos and topics grow across many sources. Trigger when Stefan says \"/revisit\", \"/revisit [book]\", \"atomize [source]\", \"process Mastery into notecards\", \"route this book into the cards\", or during /weekly when a revisit is due. 15-20 minutes, one source per run, reps over machinery. NOT for ingesting a new source (that's /learn) and NOT for reviewing Sparks (that's /weekly).",
       "folder": "revisit",
       "source": "personal",
       "source_label": "Your Skills",
@@ -1645,18 +1645,6 @@
       "source_color": "#64748b",
       "first_seen": "2026-07-23T08:23:49.096935Z",
       "category": "Coding"
-    },
-    {
-      "name": "remember",
-      "what": "Save session state for clean continuation next session.",
-      "when": "",
-      "raw_desc": "Save session state for clean continuation next session.",
-      "folder": "remember",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-25T08:31:34.005208Z",
-      "category": "Other"
     },
     {
       "name": "requesting-code-review",
