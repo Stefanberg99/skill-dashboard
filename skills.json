@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-12T16:19:55.912821Z",
-  "hash": "df12794bc61cab624354c7e36912e2e9",
+  "synced_at": "2026-08-14T06:41:06.435938Z",
+  "hash": "6f590aef9d5425a5dad1a3b9d9797528",
   "skills": [
     {
       "name": "agent-builder",
@@ -73,6 +73,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T13:40:27.067126Z",
       "category": "Memory"
+    },
+    {
+      "name": "brainstorming",
+      "what": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "when": "",
+      "raw_desc": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "folder": "brainstorming",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
     },
     {
       "name": "brand-site",
@@ -231,6 +243,18 @@
       "category": "Deploy"
     },
     {
+      "name": "dispatching-parallel-agents",
+      "what": "You delegate tasks to specialized agents with isolated context. By precisely crafting their instructions and context, you ensure they stay focused and succeed at their task. They should never inherit your session's context or history \u2014 you construct exactly what they need. This also preserves your own context for\u2026",
+      "when": "facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "raw_desc": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "folder": "dispatching-parallel-agents",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
+    },
+    {
       "name": "domain-name-brainstormer",
       "what": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
       "when": "",
@@ -315,6 +339,18 @@
       "category": "Design"
     },
     {
+      "name": "executing-plans",
+      "what": "Load plan, review critically, execute all tasks, report when complete.",
+      "when": "you have a written implementation plan to execute in a separate session with review checkpoints",
+      "raw_desc": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "folder": "executing-plans",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
+    },
+    {
       "name": "experiment",
       "what": "The front door to Stefan's R&D lab \u2014 turns any experience or intention into a falsifiable experiment that compounds (action \u2192 result \u2192 feedback \u2192 iterate), logged to his Brain in his voice. Dispatches the experiment-partner agent, which reads his Soul (TELOS), Domains, Knowledge, and Toolbox read-only so the feedback is grounded in who he is, then writes to the right domain log",
       "when": "Stefan says \"/experiment\", \"log this\", \"debrief this\", \"design an experiment\", \"let's run an experiment\", \"what should I test next\", \"review my experiment\", \"turn this into a drill\", or shares a relationship/dating or business/content experience he wants to learn from. NOT the daily/weekly cadence (/today, /reflect, /weekly) \u2014 this is the separate experiment track for building skills and gathering real reps.",
@@ -361,6 +397,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-24T18:01:25.639296Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "what": "Guide completion of development work by presenting clear options and handling chosen workflow.",
+      "when": "implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "raw_desc": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "folder": "finishing-a-development-branch",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
     },
     {
       "name": "frontend-design",
@@ -1167,6 +1215,18 @@
       "category": "Memory"
     },
     {
+      "name": "subagent-driven-development",
+      "what": "Execute plan by dispatching fresh subagent per task, with two-stage review after each: spec compliance review first, then code quality review.",
+      "when": "executing implementation plans with independent tasks in the current session",
+      "raw_desc": "Use when executing implementation plans with independent tasks in the current session",
+      "folder": "subagent-driven-development",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
+    },
+    {
       "name": "synthesizer",
       "what": "The problem-solving crew. Runs Stefan's Critical Synthesising process as a team of AI agents to crack ANY problem \u2014 a business bottleneck, a client's problem, a money question, a personal knot, a decision \u2014 and hand back a clear, step-by-step plan plus a document that teaches the thinking",
       "when": "Stefan says \"/synthesizer\", \"run the synthesizer on X\", \"solve this problem\", \"help me solve / figure out X\", \"run this through the synthesizer\", \"I have a problem: \u2026\", \"find the bottleneck\", or brings any real problem that deserves more than a quick answer. It defines the problem, thinks it through with mental models, researches the facts, filters with a skeptic, and builds the methodology \u2014 output is a transparent, plain-English, visual HTML page (+ a Google Doc) in ~/Outputs/synthesizer/. NOT for a quick factual question (answer that directly) and NOT for \"teach me X\" (that's /learn).",
@@ -1177,6 +1237,30 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-06T21:34:22.099274Z",
       "category": "Research"
+    },
+    {
+      "name": "systematic-debugging",
+      "what": "Random fixes waste time and create new bugs. Quick patches mask underlying issues.",
+      "when": "encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "raw_desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "folder": "systematic-debugging",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
+    },
+    {
+      "name": "test-driven-development",
+      "what": "Write the test first. Watch it fail. Write minimal code to pass.",
+      "when": "implementing any feature or bugfix, before writing implementation code",
+      "raw_desc": "Use when implementing any feature or bugfix, before writing implementation code",
+      "folder": "test-driven-development",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "theme-factory",
@@ -1248,6 +1332,18 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-07-08T13:04:54.852867Z",
+      "category": "AI & Agents"
+    },
+    {
+      "name": "using-superpowers",
+      "what": "<SUBAGENT-STOP> If you were dispatched as a subagent to execute a specific task, skip this skill. </SUBAGENT-STOP>",
+      "when": "starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "raw_desc": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "folder": "using-superpowers",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "AI & Agents"
     },
     {
@@ -1381,6 +1477,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-09T14:12:28.725532Z",
       "category": "Memory"
+    },
+    {
+      "name": "writing-plans",
+      "what": "Write comprehensive implementation plans assuming the engineer has zero context for our codebase and questionable taste. Document everything they need to know: which files to touch for each task, code, testing, docs they might need to check, how to test it. Give them the whole plan as bite-sized tasks. DRY. YAGNI.\u2026",
+      "when": "you have a spec or requirements for a multi-step task, before touching code",
+      "raw_desc": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "folder": "writing-plans",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Writing"
     },
     {
       "name": "youtube-thumbnails",
@@ -1587,150 +1695,6 @@
       "category": "Documents"
     },
     {
-      "name": "brainstorming",
-      "what": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
-      "when": "",
-      "raw_desc": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
-      "folder": "brainstorming",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "dispatching-parallel-agents",
-      "what": "You delegate tasks to specialized agents with isolated context. By precisely crafting their instructions and context, you ensure they stay focused and succeed at their task. They should never inherit your session's context or history \u2014 you construct exactly what they need. This also preserves your own context for\u2026",
-      "when": "facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
-      "raw_desc": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
-      "folder": "dispatching-parallel-agents",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "executing-plans",
-      "what": "Load plan, review critically, execute all tasks, report when complete.",
-      "when": "you have a written implementation plan to execute in a separate session with review checkpoints",
-      "raw_desc": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
-      "folder": "executing-plans",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Writing"
-    },
-    {
-      "name": "finishing-a-development-branch",
-      "what": "Core principle: Verify tests \u2192 Detect environment \u2192 Present options \u2192 Execute choice \u2192 Clean up.",
-      "when": "implementation is complete, all tests pass, and you need to decide how to integrate the work",
-      "raw_desc": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
-      "folder": "finishing-a-development-branch",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Coding"
-    },
-    {
-      "name": "receiving-code-review",
-      "what": "Code review requires technical evaluation, not emotional performance.",
-      "when": "receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
-      "raw_desc": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
-      "folder": "receiving-code-review",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-23T08:23:49.096935Z",
-      "category": "Coding"
-    },
-    {
-      "name": "requesting-code-review",
-      "what": "Dispatch a code reviewer subagent to catch issues before they cascade. The reviewer gets precisely crafted context for evaluation \u2014 never your session's history.",
-      "when": "completing tasks, implementing major features, or before merging to verify work meets requirements",
-      "raw_desc": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
-      "folder": "requesting-code-review",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-23T08:23:49.096935Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "subagent-driven-development",
-      "what": "Execute plan by dispatching a fresh implementer subagent per task, a task review (spec compliance + code quality) after each, and a broad whole-branch review at the end.",
-      "when": "executing implementation plans with independent tasks in the current session",
-      "raw_desc": "Use when executing implementation plans with independent tasks in the current session",
-      "folder": "subagent-driven-development",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "systematic-debugging",
-      "what": "Core principle: ALWAYS find root cause before attempting fixes. Symptom fixes are failure.",
-      "when": "encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "raw_desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "folder": "systematic-debugging",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Coding"
-    },
-    {
-      "name": "test-driven-development",
-      "what": "Write the test first. Watch it fail. Write minimal code to pass.",
-      "when": "implementing any feature or bugfix, before writing implementation code",
-      "raw_desc": "Use when implementing any feature or bugfix, before writing implementation code",
-      "folder": "test-driven-development",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Writing"
-    },
-    {
-      "name": "using-git-worktrees",
-      "what": "Ensure work happens in an isolated workspace. Prefer your platform's native worktree tools. Fall back to manual git worktrees only when no native tool is available.",
-      "when": "starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
-      "raw_desc": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
-      "folder": "using-git-worktrees",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-23T08:23:49.096935Z",
-      "category": "Other"
-    },
-    {
-      "name": "using-superpowers",
-      "what": "<SUBAGENT-STOP> If you were dispatched as a subagent to execute a specific task, ignore this skill. </SUBAGENT-STOP>",
-      "when": "starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
-      "raw_desc": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
-      "folder": "using-superpowers",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "verification-before-completion",
-      "what": "Core principle: Evidence before claims, always.",
-      "when": "about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
-      "raw_desc": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
-      "folder": "verification-before-completion",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-23T08:23:49.096935Z",
-      "category": "Other"
-    },
-    {
       "name": "vibe-prospecting",
       "what": "Find company & contact data. Turn your agent into a prospecting platform. Get contact information, roles, tech stack, business events, website changes, intent data. Build lead lists, research prospects, identify talent. 150M+ companies, 800M+ professionals, 50+ data sources.",
       "when": "",
@@ -1741,30 +1705,6 @@
       "source_color": "#64748b",
       "first_seen": "2026-07-25T08:31:34.005208Z",
       "category": "AI & Agents"
-    },
-    {
-      "name": "writing-plans",
-      "what": "Write comprehensive implementation plans assuming the engineer has zero context for our codebase and questionable taste. Document everything they need to know: which files to touch for each task, code, testing, docs they might need to check, how to test it. Give them the whole plan as bite-sized tasks. DRY. YAGNI.\u2026",
-      "when": "you have a spec or requirements for a multi-step task, before touching code",
-      "raw_desc": "Use when you have a spec or requirements for a multi-step task, before touching code",
-      "folder": "writing-plans",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Writing"
-    },
-    {
-      "name": "writing-skills",
-      "what": "Writing skills IS Test-Driven Development applied to process documentation.",
-      "when": "creating new skills, editing existing skills, or verifying skills work before deployment",
-      "raw_desc": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
-      "folder": "writing-skills",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-23T08:23:49.096935Z",
-      "category": "Writing"
     },
     {
       "name": "skool-review",
