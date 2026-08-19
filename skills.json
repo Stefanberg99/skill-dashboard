@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-19T07:20:45.348761Z",
-  "hash": "a5dc7f524caf149b26be3be8145e4c0a",
+  "synced_at": "2026-08-19T11:21:37.803788Z",
+  "hash": "720d9891941610b3af738c4cc2018bc7",
   "skills": [
     {
       "name": "agent-builder",
@@ -1587,6 +1587,114 @@
       "category": "Documents"
     },
     {
+      "name": "ai-sdk",
+      "what": "Vercel AI SDK expert guidance",
+      "when": "building AI-powered features \u2014 chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider.",
+      "raw_desc": "Vercel AI SDK expert guidance. Use when building AI-powered features \u2014 chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider.",
+      "folder": "ai-sdk",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "AI & Agents"
+    },
+    {
+      "name": "chat-sdk",
+      "what": "Vercel Chat SDK expert guidance",
+      "when": "building multi-platform chat bots \u2014 Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear \u2014 with a single codebase. Covers the Chat class, adapters, threads, messages, cards, modals, streaming, state management, and webhook setup.",
+      "raw_desc": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots \u2014 Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear \u2014 with a single codebase. Covers the Chat class, adapters, threads, messages, cards, modals, streaming, state management, and webhook setup.",
+      "folder": "chat-sdk",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
+    },
+    {
+      "name": "next-cache-components",
+      "what": "Next.js 16 Cache Components guidance \u2014 PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from unstable_cache",
+      "when": "implementing partial prerendering, caching strategies, or migrating from older Next.js cache patterns.",
+      "raw_desc": "Next.js 16 Cache Components guidance \u2014 PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from unstable_cache. Use when implementing partial prerendering, caching strategies, or migrating from older Next.js cache patterns.",
+      "folder": "next-cache-components",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Other"
+    },
+    {
+      "name": "next-forge",
+      "what": "next-forge expert guidance \u2014 production-grade Turborepo monorepo SaaS starter by Vercel",
+      "when": "working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages.",
+      "raw_desc": "next-forge expert guidance \u2014 production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages.",
+      "folder": "next-forge",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Deploy"
+    },
+    {
+      "name": "next-upgrade",
+      "what": "Upgrade Next.js to the latest version following official migration guides and codemods",
+      "when": "upgrading Next.js versions, running codemods, or migrating between major releases.",
+      "raw_desc": "Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js versions, running codemods, or migrating between major releases.",
+      "folder": "next-upgrade",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
+    },
+    {
+      "name": "nextjs",
+      "what": "Next.js App Router expert guidance",
+      "when": "building, debugging, or architecting Next.js applications \u2014 routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel.",
+      "raw_desc": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications \u2014 routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel.",
+      "folder": "nextjs",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
+    },
+    {
+      "name": "vercel-firewall",
+      "what": "Vercel Firewall expert guidance \u2014 automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the `vercel firewall` CLI",
+      "when": "configuring platform-level security, responding to attacks, or staging firewall rules.",
+      "raw_desc": "Vercel Firewall expert guidance \u2014 automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the `vercel firewall` CLI. Use when configuring platform-level security, responding to attacks, or staging firewall rules.",
+      "folder": "vercel-firewall",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
+    },
+    {
+      "name": "vercel-functions",
+      "what": "Vercel Functions expert guidance \u2014 Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration",
+      "when": "configuring, debugging, or optimizing server-side code running on Vercel.",
+      "raw_desc": "Vercel Functions expert guidance \u2014 Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration. Use when configuring, debugging, or optimizing server-side code running on Vercel.",
+      "folder": "vercel-functions",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
+    },
+    {
+      "name": "vercel-sandbox",
+      "what": "Vercel Sandbox guidance \u2014 ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation",
+      "when": "executing user-generated or AI-generated code in isolation.",
+      "raw_desc": "Vercel Sandbox guidance \u2014 ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI-generated code in isolation.",
+      "folder": "vercel-sandbox",
+      "source": "vercel",
+      "source_label": "Vercel",
+      "source_color": "#cbd5e1",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Coding"
+    },
+    {
       "name": "brainstorming",
       "what": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
       "when": "",
@@ -1609,6 +1717,18 @@
       "source_color": "#64748b",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "env-vars",
+      "what": "Vercel environment variable expert guidance",
+      "when": "working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.",
+      "raw_desc": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.",
+      "folder": "env-vars",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Design"
     },
     {
       "name": "executing-plans",
@@ -1635,6 +1755,18 @@
       "category": "Coding"
     },
     {
+      "name": "microfrontends",
+      "what": "Guide for building, configuring, and deploying microfrontends on Vercel",
+      "when": "the user mentions microfrontends, multi-zones, splitting an app across teams, independent deployments, cross-app routing, incremental migration, composing multiple frontends under one domain, microfrontends.json, @vercel/microfrontends, the microfrontends local proxy, or path-based routing between Vercel projects. Also use when the user asks about shared layouts across projects, navigation between microfrontends, fallback environments, asset prefixes, or feature flag controlled routing.",
+      "raw_desc": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfrontends, multi-zones, splitting an app across teams, independent deployments, cross-app routing, incremental migration, composing multiple frontends under one domain, microfrontends.json, @vercel/microfrontends, the microfrontends local proxy, or path-based routing between Vercel projects. Also use when the user asks about shared layouts across projects, navigation between microfrontends, fallback environments, asset prefixes, or feature flag controlled routing.",
+      "folder": "microfrontends",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-06-16T12:43:28.554033Z",
+      "category": "Coding"
+    },
+    {
       "name": "receiving-code-review",
       "what": "Code review requires technical evaluation, not emotional performance.",
       "when": "receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
@@ -1645,6 +1777,18 @@
       "source_color": "#64748b",
       "first_seen": "2026-07-23T08:23:49.096935Z",
       "category": "Coding"
+    },
+    {
+      "name": "remember",
+      "what": "Save session state for clean continuation next session.",
+      "when": "",
+      "raw_desc": "Save session state for clean continuation next session.",
+      "folder": "remember",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-07-25T08:31:34.005208Z",
+      "category": "Other"
     },
     {
       "name": "requesting-code-review",
