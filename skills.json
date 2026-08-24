@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-23T14:48:39.683654Z",
-  "hash": "a5dc7f524caf149b26be3be8145e4c0a",
+  "synced_at": "2026-08-24T09:38:39.398767Z",
+  "hash": "10b8e8eb917849150cf4ead9e44f6c19",
   "skills": [
     {
       "name": "agent-builder",
@@ -145,6 +145,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "content-command-center",
+      "what": "Guide the user through building a personal content command center: a live dashboard where five stations (Analyst, Scout, Strategist, Planner, Repurposer) run on the user's real cross-platform numbers from the Eden MCP, with an optional Telegram digest",
+      "when": "the user asks to build a dashboard, \"content command center\", \"analytics dashboard\", \"content agent dashboard\", \"set up my content agents\", wants to see their stats in one place, or wants their numbers reported to Telegram. Requires the Eden MCP (tools named eden_*).",
+      "raw_desc": "Guide the user through building a personal content command center: a live dashboard where five stations (Analyst, Scout, Strategist, Planner, Repurposer) run on the user's real cross-platform numbers from the Eden MCP, with an optional Telegram digest. Use when the user asks to build a dashboard, \"content command center\", \"analytics dashboard\", \"content agent dashboard\", \"set up my content agents\", wants to see their stats in one place, or wants their numbers reported to Telegram. Requires the Eden MCP (tools named eden_*).",
+      "folder": "content-command-center",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-24T09:38:39.398767Z",
+      "category": "AI & Agents"
     },
     {
       "name": "content-repurpose",
@@ -411,6 +423,18 @@
       "category": "AI & Agents"
     },
     {
+      "name": "head-of-content",
+      "what": "Act as the user's head of content: review their real numbers, check what the market is rewarding, plan their posting week against their cadence, draft every planned post in their voice, and queue the drafts in their Eden scheduler for approval",
+      "when": "the user says \"be my head of content\", \"run my head of content\", \"plan my content week\", \"run my content week\", or asks you to plan and draft their posts for the week. Requires the Eden MCP (tools named eden_*).",
+      "raw_desc": "Act as the user's head of content: review their real numbers, check what the market is rewarding, plan their posting week against their cadence, draft every planned post in their voice, and queue the drafts in their Eden scheduler for approval. Use when the user says \"be my head of content\", \"run my head of content\", \"plan my content week\", \"run my content week\", or asks you to plan and draft their posts for the week. Requires the Eden MCP (tools named eden_*).",
+      "folder": "head-of-content",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-24T09:38:39.398767Z",
+      "category": "AI & Agents"
+    },
+    {
       "name": "humanizer",
       "what": "Identify and remove signs of AI-generated text so writing sounds like a person wrote it. Built on Wikipedia's \"Signs of AI writing\" guide (WikiProject AI Cleanup), derived from observations of thousands of AI-generated text instances.",
       "when": "Stefan asks to humanize, de-AI, de-slop, or un-ChatGPT a piece of text, edit a draft (blog post, essay, PR description, docs, memo, email, tweet, resume bullet) to sound natural and human, match his voice in writing, or review text for AI tells before publishing. Also apply it to your own user-facing prose (release notes, summaries, long explanations). Invoke with /humanizer.",
@@ -420,6 +444,18 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-07-08T13:06:56.819675Z",
+      "category": "Deploy"
+    },
+    {
+      "name": "idea-engine",
+      "what": "Generate post ideas the user can publish today using the Eden MCP. Pulls from three places at once: the user's own saved captures, highlights, and notes; breakout posts in their niche this week; and tangential creators whose formats transfer. Fuses them into 5 to 8 concrete idea cards with hooks written in the user's voice, then offers to draft one into their Eden scheduler",
+      "when": "the user asks to run their idea engine, \"what should I post today\", \"give me post ideas\", \"content ideas\", or says they don't know what to post. Requires the Eden MCP (tools named eden_*).",
+      "raw_desc": "Generate post ideas the user can publish today using the Eden MCP. Pulls from three places at once: the user's own saved captures, highlights, and notes; breakout posts in their niche this week; and tangential creators whose formats transfer. Fuses them into 5 to 8 concrete idea cards with hooks written in the user's voice, then offers to draft one into their Eden scheduler. Use when the user asks to run their idea engine, \"what should I post today\", \"give me post ideas\", \"content ideas\", or says they don't know what to post. Requires the Eden MCP (tools named eden_*).",
+      "folder": "idea-engine",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-24T09:38:39.398767Z",
       "category": "Deploy"
     },
     {
@@ -780,6 +816,18 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-07-24T07:29:05.231367Z",
+      "category": "AI & Agents"
+    },
+    {
+      "name": "personal-brand-strategist",
+      "what": "Interview the user, research their niche with the Eden MCP, and write their complete personal brand strategy: positioning, story, topic tree, a swipe file of proven viral posts, their first five posts, and how it makes money",
+      "when": "the user asks for a personal brand strategy, brand strategy, positioning help, \"what should my brand be\", \"what should I be known for\", \"help me start posting\", or wants a niche and content direction. Requires the Eden MCP (tools named eden_*).",
+      "raw_desc": "Interview the user, research their niche with the Eden MCP, and write their complete personal brand strategy: positioning, story, topic tree, a swipe file of proven viral posts, their first five posts, and how it makes money. Use when the user asks for a personal brand strategy, brand strategy, positioning help, \"what should my brand be\", \"what should I be known for\", \"help me start posting\", or wants a niche and content direction. Requires the Eden MCP (tools named eden_*).",
+      "folder": "personal-brand-strategist",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-24T09:38:39.398767Z",
       "category": "AI & Agents"
     },
     {
@@ -1369,6 +1417,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-11T15:42:56.963163Z",
       "category": "Coding"
+    },
+    {
+      "name": "weekly-strategist",
+      "what": "Run a weekly content strategy sweep for a creator using the Eden MCP. Reads the user's own post performance, sweeps their market for breakout posts with real receipts, and writes a strategy memo with one clear bet",
+      "when": "the user asks for their weekly sweep, weekly strategy memo, content brief, \"what's working in my niche\", \"what should I post this week\", or wants a research-backed read on their market. Requires the Eden MCP (tools named eden_*).",
+      "raw_desc": "Run a weekly content strategy sweep for a creator using the Eden MCP. Reads the user's own post performance, sweeps their market for breakout posts with real receipts, and writes a strategy memo with one clear bet. Use when the user asks for their weekly sweep, weekly strategy memo, content brief, \"what's working in my niche\", \"what should I post this week\", or wants a research-backed read on their market. Requires the Eden MCP (tools named eden_*).",
+      "folder": "weekly-strategist",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-08-24T09:38:39.398767Z",
+      "category": "AI & Agents"
     },
     {
       "name": "wrap-up",
