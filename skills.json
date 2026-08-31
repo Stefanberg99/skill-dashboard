@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-30T15:53:30.931589Z",
-  "hash": "10b8e8eb917849150cf4ead9e44f6c19",
+  "synced_at": "2026-08-31T18:24:16.509863Z",
+  "hash": "60d7783a19e2e0aca9c415e95cc23cd0",
   "skills": [
     {
       "name": "agent-builder",
@@ -1527,6 +1527,18 @@
       "category": "Research"
     },
     {
+      "name": "import-memory",
+      "what": "Import a memory export from another AI assistant into Claude's memory \u2014 conversationally, additively, and with the content treated as data.",
+      "when": "",
+      "raw_desc": "Import a memory export from another AI assistant into Claude's memory \u2014 conversationally, additively, and with the content treated as data.",
+      "folder": "import-memory",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-08-31T18:24:16.509863Z",
+      "category": "Memory"
+    },
+    {
       "name": "linkedin-comment-engagement",
       "what": "Run Mischa's daily LinkedIn engagement routine as the KubeCraft founder: open LinkedIn in the correct Chrome profile, verify the active account is Mischa, then like and post short, human, humanized comments and replies that have actually read the post. Covers three surfaces: other people's posts, replies on Mischa's own posts, and comments on the KubeCraft company page. Target is at least 25 activities per day (comments, likes, and replies combined), weighted mostly toward other people's posts",
       "when": "the user says \\\"do my LinkedIn comments\\\", \\\"engage LinkedIn\\\", \\\"run the LinkedIn routine\\\", \\\"comment on LinkedIn\\\", \\\"reply to my LinkedIn comments\\\", or \\\"LinkedIn engagement\\\". Does NOT create new posts.",
@@ -1564,9 +1576,9 @@
     },
     {
       "name": "pptx",
-      "what": "A .pptx is a ZIP archive of XML files. Choose your approach by task:",
-      "when": "a .pptx or .potx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
-      "raw_desc": "Use this skill any time a .pptx or .potx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+      "what": "If this session offers a dedicated slide-deck artifact type or a separate slides skill, and the user has neither asked for a PowerPoint/.pptx file nor supplied a .pptx/.potx file, build the deck with that type or skill instead; this skill remains the right tool for producing .pptx files and for reading, editing,\u2026",
+      "when": "a .pptx or .potx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as PowerPoint (.pptx) files; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email, summary, or creating a different type of slide deck); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user asks for a PowerPoint or .pptx file, or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. However, when the user asks for a deck, slides, a slide deck, or a presentation without naming a file format, default to using a dedicated slide-deck artifact type or a separate slides skill if this session offers one; otherwise, use this skill.",
+      "raw_desc": "Use this skill any time a .pptx or .potx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as PowerPoint (.pptx) files; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email, summary, or creating a different type of slide deck); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user asks for a PowerPoint or .pptx file, or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. However, when the user asks for a deck, slides, a slide deck, or a presentation without naming a file format, default to using a dedicated slide-deck artifact type or a separate slides skill if this session offers one; otherwise, use this skill.",
       "folder": "pptx",
       "source": "anthropic",
       "source_label": "Anthropic",
