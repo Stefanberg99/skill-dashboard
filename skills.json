@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-09T06:48:24.757216Z",
-  "hash": "e59936a326d12b3c601c555aea8b368a",
+  "synced_at": "2026-09-09T07:06:32.790498Z",
+  "hash": "50ab2dcb6d6ae8edc236f85772aff583",
   "skills": [
     {
       "name": "agent-builder",
@@ -1585,6 +1585,18 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Productivity"
+    },
+    {
+      "name": "setup-claude",
+      "what": "Guided setup \u2014 install role-matched plugins, connect your tools, try a skill.",
+      "when": "",
+      "raw_desc": "Guided setup \u2014 install role-matched plugins, connect your tools, try a skill.",
+      "folder": "setup-claude",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-09-09T07:06:32.790498Z",
+      "category": "Other"
     },
     {
       "name": "setup-cowork",
