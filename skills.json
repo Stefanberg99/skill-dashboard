@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-14T14:32:18.373670Z",
-  "hash": "50ab2dcb6d6ae8edc236f85772aff583",
+  "synced_at": "2026-09-17T07:34:34.166473Z",
+  "hash": "f349b442c2b4eaea3067189965118f71",
   "skills": [
     {
       "name": "agent-builder",
@@ -1479,10 +1479,22 @@
       "category": "Video"
     },
     {
+      "name": "docs",
+      "what": "docs (living docs people share, comment on and edit;",
+      "when": "the user asks for one: names a doc, document, page, memo, spec, PRD, runbook or write-up, asks for somewhere to share or keep editing something, or says yes to your doc offer; a plan, comparison, summary or notes asked in chat stays in chat (at most a one-line doc offer); a report, status update, recap or \"something I can send them\" with no form named \u2192 ask first: reply, doc or file?; tabs hold tables and live charts too; a pasted claude.ai/code/artifact/\u2026 link may be a doc: check with docs tools first; not HTML pages, apps or plain chat answers; a .docx/.pptx/.xlsx/PDF asked for by name \u2192 that format''s skill): asked for one \u2192 no docs-connector instructions in context? call the docs connector''s `guide` with topic.instructions first, then create the doc (headings only, no body) before any search, file read or plan, even with files attached. Documenting code means docstrings or repo docs, not a doc.",
+      "raw_desc": "docs (living docs people share, comment on and edit; use only when the user asks for one: names a doc, document, page, memo, spec, PRD, runbook or write-up, asks for somewhere to share or keep editing something, or says yes to your doc offer; a plan, comparison, summary or notes asked in chat stays in chat (at most a one-line doc offer); a report, status update, recap or \"something I can send them\" with no form named \u2192 ask first: reply, doc or file?; tabs hold tables and live charts too; a pasted claude.ai/code/artifact/\u2026 link may be a doc: check with docs tools first; not HTML pages, apps or plain chat answers; a .docx/.pptx/.xlsx/PDF asked for by name \u2192 that format''s skill): asked for one \u2192 no docs-connector instructions in context? call the docs connector''s `guide` with topic.instructions first, then create the doc (headings only, no body) before any search, file read or plan, even with files attached. Documenting code means docstrings or repo docs, not a doc.",
+      "folder": "docs",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-09-17T07:34:34.166473Z",
+      "category": "Documents"
+    },
+    {
       "name": "docx",
       "what": "A .docx is a ZIP archive of XML files. Choose your approach by task:",
-      "when": "extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers a dedicated document or page skill or connector, use that instead. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
-      "raw_desc": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers a dedicated document or page skill or connector, use that instead. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
+      "when": "extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers Claude's own dedicated document or page skill or connector, use that instead. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
+      "raw_desc": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers Claude's own dedicated document or page skill or connector, use that instead. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
       "folder": "docx",
       "source": "anthropic",
       "source_label": "Anthropic",
