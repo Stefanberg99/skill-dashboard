@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-17T07:34:34.166473Z",
-  "hash": "f349b442c2b4eaea3067189965118f71",
+  "synced_at": "2026-09-22T12:47:07.141646Z",
+  "hash": "0295f861abd02fa833687ef007f728ac",
   "skills": [
     {
       "name": "agent-builder",
@@ -87,6 +87,18 @@
       "category": "Video"
     },
     {
+      "name": "canopy-part-title",
+      "what": "Leaves sweep through the frame and part to reveal the headline. HyperFrames block, 1920\u00d71080, 12s, 11 variables.",
+      "when": "",
+      "raw_desc": "Leaves sweep through the frame and part to reveal the headline. HyperFrames block, 1920\u00d71080, 12s, 11 variables.",
+      "folder": "canopy-part-title",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Design"
+    },
+    {
       "name": "capture",
       "what": "Turn a standalone visual (infographic, framework diagram, chart, screenshot, mood-board image) into a processed Learning Library entry with Stefan's own take attached",
       "when": "Stefan says \"/capture\", \"capture this visual\", \"save this infographic\", \"process this image\", \"add this visual to my library\", drops image file(s) with intent to keep them, or wants to import a visuals folder from Google Drive (\"import my Chase Hughes visuals\", \"batch import from Drive\"). NOT for generating new images (that's nano-banana-images / educational-infographics) and NOT for registering finished HTML outputs (that's /gallery add). mymind stays his quick-capture inbox; /capture is where a visual gets PROCESSED \u2014 understood, annotated with his take, made findable and recallable.",
@@ -135,6 +147,18 @@
       "category": "AI & Agents"
     },
     {
+      "name": "code-slice-hero",
+      "what": "A tiled headline surface flips cell by cell under a sweeping depth field to reveal the rear headline. HyperFrames block, 1920\u00d71080, 8s, 18 variables.",
+      "when": "",
+      "raw_desc": "A tiled headline surface flips cell by cell under a sweeping depth field to reveal the rear headline. HyperFrames block, 1920\u00d71080, 8s, 18 variables.",
+      "folder": "code-slice-hero",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Coding"
+    },
+    {
       "name": "competitive-ads-extractor",
       "what": "Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns.",
       "when": "",
@@ -181,6 +205,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "cuboid-carousel",
+      "what": "A chain of bevelled cuboids rides a travelling wave as a content carousel. HyperFrames block, 1920\u00d71080, 6.666666666666667s, 40 variables.",
+      "when": "",
+      "raw_desc": "A chain of bevelled cuboids rides a travelling wave as a content carousel. HyperFrames block, 1920\u00d71080, 6.666666666666667s, 40 variables.",
+      "folder": "cuboid-carousel",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Writing"
     },
     {
       "name": "debrief",
@@ -291,6 +327,18 @@
       "category": "Research"
     },
     {
+      "name": "embedded-captions",
+      "what": "Add captions or subtitles to an existing single-subject talking-head video without editing the footage. Use for plain verbatim captions, cinematic captions embedded behind the subject, VFX captions, \u201c\u70b8/\u7279\u6548/\u9177\u70ab\u5b57\u5e55,\u201d or a named identity from the 35-style catalog. Route by visual identity, not by backend engine. The quiet `anchor` rail is the default; embed every word only when the user explicitly wants a fully cinematic treatment. The workflow runs locally end to end, including transcription and subject matting; split multi-shot footage before applying it.",
+      "when": "",
+      "raw_desc": "Add captions or subtitles to an existing single-subject talking-head video without editing the footage. Use for plain verbatim captions, cinematic captions embedded behind the subject, VFX captions, \u201c\u70b8/\u7279\u6548/\u9177\u70ab\u5b57\u5e55,\u201d or a named identity from the 35-style catalog. Route by visual identity, not by backend engine. The quiet `anchor` rail is the default; embed every word only when the user explicitly wants a fully cinematic treatment. The workflow runs locally end to end, including transcription and subject matting; split multi-shot footage before applying it.",
+      "folder": "embedded-captions",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
       "name": "emil-design-eng",
       "what": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
       "when": "",
@@ -339,6 +387,30 @@
       "category": "Memory"
     },
     {
+      "name": "faceless-explainer",
+      "what": "Turn arbitrary text \u2014 an article, notes, a topic, a brief \u2014 into a faceless explainer video: there is no site or footage to capture, so the visuals are invented per scene (typography, abstract graphics, diagrams, data-viz). Use for topic explainers, concept breakdowns, how-tos, listicles. Not a video built from a website (/product-launch-video \u2014 promo or tour). Unclear \u2192 /hyperframes.",
+      "when": "",
+      "raw_desc": "Turn arbitrary text \u2014 an article, notes, a topic, a brief \u2014 into a faceless explainer video: there is no site or footage to capture, so the visuals are invented per scene (typography, abstract graphics, diagrams, data-viz). Use for topic explainers, concept breakdowns, how-tos, listicles. Not a video built from a website (/product-launch-video \u2014 promo or tour). Unclear \u2192 /hyperframes.",
+      "folder": "faceless-explainer",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "figma",
+      "what": "Import Figma content into a HyperFrames composition \u2014 rendered assets, brand tokens, components, storyboard sections \u2192 reconstructed motion (frames read as states, not slides) (REST/CLI), connector-assisted motion when available, and shaders from a connector or native export",
+      "when": "the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.",
+      "raw_desc": "Import Figma content into a HyperFrames composition \u2014 rendered assets, brand tokens, components, storyboard sections \u2192 reconstructed motion (frames read as states, not slides) (REST/CLI), connector-assisted motion when available, and shaders from a connector or native export. Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.",
+      "folder": "figma",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
       "name": "figma-extract",
       "what": "Pull a Figma file's node tree, design tokens, and embedded assets into the project cwd as a structured snapshot.",
       "when": "",
@@ -375,6 +447,18 @@
       "category": "AI & Agents"
     },
     {
+      "name": "frost-sequence-camera-orbit",
+      "what": "An orbiting camera follows an ice logo as it breaks apart, reforms into two text moments, and fades. HyperFrames block, 1920\u00d71080, 22.5s, 216 variables.",
+      "when": "",
+      "raw_desc": "An orbiting camera follows an ice logo as it breaks apart, reforms into two text moments, and fades. HyperFrames block, 1920\u00d71080, 22.5s, 216 variables.",
+      "folder": "frost-sequence-camera-orbit",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Design"
+    },
+    {
       "name": "gallery",
       "what": "Manages Stefan's Learning Library at ~/Outputs/ \u2014 one home for every artifact he generates and every source he processes (guides, research papers, book/course living entries, visuals, infographics, images, apps). Each entry is a flat top-level folder ~/Outputs/<slug>/ with its files plus a meta.json.",
       "when": "Stefan wants to see, build, refresh, or add to his Learning Library (formerly the output gallery) \u2014 the library of everything he generates and learns from (websites, guides, research papers, books, courses, visuals, infographics, images). Triggers on \"/gallery\", \"open my gallery\", \"open my library\", \"show my outputs\", \"add this to the gallery\", \"refresh the gallery\", \"categorize my pages\", \"update\", \"update my library\", \"log reading: a book + minutes\". The library lives at ~/Outputs/ and is browsable as a filterable visual index by shelf.",
@@ -385,6 +469,30 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T19:31:22.045810Z",
       "category": "Research"
+    },
+    {
+      "name": "general-video",
+      "what": "Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.",
+      "when": "",
+      "raw_desc": "Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.",
+      "folder": "general-video",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "glass-shard-title",
+      "what": "Glass shards fly in through fog and tile themselves into the headline. HyperFrames block, 1920\u00d71080, 12.16s, 19 variables.",
+      "when": "",
+      "raw_desc": "Glass shards fly in through fog and tile themselves into the headline. HyperFrames block, 1920\u00d71080, 12.16s, 19 variables.",
+      "folder": "glass-shard-title",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Other"
     },
     {
       "name": "goal-best-practices",
@@ -433,6 +541,114 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-08T13:06:56.819675Z",
       "category": "Deploy"
+    },
+    {
+      "name": "hyperframes",
+      "what": "Mandatory entry point: read this first for any request to make, create, edit, animate, or render a video, animation, or motion graphic, including a promo, explainer, captioned clip, title card, overlay, slideshow or interactive deck, Remotion port, or any HyperFrames HTML composition. Also use it to inspect, diagnose, validate, preview, publish, or batch-render an existing HyperFrames project. Inputs may be a website URL, GitHub PR, Figma design or URL, text or brief, existing footage, or music. It resumes project state, captures intent when applicable, selects and installs the owning workflow, and routes domain capabilities. HyperFrames is the default output framework unless the user explicitly chooses another framework for the deliverable or asks only to record a browser session.",
+      "when": "",
+      "raw_desc": "Mandatory entry point: read this first for any request to make, create, edit, animate, or render a video, animation, or motion graphic, including a promo, explainer, captioned clip, title card, overlay, slideshow or interactive deck, Remotion port, or any HyperFrames HTML composition. Also use it to inspect, diagnose, validate, preview, publish, or batch-render an existing HyperFrames project. Inputs may be a website URL, GitHub PR, Figma design or URL, text or brief, existing footage, or music. It resumes project state, captures intent when applicable, selects and installs the owning workflow, and routes domain capabilities. HyperFrames is the default output framework unless the user explicitly chooses another framework for the deliverable or asks only to record a browser session.",
+      "folder": "hyperframes",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "hyperframes-animation",
+      "what": "All animation knowledge for HyperFrames \u2014 atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). Also covers auditing an existing composition's choreography (animation map) and 24 named text-animation effects. HyperFrames-native: single paused timeline, seek-safe, deterministic.",
+      "when": "",
+      "raw_desc": "All animation knowledge for HyperFrames \u2014 atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). Also covers auditing an existing composition's choreography (animation map) and 24 named text-animation effects. HyperFrames-native: single paused timeline, seek-safe, deterministic.",
+      "folder": "hyperframes-animation",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Memory"
+    },
+    {
+      "name": "hyperframes-audio",
+      "what": "A mix is a set of relationships, not a stack of processors. Two tracks that each sound right alone can be unlistenable together, and the fix is almost never \"turn one down\" \u2014 it is finding what they are fighting over and giving it to whichever one needs it. Every tool here exists to express one of those relationships.",
+      "when": "audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), automation envelopes drawn on a track's volume or any effect parameter, or one submix bus carrying a chain, a fader and an automation clock for several tracks at once (`<hf-audio-group>`). Don't use for sourcing or generating audio \u2014 finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`.",
+      "raw_desc": "Use when audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), automation envelopes drawn on a track's volume or any effect parameter, or one submix bus carrying a chain, a fader and an automation clock for several tracks at once (`<hf-audio-group>`). Don't use for sourcing or generating audio \u2014 finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`.",
+      "folder": "hyperframes-audio",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "hyperframes-cli",
+      "what": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, timeline, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also",
+      "when": "diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
+      "raw_desc": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, timeline, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also use when diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
+      "folder": "hyperframes-cli",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Deploy"
+    },
+    {
+      "name": "hyperframes-core",
+      "what": "The HyperFrames composition contract \u2014 build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Read before writing composition HTML.",
+      "when": "",
+      "raw_desc": "The HyperFrames composition contract \u2014 build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Read before writing composition HTML.",
+      "folder": "hyperframes-core",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "hyperframes-creative",
+      "what": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
+      "when": "",
+      "raw_desc": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
+      "folder": "hyperframes-creative",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "hyperframes-keyframes",
+      "what": "Keyframes are a pose contract: visible states, continuous subject identity, seek-safe runtime, verified pixels.",
+      "when": "a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
+      "raw_desc": "Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
+      "folder": "hyperframes-keyframes",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "hyperframes-registry",
+      "what": "Search, install, and wire registry blocks and components into HyperFrames compositions. Use BEFORE hand-building any named visual \u2014 whenever a brief, a user, or a storyboard names a look, effect, treatment, or transition such as CRT scanlines, glitch, chromatic aberration, film grain, a shimmer sweep, a chart, a code or terminal window, a map, or a confetti burst \u2014 because roughly 400 hosted items already cover many of them and the search ranks all of them with nothing installed, no project, and no account. Also",
+      "when": "running hyperframes add or hyperframes catalog, installing one item or every block matching a tag, wiring an installed item into index.html, or working with hyperframes.json. Covers discovery, install locations, block sub-composition wiring, component snippet merging, and authoring a new block or component to contribute upstream (idea \u2192 scaffold \u2192 validate \u2192 PR).",
+      "raw_desc": "Search, install, and wire registry blocks and components into HyperFrames compositions. Use BEFORE hand-building any named visual \u2014 whenever a brief, a user, or a storyboard names a look, effect, treatment, or transition such as CRT scanlines, glitch, chromatic aberration, film grain, a shimmer sweep, a chart, a code or terminal window, a map, or a confetti burst \u2014 because roughly 400 hosted items already cover many of them and the search ranks all of them with nothing installed, no project, and no account. Also use when running hyperframes add or hyperframes catalog, installing one item or every block matching a tag, wiring an installed item into index.html, or working with hyperframes.json. Covers discovery, install locations, block sub-composition wiring, component snippet merging, and authoring a new block or component to contribute upstream (idea \u2192 scaffold \u2192 validate \u2192 PR).",
+      "folder": "hyperframes-registry",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Design"
+    },
+    {
+      "name": "hyperframes-studio",
+      "what": "Studio draws one timeline row per top-level element. A project that follows the rules below opens as a short, readable timeline; one that does not opens as a wall of unlabeled rows the user cannot edit. These are conventions for what to build. For how to change a clip, follow /hyperframes-core\u2026",
+      "when": "building or editing a HyperFrames project that people open in Studio: how the timeline should be laid out so it reads well (one caption track, one element kind per track, every scene a sub-composition) and where captions and key content may sit (safe zones). Don't use for how to perform an individual edit (split, trim, retime, volume, copy, swap): that is `creator-editing-recipes.md` in `/hyperframes-core`.",
+      "raw_desc": "Use when building or editing a HyperFrames project that people open in Studio: how the timeline should be laid out so it reads well (one caption track, one element kind per track, every scene a sub-composition) and where captions and key content may sit (safe zones). Don't use for how to perform an individual edit (split, trim, retime, volume, copy, swap): that is `creator-editing-recipes.md` in `/hyperframes-core`.",
+      "folder": "hyperframes-studio",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
     },
     {
       "name": "idea-engine",
@@ -555,6 +771,18 @@
       "category": "AI & Agents"
     },
     {
+      "name": "media-use",
+      "what": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LUT into a frozen local file or paste-ready block + ledger record (one verb, `resolve`); generate via TTS / music / image models when the catalog misses; produce voiceover, transcription, captions, and background removal through one shared audio engine; operate on media (cut / reframe / transform); and reuse assets across projects. Also use for vague feedback that real footage looks dark, flat, boring, should feel retro/camcorder/print/ASCII, needs privacy, or needs a media reveal.",
+      "when": "",
+      "raw_desc": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LUT into a frozen local file or paste-ready block + ledger record (one verb, `resolve`); generate via TTS / music / image models when the catalog misses; produce voiceover, transcription, captions, and background removal through one shared audio engine; operate on media (cut / reframe / transform); and reuse assets across projects. Also use for vague feedback that real footage looks dark, flat, boring, should feel retro/camcorder/print/ASCII, needs privacy, or needs a media reveal.",
+      "folder": "media-use",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
       "name": "mediabunny",
       "what": "Multimedia handling with the Mediabunny library",
       "when": "",
@@ -625,6 +853,30 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-07T17:48:04.417128Z",
       "category": "Coding"
+    },
+    {
+      "name": "motion-graphics",
+      "what": "A short, design-led motion graphic where motion is the message \u2014 kinetic typography, stat count-up, chart/data-viz hit, logo sting / brand lockup, lower-third / callout / social overlay, animated map (highlight regions, connect places, zoom to a location), animated tweet / news-article / headline, webpage / UI animation (scroll, cursor, callouts), or fusing a real image's geometry into a chart. Usually under 10s (up to ~30s), no narration or live-action subject; renders to MP4 or transparent overlay. Longer / narrated / multi-scene \u2192 /general-video. Unclear \u2192 /hyperframes.",
+      "when": "",
+      "raw_desc": "A short, design-led motion graphic where motion is the message \u2014 kinetic typography, stat count-up, chart/data-viz hit, logo sting / brand lockup, lower-third / callout / social overlay, animated map (highlight regions, connect places, zoom to a location), animated tweet / news-article / headline, webpage / UI animation (scroll, cursor, callouts), or fusing a real image's geometry into a chart. Usually under 10s (up to ~30s), no narration or live-action subject; renders to MP4 or transparent overlay. Longer / narrated / multi-scene \u2192 /general-video. Unclear \u2192 /hyperframes.",
+      "folder": "motion-graphics",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "music-to-video",
+      "what": "Turn a music track (an audio file, a video to pull audio from, or a track generated from a mood brief) into a beat-synced video \u2014 lyric video, slideshow, or kinetic promo. The music drives all pacing; any user-supplied images/videos are cut onto the same beat grid, and a complete video needs zero assets. Narrated pieces \u2192 the input-matched workflow (see /hyperframes). Unclear \u2192 /hyperframes.",
+      "when": "",
+      "raw_desc": "Turn a music track (an audio file, a video to pull audio from, or a track generated from a mood brief) into a beat-synced video \u2014 lyric video, slideshow, or kinetic promo. The music drives all pacing; any user-supplied images/videos are cut onto the same beat grid, and a complete video needs zero assets. Narrated pieces \u2192 the input-matched workflow (see /hyperframes). Unclear \u2192 /hyperframes.",
+      "folder": "music-to-video",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
     },
     {
       "name": "n8n-code-javascript",
@@ -795,6 +1047,18 @@
       "category": "Other"
     },
     {
+      "name": "orbit-card",
+      "what": "A single feature card orbits a dot sphere on approved Blender camera motion. HyperFrames block, 1920\u00d71080, 10s, 4 variables.",
+      "when": "",
+      "raw_desc": "A single feature card orbits a dot sphere on approved Blender camera motion. HyperFrames block, 1920\u00d71080, 10s, 4 variables.",
+      "folder": "orbit-card",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Other"
+    },
+    {
       "name": "os-audit",
       "what": "Your operating manual, indexes, and wikis are claims about what exists and what's current. This audit checks every claim against reality. Structure problems are loud; freshness problems are silent. When people say \"my agent keeps forgetting things,\" it's usually the agent faithfully reading a frozen index.",
       "when": "someone asks to run an OS audit, check their AIOS for stale or outdated data, verify routing points at things that actually exist, find duplicate or bloated folders, clean up or organize their project, check for context failure modes (poisoning, bloat, confusion, clash), or says \"os audit\", \"is my setup stale\", \"run a data audit\", \"my project root is a mess\", or \"my agent keeps missing things that are there\". Read-only drift, freshness, and organization audit of the current project.",
@@ -891,6 +1155,18 @@
       "category": "Research"
     },
     {
+      "name": "pr-to-video",
+      "what": "Turn a GitHub pull request (a PR URL, owner/repo#N, or 'this PR' in a checked-out repo) into a code-change explainer video \u2014 changelog, feature reveal, fix, or refactor walkthrough built from the diff, commits, and files: the input is a code change, not a website. Not a product promo (/product-launch-video) or a no-PR topic explainer (/faceless-explainer). Unclear \u2192 /hyperframes.",
+      "when": "",
+      "raw_desc": "Turn a GitHub pull request (a PR URL, owner/repo#N, or 'this PR' in a checked-out repo) into a code-change explainer video \u2014 changelog, feature reveal, fix, or refactor walkthrough built from the diff, commits, and files: the input is a code change, not a website. Not a product promo (/product-launch-video) or a no-PR topic explainer (/faceless-explainer). Unclear \u2192 /hyperframes.",
+      "folder": "pr-to-video",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
       "name": "process-source",
       "what": "MERGED into /learn on 2026-07-04 \u2014 kept only as a redirect. The pipeline now runs as /learn Branch D (\"process this\", \"run this through the system\", \"add this to the vault\"). This folder's reference/, scripts/, and templates/ remain the canonical shared assets, read by /learn and /weekly.",
       "when": "",
@@ -901,6 +1177,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T17:23:19.728473Z",
       "category": "Memory"
+    },
+    {
+      "name": "product-launch-video",
+      "what": "Turn a product or marketing URL, pasted script, or brief into a product launch / promo video \u2014 SaaS promos, feature reveals, product demos, app and company launches",
+      "when": "the user wants to market, launch, promote, or reveal a product; the default for any commercial URL. Site tours / showcases of a website route here too \u2014 the brief carries the show-it-as-is intent. Unclear \u2192 /hyperframes.",
+      "raw_desc": "Turn a product or marketing URL, pasted script, or brief into a product launch / promo video \u2014 SaaS promos, feature reveals, product demos, app and company launches. Use when the user wants to market, launch, promote, or reveal a product; the default for any commercial URL. Site tours / showcases of a website route here too \u2014 the brief carries the show-it-as-is intent. Unclear \u2192 /hyperframes.",
+      "folder": "product-launch-video",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
     },
     {
       "name": "prompt-coach",
@@ -1047,6 +1335,18 @@
       "category": "Video"
     },
     {
+      "name": "remotion-to-hyperframes",
+      "what": "Port an existing Remotion (React) composition''s source to HyperFrames HTML. Use ONLY on an explicit ask to port/convert/migrate/translate a Remotion source \u2014 one-way, Remotion-only. A passing Remotion mention, reference-only code, or \"make something like my Remotion video\" is a fresh build (/general-video). Unclear \u2192 /hyperframes.",
+      "when": "",
+      "raw_desc": "Port an existing Remotion (React) composition''s source to HyperFrames HTML. Use ONLY on an explicit ask to port/convert/migrate/translate a Remotion source \u2014 one-way, Remotion-only. A passing Remotion mention, reference-only code, or \"make something like my Remotion video\" is a fresh build (/general-video). Unclear \u2192 /hyperframes.",
+      "folder": "remotion-to-hyperframes",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
       "name": "remotion-upgrade",
       "what": "Upgrade Remotion, its related packages, compatible Mediabunny packages, and installed Remotion Agent Skills",
       "when": "asked to upgrade or update a Remotion project.",
@@ -1155,6 +1455,18 @@
       "category": "Coding"
     },
     {
+      "name": "slideshow",
+      "what": "Author a HyperFrames slideshow \u2014 a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching, hotspot navigation, and built-in presenter mode with speaker notes; also converts an existing page into a deck. Output is a navigable deck, not a rendered MP4. If the user didn't explicitly ask for a slideshow, confirm before authoring. Unclear \u2192 /hyperframes.",
+      "when": "",
+      "raw_desc": "Author a HyperFrames slideshow \u2014 a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching, hotspot navigation, and built-in presenter mode with speaker notes; also converts an existing page into a deck. Output is a navigable deck, not a rendered MP4. If the user didn't explicitly ask for a slideshow, confirm before authoring. Unclear \u2192 /hyperframes.",
+      "folder": "slideshow",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Other"
+    },
+    {
       "name": "sop-builder",
       "what": "Turn source material (Loom or video transcripts, rough notes, an existing doc, a brain dump) into a polished, chronological SOP that a real human can follow start to finish. Every run produces three things in ~/Outputs/SOPs/<slug>/:",
       "when": "someone wants to build an SOP, turn a transcript or Loom video or rough notes into an SOP, document a process or workflow, create a standard operating procedure, or \"make this into an SOP / training doc / playbook\". Produces a chronological SOP with one diagram per part, a self-contained HTML, and a native editable Google Doc.",
@@ -1213,6 +1525,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-06T21:34:22.099274Z",
       "category": "Research"
+    },
+    {
+      "name": "talking-head-recut",
+      "what": "Package an existing talking-head / interview / podcast video with timed, designed GRAPHIC OVERLAY cards \u2014 kinetic titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture \u2014 synced to the transcript, on a 16:9 / 9:16 / 4:5 canvas of your choice; the clip plays untouched underneath. Trigger on \"graphic overlays\", \"on-screen graphics\", \"package / dress up my video\". Not plain subtitles (/embedded-captions). Unclear \u2192 /hyperframes.",
+      "when": "",
+      "raw_desc": "Package an existing talking-head / interview / podcast video with timed, designed GRAPHIC OVERLAY cards \u2014 kinetic titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture \u2014 synced to the transcript, on a 16:9 / 9:16 / 4:5 canvas of your choice; the clip plays untouched underneath. Trigger on \"graphic overlays\", \"on-screen graphics\", \"package / dress up my video\". Not plain subtitles (/embedded-captions). Unclear \u2192 /hyperframes.",
+      "folder": "talking-head-recut",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
     },
     {
       "name": "theme-factory",
@@ -1417,6 +1741,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-08-24T09:38:39.398767Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "wireframe-portal-title",
+      "what": "A wireframe portal bursts open, the title comes through, then its letters swap into a second phrase. HyperFrames block, 1920\u00d71080, 8s, 9 variables.",
+      "when": "",
+      "raw_desc": "A wireframe portal bursts open, the title comes through, then its letters swap into a second phrase. HyperFrames block, 1920\u00d71080, 8s, 9 variables.",
+      "folder": "wireframe-portal-title",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Other"
     },
     {
       "name": "wrap-up",
