@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-26T13:18:59.275021Z",
-  "hash": "6d29ae47574c2e21d78e948bcab49fbe",
+  "synced_at": "2026-09-26T13:20:07.326295Z",
+  "hash": "c39a05fc05609ef8dafe07d46f5fc01d",
   "skills": [
     {
       "name": "agent-builder",
@@ -2509,18 +2509,6 @@
       "source_color": "#64748b",
       "first_seen": "2026-09-26T03:50:55.359248Z",
       "category": "Productivity"
-    },
-    {
-      "name": "remember",
-      "what": "Save session state for clean continuation next session.",
-      "when": "",
-      "raw_desc": "Save session state for clean continuation next session.",
-      "folder": "remember",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-25T08:31:34.005208Z",
-      "category": "Other"
     },
     {
       "name": "verification",
