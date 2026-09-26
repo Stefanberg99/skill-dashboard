@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-26T13:23:31.871194Z",
-  "hash": "c014051da445fe643762ddc74635e535",
+  "synced_at": "2026-09-26T13:24:47.134888Z",
+  "hash": "c39a05fc05609ef8dafe07d46f5fc01d",
   "skills": [
     {
       "name": "agent-builder",
@@ -2427,18 +2427,6 @@
       "category": "Design"
     },
     {
-      "name": "figma-create-new-file",
-      "what": "Always",
-      "when": "the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this skill BEFORE every `create_new_file` tool call.",
-      "raw_desc": "Always use this skill when the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this skill BEFORE every `create_new_file` tool call.",
-      "folder": "figma-create-new-file",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Design"
-    },
-    {
       "name": "figma-design-to-code",
       "what": "**MANDATORY prerequisite** \u2014 you MUST invoke this skill BEFORE calling the `get_design_context` Figma MCP tool. You MUST trigger this skill whenever the user wants to implement, build, port, or code up a Figma design as code. Example prompts (not exhaustive) are 'implement this Figma design', 'build this screen from Figma', 'turn this Figma into code', 'design to code'. This skill provides critical instructions and steps to the agent on how to correctly implement Figma designs in code and must NOT be skipped.",
       "when": "",
@@ -2451,102 +2439,6 @@
       "category": "AI & Agents"
     },
     {
-      "name": "figma-generate-design",
-      "what": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code', 'convert this modal/dialog/drawer/panel to Figma'. This is the preferred workflow skill whenever the user wants to build or update a full page, modal, dialog, drawer, sidebar, panel, or any composed multi-section view in Figma from code or a description. Discovers design system components, variables, and styles from Code Connect files, existing screens, and library search, then imports them and assembles views incrementally section-by-section using design system tokens instead of hardcoded values.",
-      "when": "",
-      "raw_desc": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code', 'convert this modal/dialog/drawer/panel to Figma'. This is the preferred workflow skill whenever the user wants to build or update a full page, modal, dialog, drawer, sidebar, panel, or any composed multi-section view in Figma from code or a description. Discovers design system components, variables, and styles from Code Connect files, existing screens, and library search, then imports them and assembles views incrementally section-by-section using design system tokens instead of hardcoded values.",
-      "folder": "figma-generate-design",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Design"
-    },
-    {
-      "name": "figma-generate-diagram",
-      "what": "MANDATORY prerequisite \u2014 load this skill BEFORE every `generate_diagram` tool call. NEVER call `generate_diagram` directly without loading this skill first. Trigger whenever the user asks to create, generate, draw, render, sketch, or build a diagram \u2014 flowchart, architecture diagram, sequence diagram, ERD or entity-relationship diagram, state diagram or state machine, gantt chart, or timeline",
-      "when": "the user mentions Mermaid syntax or wants a system architecture, decision tree, dependency graph, API call flow, auth handshake, schema, or pipeline visualized in FigJam. Routes to type-specific guidance, sets universal Mermaid constraints, and tells you when to use a different diagram type or skip the tool entirely (mindmaps, pie charts, class diagrams, etc.).",
-      "raw_desc": "MANDATORY prerequisite \u2014 load this skill BEFORE every `generate_diagram` tool call. NEVER call `generate_diagram` directly without loading this skill first. Trigger whenever the user asks to create, generate, draw, render, sketch, or build a diagram \u2014 flowchart, architecture diagram, sequence diagram, ERD or entity-relationship diagram, state diagram or state machine, gantt chart, or timeline. Also trigger when the user mentions Mermaid syntax or wants a system architecture, decision tree, dependency graph, API call flow, auth handshake, schema, or pipeline visualized in FigJam. Routes to type-specific guidance, sets universal Mermaid constraints, and tells you when to use a different diagram type or skip the tool entirely (mindmaps, pie charts, class diagrams, etc.).",
-      "folder": "figma-generate-diagram",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Design"
-    },
-    {
-      "name": "figma-generate-library",
-      "what": "Build or update a professional-grade design system in Figma from a codebase",
-      "when": "the user wants to create variables/tokens, build component libraries, create individual components with proper variant sets and variable bindings, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. Also use when the user asks to create or generate any component in Figma \u2014 even a single one \u2014 since components require proper variable foundations, variant states, and design token bindings to be production-quality. This skill teaches WHAT to build and in WHAT ORDER \u2014 it complements the `figma-use` skill which teaches HOW to call the Plugin API. Both skills should be loaded together.",
-      "raw_desc": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, create individual components with proper variant sets and variable bindings, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. Also use when the user asks to create or generate any component in Figma \u2014 even a single one \u2014 since components require proper variable foundations, variant states, and design token bindings to be production-quality. This skill teaches WHAT to build and in WHAT ORDER \u2014 it complements the `figma-use` skill which teaches HOW to call the Plugin API. Both skills should be loaded together.",
-      "folder": "figma-generate-library",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Deploy"
-    },
-    {
-      "name": "figma-generative-plugins",
-      "what": "**MANDATORY prerequisite** \u2014 load this skill before calling `create_generative_plugin` or `update_generative_plugin`",
-      "when": "the user asks to create, author, change, fix, or extend a reusable generative Figma plugin.",
-      "raw_desc": "**MANDATORY prerequisite** \u2014 load this skill before calling `create_generative_plugin` or `update_generative_plugin`. Use when the user asks to create, author, change, fix, or extend a reusable generative Figma plugin.",
-      "folder": "figma-generative-plugins",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Design"
-    },
-    {
-      "name": "figma-implement-motion",
-      "what": "Translates Figma motion and animations into production-ready application code",
-      "when": "implementing animation/motion from a Figma design \u2014 user mentions \"implement this motion\", \"add animation from Figma\", \"animate this component\", provides a Figma URL whose node is animated, or when `get_design_context` returns motion data or instructs you to call `get_motion_context`.",
-      "raw_desc": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion from a Figma design \u2014 user mentions \"implement this motion\", \"add animation from Figma\", \"animate this component\", provides a Figma URL whose node is animated, or when `get_design_context` returns motion data or instructs you to call `get_motion_context`.",
-      "folder": "figma-implement-motion",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Deploy"
-    },
-    {
-      "name": "figma-shaders",
-      "what": "**MANDATORY prerequisite** \u2014 load this skill before calling `create_shader` or `update_shader`",
-      "when": "the user asks to create, author, change, fix, or iterate on a shader effect, shader fill, custom effect, custom fill, or procedural shader in Figma.",
-      "raw_desc": "**MANDATORY prerequisite** \u2014 load this skill before calling `create_shader` or `update_shader`. Use when the user asks to create, author, change, fix, or iterate on a shader effect, shader fill, custom effect, custom fill, or procedural shader in Figma.",
-      "folder": "figma-shaders",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Design"
-    },
-    {
-      "name": "figma-swiftui",
-      "what": "SwiftUI \u2194 Figma translation",
-      "when": "the user mentions Swift, SwiftUI, iOS, iPhone, or iPad \u2014 in EITHER direction \u2014 translating a Figma design into SwiftUI (design \u2192 code), or pushing SwiftUI views / screens / tokens back into a Figma file (code \u2192 design). Triggers on phrases like 'implement this Figma design in SwiftUI', 'build this screen in Swift', 'push this SwiftUI view to Figma', 'mirror my Swift code in a Figma file', or whenever a Figma URL appears alongside `.swift` files / an `.xcodeproj`. Routes to a direction-specific reference doc; loads alongside `figma-use` for the code \u2192 design path.",
-      "raw_desc": "SwiftUI \u2194 Figma translation. Use whenever the user mentions Swift, SwiftUI, iOS, iPhone, or iPad \u2014 in EITHER direction \u2014 translating a Figma design into SwiftUI (design \u2192 code), or pushing SwiftUI views / screens / tokens back into a Figma file (code \u2192 design). Triggers on phrases like 'implement this Figma design in SwiftUI', 'build this screen in Swift', 'push this SwiftUI view to Figma', 'mirror my Swift code in a Figma file', or whenever a Figma URL appears alongside `.swift` files / an `.xcodeproj`. Routes to a direction-specific reference doc; loads alongside `figma-use` for the code \u2192 design path.",
-      "folder": "figma-swiftui",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Design"
-    },
-    {
-      "name": "figma-use",
-      "what": "**MANDATORY prerequisite** \u2014 you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that requires JavaScript execution in the Figma file context \u2014 e.g. create/edit/delete nodes, set up variables or tokens, build components and variants, modify auto-layout or fills, bind variables to properties, or inspect file structure programmatically.",
-      "when": "",
-      "raw_desc": "**MANDATORY prerequisite** \u2014 you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that requires JavaScript execution in the Figma file context \u2014 e.g. create/edit/delete nodes, set up variables or tokens, build components and variants, modify auto-layout or fills, bind variables to properties, or inspect file structure programmatically.",
-      "folder": "figma-use",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "Design"
-    },
-    {
       "name": "figma-use-figjam",
       "what": "This skill helps agents use Figma's use_figma MCP tool in the FigJam context. Can be used alongside figma-use which has foundational context for using the use_figma tool.",
       "when": "",
@@ -2556,30 +2448,6 @@
       "source_label": "Plugin",
       "source_color": "#64748b",
       "first_seen": "2026-09-26T03:50:55.359248Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "figma-use-motion",
-      "what": "Motion / animation context for the `use_figma` MCP tool \u2014 animating Figma nodes via manual keyframes, animation styles, easing, and timeline duration. Load alongside figma-use whenever a task involves adding, editing, or inspecting animation on a node.",
-      "when": "",
-      "raw_desc": "Motion / animation context for the `use_figma` MCP tool \u2014 animating Figma nodes via manual keyframes, animation styles, easing, and timeline duration. Load alongside figma-use whenever a task involves adding, editing, or inspecting animation on a node.",
-      "folder": "figma-use-motion",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "figma-use-slides",
-      "what": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has foundational context for using the use_figma tool.",
-      "when": "",
-      "raw_desc": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has foundational context for using the use_figma tool.",
-      "folder": "figma-use-slides",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-26T13:23:31.871194Z",
       "category": "AI & Agents"
     },
     {
@@ -2641,42 +2509,6 @@
       "source_color": "#64748b",
       "first_seen": "2026-09-26T03:50:55.359248Z",
       "category": "Productivity"
-    },
-    {
-      "name": "systematic-debugging",
-      "what": "Core principle: ALWAYS find root cause before attempting fixes. Symptom fixes are failure.",
-      "when": "encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "raw_desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "folder": "systematic-debugging",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Coding"
-    },
-    {
-      "name": "test-driven-development",
-      "what": "Write the test first. Watch it fail. Write minimal code to pass.",
-      "when": "implementing any feature or bugfix, before writing implementation code",
-      "raw_desc": "Use when implementing any feature or bugfix, before writing implementation code",
-      "folder": "test-driven-development",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Writing"
-    },
-    {
-      "name": "using-git-worktrees",
-      "what": "Ensure work happens in an isolated workspace. Prefer your platform's native worktree tools. Fall back to manual git worktrees only when no native tool is available.",
-      "when": "starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
-      "raw_desc": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
-      "folder": "using-git-worktrees",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-23T08:23:49.096935Z",
-      "category": "Other"
     },
     {
       "name": "verification",
