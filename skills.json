@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-26T16:22:54.480830Z",
-  "hash": "828d73b85fa3509ee626fd021b6a5bc8",
+  "synced_at": "2026-09-28T19:08:21.658905Z",
+  "hash": "0a31f6fbfb722ec743174f03c032b053",
   "skills": [
     {
       "name": "agent-builder",
@@ -793,18 +793,6 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-24T18:01:25.639296Z",
       "category": "Other"
-    },
-    {
-      "name": "meesterwerk-ai",
-      "what": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community",
-      "when": "the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
-      "raw_desc": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community. Activate this skill whenever the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
-      "folder": "meesterwerk-ai",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Documents"
     },
     {
       "name": "meeting-insights-analyzer",
@@ -1768,9 +1756,9 @@
     },
     {
       "name": "youtube-thumbnails",
-      "what": "Design and generate click-worthy YouTube thumbnails with Nano Banana Pro (Gemini 3 Pro Image) via the Kie.ai API \u2014 16:9, big legible hook text, styled per client from saved client profiles (KubeCraft, Meesterwerk, Charlie Morgan, or any new client captured once and reused). Trigger whenever Stefan wants a thumbnail for a video: \"make a thumbnail\", \"thumbnail for this video/transcript/script\", \"YT thumbnail\", \"youtube cover\", \"cover image for my video\", he drops a video transcript or script wanting cover art, or he wants to set up / capture a thumbnail client profile \u2014 even if he never says \"thumbnail\", as long as the image is the cover for a YouTube video. Goes straight to images: designs the strongest concept itself, confirms the ~$0.18-0.35 cost once (2 variants at ~$0.09-0.17 each), then generates. NOT for infographics or teaching visuals (educational-infographics), NOT for general photos, renders, or selfies (nano-banana-images).",
+      "what": "Design and generate click-worthy YouTube thumbnails with Nano Banana Pro \u2014 16:9 at 4K, big legible hook text, styled per client from saved profiles (KubeCraft, Meesterwerk, Charlie Morgan, any new client). Restage mode (KubeCraft default) edits the client's real thumbnail photos on Higgsfield so the face is never generated; generate mode uses Kie.ai. Trigger whenever Stefan wants a thumbnail for a video: \"make a thumbnail\", \"thumbnail for this video/transcript/script\", \"YT thumbnail\", \"youtube cover\", \"cover image for my video\", \"make the thumbnail lighter / more pop\", he drops a video transcript or script wanting cover art, or he wants to set up / capture a thumbnail client profile \u2014 even if he never says \"thumbnail\", as long as the image is the cover for a YouTube video. Designs the strongest concepts itself, confirms the cost once, then generates. NOT for infographics or teaching visuals (educational-infographics), NOT for general photos, renders, or selfies (nano-banana-images).",
       "when": "",
-      "raw_desc": "Design and generate click-worthy YouTube thumbnails with Nano Banana Pro (Gemini 3 Pro Image) via the Kie.ai API \u2014 16:9, big legible hook text, styled per client from saved client profiles (KubeCraft, Meesterwerk, Charlie Morgan, or any new client captured once and reused). Trigger whenever Stefan wants a thumbnail for a video: \"make a thumbnail\", \"thumbnail for this video/transcript/script\", \"YT thumbnail\", \"youtube cover\", \"cover image for my video\", he drops a video transcript or script wanting cover art, or he wants to set up / capture a thumbnail client profile \u2014 even if he never says \"thumbnail\", as long as the image is the cover for a YouTube video. Goes straight to images: designs the strongest concept itself, confirms the ~$0.18-0.35 cost once (2 variants at ~$0.09-0.17 each), then generates. NOT for infographics or teaching visuals (educational-infographics), NOT for general photos, renders, or selfies (nano-banana-images).",
+      "raw_desc": "Design and generate click-worthy YouTube thumbnails with Nano Banana Pro \u2014 16:9 at 4K, big legible hook text, styled per client from saved profiles (KubeCraft, Meesterwerk, Charlie Morgan, any new client). Restage mode (KubeCraft default) edits the client's real thumbnail photos on Higgsfield so the face is never generated; generate mode uses Kie.ai. Trigger whenever Stefan wants a thumbnail for a video: \"make a thumbnail\", \"thumbnail for this video/transcript/script\", \"YT thumbnail\", \"youtube cover\", \"cover image for my video\", \"make the thumbnail lighter / more pop\", he drops a video transcript or script wanting cover art, or he wants to set up / capture a thumbnail client profile \u2014 even if he never says \"thumbnail\", as long as the image is the cover for a YouTube video. Designs the strongest concepts itself, confirms the cost once, then generates. NOT for infographics or teaching visuals (educational-infographics), NOT for general photos, renders, or selfies (nano-banana-images).",
       "folder": "youtube-thumbnails",
       "source": "personal",
       "source_label": "Your Skills",
@@ -1933,6 +1921,18 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-07-10T08:50:17.088465Z",
       "category": "Other"
+    },
+    {
+      "name": "meesterwerk-ai",
+      "what": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community",
+      "when": "the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
+      "raw_desc": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community. Activate this skill whenever the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
+      "folder": "meesterwerk-ai",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "morning",
