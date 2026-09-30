@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-30T06:13:16.733182Z",
-  "hash": "3018478bcbc0bd96c5f0fe6394f1c7c4",
+  "synced_at": "2026-09-30T18:14:40.954143Z",
+  "hash": "73d8f4c23de26dc64693c35544b168ae",
   "skills": [
     {
       "name": "agent-builder",
@@ -1840,9 +1840,9 @@
     },
     {
       "name": "docs",
-      "what": "docs (living docs people share, comment on and edit;",
-      "when": "the user asks for one: names a doc, document, page, memo, spec, PRD, runbook or write-up, asks for somewhere to share or keep editing something, or says yes to your doc offer; a plan, comparison, summary or notes asked in chat stays in chat (at most a one-line doc offer); a report, status update, recap or \"something I can send them\" with no form named \u2192 ask first: reply, doc or file?; tabs hold tables and live charts too; a pasted claude.ai/code/artifact/\u2026 link may be a doc: check with docs tools first; not HTML pages, apps or plain chat answers; a .docx/.pptx/.xlsx/PDF asked for by name \u2192 that format''s skill): asked for one \u2192 no docs-connector instructions in context? call the docs connector''s `guide` with topic.instructions first, then create the doc (headings only, no body) before any search, file read or plan, even with files attached. Documenting code means docstrings or repo docs, not a doc.",
-      "raw_desc": "docs (living docs people share, comment on and edit; use only when the user asks for one: names a doc, document, page, memo, spec, PRD, runbook or write-up, asks for somewhere to share or keep editing something, or says yes to your doc offer; a plan, comparison, summary or notes asked in chat stays in chat (at most a one-line doc offer); a report, status update, recap or \"something I can send them\" with no form named \u2192 ask first: reply, doc or file?; tabs hold tables and live charts too; a pasted claude.ai/code/artifact/\u2026 link may be a doc: check with docs tools first; not HTML pages, apps or plain chat answers; a .docx/.pptx/.xlsx/PDF asked for by name \u2192 that format''s skill): asked for one \u2192 no docs-connector instructions in context? call the docs connector''s `guide` with topic.instructions first, then create the doc (headings only, no body) before any search, file read or plan, even with files attached. Documenting code means docstrings or repo docs, not a doc.",
+      "what": "docs (editable docs people share and comment on; the default for any document, named as a doc or not: a document, report, proposal, resume, cover letter, letter, contract, policy, form, template, worksheet, essay, handbook, guide, how-to, cheat sheet, SOP or other writing to keep, share, collaborate on, send, submit, print or sign; a doc exports to Word, PDF, Markdown or Google Docs, so needing a file to send, attach, upload, submit or print is no reason to pick Word, and a file nobody asked for is a doc, not Word; a plan, comparison, summary or notes asked in chat stays in chat; a pasted claude.ai artifact link may be a doc: check with docs tools first; Word or another file format named, tracked changes wanted, or a .docx to change or use as a template \u2192 that format''s skill): making one \u2192 if no docs-connector instructions are in context, call its `guide` (topic.instructions) first; then create the doc (headings only, no body) before any search, file read or plan, even with files attached.",
+      "when": "",
+      "raw_desc": "docs (editable docs people share and comment on; the default for any document, named as a doc or not: a document, report, proposal, resume, cover letter, letter, contract, policy, form, template, worksheet, essay, handbook, guide, how-to, cheat sheet, SOP or other writing to keep, share, collaborate on, send, submit, print or sign; a doc exports to Word, PDF, Markdown or Google Docs, so needing a file to send, attach, upload, submit or print is no reason to pick Word, and a file nobody asked for is a doc, not Word; a plan, comparison, summary or notes asked in chat stays in chat; a pasted claude.ai artifact link may be a doc: check with docs tools first; Word or another file format named, tracked changes wanted, or a .docx to change or use as a template \u2192 that format''s skill): making one \u2192 if no docs-connector instructions are in context, call its `guide` (topic.instructions) first; then create the doc (headings only, no body) before any search, file read or plan, even with files attached.",
       "folder": "docs",
       "source": "anthropic",
       "source_label": "Anthropic",
@@ -1852,7 +1852,7 @@
     },
     {
       "name": "docx",
-      "what": "A .docx is a ZIP archive of XML files. Choose your approach by task:",
+      "what": "If you are about to make a new document and this session offers Claude's own docs (a Docs connector, docs skill or Docs artifact type), and the user has neither named Word/.docx/.dotx, asked for tracked changes, nor supplied a .docx/.dotx file to change or use as a template, make the document there instead. It exports\u2026",
       "when": "extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers Claude's own dedicated document or page skill or connector, use that instead, even if they will email or print it. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
       "raw_desc": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of Microsoft Word Documents, such as 'Word doc', 'word document', '.docx', '.dotx', 'microsoft doc'. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers Claude's own dedicated document or page skill or connector, use that instead, even if they will email or print it. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
       "folder": "docx",
@@ -2389,6 +2389,42 @@
       "source_color": "#64748b",
       "first_seen": "2026-09-03T07:01:49.638145Z",
       "category": "Writing"
+    },
+    {
+      "name": "claimable-cloud",
+      "what": "Provision a working Cloudinary cloud with no signup (a Claimable Cloud) when the user wants to build with Cloudinary but has no credentials",
+      "when": "a Cloudinary task such as an upload, transformation or SDK setup can't proceed because no CLOUDINARY_URL or API credentials are available. Do not use when working credentials already exist.",
+      "raw_desc": "Provision a working Cloudinary cloud with no signup (a Claimable Cloud) when the user wants to build with Cloudinary but has no credentials. Use when a Cloudinary task such as an upload, transformation or SDK setup can't proceed because no CLOUDINARY_URL or API credentials are available. Do not use when working credentials already exist.",
+      "folder": "claimable-cloud",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-09-30T18:14:40.954143Z",
+      "category": "Coding"
+    },
+    {
+      "name": "cloudinary-docs",
+      "what": "Looks up implementation details in the latest Cloudinary docs via the relevant llms.txt file",
+      "when": "building code or answering questions relating to image or video uploads, management, SDKs, APIs, webhooks, or integrations. For topics covered by a specialized Cloudinary skill, prefer that skill. Use this skill alongside it when the full use-case requires capabilities outside that skill's scope.",
+      "raw_desc": "Looks up implementation details in the latest Cloudinary docs via the relevant llms.txt file. Use when building code or answering questions relating to image or video uploads, management, SDKs, APIs, webhooks, or integrations. For topics covered by a specialized Cloudinary skill, prefer that skill. Use this skill alongside it when the full use-case requires capabilities outside that skill's scope.",
+      "folder": "cloudinary-docs",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-09-30T18:14:40.954143Z",
+      "category": "Video"
+    },
+    {
+      "name": "cloudinary-transformations",
+      "what": "Create and debug Cloudinary transformation URLs from natural language instructions",
+      "when": "building Cloudinary delivery URLs, applying image/video transformations, optimizing media, or debugging transformation syntax errors.",
+      "raw_desc": "Create and debug Cloudinary transformation URLs from natural language instructions. Use when building Cloudinary delivery URLs, applying image/video transformations, optimizing media, or debugging transformation syntax errors.",
+      "folder": "cloudinary-transformations",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-09-30T18:14:40.954143Z",
+      "category": "Video"
     },
     {
       "name": "create-a-backend",
