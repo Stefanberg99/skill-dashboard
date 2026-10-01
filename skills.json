@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-30T18:14:40.954143Z",
-  "hash": "73d8f4c23de26dc64693c35544b168ae",
+  "synced_at": "2026-10-01T14:37:40.866075Z",
+  "hash": "c26fc07c418103b87ca264bbbaf42895",
   "skills": [
     {
       "name": "agent-builder",
@@ -445,6 +445,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-24T18:01:25.639296Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "first-principles",
+      "what": "Break a thing down to what is true, keep zooming until the next piece is easy, then build back up. The sentence Stefan should be able to say back: **\"Break it down until it's easy, check every piece is true, rebuild from the true pieces.\"**",
+      "when": "Stefan wants to think from first principles or break something down until the next step is easy to work on, for a goal, a skill, a business, a person, a problem, or a cost or limit everyone treats as fixed. Fires on \"first principles\", \"break this down\", \"break it down\", \"what is this made of\", \"reason it up from the bottom\", \"reverse-engineer this goal\", \"why is this so expensive\", \"this feels too big\", \"where do I even start\". Draws the parts, marks each one true or assumed, zooms into one branch until it is workable, rebuilds from the true parts, and ends with one move. NOT for choosing between options (that is /decide).",
+      "raw_desc": "Use when Stefan wants to think from first principles or break something down until the next step is easy to work on, for a goal, a skill, a business, a person, a problem, or a cost or limit everyone treats as fixed. Fires on \"first principles\", \"break this down\", \"break it down\", \"what is this made of\", \"reason it up from the bottom\", \"reverse-engineer this goal\", \"why is this so expensive\", \"this feels too big\", \"where do I even start\". Draws the parts, marks each one true or assumed, zooms into one branch until it is workable, rebuilds from the true parts, and ends with one move. NOT for choosing between options (that is /decide).",
+      "folder": "first-principles",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-01T14:37:40.866075Z",
+      "category": "Design"
     },
     {
       "name": "frost-sequence-camera-orbit",
