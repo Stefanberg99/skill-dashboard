@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-05T08:44:20.615882Z",
-  "hash": "76d91848727a65e4e963d2f4d9db624c",
+  "synced_at": "2026-10-05T08:46:25.132830Z",
+  "hash": "aacc58421aa8181bf2abfe6d41618241",
   "skills": [
     {
       "name": "agent-builder",
@@ -73,6 +73,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T13:40:27.067126Z",
       "category": "Memory"
+    },
+    {
+      "name": "binary-thinking",
+      "what": "His note 07 Toolbox/See/Binary Thinking.md, Charlie Morgan's *Polarity Paradoxes (Non-Binary Thinking)*, and the binary pages of his Paradigm doc:",
+      "when": "Stefan has boxed himself into one side - of a trait (\"I'm just an introvert\"), a rule (\"always do X\"), or an either/or choice (\"quantity or quality\"). Fires on \"binary thinking\", \"non-binary thinking\", \"polarity\", \"both and\", \"either or\", \"I'm just a ... person\", \"which side should I pick\", \"it depends\", \"spectrum thinking\", \"I'm stuck between two\". Interviews him one question at a time through his Binary Thinking note and Charlie Morgan's Polarity Paradoxes - name both poles, what each gives, what each turns into when pushed too far, where his goal puts the dial right now - so he sets the dial himself and ends on one move. NOT for choosing between separate options (decide), not for a thought pulling him down (that is a Mindset tool).",
+      "raw_desc": "Use when Stefan has boxed himself into one side - of a trait (\"I'm just an introvert\"), a rule (\"always do X\"), or an either/or choice (\"quantity or quality\"). Fires on \"binary thinking\", \"non-binary thinking\", \"polarity\", \"both and\", \"either or\", \"I'm just a ... person\", \"which side should I pick\", \"it depends\", \"spectrum thinking\", \"I'm stuck between two\". Interviews him one question at a time through his Binary Thinking note and Charlie Morgan's Polarity Paradoxes - name both poles, what each gives, what each turns into when pushed too far, where his goal puts the dial right now - so he sets the dial himself and ends on one move. NOT for choosing between separate options (decide), not for a thought pulling him down (that is a Mindset tool).",
+      "folder": "binary-thinking",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-05T08:46:25.132830Z",
+      "category": "Other"
     },
     {
       "name": "brand-site",
@@ -205,6 +217,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
+    },
+    {
+      "name": "critical-thinking",
+      "what": "Charlie Morgan's Critical Thinking Process, from his Paradigm doc on Drive, and his note 07 Toolbox/Think/Critical Thinking.md:",
+      "when": "Stefan wants to know if something is actually true before he acts on it - a claim, advice, a course, a mentor, a post, a number, his own belief. Fires on \"critical thinking\", \"think critically\", \"is this true\", \"is this legit\", \"should I believe this\", \"should I trust this person\", \"should I learn from them\", \"fact-check my thinking\", \"unwrap this\". Interviews him one question at a time through Charlie Morgan's Critical Thinking Process from his Paradigm doc - what it claims, the plain objects, the argument and the motive, the biases, the drilling questions, the verdict - so he reaches the verdict himself. NOT for finding the root of a problem (first-principles), not for choosing between options (decide).",
+      "raw_desc": "Use when Stefan wants to know if something is actually true before he acts on it - a claim, advice, a course, a mentor, a post, a number, his own belief. Fires on \"critical thinking\", \"think critically\", \"is this true\", \"is this legit\", \"should I believe this\", \"should I trust this person\", \"should I learn from them\", \"fact-check my thinking\", \"unwrap this\". Interviews him one question at a time through Charlie Morgan's Critical Thinking Process from his Paradigm doc - what it claims, the plain objects, the argument and the motive, the biases, the drilling questions, the verdict - so he reaches the verdict himself. NOT for finding the root of a problem (first-principles), not for choosing between options (decide).",
+      "folder": "critical-thinking",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-05T08:46:25.132830Z",
+      "category": "Other"
     },
     {
       "name": "cuboid-carousel",
@@ -1429,6 +1453,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "second-order",
+      "what": "Two of his notes, one chain seen from both ends: 07 Toolbox/Decide/Second-Order Consequences.md (follow the choice forward) and 07 Toolbox/See/Cause & Effect Timeframes.md (results arrive late).",
+      "when": "Stefan is about to make a tempting choice, wants to know where a problem came from, or feels something \"isn't working\". Fires on \"second-order\", \"second order consequences\", \"and then what\", \"what happens after\", \"think it through\", \"long-term consequences\", \"is this worth it long term\", \"it's not working\", \"why isn't this paying off\", \"cause and effect\". Interviews him one question at a time through his Second-Order Consequences and Cause & Effect Timeframes notes - every option, then \"and then what?\" until the chain ends, the feeder habit, the lag before results show - so he follows the chain himself and ends on one move. NOT for listing how a plan fails (inversion), not for choosing between options once the chains are clear (decide).",
+      "raw_desc": "Use when Stefan is about to make a tempting choice, wants to know where a problem came from, or feels something \"isn't working\". Fires on \"second-order\", \"second order consequences\", \"and then what\", \"what happens after\", \"think it through\", \"long-term consequences\", \"is this worth it long term\", \"it's not working\", \"why isn't this paying off\", \"cause and effect\". Interviews him one question at a time through his Second-Order Consequences and Cause & Effect Timeframes notes - every option, then \"and then what?\" until the chain ends, the feeder habit, the lag before results show - so he follows the chain himself and ends on one move. NOT for listing how a plan fails (inversion), not for choosing between options once the chains are clear (decide).",
+      "folder": "second-order",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-05T08:46:25.132830Z",
+      "category": "Other"
     },
     {
       "name": "self-upgrade",
