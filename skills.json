@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-05T08:43:16.022298Z",
-  "hash": "fa6dba0572bfc6e008a117a9b0e3588e",
+  "synced_at": "2026-10-05T08:44:20.615882Z",
+  "hash": "76d91848727a65e4e963d2f4d9db624c",
   "skills": [
     {
       "name": "agent-builder",
@@ -325,6 +325,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-23T15:17:25.767422Z",
       "category": "Research"
+    },
+    {
+      "name": "elimination",
+      "what": "Two of his notes, one move from two sides: 07 Toolbox/Think/Elimination.md (remove before you add) and 07 Toolbox/See/80-20 Principle.md (find the vital few).",
+      "when": "Stefan has too much on his plate or wants to simplify - a week, a project, a business, a problem with many causes. Fires on \"elimination\", \"what can I remove\", \"what should I cut\", \"simplify this\", \"too much on my plate\", \"80/20\", \"80-20\", \"Pareto\", \"the vital few\", \"I'm busy and nothing moves\", \"audit my week\", \"power grid\". Interviews him one question at a time through his Elimination and 80-20 notes - list every input, find the few that carry the result, cut the rest before adding anything, feed the few - so he makes the cuts himself and ends on one move. NOT for deciding between two options (decide), not for mapping a whole system (systems-thinker).",
+      "raw_desc": "Use when Stefan has too much on his plate or wants to simplify - a week, a project, a business, a problem with many causes. Fires on \"elimination\", \"what can I remove\", \"what should I cut\", \"simplify this\", \"too much on my plate\", \"80/20\", \"80-20\", \"Pareto\", \"the vital few\", \"I'm busy and nothing moves\", \"audit my week\", \"power grid\". Interviews him one question at a time through his Elimination and 80-20 notes - list every input, find the few that carry the result, cut the rest before adding anything, feed the few - so he makes the cuts himself and ends on one move. NOT for deciding between two options (decide), not for mapping a whole system (systems-thinker).",
+      "folder": "elimination",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-05T08:44:20.615882Z",
+      "category": "Coding"
     },
     {
       "name": "embedded-captions",
