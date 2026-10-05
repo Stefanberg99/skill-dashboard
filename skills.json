@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-01T14:37:40.866075Z",
-  "hash": "c26fc07c418103b87ca264bbbaf42895",
+  "synced_at": "2026-10-05T08:43:16.022298Z",
+  "hash": "fa6dba0572bfc6e008a117a9b0e3588e",
   "skills": [
     {
       "name": "agent-builder",
@@ -233,8 +233,8 @@
     {
       "name": "decide",
       "what": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction",
-      "when": "Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from 09 Output/To think about. A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
-      "raw_desc": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction. Trigger when Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from 09 Output/To think about. A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
+      "when": "Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from his To think about cards (09 Output). A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
+      "raw_desc": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction. Trigger when Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from his To think about cards (09 Output). A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
       "folder": "decide",
       "source": "personal",
       "source_label": "Your Skills",
@@ -364,7 +364,7 @@
     },
     {
       "name": "excalidraw-visuals",
-      "what": "Before using this skill, make sure you have: 1. A kie.ai API key (sign up at https://kie.ai) added to ~/.claude/skills/excalidraw-visuals/.env as KIE_AI_API_KEY 2. Node.js installed (18+) 3. The generation script at ~/.claude/skills/excalidraw-visuals/scripts/excalidraw-visuals/generate-visual.js 4. The style\u2026",
+      "what": "Before using this skill, make sure you have: 1. Higgsfield access: HF_KEY in ~/MeesterwerkOS/.env, used through the one Higgsfield client ~/MeesterwerkOS/tools/generate_higgsfield.py. Since 4 Oct 2026 this skill runs on Higgsfield, never kie.ai (Stefan's call: \"I don't want to use kie.ai anymore\"). 2. Node.js\u2026",
       "when": "someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or visualization, or says \"excalidraw image\", \"excalidraw visual\", \"make a visual\", or \"draw a visual\". This generates PNG images, not editable files.",
       "raw_desc": "Use when someone asks for a hand-drawn visual, PNG image, rendered diagram, visual explanation, or visualization, or says \"excalidraw image\", \"excalidraw visual\", \"make a visual\", or \"draw a visual\". This generates PNG images, not editable files.",
       "folder": "excalidraw-visuals",
@@ -448,9 +448,9 @@
     },
     {
       "name": "first-principles",
-      "what": "Break a thing down to what is true, keep zooming until the next piece is easy, then build back up. The sentence Stefan should be able to say back: **\"Break it down until it's easy, check every piece is true, rebuild from the true pieces.\"**",
-      "when": "Stefan wants to think from first principles or break something down until the next step is easy to work on, for a goal, a skill, a business, a person, a problem, or a cost or limit everyone treats as fixed. Fires on \"first principles\", \"break this down\", \"break it down\", \"what is this made of\", \"reason it up from the bottom\", \"reverse-engineer this goal\", \"why is this so expensive\", \"this feels too big\", \"where do I even start\". Draws the parts, marks each one true or assumed, zooms into one branch until it is workable, rebuilds from the true parts, and ends with one move. NOT for choosing between options (that is /decide).",
-      "raw_desc": "Use when Stefan wants to think from first principles or break something down until the next step is easy to work on, for a goal, a skill, a business, a person, a problem, or a cost or limit everyone treats as fixed. Fires on \"first principles\", \"break this down\", \"break it down\", \"what is this made of\", \"reason it up from the bottom\", \"reverse-engineer this goal\", \"why is this so expensive\", \"this feels too big\", \"where do I even start\". Draws the parts, marks each one true or assumed, zooms into one branch until it is workable, rebuilds from the true parts, and ends with one move. NOT for choosing between options (that is /decide).",
+      "what": "His three moves, straight from his First Principles note (07 Toolbox/Think/First Principles.md):",
+      "when": "Stefan wants to think from first principles or break something down until it is easy to work on, for a goal, a skill, a business, a problem, or a cost or limit everyone treats as fixed. Fires on \"first principles\", \"break this down\", \"break it down\", \"what is this made of\", \"reason it up from the bottom\", \"reverse-engineer this goal\", \"why is this so expensive\", \"this feels too big\", \"where do I even start\", \"guide me through first principles\", \"help me think this through\". Interviews him through the three moves from his First Principles note, one question at a time, so he does the thinking himself - take the thing apart, find what is always true underneath, build a simple answer back up from those truths - and he ends by naming his own one move. NOT for choosing between options (that is /decide), and NOT for mapping a whole system with its parts, loops and versions as a page he keeps (that is /systems-thinker).",
+      "raw_desc": "Use when Stefan wants to think from first principles or break something down until it is easy to work on, for a goal, a skill, a business, a problem, or a cost or limit everyone treats as fixed. Fires on \"first principles\", \"break this down\", \"break it down\", \"what is this made of\", \"reason it up from the bottom\", \"reverse-engineer this goal\", \"why is this so expensive\", \"this feels too big\", \"where do I even start\", \"guide me through first principles\", \"help me think this through\". Interviews him through the three moves from his First Principles note, one question at a time, so he does the thinking himself - take the thing apart, find what is always true underneath, build a simple answer back up from those truths - and he ends by naming his own one move. NOT for choosing between options (that is /decide), and NOT for mapping a whole system with its parts, loops and versions as a page he keeps (that is /systems-thinker).",
       "folder": "first-principles",
       "source": "personal",
       "source_label": "Your Skills",
@@ -688,9 +688,9 @@
     },
     {
       "name": "inbox",
-      "what": "Empty Stefan's 00 Inbox by routing every capture to one of the seven labels in workflows/capture_routing.md (Thoughts \u00b7 Insights \u00b7 Ideas \u00b7 Actions \u00b7 Projects \u00b7 Notes \u00b7 Courses, plus Journal), each with one home. The manual twin of the desk sitting and the daily Hermes sync, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in 03 Journal/Thinking (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer)",
+      "what": "Empty Stefan's 00 Inbox by routing every capture to one of the seven labels in workflows/capture_routing.md (Thoughts \u00b7 Insights \u00b7 Ideas \u00b7 Actions \u00b7 Projects \u00b7 Notes \u00b7 Courses, plus Journal), each with one home. The manual twin of the desk sitting and the daily Hermes sync, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in the Journal's Log, 03 Journal/Log (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer)",
       "when": "Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my captures\", \"clean up the inbox\", \"structure this thinking\", \"process my thinking\", or when 00 Inbox has filled up. NOT for the bulk quarry in 00 Inbox/_import (that is /drain), NOT for writing a real note from a source (that is /learn), NOT for capturing INTO the system (that is /spark).",
-      "raw_desc": "Empty Stefan's 00 Inbox by routing every capture to one of the seven labels in workflows/capture_routing.md (Thoughts \u00b7 Insights \u00b7 Ideas \u00b7 Actions \u00b7 Projects \u00b7 Notes \u00b7 Courses, plus Journal), each with one home. The manual twin of the desk sitting and the daily Hermes sync, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in 03 Journal/Thinking (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer). Trigger when Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my captures\", \"clean up the inbox\", \"structure this thinking\", \"process my thinking\", or when 00 Inbox has filled up. NOT for the bulk quarry in 00 Inbox/_import (that is /drain), NOT for writing a real note from a source (that is /learn), NOT for capturing INTO the system (that is /spark).",
+      "raw_desc": "Empty Stefan's 00 Inbox by routing every capture to one of the seven labels in workflows/capture_routing.md (Thoughts \u00b7 Insights \u00b7 Ideas \u00b7 Actions \u00b7 Projects \u00b7 Notes \u00b7 Courses, plus Journal), each with one home. The manual twin of the desk sitting and the daily Hermes sync, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in the Journal's Log, 03 Journal/Log (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer). Trigger when Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my captures\", \"clean up the inbox\", \"structure this thinking\", \"process my thinking\", or when 00 Inbox has filled up. NOT for the bulk quarry in 00 Inbox/_import (that is /drain), NOT for writing a real note from a source (that is /learn), NOT for capturing INTO the system (that is /spark).",
       "folder": "inbox",
       "source": "personal",
       "source_label": "Your Skills",
@@ -709,6 +709,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-19T07:37:33.655179Z",
       "category": "Writing"
+    },
+    {
+      "name": "inversion",
+      "what": "His method, from 07 Toolbox/Think/Inversion.md and the inversion page of his Paradigm doc:",
+      "when": "Stefan wants to think by inversion, before starting something or when the way to win is foggy. Fires on \"inversion\", \"invert this\", \"how would this fail\", \"how could this go wrong\", \"pre-mortem\", \"what would guarantee failure\", \"what kills this\", \"I can't see how to win\". Interviews him one question at a time through his Inversion note - flip the goal, list every way to lose, invert each into an action, delete the losers - so he finds the guardrails himself and ends on one move. NOT for following a choice forward in time (second-order), not for choosing between options (decide).",
+      "raw_desc": "Use when Stefan wants to think by inversion, before starting something or when the way to win is foggy. Fires on \"inversion\", \"invert this\", \"how would this fail\", \"how could this go wrong\", \"pre-mortem\", \"what would guarantee failure\", \"what kills this\", \"I can't see how to win\". Interviews him one question at a time through his Inversion note - flip the goal, list every way to lose, invert each into an action, delete the losers - so he finds the guardrails himself and ends on one move. NOT for following a choice forward in time (second-order), not for choosing between options (decide).",
+      "folder": "inversion",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-05T08:43:16.022298Z",
+      "category": "Other"
     },
     {
       "name": "isa",
@@ -749,8 +761,8 @@
     {
       "name": "learn",
       "what": "The ONE door for turning anything into real learning: playbooks, guides, primers, courses, quizzes, infographics, living book entries",
-      "when": "Stefan says \"/learn\", \"teach me X\", \"make me a primer / playbook / guide on X\", \"turn this into a guide / quiz / infographic\" (paste a transcript/URL/YouTube/PDF/notes), \"I'm reading X\" / \"book session\" / \"chapter N of X\", or \"process this / add this to the vault\". Four ways in: (a) TOPIC, a taught resource on a subject; (b) SOURCE, a guide/quiz/infographic from his material; (c) LIVING ENTRY, a book/course companion that grows; (d) VAULT DEEP-DIVE, writes the source note + notecards into the Brain and renders a vibe-matched guide in the source's own voice. Output is one branded HTML page in the Learning Library (~/Outputs/), climaxing in testable experiments that feed a Playbook + spaced recall. NOT for a deep cited research paper or \"investigate / the landscape of X\" (that's /research); NOT for a one-fact lookup (answer directly).",
-      "raw_desc": "The ONE door for turning anything into real learning: playbooks, guides, primers, courses, quizzes, infographics, living book entries. Use when Stefan says \"/learn\", \"teach me X\", \"make me a primer / playbook / guide on X\", \"turn this into a guide / quiz / infographic\" (paste a transcript/URL/YouTube/PDF/notes), \"I'm reading X\" / \"book session\" / \"chapter N of X\", or \"process this / add this to the vault\". Four ways in: (a) TOPIC, a taught resource on a subject; (b) SOURCE, a guide/quiz/infographic from his material; (c) LIVING ENTRY, a book/course companion that grows; (d) VAULT DEEP-DIVE, writes the source note + notecards into the Brain and renders a vibe-matched guide in the source's own voice. Output is one branded HTML page in the Learning Library (~/Outputs/), climaxing in testable experiments that feed a Playbook + spaced recall. NOT for a deep cited research paper or \"investigate / the landscape of X\" (that's /research); NOT for a one-fact lookup (answer directly).",
+      "when": "Stefan says \\\"/learn\\\", \\\"teach me X\\\", \\\"make me a primer / playbook / guide on X\\\", \\\"turn this into a guide / quiz / infographic\\\" (paste a transcript/URL/YouTube/PDF/notes), \\\"I'm reading X\\\" / \\\"book session\\\" / \\\"chapter N of X\\\", or \\\"process this / add this to the vault\\\". Four ways in: (a) TOPIC, a taught resource on a subject; (b) SOURCE, a guide/quiz/infographic from his material; (c) LIVING ENTRY, a book/course companion that grows; (d) VAULT DEEP-DIVE, writes the source note + notecards into the Brain and renders a vibe-matched guide in the source's own voice. Outputs live in the Learning Library (~/Outputs/). KnowledgeOS processing uses the scoped mode below: outputs, experiments and recall are optional; preparation never establishes learning. NOT for a deep cited research paper or \\\"investigate / the landscape of X\\\" (that's /research); NOT for a one-fact lookup (answer directly).",
+      "raw_desc": "The ONE door for turning anything into real learning: playbooks, guides, primers, courses, quizzes, infographics, living book entries. Use when Stefan says \\\"/learn\\\", \\\"teach me X\\\", \\\"make me a primer / playbook / guide on X\\\", \\\"turn this into a guide / quiz / infographic\\\" (paste a transcript/URL/YouTube/PDF/notes), \\\"I'm reading X\\\" / \\\"book session\\\" / \\\"chapter N of X\\\", or \\\"process this / add this to the vault\\\". Four ways in: (a) TOPIC, a taught resource on a subject; (b) SOURCE, a guide/quiz/infographic from his material; (c) LIVING ENTRY, a book/course companion that grows; (d) VAULT DEEP-DIVE, writes the source note + notecards into the Brain and renders a vibe-matched guide in the source's own voice. Outputs live in the Learning Library (~/Outputs/). KnowledgeOS processing uses the scoped mode below: outputs, experiments and recall are optional; preparation never establishes learning. NOT for a deep cited research paper or \\\"investigate / the landscape of X\\\" (that's /research); NOT for a one-fact lookup (answer directly).",
       "folder": "learn",
       "source": "personal",
       "source_label": "Your Skills",
@@ -844,15 +856,15 @@
     },
     {
       "name": "monthly",
-      "what": "Monthly review ritual (~1 hour, once a month). Reads the month's weekly reviews, scores the month's focus, names the pattern across the four weeks honestly, and sets next month's focus from the quarter's missions. The monthly rung of The Ladder (Vision to Day)",
+      "what": "Monthly review ritual (~1 hour, once a month). Reads the month's weekly reviews, scores the month's focus, names the pattern across the four weeks honestly, and sets next month's focus from the quarter's missions. Its page lands in the Journal's Review room; focus and scores live in NextLVL",
       "when": "Stefan says /monthly, \"monthly review\", \"close the month\", or at the turn of a month.",
-      "raw_desc": "Monthly review ritual (~1 hour, once a month). Reads the month's weekly reviews, scores the month's focus, names the pattern across the four weeks honestly, and sets next month's focus from the quarter's missions. The monthly rung of The Ladder (Vision to Day). Trigger when Stefan says /monthly, \"monthly review\", \"close the month\", or at the turn of a month.",
+      "raw_desc": "Monthly review ritual (~1 hour, once a month). Reads the month's weekly reviews, scores the month's focus, names the pattern across the four weeks honestly, and sets next month's focus from the quarter's missions. Its page lands in the Journal's Review room; focus and scores live in NextLVL. Trigger when Stefan says /monthly, \"monthly review\", \"close the month\", or at the turn of a month.",
       "folder": "monthly",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-07-07T17:48:04.417128Z",
-      "category": "Coding"
+      "category": "Memory"
     },
     {
       "name": "motion-graphics",
@@ -1216,27 +1228,27 @@
     },
     {
       "name": "quarterly",
-      "what": "Quarterly review ritual (~half a day, four times a year). Reads the quarter's monthly reviews, scores the 3 missions, names the arc across the three months, checks whether reality asks the vision itself to move, and sets next quarter's 3 missions from the year and the Future Self ladder. The quarterly rung of The Ladder",
+      "what": "Quarterly review ritual (~half a day, four times a year). Reads the quarter's monthly reviews, scores the 3 missions, names the arc across the three months, checks whether reality asks the vision itself to move, and sets next quarter's 3 missions from the year and the Future Self ladder. Its page lands in the Journal's Review room; missions and scores live in NextLVL",
       "when": "Stefan says /quarterly, \"quarterly review\", \"close the quarter\", or at the turn of a quarter.",
-      "raw_desc": "Quarterly review ritual (~half a day, four times a year). Reads the quarter's monthly reviews, scores the 3 missions, names the arc across the three months, checks whether reality asks the vision itself to move, and sets next quarter's 3 missions from the year and the Future Self ladder. The quarterly rung of The Ladder. Trigger when Stefan says /quarterly, \"quarterly review\", \"close the quarter\", or at the turn of a quarter.",
+      "raw_desc": "Quarterly review ritual (~half a day, four times a year). Reads the quarter's monthly reviews, scores the 3 missions, names the arc across the three months, checks whether reality asks the vision itself to move, and sets next quarter's 3 missions from the year and the Future Self ladder. Its page lands in the Journal's Review room; missions and scores live in NextLVL. Trigger when Stefan says /quarterly, \"quarterly review\", \"close the quarter\", or at the turn of a quarter.",
       "folder": "quarterly",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-07-07T17:48:04.417128Z",
-      "category": "Coding"
+      "category": "Memory"
     },
     {
       "name": "reflect",
-      "what": "Evening ritual (5 min). Fills the evening section of today's daily note - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to the Writing library (06 Writing)",
+      "what": "Evening ritual (5 min). Adds the day to today's Day entry in the Journal's Log - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to Storyworthy Moments in the Journal (03 Journal)",
       "when": "Stefan says /reflect, \"close my day\", or \"evening reflection\".",
-      "raw_desc": "Evening ritual (5 min). Fills the evening section of today's daily note - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to the Writing library (06 Writing). Trigger when Stefan says /reflect, \"close my day\", or \"evening reflection\".",
+      "raw_desc": "Evening ritual (5 min). Adds the day to today's Day entry in the Journal's Log - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to Storyworthy Moments in the Journal (03 Journal). Trigger when Stefan says /reflect, \"close my day\", or \"evening reflection\".",
       "folder": "reflect",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-11T15:41:53.012979Z",
-      "category": "Writing"
+      "category": "Memory"
     },
     {
       "name": "remotion-best-practices",
