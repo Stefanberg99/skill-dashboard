@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-05T08:46:25.132830Z",
+  "synced_at": "2026-10-07T12:54:34.975593Z",
   "hash": "aacc58421aa8181bf2abfe6d41618241",
   "skills": [
     {
@@ -257,8 +257,8 @@
     {
       "name": "decide",
       "what": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction",
-      "when": "Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from his To think about cards (09 Output). A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
-      "raw_desc": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction. Trigger when Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from his To think about cards (09 Output). A thinking partner, never a decider \u2014 Stefan makes the call; the skill sharpens it and logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
+      "when": "Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from his To think about cards (09 Output). A thinking partner, never a decider: it interviews him one question at a time, with four quick lenses (asymmetric bets, decision fatigue, half-life, opposite thinking), and he makes the call; the skill logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
+      "raw_desc": "Walk one real decision through a chosen mental model into the Decision Journal with a confidence-rated prediction. Trigger when Stefan says \"/decide\", \"help me decide\", \"run this through /decide\", \"make this call with me\", or names an open fork from his To think about cards (09 Output). A thinking partner, never a decider: it interviews him one question at a time, with four quick lenses (asymmetric bets, decision fatigue, half-life, opposite thinking), and he makes the call; the skill logs it so his judgment gets a feedback loop. NOT for trivial choices (just answer those) and NOT for problem-solving without a fork (that's /synthesizer).",
       "folder": "decide",
       "source": "personal",
       "source_label": "Your Skills",
@@ -616,7 +616,7 @@
     },
     {
       "name": "hyperframes-audio",
-      "what": "A mix is a set of relationships, not a stack of processors. Two tracks that each sound right alone can be unlistenable together, and the fix is almost never \"turn one down\" \u2014 it is finding what they are fighting over and giving it to whichever one needs it. Every tool here exists to express one of those relationships.",
+      "what": "Plugin installs: Before setup or freshness commands, follow plugin execution rules when this skill is inside a HyperFrames plugin. Standalone installs keep the update instructions below.",
       "when": "audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), automation envelopes drawn on a track's volume or any effect parameter, or one submix bus carrying a chain, a fader and an automation clock for several tracks at once (`<hf-audio-group>`). Don't use for sourcing or generating audio \u2014 finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`.",
       "raw_desc": "Use when audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), automation envelopes drawn on a track's volume or any effect parameter, or one submix bus carrying a chain, a fader and an automation clock for several tracks at once (`<hf-audio-group>`). Don't use for sourcing or generating audio \u2014 finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`.",
       "folder": "hyperframes-audio",
@@ -628,9 +628,9 @@
     },
     {
       "name": "hyperframes-cli",
-      "what": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, timeline, history, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also",
+      "what": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, timeline, history, clean, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also",
       "when": "diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
-      "raw_desc": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, timeline, history, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also use when diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
+      "raw_desc": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, timeline, history, clean, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also use when diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
       "folder": "hyperframes-cli",
       "source": "personal",
       "source_label": "Your Skills",
@@ -664,7 +664,7 @@
     },
     {
       "name": "hyperframes-keyframes",
-      "what": "Keyframes are a pose contract: visible states, continuous subject identity, seek-safe runtime, verified pixels.",
+      "what": "Plugin installs: Before setup or freshness commands, follow plugin execution rules when this skill is inside a HyperFrames plugin. Standalone installs keep the update instructions below.",
       "when": "a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
       "raw_desc": "Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
       "folder": "hyperframes-keyframes",
@@ -688,15 +688,15 @@
     },
     {
       "name": "hyperframes-studio",
-      "what": "Studio draws one timeline row per top-level element. A project that follows the rules below opens as a short, readable timeline; one that does not opens as a wall of unlabeled rows the user cannot edit. These are conventions for what to build. For how to change a clip, follow /hyperframes-core\u2026",
-      "when": "building or editing a HyperFrames project that people open in Studio: how the timeline should be laid out so it reads well (one caption track, one element kind per track, every scene a sub-composition) and where captions and key content may sit (safe zones). Don't use for how to perform an individual edit (split, trim, retime, volume, copy, swap): that is `creator-editing-recipes.md` in `/hyperframes-core`.",
-      "raw_desc": "Use when building or editing a HyperFrames project that people open in Studio: how the timeline should be laid out so it reads well (one caption track, one element kind per track, every scene a sub-composition) and where captions and key content may sit (safe zones). Don't use for how to perform an individual edit (split, trim, retime, volume, copy, swap): that is `creator-editing-recipes.md` in `/hyperframes-core`.",
+      "what": "Plugin installs: Before setup or freshness commands, follow plugin execution rules when this skill is inside a HyperFrames plugin. Standalone installs keep the update instructions below.",
+      "when": "working with a person on a HyperFrames project in Studio: first, whether their message asks for a change at all (questions, loose ideas and \"don't change anything\" get an answer and a plan, not an edit); for a new film, the plan, storyboard and build order that the HyperFrames launch films follow; and how the timeline should be laid out so it reads well (one caption track, one element kind per track, every scene a sub-composition) and where captions and key content may sit (safe zones). Don't use for how to perform an individual edit (split, trim, retime, volume, copy, swap): that is `creator-editing-recipes.md` in `/hyperframes-core`.",
+      "raw_desc": "Use when working with a person on a HyperFrames project in Studio: first, whether their message asks for a change at all (questions, loose ideas and \"don't change anything\" get an answer and a plan, not an edit); for a new film, the plan, storyboard and build order that the HyperFrames launch films follow; and how the timeline should be laid out so it reads well (one caption track, one element kind per track, every scene a sub-composition) and where captions and key content may sit (safe zones). Don't use for how to perform an individual edit (split, trim, retime, volume, copy, swap): that is `creator-editing-recipes.md` in `/hyperframes-core`.",
       "folder": "hyperframes-studio",
       "source": "personal",
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-09-22T12:47:07.141646Z",
-      "category": "Video"
+      "category": "Deploy"
     },
     {
       "name": "idea-engine",
