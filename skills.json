@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-11T16:54:00.778475Z",
-  "hash": "bfa7a79a4f2249d9f6813028185f0fc9",
+  "synced_at": "2026-10-14T08:53:11.354321Z",
+  "hash": "569a82259b462a3022d91a008bd3afde",
   "skills": [
     {
       "name": "agent-builder",
@@ -1405,6 +1405,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-24T18:01:25.639296Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "what": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA. Use shipped-artifact or requested runtime evidence to explain features, compare versions, decompile code, or guide a reconstruction. Skip REA for ordinary source-repository architecture analysis.",
+      "when": "",
+      "raw_desc": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA. Use shipped-artifact or requested runtime evidence to explain features, compare versions, decompile code, or guide a reconstruction. Skip REA for ordinary source-repository architecture analysis.",
+      "folder": "reverse-engineer-anything",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-14T08:53:11.354321Z",
+      "category": "Research"
     },
     {
       "name": "review-animations",
