@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-14T08:53:11.354321Z",
-  "hash": "569a82259b462a3022d91a008bd3afde",
+  "synced_at": "2026-10-15T19:06:43.717598Z",
+  "hash": "f744001277d2dcbe4c878c0b5f53e09c",
   "skills": [
     {
       "name": "agent-builder",
@@ -724,9 +724,9 @@
     },
     {
       "name": "inbox",
-      "what": "Empty Stefan''s 00 Inbox by routing every capture to one of the seven labels in workflows/capture_routing.md (Thoughts \u00b7 Insights \u00b7 Ideas \u00b7 Actions \u00b7 Projects \u00b7 Notes \u00b7 Courses, plus Journal), each with one home. The manual twin of the desk sitting and the daily Hermes sync, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in the Journal''s Log, 03 Journal/Log (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer)",
+      "what": "Empty Stefan''s 00 Inbox by routing every capture to one of the seven labels in workflows/capture_routing.md (Thoughts \u00b7 Insights \u00b7 Ideas \u00b7 Actions \u00b7 Projects \u00b7 Notes \u00b7 Courses, plus Journal), each with one home. The manual twin of the desk sitting and the daily Hermes sync, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in the Journal''s Log, 03 Journal/Chapters (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer)",
       "when": "Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my captures\", \"clean up the inbox\", \"structure this thinking\", \"process my thinking\", or when 00 Inbox has filled up. NOT for the bulk quarry in 00 Inbox/_import (that is /drain), NOT for writing a real note from a source (that is /learn), NOT for capturing INTO the system (that is /spark).",
-      "raw_desc": "Empty Stefan''s 00 Inbox by routing every capture to one of the seven labels in workflows/capture_routing.md (Thoughts \u00b7 Insights \u00b7 Ideas \u00b7 Actions \u00b7 Projects \u00b7 Notes \u00b7 Courses, plus Journal), each with one home. The manual twin of the desk sitting and the daily Hermes sync, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in the Journal''s Log, 03 Journal/Log (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer). Trigger when Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my captures\", \"clean up the inbox\", \"structure this thinking\", \"process my thinking\", or when 00 Inbox has filled up. NOT for the bulk quarry in 00 Inbox/_import (that is /drain), NOT for writing a real note from a source (that is /learn), NOT for capturing INTO the system (that is /spark).",
+      "raw_desc": "Empty Stefan''s 00 Inbox by routing every capture to one of the seven labels in workflows/capture_routing.md (Thoughts \u00b7 Insights \u00b7 Ideas \u00b7 Actions \u00b7 Projects \u00b7 Notes \u00b7 Courses, plus Journal), each with one home. The manual twin of the desk sitting and the daily Hermes sync, for anything it cannot reach: notes he wrote straight into Obsidian, vault-root strays, and whatever piled up since. Also structures his own long thinking into a dated session in the Journal''s Log, 03 Journal/Chapters (reorder, never rewrite: voice.md first, verbatim by default, loss check, humanizer). Trigger when Stefan says \"/inbox\", \"process the inbox\", \"empty the inbox\", \"sort my captures\", \"clean up the inbox\", \"structure this thinking\", \"process my thinking\", or when 00 Inbox has filled up. NOT for the bulk quarry in 00 Inbox/_import (that is /drain), NOT for writing a real note from a source (that is /learn), NOT for capturing INTO the system (that is /spark).",
       "folder": "inbox",
       "source": "personal",
       "source_label": "Your Skills",
@@ -924,6 +924,18 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-09-22T12:47:07.141646Z",
+      "category": "Video"
+    },
+    {
+      "name": "mw-designer",
+      "what": "A visual at the level of the genre's best, in the right brand, that Stefan points at and says yes to, with the picture in his head found before anything gets made.",
+      "when": "Stefan wants anything visual designed or made, in any project - a brand or brand guidelines, a logo or mark, app screens, cards or dashboards, images, illustrations, characters or worlds, animation or video, social carousels, thumbnails, infographics, slides, a website or page, a moodboard or inspiration. Fires on \"Designer:\", \"/mw-designer\", \"MW Designer\", \"design this\", \"make me an image\", \"make a visual\", \"brand guidelines\", \"logo\", \"moodboard\", \"inspiration for\", \"what should this look like\", \"make it look premium\". Runs one loop (Brief, Gather, Direct, Make, Check, Deliver, Learn) at three speeds on his brand library, his taste rules, Higgsfield, Astra images and coded mockups, and finds the picture in his head before it makes anything. NOT the build round of an app (/product owns that and calls this at its picture station), not hand-drawn explainer diagrams (excalidraw-visuals), not data charts (dataviz).",
+      "raw_desc": "Use when Stefan wants anything visual designed or made, in any project - a brand or brand guidelines, a logo or mark, app screens, cards or dashboards, images, illustrations, characters or worlds, animation or video, social carousels, thumbnails, infographics, slides, a website or page, a moodboard or inspiration. Fires on \"Designer:\", \"/mw-designer\", \"MW Designer\", \"design this\", \"make me an image\", \"make a visual\", \"brand guidelines\", \"logo\", \"moodboard\", \"inspiration for\", \"what should this look like\", \"make it look premium\". Runs one loop (Brief, Gather, Direct, Make, Check, Deliver, Learn) at three speeds on his brand library, his taste rules, Higgsfield, Astra images and coded mockups, and finds the picture in his head before it makes anything. NOT the build round of an app (/product owns that and calls this at its picture station), not hand-drawn explainer diagrams (excalidraw-visuals), not data charts (dataviz).",
+      "folder": "mw-designer",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-15T19:06:43.717598Z",
       "category": "Video"
     },
     {
