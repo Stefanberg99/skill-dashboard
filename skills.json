@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-15T19:06:43.717598Z",
-  "hash": "f744001277d2dcbe4c878c0b5f53e09c",
+  "synced_at": "2026-10-17T08:16:40.468347Z",
+  "hash": "b3b76dcfdedd8e42445a02564185d8b8",
   "skills": [
     {
       "name": "agent-builder",
@@ -2583,6 +2583,18 @@
       "category": "Design"
     },
     {
+      "name": "figma-code-workflows",
+      "what": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standalone Code (also known as Make), and repair imported previews",
+      "when": "the user explicitly names editable Design layers, a runnable Code Layer, or a standalone Code/Make file, or supplies a Figma file key/link as the import destination. Generic code or code-component requests need output clarification before using this workflow.",
+      "raw_desc": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standalone Code (also known as Make), and repair imported previews. Use only when the user explicitly names editable Design layers, a runnable Code Layer, or a standalone Code/Make file, or supplies a Figma file key/link as the import destination. Generic code or code-component requests need output clarification before using this workflow.",
+      "folder": "figma-code-workflows",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-10-17T08:16:40.468347Z",
+      "category": "Design"
+    },
+    {
       "name": "figma-create-new-file",
       "what": "Always",
       "when": "the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this skill BEFORE every `create_new_file` tool call.",
@@ -2608,9 +2620,9 @@
     },
     {
       "name": "figma-generate-design",
-      "what": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code', 'convert this modal/dialog/drawer/panel to Figma'. This is the preferred workflow skill whenever the user wants to build or update a full page, modal, dialog, drawer, sidebar, panel, or any composed multi-section view in Figma from code or a description. Discovers design system components, variables, and styles from Code Connect files, existing screens, and library search, then imports them and assembles views incrementally section-by-section using design system tokens instead of hardcoded values.",
+      "what": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code', 'convert this modal/dialog/drawer/panel to Figma'. This is the preferred workflow skill whenever the user wants to build or update a full page, modal, dialog, drawer, sidebar, panel, form, dashboard, list, table, card, header, message preview, or other composed product UI in Figma from code or a description\u2014even when the user calls that composed UI a component. Discovers design system components, variables, and styles from Code Connect files, existing screens, and library search, then imports them and assembles views incrementally section-by-section using design system tokens instead of hardcoded values.",
       "when": "",
-      "raw_desc": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code', 'convert this modal/dialog/drawer/panel to Figma'. This is the preferred workflow skill whenever the user wants to build or update a full page, modal, dialog, drawer, sidebar, panel, or any composed multi-section view in Figma from code or a description. Discovers design system components, variables, and styles from Code Connect files, existing screens, and library search, then imports them and assembles views incrementally section-by-section using design system tokens instead of hardcoded values.",
+      "raw_desc": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code', 'convert this modal/dialog/drawer/panel to Figma'. This is the preferred workflow skill whenever the user wants to build or update a full page, modal, dialog, drawer, sidebar, panel, form, dashboard, list, table, card, header, message preview, or other composed product UI in Figma from code or a description\u2014even when the user calls that composed UI a component. Discovers design system components, variables, and styles from Code Connect files, existing screens, and library search, then imports them and assembles views incrementally section-by-section using design system tokens instead of hardcoded values.",
       "folder": "figma-generate-design",
       "source": "plugin",
       "source_label": "Plugin",
@@ -2679,6 +2691,18 @@
       "category": "Design"
     },
     {
+      "name": "figma-spec",
+      "what": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD, brief, RFC or any kind of document in either a standalone Figma spec or a Figma spec embedded in a Figma Design or Figjam file.",
+      "when": "",
+      "raw_desc": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD, brief, RFC or any kind of document in either a standalone Figma spec or a Figma spec embedded in a Figma Design or Figjam file.",
+      "folder": "figma-spec",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-10-17T08:16:40.468347Z",
+      "category": "Design"
+    },
+    {
       "name": "figma-swiftui",
       "what": "SwiftUI \u2194 Figma translation",
       "when": "the user mentions Swift, SwiftUI, iOS, iPhone, or iPad \u2014 in EITHER direction \u2014 translating a Figma design into SwiftUI (design \u2192 code), or pushing SwiftUI views / screens / tokens back into a Figma file (code \u2192 design). Triggers on phrases like 'implement this Figma design in SwiftUI', 'build this screen in Swift', 'push this SwiftUI view to Figma', 'mirror my Swift code in a Figma file', or whenever a Figma URL appears alongside `.swift` files / an `.xcodeproj`. Routes to a direction-specific reference doc; loads alongside `figma-use` for the code \u2192 design path.",
@@ -2716,9 +2740,9 @@
     },
     {
       "name": "figma-use-motion",
-      "what": "Motion / animation context for the `use_figma` MCP tool \u2014 animating Figma nodes via manual keyframes, animation styles, easing, and timeline duration. Load alongside figma-use whenever a task involves adding, editing, or inspecting animation on a node.",
+      "what": "Motion / animation context for the `use_figma` MCP tool \u2014 animating Figma nodes via manual keyframes, animation styles, easing, and timeline duration. Load alongside figma-use whenever a task involves adding, editing, or inspecting animation on a node. Also covers working with custom animation styles.",
       "when": "",
-      "raw_desc": "Motion / animation context for the `use_figma` MCP tool \u2014 animating Figma nodes via manual keyframes, animation styles, easing, and timeline duration. Load alongside figma-use whenever a task involves adding, editing, or inspecting animation on a node.",
+      "raw_desc": "Motion / animation context for the `use_figma` MCP tool \u2014 animating Figma nodes via manual keyframes, animation styles, easing, and timeline duration. Load alongside figma-use whenever a task involves adding, editing, or inspecting animation on a node. Also covers working with custom animation styles.",
       "folder": "figma-use-motion",
       "source": "plugin",
       "source_label": "Plugin",
