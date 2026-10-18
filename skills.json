@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-18T09:12:15.224622Z",
-  "hash": "40c25a522f58a7ce595e1ca335c14e2e",
+  "synced_at": "2026-10-18T09:14:17.597668Z",
+  "hash": "bc6dc471182c42e7de78d5cbd5f9d306",
   "skills": [
     {
       "name": "agent-builder",
@@ -1764,6 +1764,18 @@
       "source_label": "Your Skills",
       "source_color": "#38bdf8",
       "first_seen": "2026-06-10T16:19:01.411489Z",
+      "category": "Video"
+    },
+    {
+      "name": "video-use",
+      "what": "Edit any video by conversation. Transcribe, cut, color grade, generate overlay animations, burn subtitles \u2014 for talking heads, montages, tutorials, travel, interviews. No presets, no menus. Ask questions, confirm the plan, execute, iterate, persist. Production-correctness rules are hard; everything else is artistic freedom.",
+      "when": "",
+      "raw_desc": "Edit any video by conversation. Transcribe, cut, color grade, generate overlay animations, burn subtitles \u2014 for talking heads, montages, tutorials, travel, interviews. No presets, no menus. Ask questions, confirm the plan, execute, iterate, persist. Production-correctness rules are hard; everything else is artistic freedom.",
+      "folder": "video-use",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-18T09:14:17.597668Z",
       "category": "Video"
     },
     {
