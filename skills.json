@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-18T09:14:17.597668Z",
-  "hash": "bc6dc471182c42e7de78d5cbd5f9d306",
+  "synced_at": "2026-10-18T14:42:35.041746Z",
+  "hash": "4ddf3790bc487cc3e7504273a6148194",
   "skills": [
     {
       "name": "agent-builder",
@@ -1597,6 +1597,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-09T14:12:28.725532Z",
       "category": "Memory"
+    },
+    {
+      "name": "studio",
+      "what": "The Studio front door",
+      "when": "Stefan names a brand and says what he is making - \"Studio:\", \"/studio\", \"Brand: Meesterwerk\", \"for KubeCraft I'm making...\", \"new job for <brand>\", \"switch to <brand>\". Loads that brand's pack from ~/brand-library/, asks only the intake questions the record leaves open (one at a time, lean first), ends in one sentence he confirms, names the route (polish, repeat, explore) and hands the job to MW Designer, /product or the video kit. NOT \"Continue Studio\" (that continues the Studio project itself), not a design conversation already under way (mw-designer).",
+      "raw_desc": "The Studio front door. Use when Stefan names a brand and says what he is making - \"Studio:\", \"/studio\", \"Brand: Meesterwerk\", \"for KubeCraft I'm making...\", \"new job for <brand>\", \"switch to <brand>\". Loads that brand's pack from ~/brand-library/, asks only the intake questions the record leaves open (one at a time, lean first), ends in one sentence he confirms, names the route (polish, repeat, explore) and hands the job to MW Designer, /product or the video kit. NOT \"Continue Studio\" (that continues the Studio project itself), not a design conversation already under way (mw-designer).",
+      "folder": "studio",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-18T14:42:35.041746Z",
+      "category": "Video"
     },
     {
       "name": "synthesizer",
