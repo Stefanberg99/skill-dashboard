@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-17T08:17:44.888951Z",
-  "hash": "f744001277d2dcbe4c878c0b5f53e09c",
+  "synced_at": "2026-10-18T09:12:15.224622Z",
+  "hash": "40c25a522f58a7ce595e1ca335c14e2e",
   "skills": [
     {
       "name": "agent-builder",
@@ -1057,6 +1057,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-23T08:37:52.149288Z",
       "category": "Design"
+    },
+    {
+      "name": "no-ai-slop",
+      "what": "Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting",
+      "when": "the user wants a draft clearer, more direct, more opinionated, or less AI-sounding, or asks whether writing reads as AI.",
+      "raw_desc": "Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting. Use when the user wants a draft clearer, more direct, more opinionated, or less AI-sounding, or asks whether writing reads as AI.",
+      "folder": "no-ai-slop",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-18T09:12:15.224622Z",
+      "category": "Writing"
     },
     {
       "name": "notebooklm",
