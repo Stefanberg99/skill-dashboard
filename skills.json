@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-25T11:21:54.275788Z",
-  "hash": "7d7356ac74aa6c432ffc17fa45c9b526",
+  "synced_at": "2026-10-25T16:49:53.509813Z",
+  "hash": "d2f87b0f673d190fb271e844259999fd",
   "skills": [
     {
       "name": "agent-builder",
@@ -2101,18 +2101,6 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Documents"
-    },
-    {
-      "name": "schedule",
-      "what": "Create or update a scheduled task that runs automatically",
-      "when": "the user says things like \\\"every day\\\", \\\"each morning\\\", \\\"remind me in an hour\\\", \\\"run this at noon\\\", or wants to reschedule an existing task.",
-      "raw_desc": "Create or update a scheduled task that runs automatically. Use when the user says things like \\\"every day\\\", \\\"each morning\\\", \\\"remind me in an hour\\\", \\\"run this at noon\\\", or wants to reschedule an existing task.",
-      "folder": "schedule",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Productivity"
     },
     {
       "name": "setup-claude",
