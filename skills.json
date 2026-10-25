@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-25T16:49:53.509813Z",
-  "hash": "d2f87b0f673d190fb271e844259999fd",
+  "synced_at": "2026-10-25T17:40:06.521441Z",
+  "hash": "7b7601733499d280e12967e88aa97898",
   "skills": [
     {
       "name": "agent-builder",
@@ -301,6 +301,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T12:40:24.726350Z",
       "category": "Deploy"
+    },
+    {
+      "name": "design-to-motion",
+      "what": "Turns a static design (a Figma frame, dashboard, card set, app screen, or a UI on a photo background) into a pixel exact HTML replica that loads in from an empty state, then has every visual act out what it does (a chart being read, a list receiving items, a prompt being typed) in a seamless loop, and exports an MP4 for X, a website GIF, and an 800\u00d7500 GIF",
+      "when": "the user asks to animate a design, a Figma link, a screenshot, UI cards, a dashboard, or a hero image, to make a loading or appear animation, a showcase loop, a motion mockup, or a video or GIF of a design, even when they only say \\\"animate this\\\". Also use it on landing pages and websites for bento and feature cards that pair text with a visual, and for product or dashboard mockups. Always consult it before exporting layers, choosing what moves, building the intro, writing the visual story loops, or encoding video and GIFs.",
+      "raw_desc": "Turns a static design (a Figma frame, dashboard, card set, app screen, or a UI on a photo background) into a pixel exact HTML replica that loads in from an empty state, then has every visual act out what it does (a chart being read, a list receiving items, a prompt being typed) in a seamless loop, and exports an MP4 for X, a website GIF, and an 800\u00d7500 GIF. Use this skill whenever the user asks to animate a design, a Figma link, a screenshot, UI cards, a dashboard, or a hero image, to make a loading or appear animation, a showcase loop, a motion mockup, or a video or GIF of a design, even when they only say \\\"animate this\\\". Also use it on landing pages and websites for bento and feature cards that pair text with a visual, and for product or dashboard mockups. Always consult it before exporting layers, choosing what moves, building the intro, writing the visual story loops, or encoding video and GIFs.",
+      "folder": "design-to-motion",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-25T17:40:06.521441Z",
+      "category": "Video"
     },
     {
       "name": "domain-name-brainstormer",
@@ -781,6 +793,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-09T10:00:09.341125Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "landing-page-design",
+      "what": "Complete system for building high converting landing pages: intake questions, page structure, layout selection, conversion copywriting, SEO, plus strict visual rules for typography, spacing, corner radius, backgrounds, hero layout, icons, and motion",
+      "when": "building, editing, styling, reviewing, or writing copy for ANY landing page, marketing site, web UI, page section, component, or prototype, even when the user does not mention design, conversion, tokens, or a design system. Always consult it before choosing page sections, headlines, CTAs, fonts, font sizes, spacing values, border radii, background colors, icons, or transitions.",
+      "raw_desc": "Complete system for building high converting landing pages: intake questions, page structure, layout selection, conversion copywriting, SEO, plus strict visual rules for typography, spacing, corner radius, backgrounds, hero layout, icons, and motion. Use this skill whenever building, editing, styling, reviewing, or writing copy for ANY landing page, marketing site, web UI, page section, component, or prototype, even when the user does not mention design, conversion, tokens, or a design system. Always consult it before choosing page sections, headlines, CTAs, fonts, font sizes, spacing values, border radii, background colors, icons, or transitions.",
+      "folder": "landing-page-design",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-25T17:40:06.521441Z",
+      "category": "Design"
     },
     {
       "name": "lead-research-assistant",
