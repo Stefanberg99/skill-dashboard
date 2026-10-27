@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-26T13:36:00.019135Z",
-  "hash": "7b7601733499d280e12967e88aa97898",
+  "synced_at": "2026-10-27T18:35:47.257543Z",
+  "hash": "33defa14bd5ef73662825292b3b4d08e",
   "skills": [
     {
       "name": "agent-builder",
@@ -1909,6 +1909,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-17T09:53:19.181031Z",
       "category": "Video"
+    },
+    {
+      "name": "artifact-emulator",
+      "what": "See a page, slide deck or design canvas artifact you made, close to how a person will see it: open its files in the real artifact viewer inside this cloud session, then screenshot it and read its console errors with a short Python Playwright script. Use it when the person asks to see or check how it looks, or when the artifact type's own instructions tell you to check. Where a type's instructions say not to check unless asked, they win. Never a step before saving or publishing, nor a routine after every save. Not for web apps or pages that are not artifacts. Cloud sessions only (built for cloud Cowork): elsewhere its script stops with a one-line reason. Only you see the result.",
+      "when": "",
+      "raw_desc": "See a page, slide deck or design canvas artifact you made, close to how a person will see it: open its files in the real artifact viewer inside this cloud session, then screenshot it and read its console errors with a short Python Playwright script. Use it when the person asks to see or check how it looks, or when the artifact type's own instructions tell you to check. Where a type's instructions say not to check unless asked, they win. Never a step before saving or publishing, nor a routine after every save. Not for web apps or pages that are not artifacts. Cloud sessions only (built for cloud Cowork): elsewhere its script stops with a one-line reason. Only you see the result.",
+      "folder": "artifact-emulator",
+      "source": "anthropic",
+      "source_label": "Anthropic",
+      "source_color": "#8b5cf6",
+      "first_seen": "2026-10-27T18:35:47.257543Z",
+      "category": "Deploy"
     },
     {
       "name": "built-in-browser",
