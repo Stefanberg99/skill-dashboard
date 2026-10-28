@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-27T18:35:47.257543Z",
-  "hash": "33defa14bd5ef73662825292b3b4d08e",
+  "synced_at": "2026-10-28T19:24:39.849568Z",
+  "hash": "6f45396f224bda5027e47da1621ba2d3",
   "skills": [
     {
       "name": "agent-builder",
@@ -601,6 +601,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-08T13:06:56.819675Z",
       "category": "Deploy"
+    },
+    {
+      "name": "hype-trailer",
+      "what": "An original 12 to 15 s trailer, 16:9, that plays like the reference film but is made of the client's own world: a hero shot opens and closes it, a montage of real moving footage builds to a peak, then the name and the real logo. It lands in ~/Outputs/<project>-trailer/ and opens on the user's screen for review.\u2026",
+      "when": "someone wants a short cinematic hype trailer, launch trailer, teaser or sizzle for a brand, community, product or launch, especially \"like this video\" with a reference film (a YouTube link such as Anthropic's Claude launch films). Fires on \"hype trailer\", \"launch trailer\", \"make a trailer like this\", \"teaser for the launch\", \"trailer for the new community\", \"a Claude-style trailer\". Turns the reference into an original 12 to 15 s film in its grammar - a hero bookend shot, a fast build-up of real moving footage (free stock from Pexels and NASA first), an optional countdown, the name and the real logo - with one shared grade and a coded score after the reference's sound. Not for a product UI or website promo (product-launch-video), not for editing talking-head footage (video-use), not for a standalone motion graphic (motion-graphics).",
+      "raw_desc": "Use when someone wants a short cinematic hype trailer, launch trailer, teaser or sizzle for a brand, community, product or launch, especially \"like this video\" with a reference film (a YouTube link such as Anthropic's Claude launch films). Fires on \"hype trailer\", \"launch trailer\", \"make a trailer like this\", \"teaser for the launch\", \"trailer for the new community\", \"a Claude-style trailer\". Turns the reference into an original 12 to 15 s film in its grammar - a hero bookend shot, a fast build-up of real moving footage (free stock from Pexels and NASA first), an optional countdown, the name and the real logo - with one shared grade and a coded score after the reference's sound. Not for a product UI or website promo (product-launch-video), not for editing talking-head footage (video-use), not for a standalone motion graphic (motion-graphics).",
+      "folder": "hype-trailer",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-28T19:24:39.849568Z",
+      "category": "Video"
     },
     {
       "name": "hyperframes",
