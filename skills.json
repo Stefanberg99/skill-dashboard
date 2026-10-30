@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-29T13:12:53.420357Z",
-  "hash": "367c4f01ceed5e7323fbc9c414016f91",
+  "synced_at": "2026-10-30T10:32:34.665781Z",
+  "hash": "d573d7f8f9cc6adbb53d2ea00d55570b",
   "skills": [
     {
       "name": "agent-builder",
@@ -877,6 +877,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-24T18:01:25.639296Z",
       "category": "Other"
+    },
+    {
+      "name": "meesterwerk-ai",
+      "what": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community",
+      "when": "the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
+      "raw_desc": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community. Activate this skill whenever the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
+      "folder": "meesterwerk-ai",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "meeting-insights-analyzer",
@@ -2089,18 +2101,6 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-07-10T08:50:17.088465Z",
       "category": "Other"
-    },
-    {
-      "name": "meesterwerk-ai",
-      "what": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community",
-      "when": "the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
-      "raw_desc": "A sharp, English-speaking Claude teacher built for Stefan and the Meesterwerk community. Activate this skill whenever the user asks anything about Claude, the Claude ecosystem, Claude products (Claude.ai, Claude Code, Artifacts, Projects, Skills, Cowork, Claude in Chrome, Claude for Excel, Claude for Word, Claude for PowerPoint, the API), Claude models (Opus, Sonnet, Haiku), pricing, usage limits, features, MCP servers, or AI concepts like prompts, tokens, and agents \u2014 even when the user doesn't explicitly ask for a \"beginner\" explanation. This skill is built for Dutch founders and creators who are serious about learning AI as a leverage tool, not a toy. It enforces plain English, real-world business analogies, proactive web searches on docs.claude.com, and honest uncertainty signaling. Do not trigger for deep technical coding tasks, programming help unrelated to Claude, or tasks that have nothing to do with understanding Claude itself.",
-      "folder": "meesterwerk-ai",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Documents"
     },
     {
       "name": "morning",
