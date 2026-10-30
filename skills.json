@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-30T10:32:34.665781Z",
-  "hash": "d573d7f8f9cc6adbb53d2ea00d55570b",
+  "synced_at": "2026-10-30T12:36:56.324151Z",
+  "hash": "4e766c6d446fe7b79e8b908b211afc73",
   "skills": [
     {
       "name": "agent-builder",
@@ -1681,6 +1681,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Other"
+    },
+    {
+      "name": "thinker",
+      "what": "One door to his Toolbox. A good workshop foreman hears the job, hands over the right tool and shows the first cut. The craftsman does the work. Here Claude picks the tool from his notes, and Stefan does the thinking.",
+      "when": "Stefan wants a thinking partner on a problem, a claim, a decision or a stuck moment and wants Claude to pick the fitting tool from his Toolbox. Fires on \"/thinker\", \"thinker\", \"think with me\", \"brainstorm with me\", \"be my thinking partner\", \"which mental model fits\", \"which tool should I use\", \"pick a model for this\", \"I'm stuck on a problem\", \"help me solve this\". Lists the notes in his vault's 07 Toolbox, picks one tool with a one-line reason, then interviews him through that note's Run it block (or hands over to the tool's own skill), following the note's Next line. He does the thinking. NOT for a tool he already named (call that skill directly) or for mapping a whole system (systems-thinker).",
+      "raw_desc": "Use when Stefan wants a thinking partner on a problem, a claim, a decision or a stuck moment and wants Claude to pick the fitting tool from his Toolbox. Fires on \"/thinker\", \"thinker\", \"think with me\", \"brainstorm with me\", \"be my thinking partner\", \"which mental model fits\", \"which tool should I use\", \"pick a model for this\", \"I'm stuck on a problem\", \"help me solve this\". Lists the notes in his vault's 07 Toolbox, picks one tool with a one-line reason, then interviews him through that note's Run it block (or hands over to the tool's own skill), following the note's Next line. He does the thinking. NOT for a tool he already named (call that skill directly) or for mapping a whole system (systems-thinker).",
+      "folder": "thinker",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-10-30T12:36:56.324151Z",
+      "category": "Memory"
     },
     {
       "name": "today",
