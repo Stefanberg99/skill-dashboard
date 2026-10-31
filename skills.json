@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-30T21:07:10.081200Z",
-  "hash": "4e766c6d446fe7b79e8b908b211afc73",
+  "synced_at": "2026-10-31T15:30:38.882490Z",
+  "hash": "b6bc41d38ce7a62e2e060883dd8ff322",
   "skills": [
     {
       "name": "agent-builder",
@@ -2221,42 +2221,6 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Documents"
-    },
-    {
-      "name": "claimable-cloud",
-      "what": "Provision a working Cloudinary cloud with no signup (a Claimable Cloud) when the user wants to build with Cloudinary but has no credentials",
-      "when": "a Cloudinary task such as an upload, transformation or SDK setup can't proceed because no CLOUDINARY_URL or API credentials are available. Do not use when working credentials already exist.",
-      "raw_desc": "Provision a working Cloudinary cloud with no signup (a Claimable Cloud) when the user wants to build with Cloudinary but has no credentials. Use when a Cloudinary task such as an upload, transformation or SDK setup can't proceed because no CLOUDINARY_URL or API credentials are available. Do not use when working credentials already exist.",
-      "folder": "claimable-cloud",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-30T18:14:40.954143Z",
-      "category": "Coding"
-    },
-    {
-      "name": "cloudinary-docs",
-      "what": "Looks up implementation details in the latest Cloudinary docs via the relevant llms.txt file",
-      "when": "building code or answering questions relating to image or video uploads, management, SDKs, APIs, webhooks, or integrations. For topics covered by a specialized Cloudinary skill, prefer that skill. Use this skill alongside it when the full use-case requires capabilities outside that skill's scope.",
-      "raw_desc": "Looks up implementation details in the latest Cloudinary docs via the relevant llms.txt file. Use when building code or answering questions relating to image or video uploads, management, SDKs, APIs, webhooks, or integrations. For topics covered by a specialized Cloudinary skill, prefer that skill. Use this skill alongside it when the full use-case requires capabilities outside that skill's scope.",
-      "folder": "cloudinary-docs",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-30T18:14:40.954143Z",
-      "category": "Video"
-    },
-    {
-      "name": "cloudinary-transformations",
-      "what": "Create and debug Cloudinary transformation URLs from natural language instructions",
-      "when": "building Cloudinary delivery URLs, applying image/video transformations, optimizing media, or debugging transformation syntax errors.",
-      "raw_desc": "Create and debug Cloudinary transformation URLs from natural language instructions. Use when building Cloudinary delivery URLs, applying image/video transformations, optimizing media, or debugging transformation syntax errors.",
-      "folder": "cloudinary-transformations",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-09-30T18:14:40.954143Z",
-      "category": "Video"
     },
     {
       "name": "figma-code-connect",
