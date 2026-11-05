@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-31T15:30:38.882490Z",
+  "synced_at": "2026-11-05T07:21:30.542777Z",
   "hash": "b6bc41d38ce7a62e2e060883dd8ff322",
   "skills": [
     {
@@ -1336,9 +1336,9 @@
     },
     {
       "name": "reflect",
-      "what": "Evening ritual (5 min). Adds the day to today's Day entry in the Journal's Log - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to Storyworthy Moments in the Journal (03 Journal)",
-      "when": "Stefan says /reflect, \"close my day\", or \"evening reflection\".",
-      "raw_desc": "Evening ritual (5 min). Adds the day to today's Day entry in the Journal's Log - what happened, lesson, storyworthy moment, tomorrow's intention. Appends the storyworthy moment to Storyworthy Moments in the Journal (03 Journal). Trigger when Stefan says /reflect, \"close my day\", or \"evening reflection\".",
+      "what": "Save Stefan\u2019s own account of the day and what he learned from it.",
+      "when": "Stefan says /reflect, \"close my day\", or \"evening reflection\". Save his evening account, lesson and next intention in today\u2019s Journal Day entry. Point a new Storyworthy moment to Alchemy.",
+      "raw_desc": "Use when Stefan says /reflect, \"close my day\", or \"evening reflection\". Save his evening account, lesson and next intention in today\u2019s Journal Day entry. Point a new Storyworthy moment to Alchemy.",
       "folder": "reflect",
       "source": "personal",
       "source_label": "Your Skills",
