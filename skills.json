@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-09T14:40:20.517063Z",
-  "hash": "fa84f9f800afd586a41ff405e2cf11b1",
+  "synced_at": "2026-11-09T16:44:56.429216Z",
+  "hash": "0bf9ad4b784c489bc1ce1c59d1160bb1",
   "skills": [
     {
       "name": "agent-builder",
@@ -1177,6 +1177,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-24T07:29:05.231367Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "output",
+      "what": "KnowledgeOS output sheets, the sibling of /learn. For one resource, decides what it asks of Stefan (theory only, or real work) and writes each real exercise as a data file the sheet template draws as a workbench he writes in, with follow-up questions, then and now, and where the result goes. Typed only, /output.",
+      "when": "",
+      "raw_desc": "KnowledgeOS output sheets, the sibling of /learn. For one resource, decides what it asks of Stefan (theory only, or real work) and writes each real exercise as a data file the sheet template draws as a workbench he writes in, with follow-up questions, then and now, and where the result goes. Typed only, /output.",
+      "folder": "output",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-11-09T16:44:56.429216Z",
+      "category": "Memory"
     },
     {
       "name": "personal-brand-strategist",
