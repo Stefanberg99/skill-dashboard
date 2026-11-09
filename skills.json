@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-09T17:17:07.321035Z",
-  "hash": "5372acdf80776698c740bd051c15cbeb",
+  "synced_at": "2026-11-09T17:18:10.661658Z",
+  "hash": "0bf9ad4b784c489bc1ce1c59d1160bb1",
   "skills": [
     {
       "name": "agent-builder",
@@ -2559,18 +2559,6 @@
       "category": "Coding"
     },
     {
-      "name": "brainstorming",
-      "what": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
-      "when": "",
-      "raw_desc": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
-      "folder": "brainstorming",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "AI & Agents"
-    },
-    {
       "name": "build-agents",
       "what": "Default guidance for building AI agents. Use for generic requests to build, create, scaffold, design, architect, or implement an AI agent, agent app, tool-calling agent, durable agent, multi-agent system, or scheduled agent.",
       "when": "",
@@ -2643,30 +2631,6 @@
       "category": "Deploy"
     },
     {
-      "name": "diagnosing-superpowers",
-      "what": "Pin down with your human partner what went wrong in a session, read the transcripts on disk, and report what happened with evidence. You report; you do not diagnose superpowers. Whoever triages the bundle or the issue decides whether superpowers changes.",
-      "when": "a superpowers session went wrong and your human partner wants to know why \u2014 repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" \u2014 or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.",
-      "raw_desc": "Use when a superpowers session went wrong and your human partner wants to know why \u2014 repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" \u2014 or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.",
-      "folder": "diagnosing-superpowers",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-11-09T14:39:17.328507Z",
-      "category": "Video"
-    },
-    {
-      "name": "dispatching-parallel-agents",
-      "what": "You delegate tasks to specialized agents with isolated context. By precisely crafting their instructions and context, you ensure they stay focused and succeed at their task. They should never inherit your session's context or history \u2014 you construct exactly what they need. This also preserves your own context for\u2026",
-      "when": "facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
-      "raw_desc": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
-      "folder": "dispatching-parallel-agents",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "AI & Agents"
-    },
-    {
       "name": "env-vars",
       "what": "Vercel environment variable expert guidance",
       "when": "working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.",
@@ -2689,18 +2653,6 @@
       "source_color": "#64748b",
       "first_seen": "2026-09-03T07:01:49.638145Z",
       "category": "AI & Agents"
-    },
-    {
-      "name": "executing-plans",
-      "what": "Execute the plan yourself, task by task, in this session: no implementer subagent per task, no reviewer per task. One fresh-context review of the whole branch at the end.",
-      "when": "executing an implementation plan in the current session as the implementer yourself \u2014 your human partner chose inline execution, or no subagent tool is available",
-      "raw_desc": "Use when executing an implementation plan in the current session as the implementer yourself \u2014 your human partner chose inline execution, or no subagent tool is available",
-      "folder": "executing-plans",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Coding"
     },
     {
       "name": "figma-code-connect",
@@ -2895,18 +2847,6 @@
       "category": "AI & Agents"
     },
     {
-      "name": "finishing-a-development-branch",
-      "what": "Core principle: Verify tests \u2192 Detect environment \u2192 Present options \u2192 Execute choice \u2192 Clean up.",
-      "when": "implementation is complete, all tests pass, and you need to decide how to integrate the work",
-      "raw_desc": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
-      "folder": "finishing-a-development-branch",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Coding"
-    },
-    {
       "name": "flags-sdk",
       "what": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags",
       "when": "installing or configuring the SDK, adding a new or existing flag, wiring `vercelAdapter` (OIDC or SDK keys), declaring flags with `flag()`, using the `vercel flags` CLI (create, inspect, list, enable, disable, set, update, split, rollout, rules, segments, use-targeting, evaluations, versions, open, archive, unarchive, rm, sdk-keys, override, prepare), setting up providers/adapters (Vercel, Statsig, LaunchDarkly, PostHog, GrowthBook, Global Config, OpenFeature, Split, Flagsmith, Reflag, Optimizely, or custom), precompute, `identify`/`dedupe`, Flags Explorer/Toolbar, Next.js or SvelteKit, or encrypting flag values. Triggers: feature flags, feature gates, A/B testing, experimentation, gradual rollout, traffic split, targeting rules, flag overrides, precompute, Flags Explorer, Vercel Flags, vercel flags CLI, `flags/next`, `flags/sveltekit`, `flags/react`, `@flags-sdk/*`.",
@@ -2967,30 +2907,6 @@
       "category": "Productivity"
     },
     {
-      "name": "receiving-code-review",
-      "what": "Code review requires technical evaluation, not emotional performance.",
-      "when": "receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
-      "raw_desc": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
-      "folder": "receiving-code-review",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-23T08:23:49.096935Z",
-      "category": "Coding"
-    },
-    {
-      "name": "requesting-code-review",
-      "what": "Dispatch a code reviewer subagent to catch issues before they cascade. The reviewer gets precisely crafted context for evaluation \u2014 never your session's history.",
-      "when": "completing tasks, implementing major features, or before merging to verify work meets requirements",
-      "raw_desc": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
-      "folder": "requesting-code-review",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-07-23T08:23:49.096935Z",
-      "category": "AI & Agents"
-    },
-    {
       "name": "slack-api",
       "what": "Help the developer discover the right Web API method, read its contract, and call it correctly. Slack exposes hundreds of methods named in family.method dot notation (e.g. chat.postMessage, conversations.history) at https://slack.com/api/<method>. Every method's doc page follows a fixed URL pattern, so the contract\u2026",
       "when": "a developer asks which Slack Web API method does something, needs a method's OAuth scopes or token type, wants to call or test a family.method endpoint (chat.postMessage, conversations.history, users.info, views.open), is handling cursor pagination (next_cursor) or rate limits (tier/ratelimited/Retry-After), or is debugging errors like missing_scope, invalid_auth, or channel_not_found. Also trigger on a pasted slack.com/api/ URL or docs.slack.dev/reference/methods link.",
@@ -3049,42 +2965,6 @@
       "source_color": "#64748b",
       "first_seen": "2026-06-18T12:26:59.169561Z",
       "category": "AI & Agents"
-    },
-    {
-      "name": "subagent-driven-development",
-      "what": "Execute plan by dispatching a fresh implementer subagent per task, a task review (spec compliance + code quality) after each, and a broad whole-branch review at the end.",
-      "when": "executing implementation plans with independent tasks in the current session",
-      "raw_desc": "Use when executing implementation plans with independent tasks in the current session",
-      "folder": "subagent-driven-development",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "AI & Agents"
-    },
-    {
-      "name": "systematic-debugging",
-      "what": "Core principle: ALWAYS find root cause before attempting fixes. Symptom fixes are failure.",
-      "when": "encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "raw_desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "folder": "systematic-debugging",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Coding"
-    },
-    {
-      "name": "test-driven-development",
-      "what": "Write the test first. Watch it fail. Write minimal code to pass.",
-      "when": "implementing any feature or bugfix, before writing implementation code",
-      "raw_desc": "Use when implementing any feature or bugfix, before writing implementation code",
-      "folder": "test-driven-development",
-      "source": "plugin",
-      "source_label": "Plugin",
-      "source_color": "#64748b",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Writing"
     },
     {
       "name": "test-slack-app",
