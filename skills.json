@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-10T12:23:19.369344Z",
-  "hash": "0bf9ad4b784c489bc1ce1c59d1160bb1",
+  "synced_at": "2026-11-11T11:58:56.037791Z",
+  "hash": "fffbc9be7728dc7047bfeeffab288aa3",
   "skills": [
     {
       "name": "agent-builder",
@@ -721,6 +721,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-08-24T09:38:39.398767Z",
       "category": "Deploy"
+    },
+    {
+      "name": "impeccable",
+      "what": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+      "when": "",
+      "raw_desc": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+      "folder": "impeccable",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-11-11T11:58:56.037791Z",
+      "category": "Design"
     },
     {
       "name": "improve-animations",
