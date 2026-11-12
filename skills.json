@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-12T08:49:37.852887Z",
-  "hash": "fffbc9be7728dc7047bfeeffab288aa3",
+  "synced_at": "2026-11-12T14:11:28.873003Z",
+  "hash": "295ee08e7b2e4db56592a0429eed5954",
   "skills": [
     {
       "name": "agent-builder",
@@ -1549,6 +1549,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "AI & Agents"
+    },
+    {
+      "name": "saas-animation",
+      "what": "Make short, high-end SaaS, app, product and brand animations (about 8\u201320s) with Claude, built as code and rendered to 4K video, without any AI video or image generator. Always starts with a numbered storyboard for the user to approve before anything is built. Covers storyboards, one continuous camera, shots that transform into each other, real app UI in 3D space, puppet-animated illustrations, photoreal product shots in Blender, flat black and white silhouette looks, blending an ad into real footage, sound design, music prompts and voiceovers",
+      "when": "someone asks for a SaaS animation, motion ad, spec ad, product launch video, app promo, logo animation, 3D product shot, \"a video for\" a brand or product, or wants notes applied to one of these, even if they never say \"motion graphics\".",
+      "raw_desc": "Make short, high-end SaaS, app, product and brand animations (about 8\u201320s) with Claude, built as code and rendered to 4K video, without any AI video or image generator. Always starts with a numbered storyboard for the user to approve before anything is built. Covers storyboards, one continuous camera, shots that transform into each other, real app UI in 3D space, puppet-animated illustrations, photoreal product shots in Blender, flat black and white silhouette looks, blending an ad into real footage, sound design, music prompts and voiceovers. Use this whenever someone asks for a SaaS animation, motion ad, spec ad, product launch video, app promo, logo animation, 3D product shot, \"a video for\" a brand or product, or wants notes applied to one of these, even if they never say \"motion graphics\".",
+      "folder": "saas-animation",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-11-12T14:11:28.873003Z",
+      "category": "Video"
     },
     {
       "name": "second-order",
