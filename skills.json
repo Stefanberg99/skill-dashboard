@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-13T05:11:28.616983Z",
-  "hash": "11dd19d2468ae2476bf0df905c044bd7",
+  "synced_at": "2026-11-13T07:57:32.509282Z",
+  "hash": "0877b901e429098cbfe11dbe498d8ccd",
   "skills": [
     {
       "name": "agent-builder",
@@ -289,6 +289,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-06-03T12:40:24.726350Z",
       "category": "Deploy"
+    },
+    {
+      "name": "design-taste-frontend",
+      "what": "tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edges, real photographs and real product UI (licensed stand-in photographs when the client has none; a product render only when the brief asks for 3D), a hero entrance and one or two dealt moments on every page, shader effects and scenes only on tech, gaming and software pages, quiet micro-interactions, and a checker and finish gate that enforce it in a real browser",
+      "when": "you build, design, redesign, restyle, polish or review a landing page, company, product, shop, cafe, hotel, studio, SaaS, AI, developer-tool or game site, as static HTML/CSS or inside an existing React, Next.js, Vue, Svelte, Astro or Tailwind project, or when the user says a page looks generic, templated or \"AI-made\". Stop: - hooks: - type: command command: 'for f in ${CLAUDE_SKILL_DIR:+\"$CLAUDE_SKILL_DIR/scripts/gate.mjs\"} ${CLAUDE_PLUGIN_ROOT:+\"$CLAUDE_PLUGIN_ROOT/scripts/gate.mjs\" \"$CLAUDE_PLUGIN_ROOT/skills/taste-skill/scripts/gate.mjs\"} ${CLAUDE_PROJECT_DIR:+\"$CLAUDE_PROJECT_DIR/.claude/skills/design-taste-frontend/scripts/gate.mjs\" \"$CLAUDE_PROJECT_DIR/.agents/skills/design-taste-frontend/scripts/gate.mjs\"} ${HOME:+\"$HOME/.claude/skills/design-taste-frontend/scripts/gate.mjs\" \"$HOME/.agents/skills/design-taste-frontend/scripts/gate.mjs\"}; do if [ -f \"$f\" ]; then exec node \"$f\" --hook claude; fi; done; if [ -d .taste-skill ]; then printf \"%s gate.mjs not found; CLAUDE_PLUGIN_ROOT=%s CLAUDE_PROJECT_DIR=%s HOME=%s\\n\" \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" \"${CLAUDE_PLUGIN_ROOT-}\" \"${CLAUDE_PROJECT_DIR-}\" \"${HOME-}\" > .taste-skill/gate-hook-missing.txt 2>/dev/null; fi; for d in .taste-skill */.taste-skill; do if [ -f \"$d/build.json\" ]; then echo \"tasteskill gate: gate.mjs not found (CLAUDE_PLUGIN_ROOT=${CLAUDE_PLUGIN_ROOT-}); the build in $d is not checked\" >&2; break; fi; done; exit 0' timeout: 600",
+      "raw_desc": "tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edges, real photographs and real product UI (licensed stand-in photographs when the client has none; a product render only when the brief asks for 3D), a hero entrance and one or two dealt moments on every page, shader effects and scenes only on tech, gaming and software pages, quiet micro-interactions, and a checker and finish gate that enforce it in a real browser. Use this whenever you build, design, redesign, restyle, polish or review a landing page, company, product, shop, cafe, hotel, studio, SaaS, AI, developer-tool or game site, as static HTML/CSS or inside an existing React, Next.js, Vue, Svelte, Astro or Tailwind project, or when the user says a page looks generic, templated or \"AI-made\". Stop: - hooks: - type: command command: 'for f in ${CLAUDE_SKILL_DIR:+\"$CLAUDE_SKILL_DIR/scripts/gate.mjs\"} ${CLAUDE_PLUGIN_ROOT:+\"$CLAUDE_PLUGIN_ROOT/scripts/gate.mjs\" \"$CLAUDE_PLUGIN_ROOT/skills/taste-skill/scripts/gate.mjs\"} ${CLAUDE_PROJECT_DIR:+\"$CLAUDE_PROJECT_DIR/.claude/skills/design-taste-frontend/scripts/gate.mjs\" \"$CLAUDE_PROJECT_DIR/.agents/skills/design-taste-frontend/scripts/gate.mjs\"} ${HOME:+\"$HOME/.claude/skills/design-taste-frontend/scripts/gate.mjs\" \"$HOME/.agents/skills/design-taste-frontend/scripts/gate.mjs\"}; do if [ -f \"$f\" ]; then exec node \"$f\" --hook claude; fi; done; if [ -d .taste-skill ]; then printf \"%s gate.mjs not found; CLAUDE_PLUGIN_ROOT=%s CLAUDE_PROJECT_DIR=%s HOME=%s\\n\" \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" \"${CLAUDE_PLUGIN_ROOT-}\" \"${CLAUDE_PROJECT_DIR-}\" \"${HOME-}\" > .taste-skill/gate-hook-missing.txt 2>/dev/null; fi; for d in .taste-skill */.taste-skill; do if [ -f \"$d/build.json\" ]; then echo \"tasteskill gate: gate.mjs not found (CLAUDE_PLUGIN_ROOT=${CLAUDE_PLUGIN_ROOT-}); the build in $d is not checked\" >&2; break; fi; done; exit 0' timeout: 600",
+      "folder": "design-taste-frontend",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-11-13T07:57:32.509282Z",
+      "category": "Design"
     },
     {
       "name": "design-to-motion",
