@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-12T14:11:28.873003Z",
-  "hash": "295ee08e7b2e4db56592a0429eed5954",
+  "synced_at": "2026-11-13T05:11:28.616983Z",
+  "hash": "11dd19d2468ae2476bf0df905c044bd7",
   "skills": [
     {
       "name": "agent-builder",
@@ -2043,18 +2043,6 @@
       "category": "Memory"
     },
     {
-      "name": "copywriting",
-      "what": "Stefan's copywriting and writing engine. A complete system for diagnosing a reader, choosing an angle, writing hooks, and producing copy that moves someone to act",
-      "when": "the user is writing, rewriting, critiquing, or planning ANY persuasive or audience-facing text: ads, emails, subject lines, hooks, headlines, fascinations, video scripts, YouTube titles, community posts, Skool or LinkedIn posts, tweets, threads, newsletters, landing pages, sales pages, VSLs, outreach DMs, launch sequences, CTAs, bios, offers, or long-form content. ALSO trigger when the user asks for 'feedback' on any piece of writing, asks 'is this good', asks to 'make this punchier / clearer / stronger', asks for hook or headline variations, asks why copy is not converting, or asks how to say something more persuasively. Trigger even if the user never says the word 'copywriting'. If text is going to be read by another human in order to make them feel, believe, or do something, this skill applies.",
-      "raw_desc": "Stefan's copywriting and writing engine. A complete system for diagnosing a reader, choosing an angle, writing hooks, and producing copy that moves someone to act. Use this skill whenever the user is writing, rewriting, critiquing, or planning ANY persuasive or audience-facing text: ads, emails, subject lines, hooks, headlines, fascinations, video scripts, YouTube titles, community posts, Skool or LinkedIn posts, tweets, threads, newsletters, landing pages, sales pages, VSLs, outreach DMs, launch sequences, CTAs, bios, offers, or long-form content. ALSO trigger when the user asks for 'feedback' on any piece of writing, asks 'is this good', asks to 'make this punchier / clearer / stronger', asks for hook or headline variations, asks why copy is not converting, or asks how to say something more persuasively. Trigger even if the user never says the word 'copywriting'. If text is going to be read by another human in order to make them feel, believe, or do something, this skill applies.",
-      "folder": "copywriting",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-07-13T08:01:12.739027Z",
-      "category": "Video"
-    },
-    {
       "name": "deep-research",
       "what": "You are acting as the coordinator. Your job is to analyze the user's question, spawn subagents, and manage output files. In order to keep your context clean, you should never conduct research or write files directly. For the same reason, you also should not read the researcher.md or report-writer.md files.",
       "when": "the user's prompt requires (1) researching a topic across multiple sources, comparing options or alternatives, analyzing trends or history, understanding markets or industries, or reviewing literature or studies and (2) synthesizing that research into a comprehensive, narrative report. If you're planning to search the web or internal knowledge bases, consider using this skill. This skill coordinates research subagents, so use it only when you have a tool for spawning subagents (the Agent or Task tool); otherwise, research the question directly.",
@@ -2103,18 +2091,6 @@
       "category": "Design"
     },
     {
-      "name": "gatena-cookbook",
-      "what": "Analyze, improve, and CREATE designs using 190 behavioural science principles from the Gatena Cookbook research and academic literature. Use in TWO scenarios. REVIEWING -",
-      "when": "the user asks to review, audit, critique, or improve any design including screenshots, mockups, wireframes, landing pages, product flows, marketing materials, or branding. Even 'review my design' or 'how can I improve this' should trigger this. CREATING FROM SCRATCH - Trigger when the user asks to design, build, or create any UI, landing page, website, app screen, product flow, pricing page, checkout, signup form, dashboard, or any user-facing design. Apply behavioural principles proactively during creation. Also trigger for 'what principles apply here', behavioural audits, nudges, cognitive biases, persuasion, or conversion optimization.",
-      "raw_desc": "Analyze, improve, and CREATE designs using 190 behavioural science principles from the Gatena Cookbook research and academic literature. Use in TWO scenarios. REVIEWING - Trigger when the user asks to review, audit, critique, or improve any design including screenshots, mockups, wireframes, landing pages, product flows, marketing materials, or branding. Even 'review my design' or 'how can I improve this' should trigger this. CREATING FROM SCRATCH - Trigger when the user asks to design, build, or create any UI, landing page, website, app screen, product flow, pricing page, checkout, signup form, dashboard, or any user-facing design. Apply behavioural principles proactively during creation. Also trigger for 'what principles apply here', behavioural audits, nudges, cognitive biases, persuasion, or conversion optimization.",
-      "folder": "gatena-cookbook",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-07-08T11:37:35.055047Z",
-      "category": "Research"
-    },
-    {
       "name": "google-workspace",
       "what": "Read this before the first Google Drive, Docs, Sheets or Slides connector call whenever the task creates or changes a Google file",
       "when": "the user wants to create or change a Google Doc, Sheet or Slides file in their Google Drive. Triggers include: a request that names Google Docs, Sheets, Slides or Drive and asks to make, edit, format, copy or rename a file; a docs.google.com link with a request to change that file, even a one-line fix or suggested edits; and any follow-up change to a Google file from earlier in the chat, even \\\"change it\\\" or \\\"add a tab\\\". Includes helper scripts for document positions, cell ranges and slide layout. However, if the user asks for a doc, deck or spreadsheet without naming Google, or gives a Google file only as source material for something new, use Claude's own output type instead. Do NOT use for read-only questions about a Google file, or for Word, Excel, PowerPoint or PDF files.",
@@ -2137,18 +2113,6 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-08-31T18:24:16.509863Z",
       "category": "Memory"
-    },
-    {
-      "name": "linkedin-comment-engagement",
-      "what": "Run Mischa's daily LinkedIn engagement routine as the KubeCraft founder: open LinkedIn in the correct Chrome profile, verify the active account is Mischa, then like and post short, human, humanized comments and replies that have actually read the post. Covers three surfaces: other people's posts, replies on Mischa's own posts, and comments on the KubeCraft company page. Target is at least 25 activities per day (comments, likes, and replies combined), weighted mostly toward other people's posts",
-      "when": "the user says \\\"do my LinkedIn comments\\\", \\\"engage LinkedIn\\\", \\\"run the LinkedIn routine\\\", \\\"comment on LinkedIn\\\", \\\"reply to my LinkedIn comments\\\", or \\\"LinkedIn engagement\\\". Does NOT create new posts.",
-      "raw_desc": "Run Mischa's daily LinkedIn engagement routine as the KubeCraft founder: open LinkedIn in the correct Chrome profile, verify the active account is Mischa, then like and post short, human, humanized comments and replies that have actually read the post. Covers three surfaces: other people's posts, replies on Mischa's own posts, and comments on the KubeCraft company page. Target is at least 25 activities per day (comments, likes, and replies combined), weighted mostly toward other people's posts. Use whenever the user says \\\"do my LinkedIn comments\\\", \\\"engage LinkedIn\\\", \\\"run the LinkedIn routine\\\", \\\"comment on LinkedIn\\\", \\\"reply to my LinkedIn comments\\\", or \\\"LinkedIn engagement\\\". Does NOT create new posts.",
-      "folder": "linkedin-comment-engagement",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-07-10T08:50:17.088465Z",
-      "category": "Other"
     },
     {
       "name": "morning",
@@ -2221,30 +2185,6 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-06-03T09:40:36.307925Z",
       "category": "Research"
-    },
-    {
-      "name": "skool-comment-engagement",
-      "what": "Run a Skool engagement routine: open a community, pick the posts worth engaging, like them, and post (or update) short, human, professional, question-led comments that tag the author by name and pull a reply",
-      "when": "the user wants to comment on, reply to, or \"engage\" Skool posts, tag someone, like posts, or bring a page's comments up to standard. Triggers: \"comment on this post\", \"reply to X\", \"engage him/her\", \"do my Skool comments\", \"engage the page\", \"update the comments\". Covers liking, commenting, and editing existing comments. Does NOT create new posts.",
-      "raw_desc": "Run a Skool engagement routine: open a community, pick the posts worth engaging, like them, and post (or update) short, human, professional, question-led comments that tag the author by name and pull a reply. Use whenever the user wants to comment on, reply to, or \"engage\" Skool posts, tag someone, like posts, or bring a page's comments up to standard. Triggers: \"comment on this post\", \"reply to X\", \"engage him/her\", \"do my Skool comments\", \"engage the page\", \"update the comments\". Covers liking, commenting, and editing existing comments. Does NOT create new posts.",
-      "folder": "skool-comment-engagement",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-06-18T10:00:33.196770Z",
-      "category": "Other"
-    },
-    {
-      "name": "video-prompt-builder",
-      "what": "Generate detailed, shot-by-shot AI video prompts for Seedance 2.0 from a creative brief",
-      "when": "the user wants to create a video prompt, write a shot list, plan a video sequence, describe a video concept for AI generation, or mentions Seedance. Also trigger when the user describes a scene, ad concept, brand film, product video, or any visual sequence they want turned into structured prompts \u2014 even if they don't explicitly say \"video prompt.\" Trigger on phrases like \"write me a video prompt\", \"Seedance prompt\", \"shot list\", \"plan a video\", \"video concept\", \"create a sequence\", \"brand film prompt\", \"ad prompt\", or any time the user describes what they want to happen in a video and needs it translated into generation-ready prompts.",
-      "raw_desc": "Generate detailed, shot-by-shot AI video prompts for Seedance 2.0 from a creative brief. Use this skill whenever the user wants to create a video prompt, write a shot list, plan a video sequence, describe a video concept for AI generation, or mentions Seedance. Also trigger when the user describes a scene, ad concept, brand film, product video, or any visual sequence they want turned into structured prompts \u2014 even if they don't explicitly say \"video prompt.\" Trigger on phrases like \"write me a video prompt\", \"Seedance prompt\", \"shot list\", \"plan a video\", \"video concept\", \"create a sequence\", \"brand film prompt\", \"ad prompt\", or any time the user describes what they want to happen in a video and needs it translated into generation-ready prompts.",
-      "folder": "video-prompt-builder",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Video"
     },
     {
       "name": "xlsx",
