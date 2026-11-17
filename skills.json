@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-16T15:53:03.221879Z",
-  "hash": "74db9a471bf4afd671d4071f426021af",
+  "synced_at": "2026-11-17T10:25:16.023366Z",
+  "hash": "5c689301a9d0ed4d2914f2ea63467065",
   "skills": [
     {
       "name": "agent-builder",
@@ -1693,6 +1693,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-07-10T10:01:39.637214Z",
       "category": "Design"
+    },
+    {
+      "name": "stick-scene",
+      "what": "Make small hand-drawn stick-figure scenes for landing pages and sites, where a stick figure works a machine or prop that shows what a product does (pull a lever, pin a note, stamp a page). Each one is an interactive canvas widget, `<stick-scene>`, that idles quietly and plays one short action on click, hover or scroll into view",
+      "when": "the user asks for a stick figure animation, a \"worker\" or \"crew\" scene, an animated explainer or doodle widget for a landing page, something \"like the stick figures on my story page\", or wants a product's feature shown as a little animated scene.",
+      "raw_desc": "Make small hand-drawn stick-figure scenes for landing pages and sites, where a stick figure works a machine or prop that shows what a product does (pull a lever, pin a note, stamp a page). Each one is an interactive canvas widget, `<stick-scene>`, that idles quietly and plays one short action on click, hover or scroll into view. Use when the user asks for a stick figure animation, a \"worker\" or \"crew\" scene, an animated explainer or doodle widget for a landing page, something \"like the stick figures on my story page\", or wants a product's feature shown as a little animated scene.",
+      "folder": "stick-scene",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-11-17T10:25:16.023366Z",
+      "category": "Other"
     },
     {
       "name": "strategy-awareness",
