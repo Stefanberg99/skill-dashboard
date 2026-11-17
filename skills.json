@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-17T13:56:13.627225Z",
-  "hash": "93d59b20d4c96add1f6e2e29065fb4a8",
+  "synced_at": "2026-11-17T13:59:18.046822Z",
+  "hash": "c9b65f82437e58ad50b07d01a2839ab3",
   "skills": [
     {
       "name": "agent-builder",
@@ -121,6 +121,18 @@
       "source_color": "#38bdf8",
       "first_seen": "2026-09-22T12:47:07.141646Z",
       "category": "Design"
+    },
+    {
+      "name": "canvas-design",
+      "what": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should",
+      "when": "the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "raw_desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "folder": "canvas-design",
+      "source": "personal",
+      "source_label": "Your Skills",
+      "source_color": "#38bdf8",
+      "first_seen": "2026-06-03T09:40:36.307925Z",
+      "category": "Documents"
     },
     {
       "name": "capture",
@@ -1731,18 +1743,6 @@
       "category": "Video"
     },
     {
-      "name": "synthesizer",
-      "what": "The problem-solving crew. Runs Stefan''s Critical Synthesising process as a team of AI agents to crack ANY problem \u2014 a business bottleneck, a client''s problem, a money question, a personal knot, a decision \u2014 and hand back a clear, step-by-step plan plus a document that teaches the thinking",
-      "when": "Stefan says \"/synthesizer\", \"run the synthesizer on X\", \"solve this problem\", \"help me solve / figure out X\", \"run this through the synthesizer\", \"I have a problem: \u2026\", \"find the bottleneck\", or brings any real problem that deserves more than a quick answer. It defines the problem, thinks it through with mental models, researches the facts, filters with a skeptic, and builds the methodology \u2014 output is a transparent, plain-English, visual HTML page (+ a Google Doc) in ~/Outputs/synthesizer/. NOT for a quick factual question (answer that directly) and NOT for \"teach me X\" (that''s /learn).",
-      "raw_desc": "The problem-solving crew. Runs Stefan''s Critical Synthesising process as a team of AI agents to crack ANY problem \u2014 a business bottleneck, a client''s problem, a money question, a personal knot, a decision \u2014 and hand back a clear, step-by-step plan plus a document that teaches the thinking. Trigger when Stefan says \"/synthesizer\", \"run the synthesizer on X\", \"solve this problem\", \"help me solve / figure out X\", \"run this through the synthesizer\", \"I have a problem: \u2026\", \"find the bottleneck\", or brings any real problem that deserves more than a quick answer. It defines the problem, thinks it through with mental models, researches the facts, filters with a skeptic, and builds the methodology \u2014 output is a transparent, plain-English, visual HTML page (+ a Google Doc) in ~/Outputs/synthesizer/. NOT for a quick factual question (answer that directly) and NOT for \"teach me X\" (that''s /learn).",
-      "folder": "synthesizer",
-      "source": "personal",
-      "source_label": "Your Skills",
-      "source_color": "#38bdf8",
-      "first_seen": "2026-07-06T21:34:22.099274Z",
-      "category": "Research"
-    },
-    {
       "name": "talking-head-recut",
       "what": "Package an existing talking-head / interview / podcast video with timed, designed GRAPHIC OVERLAY cards \u2014 kinetic titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture \u2014 synced to the transcript, on a 16:9 / 9:16 / 4:5 canvas of your choice; the clip plays untouched underneath. Trigger on \"graphic overlays\", \"on-screen graphics\", \"package / dress up my video\". Not plain subtitles (/embedded-captions). Unclear \u2192 /hyperframes.",
       "when": "",
@@ -2041,18 +2041,6 @@
       "source_color": "#8b5cf6",
       "first_seen": "2026-09-25T06:40:17.323043Z",
       "category": "Design"
-    },
-    {
-      "name": "canvas-design",
-      "what": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should",
-      "when": "the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-      "raw_desc": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-      "folder": "canvas-design",
-      "source": "anthropic",
-      "source_label": "Anthropic",
-      "source_color": "#8b5cf6",
-      "first_seen": "2026-06-03T09:40:36.307925Z",
-      "category": "Documents"
     },
     {
       "name": "chrome-browser",
