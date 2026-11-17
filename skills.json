@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-17T10:25:16.023366Z",
-  "hash": "5c689301a9d0ed4d2914f2ea63467065",
+  "synced_at": "2026-11-17T13:56:13.627225Z",
+  "hash": "93d59b20d4c96add1f6e2e29065fb4a8",
   "skills": [
     {
       "name": "agent-builder",
@@ -1119,7 +1119,7 @@
       "category": "AI & Agents"
     },
     {
-      "name": "Nano Banana 2 Image Generation Master",
+      "name": "nano-banana-2",
       "what": "A formalized skill for generating hyper-realistic, highly-controlled images using the Nano Banana 2 (Gemini 3.1 Flash) model through parameterized JSON prompting",
       "when": "the user asks to generate a detailed, realistic, or complex image via Nano Banana 2 / Kie.ai.",
       "raw_desc": "A formalized skill for generating hyper-realistic, highly-controlled images using the Nano Banana 2 (Gemini 3.1 Flash) model through parameterized JSON prompting. Trigger when the user asks to generate a detailed, realistic, or complex image via Nano Banana 2 / Kie.ai.",
