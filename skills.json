@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-11-28T08:09:22.818259Z",
-  "hash": "c9b65f82437e58ad50b07d01a2839ab3",
+  "synced_at": "2026-11-28T13:25:16.004934Z",
+  "hash": "6e1a114b90b2ab8e4f6cf98dc281f058",
   "skills": [
     {
       "name": "agent-builder",
@@ -2905,6 +2905,18 @@
       "source_color": "#64748b",
       "first_seen": "2026-09-26T03:50:55.359248Z",
       "category": "Productivity"
+    },
+    {
+      "name": "remember",
+      "what": "Save session state for clean continuation next session.",
+      "when": "",
+      "raw_desc": "Save session state for clean continuation next session.",
+      "folder": "remember",
+      "source": "plugin",
+      "source_label": "Plugin",
+      "source_color": "#64748b",
+      "first_seen": "2026-07-25T08:31:34.005208Z",
+      "category": "Other"
     },
     {
       "name": "slack-api",
